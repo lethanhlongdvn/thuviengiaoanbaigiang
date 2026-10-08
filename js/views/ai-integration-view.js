@@ -1891,11 +1891,7 @@ function getSampleDisabilityText() {
   if (realLesson && realLesson.disabilityYccdAI) {
     return realLesson.disabilityYccdAI;
   }
-  if (typeof IntegrationService !== 'undefined' && typeof IntegrationService.getSmartDisabilityYccd === 'function') {
-    var generated = IntegrationService.getSmartDisabilityYccd(realLesson, ds);
-    if (generated) return generated;
-  }
-  return '- Năng lực đặc thù: (Hệ thống tự động biên soạn theo bài học. Vui lòng bấm "Gemini AI Soạn bám sát bài" bên dưới để kết nối AI phân tích).\n- Phẩm chất, năng lực chung: Tự tin hòa nhập, hợp tác cùng bạn học và hoàn thành nhiệm vụ vừa sức.';
+  return '- Năng lực đặc thù: (Hệ thống bắt buộc kết nối trực tiếp 100% với Google Gemini AI để biên soạn YCCĐ phân hóa theo bài dạy. Vui lòng bấm "Gemini AI Soạn bám sát bài" bên dưới để kết nối AI phân tích).\n- Phẩm chất, năng lực chung: Tự tin hòa nhập, hợp tác cùng bạn học và hoàn thành nhiệm vụ vừa sức.';
 }
 
 function applyQuickChatPrompt(promptKey) {
@@ -5069,7 +5065,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
   var inTichHopSection = false;
   var hasRenderedDisabilityHeader = false;
   var inDisabilitySection = false;
-  var normalizedPreviewList = (typeof IntegrationService !== 'undefined' && IntegrationService.normalizeYccd) ? IntegrationService.normalizeYccd(les.yccd || []) : (les.yccd || []);
+  var normalizedPreviewList = (typeof IntegrationService !== 'undefined' && IntegrationService.normalizeYccd) ? IntegrationService.normalizeYccd(les.yccd || [], isEnLesson) : (les.yccd || []);
   var yccdHtml = normalizedPreviewList.map(function(line) {
     if (typeof line !== 'string') return '';
     var cleanLine = line;
@@ -5096,7 +5092,10 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       if (!hasRenderedDisabilityHeader) {
         hasRenderedDisabilityHeader = true;
         var disHeadTitle = isEnLesson ? '5. Adjustments for inclusive students (SEN):' : '5. Điều chỉnh đối với học sinh hòa nhập:';
-        return `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify;"><span style="color: #c00000; font-weight: bold;">${disHeadTitle}</span></p>`;
+        var headColorStyle = isEnLesson ? '' : 'color: #c00000; ';
+        var headSpanOpen = isEnLesson ? '' : '<span style="color: #c00000; font-weight: bold;">';
+        var headSpanClose = isEnLesson ? '' : '</span>';
+        return `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; ${headColorStyle}line-height: 1.35; text-align: justify;">${headSpanOpen}${disHeadTitle}${headSpanClose}</p>`;
       }
       return '';
     }
@@ -5130,16 +5129,45 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
         .replace(/\(Tích hợp\)/gi, '')
         .replace(/^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments\s*for\s*inclusive\s*students(?:\s*\(SEN\))?)\s*[:.-]?\s*/gi, '')
         .trim();
+
+      if (isEnLesson) {
+        if (typeof IntegrationService !== 'undefined' && typeof IntegrationService.sanitizeEnglishDisabilityText === 'function') {
+          displayLine = IntegrationService.sanitizeEnglishDisabilityText(displayLine, curLesson || les, disabilityConfig);
+        }
+        if (typeof IntegrationService !== 'undefined' && typeof IntegrationService.translateVnToEnglish === 'function') {
+          displayLine = IntegrationService.translateVnToEnglish(displayLine);
+        }
+      }
+
       var parts = displayLine.split(/\r?\n|<br\s*\/?>/i).map(function(p) { return p.trim(); }).filter(Boolean);
       var htmlLines = parts.map(function(pLine) {
         if (/^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh|adjustments\s*for\s*inclusive)/i.test(pLine)) return '';
-        // Chuẩn hóa tiêu đề học sinh khuyết tật sang định dạng Dạng 1, Dạng 2 theo chuẩn
-        pLine = pLine.replace(/^\*\s*học\s*sinh\s*(\d+)\s*:\s*(.+?)(?:\s*\([^)]*mức\s*độ\s*nhận\s*thức[^)]*\))?\s*:?\s*$/i, function(m, p1, p2) {
-          return '* Dạng ' + p1 + ': ' + p2.replace(/:$/, '').trim();
-        });
+        if (isEnLesson) {
+          pLine = pLine.replace(/^\*\s*(?:học\s*sinh|student|dạng|type)\s*(\d+)\s*:\s*(.+?)(?::|$)/i, function(m, p1, p2) {
+            var rawType = p2.trim();
+            var enType = rawType;
+            if (/trí\s*tuệ|chậm|tiếp\s*thu/i.test(rawType)) enType = 'Intellectual Disability';
+            else if (/vận\s*động|chân\s*tay|viết/i.test(rawType)) enType = 'Physical Disability';
+            else if (/khiếm\s*thính|nghe\s*[-–—]?\s*nói/i.test(rawType)) enType = 'Hearing Impairment';
+            else if (/khiếm\s*thị|nhìn|mắt/i.test(rawType)) enType = 'Visual Impairment';
+            else if (/tự\s*k[iỷ]|adhd|tăng\s*động/i.test(rawType)) enType = 'Autism Spectrum Disorder / ADHD';
+            else if (/khó\s*khăn\s*học\s*tập/i.test(rawType)) enType = 'Learning Difficulties';
+            else if (/sen|hòa\s*nhập|khác/i.test(rawType)) enType = 'SEN Student';
+            var rateMatch = rawType.match(/(\d+)\s*%/);
+            var rateStr = rateMatch ? (' - ~' + rateMatch[1] + '%') : '';
+            return '* Student ' + p1 + ' (' + enType + rateStr + '):';
+          });
+        } else {
+          pLine = pLine.replace(/^\*\s*học\s*sinh\s*(\d+)\s*:\s*(.+?)(?:\s*\([^)]*mức\s*độ\s*nhận\s*thức[^)]*\))?\s*:?\s*$/i, function(m, p1, p2) {
+            return '* Dạng ' + p1 + ': ' + p2.replace(/:$/, '').trim();
+          });
+        }
         var isSubHeader = /^\*\s*(?:học\s*sinh|đối\s*với\s*học\s*sinh|dạng\s*\d+|student\s*\d+|type\s*\d+)/i.test(pLine);
         if (isSubHeader) {
-          return `<p style="margin: 0; margin-top: 5px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify;"><span style="color: #c00000; font-weight: bold;">${pLine}</span></p>`;
+          var subColorStyle = isEnLesson ? '' : 'color: #c00000; ';
+          var subSpanOpen = isEnLesson ? '' : '<span style="color: #c00000; font-weight: bold;">';
+          var subSpanClose = isEnLesson ? '' : '</span>';
+          return `<p style="margin: 0; margin-top: 5px; margin-bottom: 2px; font-weight: bold; ${subColorStyle}line-height: 1.35; text-align: justify;">${subSpanOpen}${pLine}${subSpanClose}</p>`;
         }
         if (!pLine.startsWith('-') && !pLine.startsWith('+') && !pLine.startsWith('*')) {
           pLine = '- ' + pLine;
@@ -5147,13 +5175,19 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
         var formattedPLine = pLine
           .replace(/^[-*•+–—]?\s*(năng\s*lực\s*đặc\s*thù|phẩm\s*chất[,\s]+năng\s*lực\s*chung)\s*:\s*/i, '- <b>$1:</b> ')
           .replace(/^[-*•+–—]?\s*(specific\s*competences?|general\s*competences?\s*(?:&|and)\s*qualities?)\s*:\s*/i, '- <b>$1:</b> ');
-        return `<p style="margin: 0; margin-top: 2px; margin-bottom: 2px; color: #c00000; font-weight: 500; line-height: 1.35; text-align: justify;"><span style="color: #c00000;">${formattedPLine}</span></p>`;
+        var bodyColorStyle = isEnLesson ? '' : 'color: #c00000; ';
+        var bodySpanOpen = isEnLesson ? '' : '<span style="color: #c00000;">';
+        var bodySpanClose = isEnLesson ? '' : '</span>';
+        return `<p style="margin: 0; margin-top: 2px; margin-bottom: 2px; ${bodyColorStyle}font-weight: 500; line-height: 1.35; text-align: justify;">${bodySpanOpen}${formattedPLine}${bodySpanClose}</p>`;
       }).filter(Boolean).join('');
 
       var headerHtml = '';
       if (!hasRenderedDisabilityHeader) {
         var disHeadTitle = isEnLesson ? '5. Adjustments for inclusive students (SEN):' : '5. Điều chỉnh đối với học sinh hòa nhập:';
-        headerHtml = `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify;"><span style="color: #c00000; font-weight: bold;">${disHeadTitle}</span></p>`;
+        var headColorStyle = isEnLesson ? '' : 'color: #c00000; ';
+        var headSpanOpen = isEnLesson ? '' : '<span style="color: #c00000; font-weight: bold;">';
+        var headSpanClose = isEnLesson ? '' : '</span>';
+        headerHtml = `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; ${headColorStyle}line-height: 1.35; text-align: justify;">${headSpanOpen}${disHeadTitle}${headSpanClose}</p>`;
         hasRenderedDisabilityHeader = true;
       }
       return headerHtml + htmlLines;
@@ -5171,7 +5205,10 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
         displayLine = '- ' + displayLine;
       }
-      return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; color: #c00000; font-weight: 500; line-height: 1.25; text-align: justify; "><span style="color: #c00000;">${displayLine}</span></p>`;
+      var tipColorStyle = isEnLesson ? '' : 'color: #c00000; ';
+      var tipSpanOpen = isEnLesson ? '' : '<span style="color: #c00000;">';
+      var tipSpanClose = isEnLesson ? '' : '</span>';
+      return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; ${tipColorStyle}font-weight: 500; line-height: 1.25; text-align: justify; ">${tipSpanOpen}${displayLine}${tipSpanClose}</p>`;
     }
     return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25; text-align: justify; ">${cleanLine}</p>`;
   }).join('');
@@ -5201,7 +5238,10 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
         displayLine = '- ' + displayLine;
       }
-      return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; color: #c00000; font-weight: 500; line-height: 1.25; text-align: justify; "><span style="color: #c00000;">${displayLine}</span></p>`;
+      var dodungColorStyle = isEnLesson ? '' : 'color: #c00000; ';
+      var dodungSpanOpen = isEnLesson ? '' : '<span style="color: #c00000;">';
+      var dodungSpanClose = isEnLesson ? '' : '</span>';
+      return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; ${dodungColorStyle}font-weight: 500; line-height: 1.25; text-align: justify; ">${dodungSpanOpen}${displayLine}${dodungSpanClose}</p>`;
     }
     return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25; text-align: justify; ">${cleanDodung}</p>`;
   }).join('');
@@ -5233,7 +5273,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
           var isLineTichHop = isEnLesson
             ? (/^integrated\s*focus:|^digital\/ai\s*pupil\s*action:|\[(?:Integration|Tích\s*hợp|NLS|AI|GDĐP)\]/i.test(trimmed))
             : (/\[Tích\s*hợp\]|\(Tích\s*hợp\)|\[GDĐP\]|\[GDQCN\]|\[NLS\]|\[AI\]|tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(trimmed));
-          if (isCellRed || isLineDisability || isLineTichHop) {
+          if (!isEnLesson && (isCellRed || isLineDisability || isLineTichHop)) {
             return '<span style="color: #c00000; font-weight: 500;"><font color="#c00000">' + trimmed + '</font></span>';
           }
           return trimmed;
@@ -5303,8 +5343,8 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
             var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố|warm-up|presentation|practice|production|consolidation|fun corner|wrap-up|game|activity)/i.test(cleanHeader);
             var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || /\[(?:Tích\s*hợp|Integration|GDĐP|GDQCN|NLS|AI)\]/i.test(cleanHeader) || /digital\s*(&|and)?\s*ai\s*mini-task|nội\s*dung\s*tích\s*hợp|tích\s*hợp\s*ai|ai\s*literacy|năng\s*lực\s*số/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
             var isDisabilityHeader = !isTietRow && !isActivityRow && (/\b(?:HSHN|SEN)\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh|inclusive|sen\b/i.test(cleanHeader));
-            var cellHeaderColorStyle = (isPureIntegration || isDisabilityHeader) ? 'color: #c00000;' : '';
-            var formattedHeader = (typeof IntegrationService !== 'undefined' && IntegrationService.formatHeaderContentWithIntegration) ? IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration || isDisabilityHeader) : ('<span>' + cleanHeader.replace(/\n/g, '<br/>') + '</span>');
+            var cellHeaderColorStyle = (isEnLesson ? false : (isPureIntegration || isDisabilityHeader)) ? 'color: #c00000;' : '';
+            var formattedHeader = (typeof IntegrationService !== 'undefined' && IntegrationService.formatHeaderContentWithIntegration) ? IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isEnLesson ? false : (isPureIntegration || isDisabilityHeader)) : ('<span>' + cleanHeader.replace(/\n/g, '<br/>') + '</span>');
             rowsHtml += `<tr><td colspan="4" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; text-align: left; ${cellHeaderColorStyle}"><div style="line-height: 1.25; margin: 0; text-align: left; ${cellHeaderColorStyle}">${formattedHeader}</div></td></tr>`;
           } else if (r.length === 2) {
             var r0Text = r[0] || '';
@@ -5383,8 +5423,8 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
             var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố|warm-up|presentation|practice|production|consolidation|fun corner|wrap-up|game|activity)/i.test(cleanHeader);
             var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || /\[(?:Tích\s*hợp|Integration|GDĐP|GDQCN|NLS|AI)\]/i.test(cleanHeader) || /digital\s*(&|and)?\s*ai\s*mini-task|nội\s*dung\s*tích\s*hợp|tích\s*hợp\s*ai|ai\s*literacy|năng\s*lực\s*số/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
             var isDisabilityHeader = !isTietRow && !isActivityRow && (/\b(?:HSHN|SEN)\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh|inclusive|sen\b/i.test(cleanHeader));
-            var cellHeaderColorStyle = (isPureIntegration || isDisabilityHeader) ? 'color: #c00000;' : '';
-            var formattedHeader = (typeof IntegrationService !== 'undefined' && IntegrationService.formatHeaderContentWithIntegration) ? IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration || isDisabilityHeader) : ('<span>' + cleanHeader.replace(/\n/g, '<br/>') + '</span>');
+            var cellHeaderColorStyle = (isEnLesson ? false : (isPureIntegration || isDisabilityHeader)) ? 'color: #c00000;' : '';
+            var formattedHeader = (typeof IntegrationService !== 'undefined' && IntegrationService.formatHeaderContentWithIntegration) ? IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isEnLesson ? false : (isPureIntegration || isDisabilityHeader)) : ('<span>' + cleanHeader.replace(/\n/g, '<br/>') + '</span>');
             rowsHtml += `<tr><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; text-align: left; ${cellHeaderColorStyle}"><div style="line-height: 1.25; margin: 0; text-align: left; ${cellHeaderColorStyle}">${formattedHeader}</div></td></tr>`;
           }
         }
