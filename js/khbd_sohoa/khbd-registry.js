@@ -188,7 +188,7 @@ var KHBD_DATA = {
     }
 
     var dieuchinhHtml = '';
-    if (lesson.dieuchinh && lesson.dieuchinh.length > 0) {
+    if (lesson.dieuchinh && lesson.dieuchinh.length > 0 && lesson.dieuchinh.some(function(dc) { return dc && !dc.includes('.....'); })) {
       dieuchinhHtml = lesson.dieuchinh.map(function(dc) {
         var cleanDc = dc;
         if (isEnLesson && typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish) {
@@ -197,7 +197,7 @@ var KHBD_DATA = {
         return '<p style="margin: 0.15rem 0; color: #475569;">' + cleanDc + '</p>';
       }).join('');
     } else {
-      dieuchinhHtml = '<p style="font-style: italic; color: #64748b; margin: 0;">....................................................................................................................................................</p>';
+      dieuchinhHtml = '<div style="border-bottom: 1px dotted #94a3b8; height: 18px; margin: 4px 0;"></div><div style="border-bottom: 1px dotted #94a3b8; height: 18px; margin: 4px 0;"></div>';
     }
 
     var rawTitle = lesson.lessonTitle || (isEnLesson ? 'LESSON PLAN' : 'KẾ HOẠCH BÀI DẠY');

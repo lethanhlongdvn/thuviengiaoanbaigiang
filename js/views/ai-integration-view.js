@@ -207,6 +207,7 @@ function getIntegrationSubjectsForGrade(grade) {
   subjs.push({ key: 'dao_duc', name: 'Đạo đức', icon: 'fa-heart' });
   subjs.push({ key: 'hdtn', name: 'Hoạt động trải nghiệm', icon: 'fa-compass' });
   if (g >= 3) {
+    subjs.push({ key: 'tin_hoc', name: 'Tin học', icon: 'fa-laptop-code' });
     subjs.push({ key: 'cong_nghe', name: 'Công nghệ', icon: 'fa-microchip' });
   }
   if (g >= 1) {
@@ -5611,8 +5612,23 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
   var titleHeader = isEnLesson ? 'LESSON PLAN' : 'KẾ HOẠCH BÀI DẠY';
   var curGradeNum = les.grade || (integrationState && integrationState.grade) || 2;
   var titleSubject = isEnLesson
-    ? ('SUBJECT: ENGLISH - GRADE ' + curGradeNum + (les.classes ? (' (Classes: ' + les.classes + ')') : (les.className ? (' (Class: ' + les.className.replace(/^lớp\s*/i, '') + ')') : (integrationState.className ? (' (Class: ' + integrationState.className.replace(/^lớp\s*/i, '') + ')') : ''))))
+    ? ('SUBJECT: ENGLISH - GRADE ' + curGradeNum)
     : ('MÔN: ' + subjName.toUpperCase() + (les.grade ? (' - KHỐI ' + les.grade) : '') + (les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' - ' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className))) : '')));
+
+  var enClassText = '';
+  if (isEnLesson) {
+    if (les.classes) {
+      enClassText = '<b>Grade ' + (les.grade || curGradeNum) + '</b> (Classes: ' + les.classes + ') • ';
+    } else {
+      var rawCls = (les.className || (integrationState && integrationState.className) || '').replace(/^(?:lớp|class)?\s*[:\s]*/i, '').trim();
+      var isClsMismatch = curGradeNum && rawCls && /^\d+/.test(rawCls) && !rawCls.startsWith(String(curGradeNum));
+      if (rawCls && !isClsMismatch) {
+        enClassText = '<b>Class: ' + rawCls + '</b> • ';
+      } else {
+        enClassText = '<b>Grade ' + (les.grade || curGradeNum) + '</b> • ';
+      }
+    }
+  }
 
   return `
     <div style="text-align: center; margin-bottom: 15pt;">
@@ -5625,7 +5641,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
           </td>
           <td style="width: 50%; vertical-align: top; text-align: right; font-size: 11pt;">
             <p style="margin:0;"><strong>${isEnLesson ? 'SCHOOL YEAR: ' : 'NĂM HỌC: '}${yearDisp}</strong></p>
-            <p style="margin:2pt 0 0 0;">${isEnLesson ? (les.classes ? ('<b>Grade ' + (les.grade || '') + '</b> (Classes: ' + les.classes + ') • ') : (les.className ? ('<b>Class: ' + les.className.replace(/^lớp\s*/i, '') + '</b> (Grade ' + (les.grade || '') + ') • ') : (integrationState.className ? ('<b>' + integrationState.className.replace(/^lớp\s*/i, 'Class ') + '</b> • ') : ('Grade ' + (les.grade || integrationState.grade) + ' • ')))) + 'Week: <strong>' + previewWeek + '</strong>' : (les.classes ? ('<b>Khối ' + (les.grade || '') + '</b> (Các lớp: ' + les.classes + ') • ') : (les.className ? ('<b>Lớp: ' + les.className + '</b> (Khối ' + (les.grade || '') + ') • ') : (integrationState.className ? ('<b>' + integrationState.className + '</b> • ') : ('Khối ' + (les.grade || integrationState.grade) + ' • ')))) + 'Tuần: <strong>' + previewWeek + '</strong>'}</p>
+            <p style="margin:2pt 0 0 0;">${isEnLesson ? enClassText + 'Week: <strong>' + previewWeek + '</strong>' : (les.classes ? ('<b>Khối ' + (les.grade || '') + '</b> (Các lớp: ' + les.classes + ') • ') : (les.className ? ('<b>Lớp: ' + les.className + '</b> (Khối ' + (les.grade || '') + ') • ') : (integrationState.className ? ('<b>' + integrationState.className + '</b> • ') : ('Khối ' + (les.grade || integrationState.grade) + ' • ')))) + 'Tuần: <strong>' + previewWeek + '</strong>'}</p>
           </td>
         </tr>
       </table>

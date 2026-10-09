@@ -6466,9 +6466,12 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       if (lIdx === 0) {
         if (isDocEn) {
           var depText = displayDepartment ? `<p style="text-align: left; margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="left">Department: <b>${displayDepartment}</b></p>` : '';
+          var curDocGrade = les.grade || grade;
+          var cleanCls = className ? className.replace(/^(?:lớp|class)?\s*[:\s]*/i, '').trim() : '';
+          var isClsMismatch = curDocGrade && cleanCls && /^\d+/.test(cleanCls) && !cleanCls.startsWith(String(curDocGrade));
           var classOrGradeText = (meta.role === 'gvbm' && les.classes)
             ? ('<b>English</b> • ')
-            : (className ? ('<b>' + className.replace(/^lớp\s*/i, 'Class ') + '</b> • ') : ('Grade: <b>' + (les.grade || grade) + '</b> • '));
+            : ((cleanCls && !isClsMismatch) ? ('<b>Class: ' + cleanCls + '</b> • ') : ('Grade: <b>' + curDocGrade + '</b> • '));
           headerBlock = `
             <table class="header-table">
               <tr>
@@ -6542,7 +6545,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
       var titleHeader = isEnLesson ? 'LESSON PLAN' : 'KẾ HOẠCH BÀI DẠY';
       var titleSubject = isEnLesson
-        ? ('SUBJECT: ENGLISH - GRADE ' + (les.grade || grade) + (les.classes ? (' (Classes: ' + les.classes + ')') : (les.className ? (' (Class: ' + les.className.replace(/^lớp\s*/i, '') + ')') : '')))
+        ? ('SUBJECT: ENGLISH - GRADE ' + (les.grade || grade))
         : ('MÔN: ' + subjName.toUpperCase() + ((meta.role === 'gvbm' || les.grade) ? (' - KHỐI ' + (les.grade || grade)) : '') + (les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' (' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className)) + ')') : '')));
 
       var periodText = les.period ? (isEnLesson ? IntegrationService.translateVnToEnglish(String(les.period)) : String(les.period)) : '';
@@ -6598,9 +6601,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
         <div class="section-title">${sec4Title}</div>
         <div style="margin-left: 10pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
-          <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; white-space: nowrap; overflow: hidden;">${'.'.repeat(130)}</p>
-          <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; white-space: nowrap; overflow: hidden;">${'.'.repeat(130)}</p>
-          <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; white-space: nowrap; overflow: hidden;">${'.'.repeat(130)}</p>
+          <p style="border-bottom: 1.0pt dotted #888888; margin: 0pt; margin-top: 6pt; margin-bottom: 6pt; mso-para-margin-top: 6pt; mso-para-margin-bottom: 6pt; font-size: 1pt; height: 1pt; line-height: 1pt;">&nbsp;</p>
+          <p style="border-bottom: 1.0pt dotted #888888; margin: 0pt; margin-top: 6pt; margin-bottom: 6pt; mso-para-margin-top: 6pt; mso-para-margin-bottom: 6pt; font-size: 1pt; height: 1pt; line-height: 1pt;">&nbsp;</p>
         </div>
       `;
     });
