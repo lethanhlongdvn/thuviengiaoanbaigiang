@@ -1301,7 +1301,7 @@
     "sourceFile": "E4 WEEK 8 AI.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated from 2026 to 2026. - Unit 5: Things we can do - Lesson 1 (1, 2, 3) (Period 29)",
+        "lessonTitle": "Unit 5: Things we can do - Lesson 1 (1, 2, 3) (Period 29)",
         "topic": "Unit 5: Things we can do",
         "period": "Period 29",
         "yccd": [
@@ -1485,7 +1485,7 @@
     "sourceFile": "E4 WEEK 9 AI.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated from 2026 to 2026. - Unit 5: Things we can do - Lesson 3 (1, 2, 3) (Period 33)",
+        "lessonTitle": "Unit 5: Things we can do - Lesson 3 (1, 2, 3) (Period 33)",
         "topic": "Unit 5: Things we can do",
         "period": "Period 33",
         "yccd": [
@@ -1631,7 +1631,7 @@
     "sourceFile": "E4 WEEK 10 AI.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated from 2026 to 2026. - Extension activities (Period 37)",
+        "lessonTitle": "Extension activities (Period 37)",
         "topic": "Extension activities",
         "period": "Period 37",
         "yccd": [
@@ -1813,7 +1813,7 @@
     "sourceFile": "English_4_Week_11_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 6: Our school facilities - Lesson 2 (4, 5, 6) (Period 41)",
+        "lessonTitle": "Unit 6: Our school facilities - Lesson 2 (4, 5, 6) (Period 41)",
         "topic": "Unit 6: Our school facilities",
         "period": "Period 41",
         "yccd": [
@@ -1990,7 +1990,7 @@
     "sourceFile": "English_4_Week_12_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 7: Our timetables - Lesson 1(4, 5, 6) (Period 45)",
+        "lessonTitle": "Unit 7: Our timetables - Lesson 1(4, 5, 6) (Period 45)",
         "topic": "Unit 7: Our timetables",
         "period": "Period 45",
         "yccd": [
@@ -2167,7 +2167,7 @@
     "sourceFile": "English_4_Week_13_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 7: Our timetables - Lesson 3 (4, 5, 6) (Period 49)",
+        "lessonTitle": "Unit 7: Our timetables - Lesson 3 (4, 5, 6) (Period 49)",
         "topic": "Unit 7: Our timetables",
         "period": "Period 49",
         "yccd": [
@@ -2348,7 +2348,7 @@
     "sourceFile": "English_4_Week_14_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 8: My favourite subjects - Lesson 2 (4, 5, 6) (Period 53)",
+        "lessonTitle": "Unit 8: My favourite subjects - Lesson 2 (4, 5, 6) (Period 53)",
         "topic": "Unit 8: My favourite subjects",
         "period": "Period 53",
         "yccd": [
@@ -2527,7 +2527,7 @@
     "sourceFile": "English_4_Week_15_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 9: Our sports day - Lesson 1 (4, 5, 6) (Period 57)",
+        "lessonTitle": "Unit 9: Our sports day - Lesson 1 (4, 5, 6) (Period 57)",
         "topic": "Unit 9: Our sports day",
         "period": "Period 57",
         "yccd": [
@@ -2703,7 +2703,7 @@
     "sourceFile": "English_4_Week_16_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 9: Our sports day - Lesson 3 (4, 5, 6) (Period 61)",
+        "lessonTitle": "Unit 9: Our sports day - Lesson 3 (4, 5, 6) (Period 61)",
         "topic": "Unit 9: Our sports day",
         "period": "Period 61",
         "yccd": [
@@ -2884,7 +2884,7 @@
     "sourceFile": "English_4_Week_17_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 10: Our summer holidays - Lesson 2 (4, 5, 6) (Period 65)",
+        "lessonTitle": "Unit 10: Our summer holidays - Lesson 2 (4, 5, 6) (Period 65)",
         "topic": "Unit 10: Our summer holidays",
         "period": "Period 65",
         "yccd": [
@@ -3070,7 +3070,7 @@
     "sourceFile": "English_4_Week_18_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Review 2 - Parts 3, 4, 5 (Period 69)",
+        "lessonTitle": "Review 2 - Parts 3, 4, 5 (Period 69)",
         "topic": "Review 2",
         "period": "Period 69",
         "yccd": [
@@ -3209,7 +3209,7 @@
     "sourceFile": "English_4_Week_19_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 11: My home - Lesson 1 (1, 2, 3) (Period 73)",
+        "lessonTitle": "Unit 11: My home - Lesson 1 (1, 2, 3) (Period 73)",
         "topic": "Unit 11: My home",
         "period": "Period 73",
         "yccd": [
@@ -3394,7 +3394,7 @@
     "sourceFile": "English_4_Week_20_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 11: My home - Lesson 3 (1, 2, 3) (Period 77)",
+        "lessonTitle": "Unit 11: My home - Lesson 3 (1, 2, 3) (Period 77)",
         "topic": "Unit 11: My home",
         "period": "Period 77",
         "yccd": [
@@ -3577,7 +3577,7 @@
     "sourceFile": "English_4_Week_21_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 12: Jobs - Lesson 2 (1, 2, 3) (Period 81)",
+        "lessonTitle": "Unit 12: Jobs - Lesson 2 (1, 2, 3) (Period 81)",
         "topic": "Unit 12: Jobs",
         "period": "Period 81",
         "yccd": [
@@ -3753,7 +3753,7 @@
     "sourceFile": "English_4_Week_22_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 13: Appearance - Lesson 1 (1, 2, 3) (Period 85)",
+        "lessonTitle": "Unit 13: Appearance - Lesson 1 (1, 2, 3) (Period 85)",
         "topic": "Unit 13: Appearance",
         "period": "Period 85",
         "yccd": [
@@ -3934,7 +3934,7 @@
     "sourceFile": "English_4_Week_23_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 13: Appearance - Lesson 3 (1, 2, 3) (Period 89)",
+        "lessonTitle": "Unit 13: Appearance - Lesson 3 (1, 2, 3) (Period 89)",
         "topic": "Unit 13: Appearance",
         "period": "Period 89",
         "yccd": [
@@ -4113,7 +4113,7 @@
     "sourceFile": "English_4_Week_24_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 14: Daily activities - Lesson 2 (1, 2, 3) (Period 93)",
+        "lessonTitle": "Unit 14: Daily activities - Lesson 2 (1, 2, 3) (Period 93)",
         "topic": "Unit 14: Daily activities",
         "period": "Period 93",
         "yccd": [
@@ -4292,7 +4292,7 @@
     "sourceFile": "English_4_Week_25_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 15: My family’s weekend - Lesson 1 (1, 2, 3) (Period 97)",
+        "lessonTitle": "Unit 15: My family’s weekend - Lesson 1 (1, 2, 3) (Period 97)",
         "topic": "Unit 15: My family’s weekend",
         "period": "Period 97",
         "yccd": [
@@ -4474,7 +4474,7 @@
     "sourceFile": "English_4_Week_26_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 15: My family’s weekend - Lesson 3 (1, 2, 3) (Period 101)",
+        "lessonTitle": "Unit 15: My family’s weekend - Lesson 3 (1, 2, 3) (Period 101)",
         "topic": "Unit 15: My family’s weekend",
         "period": "Period 101",
         "yccd": [
@@ -4617,7 +4617,7 @@
     "sourceFile": "English_4_Week_27_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Extension activities (Period 105)",
+        "lessonTitle": "Extension activities (Period 105)",
         "topic": "Extension activities",
         "period": "Period 105",
         "yccd": [
@@ -4797,7 +4797,7 @@
     "sourceFile": "English_4_Week_28_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 16: Weather - Lesson 2 (4, 5, 6) (Period 109)",
+        "lessonTitle": "Unit 16: Weather - Lesson 2 (4, 5, 6) (Period 109)",
         "topic": "Unit 16: Weather",
         "period": "Period 109",
         "yccd": [
@@ -4974,7 +4974,7 @@
     "sourceFile": "English_4_Week_29_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 17: In the city - Lesson 1 (4, 5, 6) (Period 113)",
+        "lessonTitle": "Unit 17: In the city - Lesson 1 (4, 5, 6) (Period 113)",
         "topic": "Unit 17: In the city",
         "period": "Period 113",
         "yccd": [
@@ -5150,7 +5150,7 @@
     "sourceFile": "English_4_Week_30_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 17: In the city - Lesson 3 (4, 5, 6) (Period 117)",
+        "lessonTitle": "Unit 17: In the city - Lesson 3 (4, 5, 6) (Period 117)",
         "topic": "Unit 17: In the city",
         "period": "Period 117",
         "yccd": [
@@ -5334,7 +5334,7 @@
     "sourceFile": "English_4_Week_31_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 18: At the shopping center - Lesson 2 (4, 5, 6) (Period 121)",
+        "lessonTitle": "Unit 18: At the shopping center - Lesson 2 (4, 5, 6) (Period 121)",
         "topic": "Unit 18: At the shopping center",
         "period": "Period 121",
         "yccd": [
@@ -5511,7 +5511,7 @@
     "sourceFile": "English_4_Week_32_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 19: The animal world - Lesson 1 (4, 5, 6) (Period 125)",
+        "lessonTitle": "Unit 19: The animal world - Lesson 1 (4, 5, 6) (Period 125)",
         "topic": "Unit 19: The animal world",
         "period": "Period 125",
         "yccd": [
@@ -5689,7 +5689,7 @@
     "sourceFile": "English_4_Week_33_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 19: The animal world - Lesson 3 (4, 5, 6) (Period 129)",
+        "lessonTitle": "Unit 19: The animal world - Lesson 3 (4, 5, 6) (Period 129)",
         "topic": "Unit 19: The animal world",
         "period": "Period 129",
         "yccd": [
@@ -5870,7 +5870,7 @@
     "sourceFile": "English_4_Week_34_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Unit 20: At summer camp - Lesson 2 (4, 5, 6) (Period 133)",
+        "lessonTitle": "Unit 20: At summer camp - Lesson 2 (4, 5, 6) (Period 133)",
         "topic": "Unit 20: At summer camp",
         "period": "Period 133",
         "yccd": [
@@ -6054,7 +6054,7 @@
     "sourceFile": "English_4_Week_35_Digital_AI_Integrated_2026.docx",
     "lessons": [
       {
-        "lessonTitle": "NOTE: Text highlighted in light blue has been added only for Digital Competence & AI integration; all original lesson content is retained. All year references have been updated to 2026. - Review 4 - Parts 3,4,5 (Period 137)",
+        "lessonTitle": "Review 4 - Parts 3,4,5 (Period 137)",
         "topic": "Review 4",
         "period": "Period 137",
         "yccd": [
