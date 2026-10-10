@@ -11,7 +11,6 @@
         "lessonTitle": "Máy tính trong đời sống\tSố tiết: 1 tiết",
         "topic": "TUẦN 1\nCHỦ ĐỀ 1: MÁY TÍNH - VUI GẶP LẠI\nBÀI 1: MÁY TÍNH TRONG ĐỜI SỐNG",
         "yccd": [
-          "A.  YÊU CẦU CẦN ĐẠT",
           "Biết được máy tính có mặt ở rất nhiều nơi như: sân bay, cửa hàng, bệnh viện, trường học,...",
           "Biết được máy tính hỗ trợ con người nhiều việc trong cuộc sống.",
           "Biết được điện thoại thông minh cũng là một loại máy tính.",
@@ -34,7 +33,6 @@
           "Trách nhiệm: Có trách nhiệm với bản thân: Có ý thức giữ gìn vệ sinh và bảo vệ sức khỏe khi làm việc với máy tính: Ngồi học đúng tư thế để bảo vệ sống lưng, mắt và cổ. Có trách nhiệm trong hoạt động tập thể: Tích cực tham gia các hoạt động học theo nhóm ."
         ],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo kho, Kế hoạch bài dạy, bài giảng trình chiếu,;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -107,7 +105,6 @@
         "lessonTitle": "Bài 2 - Khám phá máy tính\tSố tiết: 1 tiết",
         "topic": "TUẦN 2\nCHỦ ĐỀ 1: MÁY TÍNH - VUI GẶP LẠI\nBÀI 2: KHÁM PHÁ MÁY TÍNH (TIẾT 1)",
         "yccd": [
-          "A.  YÊU CẦU CẦN ĐẠT",
           "Phân biệt được phần cứng, phần mềm của máy tính.",
           "Biết được chức năng một số thiết bị ngoại vi: màn hình, bàn phím, chuột, loa, máy in.",
           "1. Năng lực chung",
@@ -128,7 +125,6 @@
           "Trách nhiệm: Có trách nhiệm với bản thân: Có ý thức giữ gìn vệ sinh và bảo vệ sức khỏe khi làm việc với máy tính: Ngồi học đúng tư thế để bảo vệ sống lưng, mắt và cổ. Có trách nhiệm trong hoạt động tập thể: Tích cực tham gia các hoạt động học theo nhóm ."
         ],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo khoa, Kế hoạch bài dạy, bài giảng trình chiếu,;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -197,7 +193,6 @@
         "lessonTitle": "Bài 2 - Khám phá máy tính\tSố tiết: 1 tiết",
         "topic": "TUẦN 3\nCHỦ ĐỀ 1: MÁY TÍNH - VUI GẶP LẠI\nBÀI 2: KHÁM PHÁ MÁY TÍNH (TIẾT 2)",
         "yccd": [
-          "A.  YÊU CẦU CẦN ĐẠT",
           "Phân biệt được phần cứng, phần mềm của máy tính.",
           "Biết được chức năng một số thiết bị ngoại vi: màn hình, bàn phím, chuột, loa, máy in.",
           "1. Năng lực chung",
@@ -218,7 +213,6 @@
           "Trách nhiệm: Có trách nhiệm với bản thân: Có ý thức giữ gìn vệ sinh và bảo vệ sức khỏe khi làm việc với máy tính: Ngồi học đúng tư thế để bảo vệ sống lưng, mắt và cổ. Có trách nhiệm trong hoạt động tập thể: Tích cực tham gia các hoạt động học theo nhóm ."
         ],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo khoa, Kế hoạch bài dạy, bài giảng trình chiếu,;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -287,7 +281,6 @@
         "lessonTitle": "Bài 3 - Sử dụng máy tính đúng cách\tSố tiết: 2 tiết",
         "topic": "TUẦN 4\nCHỦ ĐỀ 1: MÁY TÍNH - VUI GẶP LẠI\nBÀI 3: SỬ DỤNG MÁY TÍNH ĐÚNG CÁCH (TIẾT 1)",
         "yccd": [
-          "A.  YÊU CẦU CẦN ĐẠT",
           "- Biết mở và đóng các chương trình trên máy tính đúng cách.",
           "- Đóng, mở được một số phần mềm cơ bản như Paint, Word.",
           "- Nhận dạng được: ổ đĩa, thư mục, tệp.",
@@ -308,7 +301,6 @@
           "Trách nhiệm: Có trách nhiệm với bản thân: Có ý thức giữ gìn vệ sinh và bảo vệ sức khỏe khi làm việc với máy tính: Ngồi học đúng tư thế để bảo vệ sống lưng, mắt và cổ. Có trách nhiệm trong hoạt động tập thể: Tích cực tham gia các hoạt động học theo nhóm ."
         ],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo khoa, Kế hoạch bài dạy, bài giảng trình chiếu;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -423,7 +415,6 @@
         "lessonTitle": "Bài 3 - Sử dụng máy tính đúng cách\tSố tiết: 2 tiết",
         "topic": "TUẦN 5\nCHỦ ĐỀ 1: MÁY TÍNH - VUI GẶP LẠI\nBÀI 3: SỬ DỤNG MÁY TÍNH ĐÚNG CÁCH (TIẾT 2)",
         "yccd": [
-          "A.  YÊU CẦU CẦN ĐẠT",
           "- Biết mở và đóng các chương trình trên máy tính đúng cách.",
           "- Đóng, mở được một số phần mềm cơ bản như Paint, Word.",
           "- Nhận dạng được: ổ đĩa, thư mục, tệp.",
@@ -444,7 +435,6 @@
           "Trách nhiệm: Có trách nhiệm với bản thân: Có ý thức giữ gìn vệ sinh và bảo vệ sức khỏe khi làm việc với máy tính: Ngồi học đúng tư thế để bảo vệ sống lưng, mắt và cổ. Có trách nhiệm trong hoạt động tập thể: Tích cực tham gia các hoạt động học theo nhóm ."
         ],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo khoa, Kế hoạch bài dạy, bài giảng trình chiếu;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -559,7 +549,6 @@
         "lessonTitle": "Bài 4 - Sử dụng chuột máy tính thành thạo\tSố tiết: 1 tiết",
         "topic": "TUẦN 6\nCHỦ ĐỀ 1: MÁY TÍNH - VUI GẶP LẠI\nBÀI 4: SỬ DỤNG CHUỘT MÁY TÍNH THÀNH THẠO",
         "yccd": [
-          "A.  YÊU CẦU CẦN ĐẠT",
           "- Thực hiện thành thạo các thao tác: di chuyển chuột, nháy chuột, nháy đúp chuột, kéo thả chuột thông qua phần mềm Basic Mouse Skills.",
           "1. Năng lực chung",
           "Năng lực tự chủ và tự học",
@@ -578,7 +567,6 @@
           "Trách nhiệm: Có trách nhiệm với bản thân: Có ý thức giữ gìn vệ sinh và bảo vệ sức khỏe khi làm việc với máy tính: Ngồi học đúng tư thế để bảo vệ sống lưng, mắt và cổ. Có trách nhiệm trong hoạt động tập thể: Tích cực tham gia các hoạt động học theo nhóm ."
         ],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo khoa, Kế hoạch bài dạy, bài giảng trình chiếu;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -660,7 +648,6 @@
         "topic": "TUẦN 7\nCHỦ ĐỀ 1: MÁY TÍNH - VUI GẶP LẠI\nBÀI 5: XEM VIDEO VỚI WINDOWS MEDIA PLAYER",
         "yccd": [],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo khoa, Kế hoạch bài dạy, bài giảng trình chiếu;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -741,7 +728,6 @@
         "topic": "TUẦN 8\nCHỦ ĐỀ 1: MÁY TÍNH - VUI GẶP LẠI\nBÀI 6: ÔN TẬP CHỦ ĐỀ 1",
         "yccd": [],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo khoa, Kế hoạch bài dạy, bài giảng trình chiếu;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -807,7 +793,6 @@
         "lessonTitle": "Bài 7 – Hàng phím cơ sở\tSố tiết: 2 tiết (LT+TH)",
         "topic": "TUẦN 9\nCHỦ ĐỀ 2: MÁY TÍNH - NGƯỜI BẠN NHANH NHẠY\nBÀI 7: HÀNG PHÍM CƠ SỞ (TIẾT 1)",
         "yccd": [
-          "A.  YÊU CẦU CẦN ĐẠT",
           "-  Chỉ ra được hàng phím cơ sở và các phím thuộc hàng phím cơ sở\n-  Biết vị trí đặt các ngón tay trên hàng phím cơ sở.",
           "-  Bước đầu biết cách gõ hàng phím cơ sở.",
           "1. Năng lực chung",
@@ -828,7 +813,6 @@
           "Trách nhiệm: Có trách nhiệm với bản thân: Có ý thức giữ gìn vệ sinh và bảo vệ sức khỏe khi làm việc với máy tính: Ngồi học đúng tư thế để bảo vệ sống lưng, mắt và cổ. Có trách nhiệm trong hoạt động tập thể: Tích cực tham gia các hoạt động học theo nhóm ."
         ],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo kho, Kế hoạch bài dạy, bài giảng trình chiếu,;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -901,7 +885,6 @@
         "lessonTitle": "Bài 7 – Hàng phím cơ sở\tSố tiết: 2 tiết (LT+TH)",
         "topic": "TUẦN 10\nCHỦ ĐỀ 2: MÁY TÍNH - NGƯỜI BẠN NHANH NHẠY\nBÀI 7: HÀNG PHÍM CƠ SỞ (TIẾT 2)",
         "yccd": [
-          "A.  YÊU CẦU CẦN ĐẠT",
           "-  Chỉ ra được hàng phím cơ sở và các phím thuộc hàng phím cơ sở\n-  Biết vị trí đặt các ngón tay trên hàng phím cơ sở.",
           "-  Bước đầu biết cách gõ hàng phím cơ sở.",
           "1. Năng lực chung",
@@ -922,7 +905,6 @@
           "Trách nhiệm: Có trách nhiệm với bản thân: Có ý thức giữ gìn vệ sinh và bảo vệ sức khỏe khi làm việc với máy tính: Ngồi học đúng tư thế để bảo vệ sống lưng, mắt và cổ. Có trách nhiệm trong hoạt động tập thể: Tích cực tham gia các hoạt động học theo nhóm ."
         ],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo kho, Kế hoạch bài dạy, bài giảng trình chiếu,;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -995,7 +977,6 @@
         "lessonTitle": "Bài 8 – Hàng phím trên\tSố tiết: 2 tiết (LT+TH)",
         "topic": "TUẦN 11\nCHỦ ĐỀ 2: MÁY TÍNH - NGƯỜI BẠN NHANH NHẠY\nBÀI 8: HÀNG PHÍM TRÊN (TIẾT 1)",
         "yccd": [
-          "A.  YÊU CẦU CẦN ĐẠT",
           "-  Chỉ ra được hàng phím trên và các phím thuộc hàng phím trên.\n-  Biết vị trí đặt các ngón tay trên hàng phím trên.",
           "-  Bước đầu biết cách gõ hàng phím trên.",
           "1. Năng lực chung",
@@ -1016,7 +997,6 @@
           "Trách nhiệm: Có trách nhiệm với bản thân: Có ý thức giữ gìn vệ sinh và bảo vệ sức khỏe khi làm việc với máy tính: Ngồi học đúng tư thế để bảo vệ sống lưng, mắt và cổ. Có trách nhiệm trong hoạt động tập thể: Tích cực tham gia các hoạt động học theo nhóm ."
         ],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo kho, Kế hoạch bài dạy, bài giảng trình chiếu,;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -1089,7 +1069,6 @@
         "lessonTitle": "Bài 8 – Hàng phím trên\tSố tiết: 2 tiết (LT+TH)",
         "topic": "TUẦN 12\nCHỦ ĐỀ 2: MÁY TÍNH - NGƯỜI BẠN NHANH NHẠY\nBÀI 8: HÀNG PHÍM TRÊN (TIẾT 2)",
         "yccd": [
-          "A.  YÊU CẦU CẦN ĐẠT",
           "-  Chỉ ra được hàng phím trên và các phím thuộc hàng phím trên.\n-  Biết vị trí đặt các ngón tay trên hàng phím trên.",
           "-  Bước đầu biết cách gõ hàng phím trên.",
           "1. Năng lực chung",
@@ -1110,7 +1089,6 @@
           "Trách nhiệm: Có trách nhiệm với bản thân: Có ý thức giữ gìn vệ sinh và bảo vệ sức khỏe khi làm việc với máy tính: Ngồi học đúng tư thế để bảo vệ sống lưng, mắt và cổ. Có trách nhiệm trong hoạt động tập thể: Tích cực tham gia các hoạt động học theo nhóm ."
         ],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo kho, Kế hoạch bài dạy, bài giảng trình chiếu,;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -1183,7 +1161,6 @@
         "lessonTitle": "Bài 9 – Hàng phím dưới\tSố tiết: 2 tiết (LT+TH)",
         "topic": "TUẦN 13\nCHỦ ĐỀ 2: MÁY TÍNH - NGƯỜI BẠN NHANH NHẠY\nBÀI 9: HÀNG PHÍM DƯỚI (TIẾT 1)",
         "yccd": [
-          "A.  YÊU CẦU CẦN ĐẠT",
           "-  Chỉ ra được hàng phím dưới và các phím thuộc hàng phím dưới.\n-  Biết vị trí đặt các ngón tay trên hàng phím dưới.",
           "-  Bước đầu biết cách gõ hàng phím dưới.",
           "1. Năng lực chung",
@@ -1204,7 +1181,6 @@
           "Trách nhiệm: Có trách nhiệm với bản thân: Có ý thức giữ gìn vệ sinh và bảo vệ sức khỏe khi làm việc với máy tính: Ngồi học đúng tư thế để bảo vệ sống lưng, mắt và cổ. Có trách nhiệm trong hoạt động tập thể: Tích cực tham gia các hoạt động học theo nhóm ."
         ],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo kho, Kế hoạch bài dạy, bài giảng trình chiếu,;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -1277,7 +1253,6 @@
         "lessonTitle": "Bài 9 – Hàng phím dưới\tSố tiết: 2 tiết (LT+TH)",
         "topic": "TUẦN 14\nCHỦ ĐỀ 2: MÁY TÍNH - NGƯỜI BẠN NHANH NHẠY\nBÀI 9: HÀNG PHÍM DƯỚI (TIẾT 2)",
         "yccd": [
-          "A.  YÊU CẦU CẦN ĐẠT",
           "-  Chỉ ra được hàng phím dưới và các phím thuộc hàng phím dưới.\n-  Biết vị trí đặt các ngón tay trên hàng phím dưới.",
           "-  Bước đầu biết cách gõ hàng phím dưới.",
           "1. Năng lực chung",
@@ -1298,7 +1273,6 @@
           "Trách nhiệm: Có trách nhiệm với bản thân: Có ý thức giữ gìn vệ sinh và bảo vệ sức khỏe khi làm việc với máy tính: Ngồi học đúng tư thế để bảo vệ sống lưng, mắt và cổ. Có trách nhiệm trong hoạt động tập thể: Tích cực tham gia các hoạt động học theo nhóm ."
         ],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo kho, Kế hoạch bài dạy, bài giảng trình chiếu,;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -1371,7 +1345,6 @@
         "lessonTitle": "Bài 10 - Luyện gõ phím đúng và nhanh\tSố tiết: 2 tiết",
         "topic": "TUẦN 15\nCHỦ ĐỀ 2: MÁY TÍNH - NGƯỜI BẠN NHANH NHẠY\nBÀI 10: LUYỆN GÕ PHÍM NHANH VÀ ĐÚNG (TIẾT 1)",
         "yccd": [
-          "A.  YÊU CẦU CẦN ĐẠT",
           "- Biết gõ phím đúng cách.\n- Cải thiện tốc độ gõ phím.",
           "1. Năng lực chung",
           "Năng lực tự chủ và tự học",
@@ -1389,7 +1362,6 @@
           "Trách nhiệm: Có trách nhiệm với bản thân: Có ý thức giữ gìn vệ sinh và bảo vệ sức khỏe khi làm việc với máy tính: Ngồi học đúng tư thế để bảo vệ sống lưng, mắt và cổ. Có trách nhiệm trong hoạt động tập thể: Tích cực tham gia các hoạt động học theo nhóm ."
         ],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo khoa, Kế hoạch bài dạy, bài giảng trình chiếu;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -1499,7 +1471,6 @@
         "lessonTitle": "Bài 10 - Luyện gõ phím đúng và nhanh\tSố tiết: 2 tiết",
         "topic": "TUẦN 16\nCHỦ ĐỀ 2: MÁY TÍNH - NGƯỜI BẠN NHANH NHẠY\nBÀI 10: LUYỆN GÕ PHÍM NHANH VÀ ĐÚNG (TIẾT 2)",
         "yccd": [
-          "A.  YÊU CẦU CẦN ĐẠT",
           "- Biết gõ phím đúng cách.\n- Cải thiện tốc độ gõ phím.",
           "1. Năng lực chung",
           "Năng lực tự chủ và tự học",
@@ -1517,7 +1488,6 @@
           "Trách nhiệm: Có trách nhiệm với bản thân: Có ý thức giữ gìn vệ sinh và bảo vệ sức khỏe khi làm việc với máy tính: Ngồi học đúng tư thế để bảo vệ sống lưng, mắt và cổ. Có trách nhiệm trong hoạt động tập thể: Tích cực tham gia các hoạt động học theo nhóm ."
         ],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo khoa, Kế hoạch bài dạy, bài giảng trình chiếu;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -1627,7 +1597,6 @@
         "lessonTitle": "Bài 11 - Gõ chữ hoa và xuống dòng\tSố tiết: 2 tiết",
         "topic": "TUẦN 17\nCHỦ ĐỀ 2: MÁY TÍNH - NGƯỜI BẠN NHANH NHẠY\nBÀI 11: GÕ CHỮ HOA VÀ XUỐNG DÒNG (TIẾT 1)",
         "yccd": [
-          "A.  YÊU CẦU CẦN ĐẠT",
           "-  Biết được cách gõ chữ in hoa và biết xuống dòng.",
           "1. Năng lực chung",
           "Năng lực tự chủ và tự học",
@@ -1645,7 +1614,6 @@
           "Trách nhiệm: Có trách nhiệm với bản thân: Có ý thức giữ gìn vệ sinh và bảo vệ sức khỏe khi làm việc với máy tính: Ngồi học đúng tư thế để bảo vệ sống lưng, mắt và cổ. Có trách nhiệm trong hoạt động tập thể: Tích cực tham gia các hoạt động học theo nhóm ."
         ],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo khoa, Kế hoạch bài dạy, bài giảng trình chiếu;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -1722,7 +1690,6 @@
         "lessonTitle": "Bài 12 - Ôn tập\tSố tiết: 1 tiết",
         "topic": "TUẦN 18\nCHỦ ĐỀ 2: MÁY TÍNH - NGƯỜI BẠN NHANH NHẠY\nBÀI 12: ÔN TẬP HỌC KỲ I",
         "yccd": [
-          "A.  YÊU CẦU CẦN ĐẠT",
           "-  Ôn lại các kiến thức, kỹ năng đã học từ bài 7 đến bài 11.",
           "1. Năng lực chung",
           "Năng lực tự chủ và tự học",
@@ -1741,7 +1708,6 @@
           "Trách nhiệm: Có trách nhiệm với bản thân: Có ý thức giữ gìn vệ sinh và bảo vệ sức khỏe khi làm việc với máy tính: Ngồi học đúng tư thế để bảo vệ sống lưng, mắt và cổ. Có trách nhiệm trong hoạt động tập thể: Tích cực tham gia các hoạt động học theo nhóm ."
         ],
         "dodung": [
-          "PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC",
           "1. Giáo viên:",
           "Sách giáo khoa, Kế hoạch bài dạy, bài giảng trình chiếu;",
           "Phiếu học tập (GV có thể sử dụng phiếu học tập để thiết kế thêm nhiều hình ảnh cho phần Luyện tập).",
@@ -1818,7 +1784,6 @@
         "lessonTitle": "BÀI 13: LÀM QUEN VỚI PHẦN MỀM PAINT (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: MÁY TÍNH - CÙNG EM VUI HỌC",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Khởi động và làm quen với giao diện phần mềm Paint.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",
@@ -1870,7 +1835,6 @@
         "lessonTitle": "BÀI 13: LÀM QUEN VỚI PHẦN MỀM PAINT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: MÁY TÍNH - CÙNG EM VUI HỌC",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Thực hành sử dụng công cụ bút vẽ và tẩy.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",
@@ -1922,7 +1886,6 @@
         "lessonTitle": "BÀI 14: VẼ CỜ TỔ QUỐC",
         "topic": "CHỦ ĐỀ 3: MÁY TÍNH - CÙNG EM VUI HỌC",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Vẽ hình chữ nhật, hình ngôi sao năm cánh và tô màu đỏ, vàng.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",
@@ -1974,7 +1937,6 @@
         "lessonTitle": "BÀI 15: VẼ NGÔI NHÀ (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: MÁY TÍNH - CÙNG EM VUI HỌC",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Sử dụng các hình khối hình học để phác thảo ngôi nhà.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",
@@ -2026,7 +1988,6 @@
         "lessonTitle": "BÀI 15: VẼ NGÔI NHÀ (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: MÁY TÍNH - CÙNG EM VUI HỌC",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Hoàn thiện chi tiết cửa, mái ngói và tô màu bức tranh ngôi nhà.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",
@@ -2078,7 +2039,6 @@
         "lessonTitle": "BÀI 16: VẼ CON VẬT EM YÊU QUÝ (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: MÁY TÍNH - CÙNG EM VUI HỌC",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Lựa chọn công cụ thích hợp để vẽ hình dáng con vật cưng.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",
@@ -2130,7 +2090,6 @@
         "lessonTitle": "BÀI 16: VẼ CON VẬT EM YÊU QUÝ (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: MÁY TÍNH - CÙNG EM VUI HỌC",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Tô màu và trang trí bức tranh con vật sinh động.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",
@@ -2182,7 +2141,6 @@
         "lessonTitle": "BÀI 17: ÔN TẬP CHỦ ĐỀ 3",
         "topic": "CHỦ ĐỀ 3: MÁY TÍNH - CÙNG EM VUI HỌC",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Củng cố các kĩ năng vẽ tranh hoàn chỉnh với phần mềm Paint.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",
@@ -2234,7 +2192,6 @@
         "lessonTitle": "BÀI 18: NHÀ TOÁN HỌC TÀI BA (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: MÁY TÍNH - NGƯỜI BẠN THÂN CỦA EM",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Sử dụng máy tính ôn tập phép cộng, phép trừ trong phạm vi 100.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",
@@ -2286,7 +2243,6 @@
         "lessonTitle": "BÀI 18: NHÀ TOÁN HỌC TÀI BA (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: MÁY TÍNH - NGƯỜI BẠN THÂN CỦA EM",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Thi đua làm toán nhanh trên phần mềm.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",
@@ -2338,7 +2294,6 @@
         "lessonTitle": "BÀI 19: NHÀ BÁC HỌC TÀI BA (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: MÁY TÍNH - NGƯỜI BẠN THÂN CỦA EM",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Khám phá kiến thức khoa học tự nhiên thông qua bài học tương tác.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",
@@ -2390,7 +2345,6 @@
         "lessonTitle": "BÀI 19: NHÀ BÁC HỌC TÀI BA (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: MÁY TÍNH - NGƯỜI BẠN THÂN CỦA EM",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Thực hiện các thí nghiệm ảo đơn giản.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",
@@ -2442,7 +2396,6 @@
         "lessonTitle": "BÀI 20: NHÀ PHIÊN DỊCH TÀI BA (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: MÁY TÍNH - NGƯỜI BẠN THÂN CỦA EM",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Luyện tập từ vựng, ngữ pháp Tiếng Anh chủ đề gia đình, trường học.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",
@@ -2494,7 +2447,6 @@
         "lessonTitle": "BÀI 20: NHÀ PHIÊN DỊCH TÀI BA (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: MÁY TÍNH - NGƯỜI BẠN THÂN CỦA EM",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Luyện nghe và phản xạ tiếng Anh qua trò chơi tương tác.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",
@@ -2546,7 +2498,6 @@
         "lessonTitle": "BÀI 21: VUI CÙNG MÁY TÍNH (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: MÁY TÍNH - NGƯỜI BẠN THÂN CỦA EM",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Rèn luyện tư duy logic qua trò chơi xếp hình thông minh.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",
@@ -2598,7 +2549,6 @@
         "lessonTitle": "BÀI 21: VUI CÙNG MÁY TÍNH (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: MÁY TÍNH - NGƯỜI BẠN THÂN CỦA EM",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Rèn luyện phản xạ nhanh với bàn phím và chuột.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",
@@ -2650,7 +2600,6 @@
         "lessonTitle": "BÀI 24: BÀI ÔN TẬP CUỐI NĂM",
         "topic": "CHỦ ĐỀ 4: MÁY TÍNH - NGƯỜI BẠN THÂN CỦA EM",
         "yccd": [
-          "A. YÊU CẦU CẦN ĐẠT",
           "- Đánh giá tổng hợp kiến thức và kĩ năng Tin học lớp 2.",
           "1. Năng lực chung:",
           "- Năng lực tự chủ và tự học: Tự giác tham gia học tập, lắng nghe và hoàn thành nhiệm vụ được giao.\n- Năng lực giao tiếp và hợp tác: Tích cực trao đổi nhóm đôi, hỗ trợ bạn bè cùng thực hành.\n- Năng lực giải quyết vấn đề và sáng tạo: Chủ động áp dụng kiến thức để thao tác trên phần mềm.",

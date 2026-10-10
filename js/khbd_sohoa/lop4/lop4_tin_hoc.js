@@ -23,12 +23,11 @@
           "- Chăm chỉ: tích cực trong việc hoàn thành các hoạt động học tập của cá nhân.",
           "- Trách nhiệm: tham gia tích cực vào hoạt động của lớp, tự giác hoàn thành các nhiệm vụ được phân công.",
           "- *Tích hợp GDKN CDS: Bài 7:Giải quyết các vấn đề kĩ thuật:",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Tích hợp AI: 4.A1.1 (AI trong công việc hằng ngày) Nhận biết các ứng dụng/phần mềm AI cũng cần chạy trên phần cứng máy tính và kể tên một số ứng dụng AI quen thuộc trong công việc hằng ngày.",
           "- Tích hợp AI: 4",
           "- Tích hợp AI: GV mở rộng bằng hoạt động thảo luận nhóm: Cho HS kể tên thiết bị phần cứng (điện thoại, máy tính) có cài các phần mềm AI quen thuộc như phần mềm nhận diện khuôn mặt, tìm kiếm bằng giọng nói",
-          "- Định hướng Năng lực số (4.1.CB2a) : Nhận biết được cách bảo vệ thiết bị và nội dung số một cách đơn giản (Bảo quản phần cứng, phần mềm).",
-          "- Định hướng Năng lực số (4"
+          "- Định hướng Năng lực số (4.1.CB2a) : Nhận biết được cách bảo vệ thiết bị và nội dung số một cách đơn giản (Bảo quản phần cứng, phần mềm)."
         ],
         "dodung": [
           "- Giáo viên: Máy tính, máy chiếu, sách giáo khoa.",
@@ -107,9 +106,8 @@
           "- Năng lực giải quyết vấn đề sáng tạo: HS đưa ra các phương án trả lời cho câu hỏi, bài tập xử lý tình huống, vận dụng kiến thức, kĩ năng của bài học để giải quyết vấn đề thường gặp.",
           "3. Phẩm chất:",
           "- Có ý thức tự lập trong việc học tập và bổ sung kiến thức, kĩ năng, sử dụng hiệu quả các tiến bộ của Tin học để nâng cao năng lực mọi mặt của mình.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (5.1.CB2a) : Xác định được các vấn đề kỹ thuật đơn giản khi vận hành thiết bị và sử dụng môi trường số.",
-          "- Định hướng Năng lực số (5"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (5.1.CB2a) : Xác định được các vấn đề kỹ thuật đơn giản khi vận hành thiết bị và sử dụng môi trường số."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, giáo án, chuẩn bị một số phần mềm học tập để HS được trải nghiệm trước khi đưa ra câu trả lời về những điều có thể làm được với máy tính.",
@@ -172,9 +170,8 @@
           "3. Phẩm chất:",
           "- Chăm chỉ: tích cực trong việc hoàn thành các hoạt động học tập của cá nhân.",
           "- Trách nhiệm: tham gia tích cực vào hoạt động của lớp, tự giác hoàn thành các nhiệm vụ được phân công.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (4.3.CB2a) : Phân biệt được các cách thức đơn giản để tránh rủi ro và đe dọa đến sức khỏe thể chất và tinh thần khi sử dụng công nghệ số (Tư thế, thói quen gõ phím).",
-          "- Định hướng Năng lực số (4"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (4.3.CB2a) : Phân biệt được các cách thức đơn giản để tránh rủi ro và đe dọa đến sức khỏe thể chất và tinh thần khi sử dụng công nghệ số (Tư thế, thói quen gõ phím)."
         ],
         "dodung": [
           "- Giáo viên: Máy tính, tivi, sách giáo khoa.",
@@ -316,7 +313,7 @@
           "- Năng lực giải quyết vấn đề và sáng tạo: Sử dụng các kiến thức đã học vận dụng vào trả lời các câu hỏi GV đưa ra.",
           "3. Phẩm chất:",
           "- Rèn ý thức trung thực, tự tin khi giải quyết các vấn đề học tập.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Tích hợp AI: 4.B2.1 (Bảo vệ thông tin cá nhân) : Khi xem thông tin trên các trang web (đặc biệt là web có ứng dụng AI chatbot), HS có ý thức bảo mật thông tin cá nhân.",
           "- Tích hợp AI: 4",
           "- Tích hợp AI: Phân tích tình huống: GV đưa ra tình huống một trang web chatbot AI yêu cầu nhập địa chỉ nhà và số điện thoại, HS thảo luận và quyết định từ chối cung cấp để đảm bảo an toàn thông tin cá nhân"
@@ -392,7 +389,7 @@
           "3. Phẩm chất:",
           "- Chăm chỉ: tích cực trong việc hoàn thành các hoạt động học tập của cá nhân.",
           "- Trách nhiệm: tham gia tích cực vào hoạt động của lớp, tự giác hoàn thành các nhiệm vụ được phân công.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Định hướng Năng lực số"
         ],
         "dodung": [
@@ -465,12 +462,11 @@
           "3. Phẩm chất:",
           "- Chăm chỉ: tích cực trong việc hoàn thành các hoạt động học tập của cá nhân.",
           "- Trách nhiệm: tham gia tích cực vào hoạt động của lớp, tự giác hoàn thành các nhiệm vụ được phân công.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Tích hợp AI: 4.A1.2 (AI hỗ trợ, con người suy nghĩ) : Hiểu rằng máy tìm kiếm dùng AI để gợi ý kết quả rất nhanh, nhưng HS cần tự đọc, suy nghĩ và chắt lọc thông tin chứ không sao chép hoàn toàn.",
           "- Tích hợp AI: 4",
           "- Tích hợp AI: Trải nghiệm công cụ: GV cho HS gõ một nửa từ khoá để xem máy tìm kiếm (Google) tự động gợi ý (nhờ AI)",
-          "- Định hướng Năng lực số (1.1.CB2d): Xác định được các chiến lược tìm kiếm đơn giản.",
-          "- Định hướng Năng lực số (1"
+          "- Định hướng Năng lực số (1.1.CB2d): Xác định được các chiến lược tìm kiếm đơn giản."
         ],
         "dodung": [
           "- Giáo viên: Máy tính, tivi, sgk, giáo án điện tử, video.",
@@ -543,9 +539,8 @@
           "- Chăm chỉ: tích cực trong việc hoàn thành các hoạt động học tập của cá nhân.",
           "- Trách nhiệm: tham gia tích cực vào hoạt động của lớp, tự giác hoàn thành các nhiệm vụ được phân công.",
           "- *Tích hợp Phát triển KNS: Bài 8. Làm quen với dấu chân kĩ thuật số :",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (1.1.CB2b) : Tìm được dữ liệu, thông tin và nội dung thông qua tìm kiếm đơn giản trong môi trường số.",
-          "- Định hướng Năng lực số (1"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (1.1.CB2b) : Tìm được dữ liệu, thông tin và nội dung thông qua tìm kiếm đơn giản trong môi trường số."
         ],
         "dodung": [
           "- Giáo viên: Máy tính, tivi, sgk, giáo án điện tử, video.",
@@ -691,9 +686,8 @@
           "- Năng lực giải quyết vấn đề và sáng tạo: có biểu hiện tích cực, sáng tạo trong các hoạt động học tập, trò chơi, vận dụng.",
           "3. Phẩm chất:",
           "- Chăm chỉ, kiên trì khi học kiến thức mới, có thể quản lý tệp và thư mục trên máy tính một cách khoa học.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số  (1.3.CB2a) :  Tổ chức, lưu trữ và truy xuất dữ liệu, thông tin và nội dung một cách đơn giản trong môi trường số.",
-          "- Định hướng Năng lực số  (1"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số  (1.3.CB2a) :  Tổ chức, lưu trữ và truy xuất dữ liệu, thông tin và nội dung một cách đơn giản trong môi trường số."
         ],
         "dodung": [
           "- Giáo viên: Máy tính, tivi, sgk, giáo án điện tử.",
@@ -766,7 +760,7 @@
           "3. Phẩm chất:",
           "-  Chăm chỉ: tích cực trong việc hoàn thành các hoạt động học tập của cá nhân",
           "- Trách nhiệm: tham gia tích cực vào hoạt động của lớp, tự giác hoàn thành các nhiệm vụ được phân công.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Định hướng Năng lực số"
         ],
         "dodung": [
@@ -912,9 +906,8 @@
           "3. Phẩm chất:",
           "- Chăm chỉ: tích cực trong việc hoàn thành các hoạt động học tập của cá nhân",
           "- Trách nhiệm: tham gia tích cực vào hoạt động của lớp, tự giác hoàn thành các nhiệm vụ được phân công.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số  (3.1.CB2a) : Xác định được các cách tạo và chỉnh sửa nội dung đơn giản ở các định dạng đơn giản.",
-          "- Định hướng Năng lực số  (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số  (3.1.CB2a) : Xác định được các cách tạo và chỉnh sửa nội dung đơn giản ở các định dạng đơn giản."
         ],
         "dodung": [
           "- Giáo viên: Máy tính, tivi, sgk, giáo án điện tử, phần mềm Powerpoint.",
@@ -985,9 +978,8 @@
           "3. Phẩm chất:",
           "- Chăm chỉ: tích cực trong việc hoàn thành các hoạt động học tập của cá nhân.",
           "- Trách nhiệm: tham gia tích cực vào hoạt động của lớp, tự giác hoàn thành các nhiệm vụ được phân công.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số   (3.1.CB2a ) : Xác định được các cách tạo và chỉnh sửa nội dung đơn giản ở các định dạng đơn giản.",
-          "- Định hướng Năng lực số   (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số   (3.1.CB2a ) : Xác định được các cách tạo và chỉnh sửa nội dung đơn giản ở các định dạng đơn giản."
         ],
         "dodung": [
           "- Giáo viên: Máy tính, tivi, sgk, giáo án điện tử, phần mềm Powerpoint.",
@@ -1058,9 +1050,8 @@
           "3. Phẩm chất:",
           "- Chăm chỉ: tích cực trong việc hoàn thành các hoạt động học tập của cá nhân.",
           "- Trách nhiệm: tham gia tích cực vào hoạt động của lớp, tự giác hoàn thành các nhiệm vụ được phân công.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số   (3.1.CB2a): Xác định được các cách tạo và chỉnh sửa nội dung đơn giản ở các định dạng đơn giản.",
-          "- Định hướng Năng lực số   (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số   (3.1.CB2a): Xác định được các cách tạo và chỉnh sửa nội dung đơn giản ở các định dạng đơn giản."
         ],
         "dodung": [
           "- Giáo viên: Máy tính, tivi, sgk, giáo án điện tử, phần mềm Powerpoint.",
@@ -1309,9 +1300,8 @@
           "3. Phẩm chất:",
           "- Chăm chỉ: tích cực trong việc hoàn thành các hoạt động học tập của cá nhân",
           "- Trách nhiệm: tham gia tích cực vào hoạt động của lớp, tự giác hoàn thành các nhiệm vụ được phân công.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số   (3.1.CB2b): Chọn được cách thể hiện bản thân thông qua việc tạo ra các nội dung số đơn giản.",
-          "- Định hướng Năng lực số   (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số   (3.1.CB2b): Chọn được cách thể hiện bản thân thông qua việc tạo ra các nội dung số đơn giản."
         ],
         "dodung": [
           "- Giáo viên: Máy tính, tivi, sgk, giáo án điện tử, phần mềm Powerpoint.",
@@ -1380,7 +1370,7 @@
           "3. Phẩm chất:",
           "- Chăm chỉ: tích cực trong việc hoàn thành các hoạt động học tập của cá nhân",
           "- Trách nhiệm: tham gia tích cực vào hoạt động của lớp, tự giác hoàn thành các nhiệm vụ được phân công.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Tích hợp AI: 4.A1.2 (AI hỗ trợ, con người suy nghĩ) : Nhận biết phần mềm soạn thảo tích hợp tính năng tự động phát hiện lỗi chính tả (nhờ AI), nhưng HS vẫn cần nắm vững ngữ pháp để viết đúng.",
           "- Tích hợp AI: 4",
           "- Tích hợp AI: Quan sát trực quan: GV gõ một từ sai chính tả tiếng Anh/Việt để phần mềm hiện gạch chân đỏ (AI hỗ trợ)"
@@ -1461,9 +1451,8 @@
           "- Chăm chỉ, kiên trì khi tìm hiểu phần mềm mới.",
           "- Tự tin giải quyết các vấn đề trong học tập.",
           "- Tích cực khám phá tri thức.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng năng lực số (3.1.CB2a): Xác định được các cách tạo và chỉnh sửa nội dung đơn giản ở các định dạng đơn giản",
-          "- Định hướng năng lực số (3"
+          "4. Tích hợp:",
+          "- Định hướng năng lực số (3.1.CB2a): Xác định được các cách tạo và chỉnh sửa nội dung đơn giản ở các định dạng đơn giản"
         ],
         "dodung": [
           "- Giáo viên: Máy tính, tivi, sgk, giáo án điện tử, phần mềm soạn thảo Microsoft Word.",
@@ -1606,9 +1595,8 @@
           "3. Phẩm chất:",
           "- Chăm chỉ: tích cực trong việc hoàn thành các hoạt động học tập của cá nhân.",
           "- Trách nhiệm: tham gia tích cực vào hoạt động của lớp, tự giác hoàn thành các nhiệm vụ được phân công.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng năng lực số (3.1.CB2b): Chọn được cách thể hiện bản thân thông qua việc tạo ra các nội dung số đơn giản.",
-          "- Định hướng năng lực số (3"
+          "4. Tích hợp:",
+          "- Định hướng năng lực số (3.1.CB2b): Chọn được cách thể hiện bản thân thông qua việc tạo ra các nội dung số đơn giản."
         ],
         "dodung": [
           "- Giáo viên: Máy tính, tivi, sgk, giáo án điện tử, phần mềm soạn thảo Microsoft Word.",
@@ -1744,9 +1732,8 @@
           "3. Phẩm chất:",
           "- Chăm chỉ luyện tập thực hành, có trách nhiệm và yêu thích môn học.",
           "- Tự tin giải quyết các vấn đề trong học tập.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng năng lực số (3.2.CB2a): Chọn được các cách sửa đổi, tinh chỉnh, cải thiện và tích hợp các mục đơn giản có nội dung và thông tin mới để tạo ra những nội dung và thông tin mới và độc đáo.",
-          "- Định hướng năng lực số (3"
+          "4. Tích hợp:",
+          "- Định hướng năng lực số (3.2.CB2a): Chọn được các cách sửa đổi, tinh chỉnh, cải thiện và tích hợp các mục đơn giản có nội dung và thông tin mới để tạo ra những nội dung và thông tin mới và độc đáo."
         ],
         "dodung": [
           "- Giáo viên: Máy tính, tivi, sgk, giáo án điện tử, máy tính cài đặt phần mềm Kiran's Typing Tutor.",
@@ -1811,12 +1798,11 @@
           "3. Phẩm chất:",
           "- Chăm chỉ: HS tích cực trong việc hoàn thành các hoạt động học tập của cá nhân và của nhóm.",
           "- Trách nhiệm: Tham gia tích cực vào hoạt động của nhóm, tự giác hoàn thành các nhiệm vụ mà nhóm đã phân công.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Tích hợp AI: 4.C5.1 (Làm quen với một số công cụ trải nghiệm kĩ thuật học máy) : Thông qua trò chơi máy tính, HS bước đầu làm quen với tính năng \"thông minh\" của máy (nhận diện hình ảnh/nét vẽ).",
           "- Tích hợp AI: 4",
           "- Tích hợp AI: Trải nghiệm công cụ AI: GV cho HS chơi thử trò chơi \"Quick, Draw!\" của Google, trải nghiệm cảm giác máy tính (AI) cố gắng đoán hình ảnh do chính các em vẽ ra để thấy sự khác biệt giữa trò chơi lập trình thông thường và trò chơi có AI",
-          "- Định hướng năng lực số (5.2.CB2b): Nhận ra được các công cụ số đơn giản và các giải pháp công nghệ có thể có để giải quyết những nhu cầu đó (giải trí lành mạnh).",
-          "- Định hướng năng lực số (5"
+          "- Định hướng năng lực số (5.2.CB2b): Nhận ra được các công cụ số đơn giản và các giải pháp công nghệ có thể có để giải quyết những nhu cầu đó (giải trí lành mạnh)."
         ],
         "dodung": [
           "- Giáo viên: Máy tính, tivi, sgk, giáo án điện tử, máy tính cài đặt phần mềm Scratch, hai tệp chương trình Scratch có tên là Robot và Trochoi được đặt sẵn trong máy tính HS và cho HS biết vị trí của tệp trên máy tính.",
@@ -1884,9 +1870,8 @@
           "3. Phẩm chất:",
           "- Chăm chỉ: HS tích cực trong việc hoàn thành các hoạt động học tập của cá nhân và của nhóm.",
           "- Trách nhiệm: Tham gia tích cực vào hoạt động của nhóm, tự giác hoàn thành các nhiệm vụ mà nhóm đã phân công.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (5.2.CB2b): Nhận ra được các công cụ số đơn giản và các giải pháp công nghệ có thể có để giải quyết những nhu cầu đó (giải trí lành mạnh).",
-          "- Định hướng Năng lực số (5"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (5.2.CB2b): Nhận ra được các công cụ số đơn giản và các giải pháp công nghệ có thể có để giải quyết những nhu cầu đó (giải trí lành mạnh)."
         ],
         "dodung": [
           "- Giáo viên: Máy tính, tivi, sgk, giáo án điện tử, máy tính cài đặt phần mềm Scratch, hai tệp chương trình Scratch có tên là Robot và Trochoi được đặt sẵn trong máy tính HS và cho HS biết vị trí của tệp trên máy tính.",
@@ -1954,12 +1939,11 @@
           "3. Phẩm chất:",
           "- Chăm chỉ: HS tích cực trong việc hoàn thành các hoạt động học tập của cá nhân và của nhóm.",
           "- Trách nhiệm: Tham gia tích cực vào hoạt động của nhóm, tự giác hoàn thành các nhiệm vụ mà nhóm đã phân công.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Tích hợp AI: 4.D1.1 (Từ vấn đề đến ý tưởng AI) : Hiểu rằng bằng các câu lệnh, con người đang từng bước \"dạy\" máy tính thực hiện các hành động giải quyết vấn đề (nền tảng của lập trình AI).",
           "- Tích hợp AI: 4",
           "- Tích hợp AI: Gợi mở ý tưởng: Khi kéo thả lệnh điều khiển nhân vật mèo/robot, GV đặt câu hỏi: \"Nếu muốn rô-bốt/mèo tự động né vật cản như xe tự lái (AI), chúng ta cần những khối lệnh chỉ dẫn nào?\"",
-          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản.",
-          "- Định hướng Năng lực số (3"
+          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản."
         ],
         "dodung": [
           "- Giáo viên: Máy tính, tivi, sgk, KHBD, máy tính cài đặt phần mềm Scratch.",
@@ -2095,12 +2079,11 @@
           "3. Phẩm chất:",
           "- Chăm chỉ: HS tích cực trong việc hoàn thành các hoạt động học tập của cá nhân và của nhóm.",
           "- Kiên trì: HS kiên trì tìm hiểu ngôn ngữ lập trình Scratch để hiện thực hóa ý tưởng câu chuyện thành chương trình điều khiển nhân vật.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Tích hợp AI: 4.D1.1 (Từ vấn đề đến ý tưởng AI) : Áp dụng tư duy lập trình để thiết kế nhân vật có khả năng tương tác, giao tiếp cơ bản mô phỏng lại một \"trợ lý ảo\" đơn giản.",
           "- Tích hợp AI: 4",
           "- Tích hợp AI: Thực hành thiết kế: GV hướng dẫn HS bổ sung thêm lập trình nhân vật (chatbot đơn giản) biết tự động nói \"Xin chào!\" hoặc phản hồi âm thanh khi người dùng dùng chuột nhấn vào, mô phỏng phản xạ của trí tuệ nhân tạo",
-          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản.",
-          "- Định hướng Năng lực số (3"
+          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản."
         ],
         "dodung": [
           "- Giáo viên: Máy tính, tivi, sgk, KHBD, máy tính cài đặt phần mềm Scratch.",
@@ -2230,7 +2213,7 @@
           "-  Chăm chỉ: tích cực trong việc hoàn thành các hoạt động học tập của cá nhân",
           "- Trách nhiệm: tham gia tích cực vào hoạt động của lớp, tự giác hoàn thành các nhiệm vụ được phân công.",
           "- * HSKT: Giúp HS nhận biết cách tạo chương trình Scratch đơn giản.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Tích hợp AI (YCCĐ 4.D2.1 - Liên tục cải tiến AI): Nắm được nguyên tắc cốt lõi: Để máy tính (và AI) ngày càng thông minh, con người phải liên tục thử nghiệm, tìm lỗi và tinh chỉnh các câu lệnh.",
           "- Tích hợp AI (YCCĐ 4",
           "- Tích hợp AI (Thảo luận nhóm): GV cho HS chạy thử chương trình của mình, tự bắt lỗi (bug) và chỉnh sửa, bổ sung lệnh mới"
@@ -2301,10 +2284,8 @@
           "3. Phẩm chất:",
           "- Chăm chỉ: HS tích cực trong việc hoàn thành các hoạt động học tập của cá nhân và của nhóm.",
           "- Kiên trì: HS kiên trì tìm hiểu ngôn ngữ lập trình Scratch để hiện thực hóa ý tưởng câu chuyện với hai nhân vật.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Định hướng Năng lực số",
-          "- Định hướng Năng lực số (3",
-          "- Định hướng Năng lực số (5",
           "- Định hướng Năng lực số:HS xác định lỗi là do ở cuối chương trình trước đó em đã dùng lệnh Ẩn (Hide) mà chưa đặt lại lệnh Hiện ở đầu chương trình"
         ],
         "dodung": [

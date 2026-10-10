@@ -23,13 +23,11 @@
           "3. Phẩm chất:",
           "- Có ý thức tự lập trong việc học tập và bổ sung kiến thức, kĩ năng, sử dụng hiệu quả các tiến bộ của Tin học để nâng cao năng lực mọi mặt của mình.",
           "- * HSKT: Nhận ra được một số ứng dụng quen thuộc trên máy tính (ví dụ: xem video, học bài, vẽ tranh) khi có sự hướng dẫn",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Tích hợp AI (5.A2.1 - AI không thay thế con người): Nhận biết AI là công cụ hỗ trợ: Máy tính và AI giúp tạo ra sản phẩm số nhanh chóng, nhưng con người vẫn là người làm chủ tư duy, sáng tạo và quyết định cuối cùng.",
-          "- Tích hợp AI (5",
           "- Tích hợp AI (Thảo luận lớp): GV cho HS xem một đoạn video AI tự động vẽ tranh/làm thơ và đặt câu hỏi: \"Máy tính tự nghĩ ra ý tưởng hay do con người ra lệnh? Ai là người tạo ra bức tranh này?\"",
           "- Tích hợp AI: HS quan sát video, thảo luận lớp và trả lời câu hỏi để nhận ra vai trò làm chủ của con người khi sử dụng các công cụ máy tính/AI",
-          "- Định hướng Năng lực số (5.2.CB2a): Xác định được nhu cầu cá nhân.",
-          "- Định hướng Năng lực số (5"
+          "- Định hướng Năng lực số (5.2.CB2a): Xác định được nhu cầu cá nhân."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, giáo án, chuẩn bị một số phần mềm học tập để HS được trải nghiệm trước khi đưa ra câu trả lời về những điều có thể làm được với máy tính.",
@@ -102,9 +100,8 @@
           "3. Phẩm chất:",
           "- Có ý thức tự lập trong việc học tập và bổ sung kiến thức, kĩ năng, sử dụng hiệu quả các tiến bộ của Tin học để nâng cao năng lực mọi mặt của mình.",
           "- * HSKT: Nhận ra được một số ứng dụng quen thuộc trên máy tính (ví dụ: xem video, học bài, vẽ tranh) khi có hướng dẫn.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (5.2.CB2b): Nhận ra được các công cụ số đơn giản và các giải pháp công nghệ có thể có để giải quyết những nhu cầu đó.",
-          "- Định hướng Năng lực số (5"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (5.2.CB2b): Nhận ra được các công cụ số đơn giản và các giải pháp công nghệ có thể có để giải quyết những nhu cầu đó."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, giáo án, chuẩn bị một số phần mềm học tập để HS được trải nghiệm trước khi đưa ra câu trả lời về những điều có thể làm được với máy tính.",
@@ -170,9 +167,8 @@
           "3. Phẩm chất:",
           "- Học sinh có ý thức tìm kiếm thông tin chính xác và có trách nhiệm.",
           "- * HSKT: Biết cách mở phần mềm trình duyệt web để truy cập các trang web GV yêu cầu. Nhận dạng được nút lệnh tìm kiếm trên các tran web để tìm kiếm thông tin.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Tích hợp AI (5.A3.1 - Con người trong kỉ nguyên AI): Đánh giá thông tin từ công cụ số: Hình thành thói quen kiểm chứng, không tin tưởng tuyệt đối vào mọi thông tin do website hoặc các công cụ AI tìm kiếm đề xuất.",
-          "- Tích hợp AI (5",
           "- Tích hợp AI (Trải nghiệm thực tế): GV cho học sinh xem một kết quả tìm kiếm thông tin bị sai lệch (ảo giác AI) và yêu cầu các em tìm kiếm thông tin từ website chính thống để đối chiếu",
           "- Tích hợp AI: HS quan sát ví dụ về thông tin sai lệch từ AI, tiến hành đối chiếu với website chính thống và rút ra bài học về kiểm chứng thông - HS thảo luận nhóm",
           "- Định hướng Năng lực số",
@@ -252,9 +248,8 @@
           "- Nêu hoặc chỉ ra bằng tranh nguồn thông tin cần tìm (ví dụ: hình ảnh, bài viết đơn giản).",
           "- Thực hiện thao tác đơn giản dưới sự hướng dẫn: bấm chuột, chọn kết quả tìm kiếm.",
           "- Biết chọn thông tin phù hợp, an toàn khi có gợi ý.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Định hướng Năng lực số",
-          "- Định hướng Năng lực số (1",
           "- Định hướng Năng lực số :GV đưa ra cùng một thông tin từ hai nguồn khác nhau",
           "- Định hướng Năng lực số : Sau khi tìm được thông tin hay về \"An toàn giao thông\", GV hỏi: \"Làm sao để gửi thông tin này cho bạn?\""
         ],
@@ -322,13 +317,11 @@
           "3. Phẩm chất:",
           "- Học sinh có ý thức về tầm quan trọng của việc tìm kiếm thông tin chính xác và đầy đủ.",
           "- * HSKT: Biết chọn nguồn thông tin đơn giản, an toàn khi được gợi ý. Biết nhờ sự trợ giúp của thầy cô, bạn bè, người thân khi cần.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Tích hợp AI (5.A1.1 - Con người chịu trách nhiệm): Chịu trách nhiệm với thông tin sử dụng: Khi sử dụng thông tin từ Internet hoặc AI để giải quyết vấn đề, học sinh phải là người đưa ra quyết định chọn lọc và chịu trách nhiệm với giải pháp của mình.",
-          "- Tích hợp AI (5",
           "- Tích hợp AI (Tình huống sắm vai): GV đưa ra tình huống: \"Nếu công cụ thông minh (AI) gợi ý sai cách làm bài tập nhóm, ai sẽ là người chịu trách nhiệm?\"",
           "- Tích hợp AI: HS tham gia sắm vai, thảo luận và nhận thức được bản thân phải chịu trách nhiệm cuối cùng đối với giải pháp của mình",
           "- Định hướng Năng lực số",
-          "- Định hướng Năng lực số (1",
           "- Định hướng Năng lực số :HS sử dụng kỹ năng tìm kiếm để giải quyết một tình huống mới hoàn toàn hoặc mở rộng vấn đề"
         ],
         "dodung": [
@@ -392,9 +385,8 @@
           "- * HSKT:",
           "- Biết gõ hoặc chọn từ khóa đơn giản, ngắn gọn (theo gợi ý của GV hoặc thẻ từ khóa có sẵn).",
           "- Nhận diện được kết quả thông tin cơ bản từ Internet (qua hình ảnh, tiêu đề, hoặc đoạn văn ngắn được GV hỗ trợ).",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (1.1.CB2c): Tìm được cách truy cập những dữ liệu, thông tin và nội dung này cũng như điều hướng giữa chúng.",
-          "- Định hướng Năng lực số (1"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (1.1.CB2c): Tìm được cách truy cập những dữ liệu, thông tin và nội dung này cũng như điều hướng giữa chúng."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, tivi, giáo án điện tử.",
@@ -468,9 +460,8 @@
           "- * HSKT:",
           "- Biết cây thư mục là cách sắp xếp các thư mục, tệp tin theo dạng nhánh, giống hình cây.",
           "- Nhận biết được mối quan hệ thư mục gốc – thư mục con qua sơ đồ trực quan.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (4.2.CB2a): Lựa chọn được những cách thức đơn giản để bảo vệ dữ liệu cá nhân và quyền riêng tư trong môi trường số",
-          "- Định hướng Năng lực số (4"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (4.2.CB2a): Lựa chọn được những cách thức đơn giản để bảo vệ dữ liệu cá nhân và quyền riêng tư trong môi trường số"
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, tivi, giáo án điện tử, Hình ảnh các cây thư mục với cấu trúc hợp lí và không hợp lí (có thể là hình vẽ hoặc hình chụp thực tế giao diện trên máy tính).",
@@ -617,9 +608,8 @@
           "- Học sinh có ý thức về tầm quan trọng của việc bảo vệ bản quyền nội dung thông tin.",
           "- * HSKT:",
           "- Học sinh có thể giải thích được khái niệm \"bản quyền\" và biết rằng tài nguyên số (hình ảnh, video, âm thanh, phần mềm, sách điện tử,...) có quyền sở hữu trí tuệ và không thể sao chép hoặc sử dụng mà không có sự cho phép.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Tích hợp AI (5.A3.1 - Con người trong kỉ nguyên AI): Bảo vệ tính riêng tư trong kỷ nguyên AI: Nhận thức được nguy cơ lộ thông tin cá nhân khi sử dụng các công cụ trực tuyến và AI, qua đó có ý thức bảo vệ dữ liệu bản thân và tôn trọng quyền của người khác.",
-          "- Tích hợp AI (5",
           "- Tích hợp AI (Hoạt động nhóm): GV trình chiếu và phân tích tình huống một ứng dụng AI yêu cầu tải ảnh khuôn mặt và họ tên thật để tạo Avatar miễn phí",
           "- Tích hợp AI: HS thảo luận nhóm về rủi ro lộ lọt thông tin cá nhân khi dùng AI và đưa ra cách xử lý để bảo vệ quyền riêng tư"
         ],
@@ -694,7 +684,7 @@
           "- * HSKT:",
           "- Nhận biết được rằng mỗi người đều có thông tin, thư riêng, tệp riêng cần được tôn trọng.",
           "- Thực hiện được hành vi tôn trọng người khác trong học tập và khi sử dụng máy tính (ví dụ: hỏi ý kiến trước khi mở file của bạn).",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Nói hoặc chỉ ra được hành vi đúng – sai (ví dụ: không xem thư của bạn, không tự ý sao chép tệp)."
         ],
         "dodung": [
@@ -977,9 +967,8 @@
           "- * HSKT:",
           "- Học sinh biết chèn được hình ảnh vào văn bản ở mức đơn giản, theo hướng dẫn từng bước của giáo viên.",
           "- Có thể chọn hình ảnh có sẵn (từ thư mục hoặc theo giáo viên chuẩn bị) và đưa vào đúng vị trí yêu cầu.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số",
-          "- Định hướng Năng lực số (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số"
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, tivi, giáo án điện tử.",
@@ -1050,9 +1039,8 @@
           "- * HSKT:",
           "- Thực hiện được một vài thao tác cơ bản trong phần mềm đồ họa (vẽ, đổi màu, viết chữ) với sự hỗ trợ khi cần.",
           "- Hiểu và làm theo quy trình đơn giản: chọn công cụ → thao tác → xem kết quả → chỉnh sửa.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số",
-          "- Định hướng Năng lực số (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số"
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, tivi, giáo án điện tử.",
@@ -1302,7 +1290,7 @@
           "3. Phẩm chất:",
           "- Chăm chỉ: Học sinh tham gia các hoạt động trong giờ học, vận dụng được kiến thức đã học vào tình huống thực tế.",
           "- Trách nhiệm: Có trách nhiệm khi tham gia các hoạt động nhóm; có trách nhiệm khi sử dụng các thiết bị trong phòng thực hành Tin học.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Định hướng Năng lực số"
         ],
         "dodung": [
@@ -1371,9 +1359,8 @@
           "- * HSKT:",
           "- Nhận biết được cấu trúc tuần tự thông qua ví dụ quen thuộc trong học tập hoặc sinh hoạt hằng ngày (ví dụ: các bước đánh răng, bật máy tính).",
           "- Nêu được hoặc chỉ ra một ví dụ đơn giản mô tả cấu trúc tuần tự theo gợi ý của giáo viên.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản.",
-          "- Định hướng Năng lực số (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, tivi, giáo án điện tử.",
@@ -1440,9 +1427,8 @@
           "- * HSKT:",
           "- Nhận biết được cấu trúc tuần tự trong chương trình đơn giản.",
           "- Thực hiện được chương trình có cấu trúc tuần tự (các lệnh thực hiện lần lượt) khi có hướng dẫn.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản.",
-          "- Định hướng Năng lực số (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, tivi, giáo án điện tử.",
@@ -1503,9 +1489,8 @@
           "- Kiên trì, cẩn thận khi thực hành tạo chương trình có cấu trúc lặp.",
           "- Nhận biết được cấu trúc lặp qua ví dụ quen thuộc (lặp lại hành động, trò chơi, chương trình mẫu).",
           "- Thực hiện được một thao tác đơn giản với cấu trúc lặp (kéo thả khối lệnh lặp, chạy chương trình mẫu) khi có hướng dẫn trực tiếp.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản.",
-          "- Định hướng Năng lực số (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, tivi, giáo án điện tử.",
@@ -1571,9 +1556,8 @@
           "- Chăm chỉ, chịu khó khi học tập kiến thức mới về cấu trúc lặp.",
           "- Kiên trì, cẩn thận khi thực hành tạo chương trình có cấu trúc lặp.",
           "- * HSKT: Nhận biết được cấu trúc lặp trong chương trình đơn giản và hiểu rằng cấu trúc lặp dùng để thực hiện thao tác lặp lại, dưới sự hướng dẫn của giáo viên.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản.",
-          "- Định hướng Năng lực số (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, tivi, giáo án điện tử.",
@@ -1639,9 +1623,8 @@
           "3. Phẩm chất:",
           "- Học sinh có ý thức về tầm quan trọng của việc sử dụng lệnh lặp trong lập trình.",
           "- * HSKT: Nhận biết được cấu trúc lặp trong chương trình đơn giản và hiểu rằng cấu trúc lặp dùng để thực hiện thao tác lặp lại, dưới sự hướng dẫn của giáo viên.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản.",
-          "- Định hướng Năng lực số (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, tivi, giáo án điện tử.",
@@ -1707,9 +1690,8 @@
           "3. Phẩm chất:",
           "- Học sinh có ý thức về tầm quan trọng của việc sử dụng lệnh lặp trong lập trình.",
           "- * HSKT: Nhận biết được cấu trúc lặp trong chương trình đơn giản và hiểu rằng cấu trúc lặp dùng để thực hiện thao tác lặp lại, dưới sự hướng dẫn của giáo viên.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản.",
-          "- Định hướng Năng lực số (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, tivi, giáo án điện tử.",
@@ -1767,13 +1749,11 @@
           "- Học sinh có ý thức về tầm quan trọng của việc sử dụng cấu trúc rẽ nhánh trong lập trình.",
           "- * HSKT:",
           "- Nhận biết được một số ví dụ đơn giản về việc sử dụng cấu trúc rẽ nhánh trong chương trình khi có sự hướng dẫn của giáo viên.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
+          "4. Tích hợp:",
           "- Tích hợp AI (5.C4.1 - Thuật toán AI dựa trên luật): Hiểu thuật toán AI dựa trên luật: Học sinh nắm được cấu trúc rẽ nhánh \"Nếu... thì...\" chính là cách tư duy nền tảng giúp máy tính/AI đưa ra quyết định đơn giản (Rule-based AI).",
-          "- Tích hợp AI (5",
           "- Tích hợp AI (Trò chơi điều kiện): GV hướng dẫn HS thiết kế quy tắc cho một trợ lý ảo đơn giản",
           "- Tích hợp AI: HS tham gia trò chơi, tự thiết kế bảng quy tắc điều kiện cho trợ lý ảo và nhận biết tư duy rẽ nhánh của máy tính",
-          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản.",
-          "- Định hướng Năng lực số (3"
+          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, tivi, giáo án điện tử.",
@@ -1848,9 +1828,8 @@
           "- Học sinh có ý thức về tầm quan trọng của việc sử dụng cấu trúc rẽ nhánh trong lập trình.",
           "- * HSKT:",
           "- Bước đầu áp dụng cấu trúc rẽ nhánh để giải quyết một số bài toán hoặc tình huống đơn giản trong học tập.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản.",
-          "- Định hướng Năng lực số (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, tivi, giáo án điện tử.",
@@ -1987,9 +1966,8 @@
           "- Học sinh có ý thức về việc áp dụng biến nhớ vào thực tế để giải quyết các bài toán đơn giản.",
           "- * HSKT:",
           "- Nhận biết được biến nhớ trong các chương trình đơn giản (ví dụ: biến dùng để lưu số điểm, số bước di chuyển) khi có sự hướng dẫn.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản.",
-          "- Định hướng Năng lực số (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản."
         ],
         "dodung": [
           "- Giáo viên: SGK, tivi, kế hoạch bài dạy, bài giảng PowerPoint, phần mềm Scratch.",
@@ -2059,9 +2037,8 @@
           "- Kiên trì, cẩn thận khi thực hành tạo chương trình có sử dụng biểu thức.",
           "- * HSKT:",
           "- Nhận biết được biểu thức đơn giản trong lập trình (ví dụ: phép cộng, so sánh lớn hơn/nhỏ hơn) khi có hướng dẫn; hiểu biểu thức dùng để tính toán hoặc so sánh trong chương trình.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản.",
-          "- Định hướng Năng lực số (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản."
         ],
         "dodung": [
           "- Giáo viên: SGK, tivi, kế hoạch bài dạy, bài giảng PowerPoint, phần mềm Scratch.",
@@ -2196,9 +2173,8 @@
           "- * HSKT:",
           "- Nhận biết được kịch bản đơn giản của chương trình (các bước thực hiện theo thứ tự) khi có hướng dẫn.",
           "- Hiểu ở mức cơ bản rằng chương trình là các bước được sắp xếp để máy tính thực hiện.",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản.",
-          "- Định hướng Năng lực số (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản."
         ],
         "dodung": [
           "- Giáo viên: SGK, tivi, kế hoạch bài dạy, bài giảng PowerPoint, phần mềm Scratch.",
@@ -2266,9 +2242,8 @@
           "- Học sinh có ý thức về việc kiểm tra và chạy thử chương trình để đảm bảo hoạt động đúng.",
           "- * HSKT:",
           "- Thực hiện được việc tạo chương trình đơn giản bằng cách làm theo mẫu (kéo – thả lệnh, sắp xếp theo hướng dẫn).",
-          "4. Tích hợp liên môn & Định hướng công nghệ:",
-          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản.",
-          "- Định hướng Năng lực số (3"
+          "4. Tích hợp:",
+          "- Định hướng Năng lực số (3.4.CB2a): Liệt kê được các hướng dẫn đơn giản để hệ thống máy tính giải quyết một vấn đề đơn giản hoặc thực hiện một nhiệm vụ đơn giản."
         ],
         "dodung": [
           "- Giáo viên: SGK, tivi, kế hoạch bài dạy, bài giảng PowerPoint, phần mềm Scratch.",

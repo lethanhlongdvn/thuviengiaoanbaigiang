@@ -5067,6 +5067,13 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
   var hasRenderedDisabilityHeader = false;
   var inDisabilitySection = false;
   var normalizedPreviewList = (typeof IntegrationService !== 'undefined' && IntegrationService.normalizeYccd) ? IntegrationService.normalizeYccd(les.yccd || [], isEnLesson) : (les.yccd || []);
+  var hasTichHopPreview = normalizedPreviewList.some(function(l) {
+    if (typeof l !== 'string') return false;
+    var clean = l.trim();
+    return /^(?:4|3)\.\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp|integration)/i.test(clean) || /^[\s*•\-–—]*(?:tích\s*hợp|integration)\s*[:.-]?$/i.test(clean);
+  });
+  var senNumPreview = hasTichHopPreview ? 5 : 4;
+
   var yccdHtml = normalizedPreviewList.map(function(line) {
     if (typeof line !== 'string') return '';
     var cleanLine = line;
@@ -5076,6 +5083,14 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
         cleanLine = IntegrationService.translateVnToEnglish(cleanLine);
       }
     }
+    // Bỏ dòng tiêu đề A. YÊU CẦU CẦN ĐẠT / I. YÊU CẦU CẦN ĐẠT đầu mục
+    if (/^\s*(?:A\.|I\.)\s*(?:YÊU\s*CẦU\s*CẦN\s*ĐẠT|OBJECTIVES)\s*[:.-]?\s*$/i.test(cleanLine.trim())) return '';
+    if (/^\s*Sau\s*bài\s*học\s*(?:này)?,\s*(?:học\s*sinh|HS)\s*(?:sẽ|cần\s*đạt)?\s*[:.-]?\s*$/i.test(cleanLine.trim())) return '';
+
+    // Lọc bỏ triệt để các dòng cụt dở dang dạng "- Định hướng Năng lực số (1", "- Tích hợp AI (3"
+    if (/^[-*•+–—]?\s*(?:định\s*hướng\s*năng\s*lực\s*số|tích\s*hợp\s*ai|tích\s*hợp\s*nls|tích\s*hợp|định\s*hướng)[^:\n]*?\(\s*\d*\s*$/i.test(cleanLine.trim())) return '';
+    if (/^[-*•+–—]?\s*(?:định\s*hướng|tích\s*hợp)[^:\n]*?\(\s*$/i.test(cleanLine.trim())) return '';
+
     if (/^[\s\-–—*•]*thời\s*gian\s*thực\s*hiện\s*:\s*[.\s_]*(?:\(.*\))?$/i.test(line)) {
       cleanLine = isEnLesson ? ('Teaching time: ' + durationWithDate) : ('Thời gian thực hiện: ' + durationWithDate);
     } else if (/^[\s\-–—*•]*thời\s*gian\s*thực\s*hiện\s*:\s*[.\s_]+/i.test(line)) {
@@ -5086,13 +5101,13 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       cleanLine = line.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, isEnLesson ? ('Date: ' + (dateStr || '....................................')) : ('Ngày thực hiện: ' + (dateStr || '....................................')));
     }
 
-    var isDieuChinhHeader = /^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments\s*for\s*inclusive\s*students)/i.test(cleanLine);
+    var isDieuChinhHeader = /^(?:5\.|[45]\.)\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments\s*for\s*inclusive\s*students)/i.test(cleanLine);
     if (isDieuChinhHeader) {
       inDisabilitySection = true;
       inTichHopSection = false;
       if (!hasRenderedDisabilityHeader) {
         hasRenderedDisabilityHeader = true;
-        var disHeadTitle = isEnLesson ? '5. Adjustments for inclusive students (SEN):' : '5. Điều chỉnh đối với học sinh hòa nhập:';
+        var disHeadTitle = isEnLesson ? senNumPreview + '. Adjustments for inclusive students (SEN):' : senNumPreview + '. Điều chỉnh đối với học sinh hòa nhập:';
         var headColorStyle = isEnLesson ? '' : 'color: #c00000; ';
         var headSpanOpen = isEnLesson ? '' : '<span style="color: #c00000; font-weight: bold;">';
         var headSpanClose = isEnLesson ? '' : '</span>';
@@ -5101,7 +5116,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       return '';
     }
 
-    var isTichHopHeaderGroup = /^4\.\s*(?:tích\s*hợp|integration)/i.test(cleanLine.trim());
+    var isTichHopHeaderGroup = /^(?:\d+)\.\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp|integration)/i.test(cleanLine.trim()) || /^[\s*•\-–—]*(?:tích\s*hợp|integration)\s*[:.-]?$/i.test(cleanLine.trim());
     var isOtherHeaderGroup = /^[12356789]\.\s*/i.test(cleanLine.trim()) || /^[IVXLCDM]+\.\s*/i.test(cleanLine.trim());
     if (isTichHopHeaderGroup) {
       inTichHopSection = true;
@@ -5218,6 +5233,10 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
   var dodungHtml = dodungList.map(function(line) {
     if (typeof line !== 'string') return '';
     var cleanDodung = line.trim();
+    // Bỏ dòng tiêu đề B. / II. PHƯƠNG TIỆN, THIẾT BỊ DẠY HỌC / ĐỒ DÙNG DẠY HỌC đầu mục
+    if (/^\s*(?:B\.|II\.)?\s*(?:PHƯƠNG\s*TIỆN[,\s]+THIẾT\s*BỊ\s*DẠY\s*HỌC|ĐỒ\s*DÙNG\s*DẠY\s*HỌC|THIẾT\s*BỊ\s*DẠY\s*HỌC|THIẾT\s*BỊ\s*VÀ\s*HỌC\s*LIỆU|TEACHING\s*AIDS?)\s*[:.-]?\s*$/i.test(cleanDodung)) {
+      return '';
+    }
     if (isEnLesson) {
       if (/^\s*(?:B\.|II\.)\s*TEACHING\s*AIDS?\s*[:.-]?\s*$/i.test(cleanDodung)) return '';
       if (typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish) {
@@ -5357,7 +5376,47 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
             rowsHtml += `<tr><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;"><div style="line-height: 1.25; margin: 0;">${r0Text.replace(/\n/g, '<br/>')}</div></td><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;"><div style="line-height: 1.25; margin: 0;">${r1Text.replace(/\n/g, '<br/>')}</div></td></tr>`;
           }
         } else {
-          if (r.length >= 2) {
+          var isActivityHeaderRow = function(row) {
+            if (!Array.isArray(row) || row.length === 0) return false;
+            if (row.length === 1) return true;
+            var t0 = (row[0] || '').trim();
+            var t1 = (row[1] || '').trim();
+            if (!t0 && !t1) return false;
+            var isActPattern = /^(?:tiết\s+\d+|period\s+\d+|\d+\.\s*(?:khởi\s*động|khám\s*phá|luyện\s*tập|hoạt\s*động|vận\s*dụng|trò\s*chơi|củng\s*cố|warm-up|presentation|practice|production|consolidation|fun corner|wrap-up|game|activity)|hoạt\s*động\s*\d+|bổ\s*sung\s*năng\s*lực|nhiệm\s*vụ\s*\d+)/i;
+            if (t0 && t1 && t0 === t1) {
+              if (isActPattern.test(t0) || /mục\s*tiêu\s*:/i.test(t0)) return true;
+              if (/^GV\s+(?:tổng\s*kết|nhận\s*xét|dặn\s*dò)/i.test(t0)) return false;
+              return true;
+            }
+            if (!t0 && isActPattern.test(t1)) return true;
+            if (!t1 && isActPattern.test(t0)) return true;
+            if (isActPattern.test(t0) && isActPattern.test(t1)) return true;
+            return false;
+          };
+
+          if (isActivityHeaderRow(r)) {
+            var rawHeader = (r[0] || r[1] || '');
+            var cleanHeader = rawHeader
+              .replace(/<!--.*?-->/g, '')
+              .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
+              .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
+              .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
+              .replace(/^\[Tích hợp\]\s*/i, '')
+              .replace(/\(Tích hợp\)/gi, '')
+              .replace(/\[Slide\s*\d+[^\]]*\]/gi, '')
+              .replace(/\s{2,}/g, ' ')
+              .trim();
+            if (isEnLesson && typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish) {
+              cleanHeader = IntegrationService.translateVnToEnglish(cleanHeader);
+            }
+            var isTietRow = /^tiết\s+\d+|period\s+\d+/i.test(cleanHeader);
+            var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố|warm-up|presentation|practice|production|consolidation|fun corner|wrap-up|game|activity)|hoạt\s*động\s*\d+/i.test(cleanHeader);
+            var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || /\[(?:Tích\s*hợp|Integration|GDĐP|GDQCN|NLS|AI)\]/i.test(cleanHeader) || /digital\s*(&|and)?\s*ai\s*mini-task|nội\s*dung\s*tích\s*hợp|tích\s*hợp\s*ai|ai\s*literacy|năng\s*lực\s*số/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
+            var isDisabilityHeader = !isTietRow && !isActivityRow && (/\b(?:HSHN|SEN)\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh|inclusive|sen\b/i.test(cleanHeader));
+            var cellHeaderColorStyle = (isEnLesson ? false : (isPureIntegration || isDisabilityHeader)) ? 'color: #c00000;' : '';
+            var formattedHeader = (typeof IntegrationService !== 'undefined' && IntegrationService.formatHeaderContentWithIntegration) ? IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isEnLesson ? false : (isPureIntegration || isDisabilityHeader)) : ('<span>' + cleanHeader.replace(/\n/g, '<br/>') + '</span>');
+            rowsHtml += `<tr><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; text-align: left; ${cellHeaderColorStyle}"><div style="line-height: 1.25; margin: 0; text-align: left; ${cellHeaderColorStyle}">${formattedHeader}</div></td></tr>`;
+          } else if (r.length >= 2) {
             var isDisability = (typeof IntegrationService !== 'undefined' && IntegrationService.isDisabilityRow === 'function')
               ? IntegrationService.isDisabilityRow(r)
               : (!!r.isDisabilityRow || /\b(?:HSHN|SEN)\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)|inclusive|sen\b/i.test((r[0]||'') + ' ' + (r[1]||'')));
@@ -5375,6 +5434,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
               .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
               .replace(/^\[Tích hợp\]\s*/i, '')
               .replace(/\(Tích hợp\)/gi, '')
+              .replace(/\[Slide\s*\d+[^\]]*\]/gi, '')
               .replace(/\s{2,}/g, ' ')
               .trim();
             var hsText = (r[1] || '')
@@ -5384,8 +5444,15 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
               .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
               .replace(/^\[Tích hợp\]\s*/i, '')
               .replace(/\(Tích hợp\)/gi, '')
+              .replace(/\[Slide\s*\d+[^\]]*\]/gi, '')
               .replace(/\s{2,}/g, ' ')
               .trim();
+
+            if (gvText && hsText && gvText === hsText) {
+              if (/^GV\s+(?:tổng\s*kết|nhận\s*xét|dặn\s*dò)/i.test(gvText)) {
+                hsText = isEnLesson ? 'Students listen attentively and take note.' : 'HS chú ý lắng nghe, ghi nhớ và thực hiện theo dặn dò của giáo viên.';
+              }
+            }
 
             if (isEnLesson && typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish) {
               gvText = IntegrationService.translateVnToEnglish(gvText);
@@ -5406,27 +5473,6 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
                 </td>
               </tr>
             `;
-          } else if (r.length === 1) {
-            var rawHeader = r[0] || '';
-            var cleanHeader = rawHeader
-              .replace(/<!--.*?-->/g, '')
-              .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
-              .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
-              .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
-              .replace(/^\[Tích hợp\]\s*/i, '')
-              .replace(/\(Tích hợp\)/gi, '')
-              .replace(/\s{2,}/g, ' ')
-              .trim();
-            if (isEnLesson && typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish) {
-              cleanHeader = IntegrationService.translateVnToEnglish(cleanHeader);
-            }
-            var isTietRow = /^tiết\s+\d+|period\s+\d+/i.test(cleanHeader);
-            var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố|warm-up|presentation|practice|production|consolidation|fun corner|wrap-up|game|activity)/i.test(cleanHeader);
-            var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || /\[(?:Tích\s*hợp|Integration|GDĐP|GDQCN|NLS|AI)\]/i.test(cleanHeader) || /digital\s*(&|and)?\s*ai\s*mini-task|nội\s*dung\s*tích\s*hợp|tích\s*hợp\s*ai|ai\s*literacy|năng\s*lực\s*số/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
-            var isDisabilityHeader = !isTietRow && !isActivityRow && (/\b(?:HSHN|SEN)\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh|inclusive|sen\b/i.test(cleanHeader));
-            var cellHeaderColorStyle = (isEnLesson ? false : (isPureIntegration || isDisabilityHeader)) ? 'color: #c00000;' : '';
-            var formattedHeader = (typeof IntegrationService !== 'undefined' && IntegrationService.formatHeaderContentWithIntegration) ? IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isEnLesson ? false : (isPureIntegration || isDisabilityHeader)) : ('<span>' + cleanHeader.replace(/\n/g, '<br/>') + '</span>');
-            rowsHtml += `<tr><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; text-align: left; ${cellHeaderColorStyle}"><div style="line-height: 1.25; margin: 0; text-align: left; ${cellHeaderColorStyle}">${formattedHeader}</div></td></tr>`;
           }
         }
       }
