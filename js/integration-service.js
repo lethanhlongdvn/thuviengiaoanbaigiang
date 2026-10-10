@@ -977,16 +977,16 @@ var IntegrationService = {
 
       if (fallbackTopic) {
         if (effectivePeriod && !fallbackTopic.toLowerCase().includes(effectivePeriod.toLowerCase())) {
-          return fallbackTopic + ' (' + effectivePeriod + ')';
+          return (fallbackTopic + ' (' + effectivePeriod + ')').toUpperCase();
         }
-        return fallbackTopic;
+        return fallbackTopic.toUpperCase();
       }
       if (effectivePeriod) {
-        return (subjectName || 'BÀI DẠY') + ' (' + effectivePeriod + ')';
+        return ((subjectName || 'BÀI DẠY') + ' (' + effectivePeriod + ')').toUpperCase();
       }
     }
 
-    return t || 'BÀI DẠY';
+    return (t || 'BÀI DẠY').toUpperCase();
   },
 
 
@@ -2598,6 +2598,8 @@ ${sampleJson}`;
     var curSec = 0;
 
     flatLines.forEach(function(line) {
+      if (typeof line !== 'string') return;
+      line = line.replace(/^[-*•+–—]\s*(?=\d+\.\s+)/, '').trim();
       if (/^[\s\-–—*•]*(?:số\s*tiết|thời\s*gian|ngày)\s*thực\s*hiện/i.test(line)) return;
       if (/^[\s\-–—*•]*(?:kế\s*hoạch\s*bài\s*dạy|bài\s*học\s*tiết\s*\d+|lesson\s*plan)/i.test(line)) return;
       // Bỏ tiêu đề lặp Mục I (ví dụ: "A. YÊU CẦU CẦN ĐẠT", "I. YÊU CẦU CẦN ĐẠT", "Sau bài học này, HS sẽ:")
@@ -6145,8 +6147,12 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           return '';
         }
 
-        // Nếu gặp tiêu đề nhóm khác (như 1., 2., 3., 5.) thì thoát khỏi section tích hợp
-        if (/^\d+\.\s+(?:năng\s*lực|phẩm\s*chất|kiến\s*thức|điều\s*chỉnh|competence|qualit|knowledge|adjustment)/i.test(cleanLine)) {
+        // Bỏ dấu gạch thừa trước số tiêu đề mục (ví dụ "- 2. Năng lực...", "• 1. Năng lực...")
+        cleanLine = cleanLine.replace(/^[-*•+–—]\s*(?=\d+\.\s+)/, '').trim();
+
+        // Kiểm tra xem dòng có phải là tiêu đề mục lớn được đánh số (1., 2., 3., 4., 5.) không
+        var isMajorNumberedHeader = /^\d+\.\s+/i.test(cleanLine);
+        if (isMajorNumberedHeader) {
           inTichHopSection = false;
         }
         if (/^[1-4]\.\s*/i.test(cleanLine)) {
@@ -6154,7 +6160,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         }
 
         var isKhuyetTat = inDisabilitySection || IntegrationService.isDisabilityLine(cleanLine);
-        var isTichHop = inTichHopSection || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|human\s*rights|stem|local/i.test(cleanLine) || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('[Integration') !== -1;
+        var isTichHop = !isMajorNumberedHeader && (inTichHopSection || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|human\s*rights|stem|local/i.test(cleanLine) || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('[Integration') !== -1);
         if (isKhuyetTat) {
           inDisabilitySection = true;
           inTichHopSection = false;
@@ -6248,7 +6254,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           }
           var isSubHeader = /^[-*•+–—]?\s*(?:tích\s*hợp\s*(?:anqp|ai|năng\s*lực\s*số|stem|gdđp)|integration\b)/i.test(displayLine);
           var isCodeBullet = /^\d+(?:\.[A-Z\d]+)+(?::|\b)/i.test(displayLine);
-          if (!displayLine.startsWith('-') && !displayLine.startsWith('+') && !displayLine.startsWith('*') && !isCodeBullet) {
+          if (!displayLine.startsWith('-') && !displayLine.startsWith('+') && !displayLine.startsWith('*') && !isCodeBullet && !/^\d+\.\s*/.test(displayLine)) {
             displayLine = '- ' + displayLine;
           }
           var extraStyle = isSubHeader ? 'font-weight: bold; ' : '';
@@ -6257,7 +6263,18 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           var spanClose = isEnLesson ? '' : '</span>';
           return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; ' + colorStyle + 'text-align: justify; ' + extraStyle + '">' + spanOpen + displayLine + spanClose + '</p>';
         }
-        return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">' + cleanLine + '</p>';
+        if (isMajorNumberedHeader) {
+          var headerText = cleanLine;
+          if (!headerText.endsWith(':') && !headerText.endsWith('.')) {
+            headerText += ':';
+          }
+          return '<p style="margin: 0pt; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 4pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; font-weight: bold; text-align: justify;">' + headerText + '</p>';
+        }
+        var normalLine = cleanLine;
+        if (!normalLine.startsWith('-') && !normalLine.startsWith('+') && !normalLine.startsWith('*') && !/^\d+\./.test(normalLine)) {
+          normalLine = '- ' + normalLine;
+        }
+        return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">' + normalLine + '</p>';
       }).join('');
 
       var dodungList = Array.isArray(les.dodung) ? les.dodung.slice() : (Array.isArray(les.teachingAids) ? les.teachingAids.slice() : []);
@@ -6612,6 +6629,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       if (dateStr && /ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i.test(cleanLessonTitle)) {
         cleanLessonTitle = cleanLessonTitle.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, isEnLesson ? ('Date: ' + dateStr) : ('Ngày thực hiện: ' + dateStr));
       }
+      cleanLessonTitle = (cleanLessonTitle || '').toUpperCase();
 
       var titleHeader = isEnLesson ? 'LESSON PLAN' : 'KẾ HOẠCH BÀI DẠY';
       var titleSubject = isEnLesson
@@ -6630,7 +6648,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             ${daySessionInfo}
             <h2 align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; text-transform: uppercase; text-align: center; margin: 0pt; line-height: 1.0;">${titleHeader}</h2>
             <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0; text-align: center; line-height: 1.0;">${titleSubject}</p>
-            <p align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; margin-top: 4pt; margin-bottom: 0pt; text-align: center; line-height: 1.0; color: #1e3a8a;">${cleanLessonTitle}</p>
+            <p align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; text-transform: uppercase; margin-top: 4pt; margin-bottom: 0pt; text-align: center; line-height: 1.0; color: #1e3a8a;">${cleanLessonTitle}</p>
             ${periodText ? ('<p align="center" style="font-family: \'Times New Roman\', serif; font-size: 13pt; font-style: italic; margin-top: 2pt; margin-bottom: 0pt; text-align: center; line-height: 1.0;">(' + periodText + ')</p>') : ''}
           </div>
         `;
@@ -6638,7 +6656,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         docHtml += `
           <div class="title-box" style="margin-top: 10pt; margin-bottom: 4pt; text-align: center; font-family: 'Times New Roman', serif;">
             ${daySessionInfo}
-            <p align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; margin-top: 4pt; margin-bottom: 0pt; text-align: center; line-height: 1.0; color: #1e3a8a;">${cleanLessonTitle}</p>
+            <p align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; text-transform: uppercase; margin-top: 4pt; margin-bottom: 0pt; text-align: center; line-height: 1.0; color: #1e3a8a;">${cleanLessonTitle}</p>
             ${periodText ? ('<p align="center" style="font-family: \'Times New Roman\', serif; font-size: 13pt; font-style: italic; margin-top: 2pt; margin-bottom: 0pt; text-align: center; line-height: 1.0;">(' + periodText + ')</p>') : ''}
           </div>
         `;

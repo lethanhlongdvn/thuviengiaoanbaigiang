@@ -5076,7 +5076,10 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
 
   var yccdHtml = normalizedPreviewList.map(function(line) {
     if (typeof line !== 'string') return '';
-    var cleanLine = line;
+    var cleanLine = line.trim();
+    // Bỏ dấu gạch thừa trước số tiêu đề mục (ví dụ "- 2. Năng lực...", "• 1. Năng lực...")
+    cleanLine = cleanLine.replace(/^[-*•+–—]\s*(?=\d+\.\s+)/, '').trim();
+
     if (isEnLesson) {
       if (/^\s*(?:A\.|I\.)\s*OBJECTIVES\s*[:.-]?\s*$/i.test(cleanLine.trim())) return '';
       if (typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish) {
@@ -5117,13 +5120,13 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
     }
 
     var isTichHopHeaderGroup = /^(?:\d+)\.\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp|integration)/i.test(cleanLine.trim()) || /^[\s*•\-–—]*(?:tích\s*hợp|integration)\s*[:.-]?$/i.test(cleanLine.trim());
-    var isOtherHeaderGroup = /^[12356789]\.\s*/i.test(cleanLine.trim()) || /^[IVXLCDM]+\.\s*/i.test(cleanLine.trim());
+    var isMajorNumberedHeader = /^\d+\.\s*/i.test(cleanLine.trim()) || /^[IVXLCDM]+\.\s*/i.test(cleanLine.trim());
     if (isTichHopHeaderGroup) {
       inTichHopSection = true;
       inDisabilitySection = false;
       var intHeadTitle = isEnLesson ? '4. Integration:' : '4. Tích hợp:';
       return `<p style="margin: 0; margin-top: 4px; margin-bottom: 2px; font-weight: bold; line-height: 1.35; text-align: justify;">${intHeadTitle}</p>`;
-    } else if (isOtherHeaderGroup) {
+    } else if (isMajorNumberedHeader) {
       inTichHopSection = false;
       if (/^[1-4]\.\s*/i.test(cleanLine.trim())) inDisabilitySection = false;
     }
@@ -5132,7 +5135,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       ? IntegrationService.isDisabilityLine(cleanLine)
       : (/học sinh khuyết tật|inclusive\s*students?|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments\s*for/i.test(cleanLine) || /^\*\s*(?:học\s*sinh\s*\d+|dạng\s*\d+|student\s*\d+|type\s*\d+)/i.test(cleanLine) || /^[-*•+–—]?\s*(?:năng\s*lực\s*đặc\s*thù|specific\s*competences?)\s*:/i.test(cleanLine) || /^[-*•+–—]?\s*(?:phẩm\s*chất[,\s]+năng\s*lực\s*chung|general\s*competences?)\s*:/i.test(cleanLine)));
 
-    var isTichHop = inTichHopSection || cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('[Tích hợp mới]') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('[Integration') !== -1 || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital\s*competence|ai\s*literacy/i.test(cleanLine);
+    var isTichHop = !isMajorNumberedHeader && (inTichHopSection || cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('[Tích hợp mới]') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('[Integration') !== -1 || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital\s*competence|ai\s*literacy/i.test(cleanLine));
     if (isKhuyetTat) {
       inDisabilitySection = true;
       inTichHopSection = false;
@@ -5218,7 +5221,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
         .replace(/\(Tích hợp\)/gi, '')
         .replace(/\s{2,}/g, ' ')
         .trim();
-      if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
+      if (!displayLine.startsWith('-') && !displayLine.startsWith('+') && !displayLine.startsWith('*') && !/^\d+\.\s*/.test(displayLine)) {
         displayLine = '- ' + displayLine;
       }
       var tipColorStyle = isEnLesson ? '' : 'color: #c00000; ';
@@ -5226,7 +5229,18 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       var tipSpanClose = isEnLesson ? '' : '</span>';
       return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; ${tipColorStyle}font-weight: 500; line-height: 1.25; text-align: justify; ">${tipSpanOpen}${displayLine}${tipSpanClose}</p>`;
     }
-    return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25; text-align: justify; ">${cleanLine}</p>`;
+    if (isMajorNumberedHeader) {
+      var headerText = cleanLine;
+      if (!headerText.endsWith(':') && !headerText.endsWith('.')) {
+        headerText += ':';
+      }
+      return `<p style="margin: 0; margin-top: 5px; margin-bottom: 2px; font-weight: bold; line-height: 1.35; text-align: justify;">${headerText}</p>`;
+    }
+    var normalLine = cleanLine;
+    if (!normalLine.startsWith('-') && !normalLine.startsWith('+') && !normalLine.startsWith('*') && !/^\d+\./.test(normalLine)) {
+      normalLine = '- ' + normalLine;
+    }
+    return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25; text-align: justify; ">${normalLine}</p>`;
   }).join('');
 
   var dodungList = les.dodung || les.teachingAids || [];
@@ -5243,8 +5257,10 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
         cleanDodung = IntegrationService.translateVnToEnglish(cleanDodung);
       }
     }
-    var isDisabilityDodung = /khuyết\s*tật|hòa\s*nhập|trợ\s*cụ\s*trực\s*quan|vật\s*thật|chữ\s*phóng\s*to|inclusive|special\s*needs/i.test(cleanDodung);
-    var isTichHop = cleanDodung.indexOf('[Tích hợp') !== -1 || cleanDodung.indexOf('[Tích hợp mới]') !== -1 || cleanDodung.indexOf('(Tích hợp)') !== -1 || cleanDodung.indexOf('[Integration') !== -1 || cleanDodung.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (isEnLesson ? /\[(?:Integration|AI|NLS)\]/i.test(cleanDodung) : /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(cleanDodung)) || isDisabilityDodung;
+    cleanDodung = cleanDodung.replace(/^[-*•+–—]\s*(?=\d+\.\s+)/, '').trim();
+    var isDodungHeader = /^\d+\.\s*/.test(cleanDodung);
+    var isDisabilityDodung = !isDodungHeader && (/khuyết\s*tật|hòa\s*nhập|trợ\s*cụ\s*trực\s*quan|vật\s*thật|chữ\s*phóng\s*to|inclusive|special\s*needs/i.test(cleanDodung));
+    var isTichHop = !isDodungHeader && (cleanDodung.indexOf('[Tích hợp') !== -1 || cleanDodung.indexOf('[Tích hợp mới]') !== -1 || cleanDodung.indexOf('(Tích hợp)') !== -1 || cleanDodung.indexOf('[Integration') !== -1 || cleanDodung.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (isEnLesson ? /\[(?:Integration|AI|NLS)\]/i.test(cleanDodung) : /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(cleanDodung)) || isDisabilityDodung);
     if (isTichHop) {
       var displayLine = cleanDodung
         .replace(/<!--.*?-->/g, '')
@@ -5255,7 +5271,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
         .replace(/\(Tích hợp\)/gi, '')
         .replace(/\s{2,}/g, ' ')
         .trim();
-      if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
+      if (!displayLine.startsWith('-') && !displayLine.startsWith('+') && !displayLine.startsWith('*') && !/^\d+\./.test(displayLine)) {
         displayLine = '- ' + displayLine;
       }
       var dodungColorStyle = isEnLesson ? '' : 'color: #c00000; ';
@@ -5263,7 +5279,14 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       var dodungSpanClose = isEnLesson ? '' : '</span>';
       return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; ${dodungColorStyle}font-weight: 500; line-height: 1.25; text-align: justify; ">${dodungSpanOpen}${displayLine}${dodungSpanClose}</p>`;
     }
-    return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25; text-align: justify; ">${cleanDodung}</p>`;
+    if (isDodungHeader) {
+      return `<p style="margin: 0; margin-top: 4px; margin-bottom: 2px; font-weight: bold; line-height: 1.35; text-align: justify; ">${cleanDodung}</p>`;
+    }
+    var normalDodung = cleanDodung;
+    if (!normalDodung.startsWith('-') && !normalDodung.startsWith('+') && !normalDodung.startsWith('*') && !/^\d+\./.test(normalDodung)) {
+      normalDodung = '- ' + normalDodung;
+    }
+    return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25; text-align: justify; ">${normalDodung}</p>`;
   }).join('');
 
   var isHeaderRow = function(r) {
@@ -5648,6 +5671,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
   if (previewDateStr && /ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i.test(cleanLessonTitle)) {
     cleanLessonTitle = cleanLessonTitle.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, isEnLesson ? ('Date: ' + previewDateStr) : ('Ngày thực hiện: ' + previewDateStr));
   }
+  cleanLessonTitle = (cleanLessonTitle || '').toUpperCase();
 
   // Deduplicate Period if already included in lesson title
   var periodText = les.period ? (isEnLesson && typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish ? IntegrationService.translateVnToEnglish(String(les.period)) : String(les.period)) : '';
@@ -5695,7 +5719,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       ${daySessionInfo}
       <h2 align="center" style="font-size: 14pt; font-weight: bold; margin: 0; text-transform: uppercase; text-align: center;">${titleHeader}</h2>
       <p align="center" style="font-size: 13pt; font-weight: bold; margin: 3pt 0 0 0; text-align: center;">${titleSubject}</p>
-      <p align="center" style="font-size: 14pt; font-weight: bold; color: #1e3a8a; margin: 4pt 0 0 0; text-align: center;">${cleanLessonTitle}</p>
+      <p align="center" style="font-size: 14pt; font-weight: bold; color: #1e3a8a; margin: 4pt 0 0 0; text-align: center; text-transform: uppercase;">${cleanLessonTitle}</p>
       ${periodText ? ('<p align="center" style="font-style: italic; margin: 2pt 0 0 0; text-align: center;">(' + periodText + ')</p>') : ''}
     </div>
 
