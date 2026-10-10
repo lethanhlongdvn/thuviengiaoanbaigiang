@@ -2903,6 +2903,9 @@ ${sampleJson}`;
 
   /**
    * Chèn nội dung GDĐP Trà Vinh vào YCCĐ bài dạy
+   * TUÂN THỦ NGHIÊM NGẶT 100% THEO KẾ HOẠCH GỐC ĐÃ DUYỆT (QĐ 2727/QĐ-BGDĐT):
+   * - Chỉ chèn khi đúng bài, đúng tuần, đúng môn trong kế hoạch (isExactMatch: true).
+   * - Tuyệt đối không chèn môn Toán, Tin học, GDTC, Tiếng Anh và các tuần không quy định.
    */
   injectGddpIntoLesson: function(lesson, gddpConfig) {
     if (!lesson) return lesson;
@@ -2913,9 +2916,12 @@ ${sampleJson}`;
     // 1. Luôn làm sạch GDĐP cũ trước (tính lũy đẳng)
     this.cleanGddpFromLesson(lesson);
 
-    // Không tự động chèn fallback GDĐP di tích/sản vật vào môn Thể dục (GDTC) khi không có bài phù hợp
-    var sKey = (lesson.subjectKey || '').toLowerCase();
-    if (sKey === 'gdtc') {
+    var rawSubj = lesson.subjectKey || lesson.subjectName || lesson.subject || '';
+    var sKey = this.normalizeSubjectKey(rawSubj).toLowerCase();
+
+    // TUÂN THỦ NGHIÊM NGẶT 100%: Môn không có trong Kế hoạch gốc -> Không chèn
+    var disallowedSubjects = ['toan', 'tin_hoc', 'gdtc', 'tieng_anh'];
+    if (disallowedSubjects.indexOf(sKey) !== -1) {
       return lesson;
     }
 
@@ -2927,10 +2933,13 @@ ${sampleJson}`;
 
     // 3. Tìm nội dung GDĐP Trà Vinh phù hợp từ GDDP_DATA
     var gddpItem = (typeof GDDP_DATA !== 'undefined' && GDDP_DATA.getTraVinhGddpForLesson)
-      ? GDDP_DATA.getTraVinhGddpForLesson(lesson.grade, lesson.subjectKey, lesson.week, lesson.lessonTitle || lesson.title)
+      ? GDDP_DATA.getTraVinhGddpForLesson(lesson.grade, sKey, lesson.week, lesson.lessonTitle || lesson.title)
       : null;
 
-    if (!gddpItem || !gddpItem.yccdText) return lesson;
+    // Bắt buộc phải có gddpItem, phải là khớp chính xác 100% (isExactMatch: true) và có yccdText
+    if (!gddpItem || !gddpItem.isExactMatch || !gddpItem.yccdText) {
+      return lesson;
+    }
 
     var gddpLine = gddpItem.yccdText.trim();
     if (!gddpLine.endsWith('.')) gddpLine += '.';
@@ -2970,28 +2979,34 @@ ${sampleJson}`;
 
   /**
    * Chèn nội dung hoạt động GDĐP Trà Vinh vào Bảng hoạt động Mục III
+   * TUÂN THỦ NGHIÊM NGẶT 100% THEO KẾ HOẠCH GỐC ĐÃ DUYỆT:
+   * - Chỉ chèn khi bài học khớp chính xác kế hoạch gốc (isExactMatch: true).
    */
   injectGddpActivitiesIntoTables: function(lesson, gddpConfig) {
     if (!lesson) return lesson;
-    if ((lesson.subjectKey || '').toLowerCase() === 'gdtc') {
-      this.cleanGddpFromTables(lesson);
+    this.cleanGddpFromTables(lesson);
+
+    var rawSubj = lesson.subjectKey || lesson.subjectName || lesson.subject || '';
+    var sKey = this.normalizeSubjectKey(rawSubj).toLowerCase();
+
+    // TUÂN THỦ NGHIÊM NGẶT 100%: Môn không có trong Kế hoạch gốc -> Dọn sạch và dừng lại
+    var disallowedSubjects = ['toan', 'tin_hoc', 'gdtc', 'tieng_anh'];
+    if (disallowedSubjects.indexOf(sKey) !== -1) {
       return lesson;
     }
+
     var cfg = this.resolveGddpSupport(gddpConfig);
     if (!cfg || !cfg.enabled || cfg.scope === 'yccd_only') {
-      this.cleanGddpFromTables(lesson);
       return lesson;
     }
 
     if (!Array.isArray(lesson.tables) || lesson.tables.length === 0) return lesson;
 
-    this.cleanGddpFromTables(lesson);
-
     var gddpItem = (typeof GDDP_DATA !== 'undefined' && GDDP_DATA.getTraVinhGddpForLesson)
-      ? GDDP_DATA.getTraVinhGddpForLesson(lesson.grade, lesson.subjectKey, lesson.week, lesson.lessonTitle || lesson.title)
+      ? GDDP_DATA.getTraVinhGddpForLesson(lesson.grade, sKey, lesson.week, lesson.lessonTitle || lesson.title)
       : null;
 
-    if (!gddpItem) return lesson;
+    if (!gddpItem || !gddpItem.isExactMatch) return lesson;
 
     var targetTable = lesson.tables[lesson.tables.length - 1];
     if (!Array.isArray(targetTable) || targetTable.length < 2) return lesson;

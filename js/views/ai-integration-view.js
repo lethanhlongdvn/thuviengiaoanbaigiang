@@ -206,8 +206,8 @@ function getIntegrationSubjectsForGrade(grade) {
   }
   subjs.push({ key: 'dao_duc', name: 'Đạo đức', icon: 'fa-heart' });
   subjs.push({ key: 'hdtn', name: 'Hoạt động trải nghiệm', icon: 'fa-compass' });
+  subjs.push({ key: 'tin_hoc', name: 'Tin học', icon: 'fa-laptop-code' });
   if (g >= 3) {
-    subjs.push({ key: 'tin_hoc', name: 'Tin học', icon: 'fa-laptop-code' });
     subjs.push({ key: 'cong_nghe', name: 'Công nghệ', icon: 'fa-microchip' });
   }
   if (g >= 1) {
@@ -895,14 +895,14 @@ function renderAiIntegrationView(container) {
               <div style="margin-bottom: 0.65rem; background: #ffffff; border: 1.5px solid #86efac; border-radius: 8px; padding: 0.55rem 0.65rem; box-shadow: 0 1px 3px rgba(22,163,74,0.06);">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
                   <span style="font-size: 0.74rem; font-weight: 800; color: #166534; display: flex; align-items: center; gap: 0.3rem;">
-                    <i class="fa-solid fa-book-bookmark" style="color: #16a34a;"></i> Dữ liệu GDĐP tỉnh Trà Vinh:
+                    <i class="fa-solid fa-shield-halved" style="color: #16a34a;"></i> Tuân thủ nghiêm ngặt 100% Kế hoạch gốc:
                   </span>
                   <span style="font-size: 0.66rem; font-weight: 800; background: #dcfce7; color: #15803d; padding: 1px 6px; border-radius: 4px; border: 1px solid #86efac;">
-                    133 chuyên đề chuẩn
+                    133 bài chuẩn QĐ 2727
                   </span>
                 </div>
                 <div style="font-size: 0.69rem; color: #334155; line-height: 1.35; margin-bottom: 0.45rem;">
-                  Hệ thống tự động tra cứu và tích hợp các nội dung GDĐP Trà Vinh: Ao Bà Om, Dừa sáp Cầu Kè, Bánh tét Trà Cuôn, Bún nước lèo, Lễ hội Ok Om Bok, Rừng đước Ba Động, Cồn Chim, Cù lao Long Trị... theo đúng Khối và Môn học.
+                  Hệ thống chỉ tích hợp chính xác vào đúng bài/tuần/môn được phê duyệt trong Kế hoạch gốc tỉnh Trà Vinh. Đã tắt bỏ hoàn toàn việc tự chèn sang môn Toán, Tin học, GDTC và các tuần không quy định để đảm bảo giáo án xuất ra chuẩn xác tuyệt đối khi nộp chuyên môn.
                 </div>
 
                 <!-- PHẠM VI TÍCH HỢP GDĐP: CẢ 2 PHẦN HOẶC CHỈ YCCD -->

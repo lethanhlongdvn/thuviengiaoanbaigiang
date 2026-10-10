@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xuất Kế Hoạch Bài Dạy Ghép Tuần - Thư Viện Giáo Viên</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Nunito:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --primary-dark: #0f172a;
+      --accent: #2563eb;
+      --success: #16a34a;
+      --warning: #f59e0b;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --radius: 12px;
+      --shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    }
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      color: white;
+      padding: 1rem 2rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    }
+    
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      text-decoration: none;
+      color: white;
+    }
+    
+    .brand-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #0284c7, #38bdf8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      box-shadow: 0 4px 12px rgba(2, 132, 199, 0.35);
+    }
+    
+    .brand-title {
+      font-size: 1.15rem;
+      font-weight: 800;
+      font-family: 'Nunito', sans-serif;
+    }
+    
+    .brand-sub {
+      font-size: 0.8rem;
+      opacity: 0.85;
+    }
+    
+    .btn-back {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    
+    .btn-back:hover {
+      background: rgba(255,255,255,0.15);
+    }
+    
+    main {
+      flex: 1;
+      max-width: 900px;
+      width: 100%;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    
+    .card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      padding: 2rem;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      margin-bottom: 1.5rem;
+    }
+    
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    
+    .card-desc {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
+    }
+    
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    
+    label {
+      display: block;
+      font-weight: 700;
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+      color: var(--text-main);
+    }
+    
+    .grade-selector {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.75rem;
+    }
+    
+    .grade-btn {
+      padding: 0.85rem;
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      background: white;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 1rem;
+      text-align: center;
+      transition: all 0.2s;
+      color: var(--text-main);
+    }
+    
+    .grade-btn:hover {
+      border-color: var(--accent);
+      background: #eff6ff;
+    }
+    
+    .grade-btn.active {
+      border-color: var(--accent);
+      background: #dbeafe;
+      color: var(--primary);
+    }
+    
+    .mode-selector {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      margin-top: 0.5rem;
+    }
+    
+    .mode-card {
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .mode-card:hover {
+      border-color: var(--accent);
+      background: #f8fafc;
+    }
+    
+    .mode-card.active {
+      border-color: var(--accent);
+      background: #eff6ff;
+    }
+    
+    .mode-title {
+      font-weight: 800;
+      font-size: 0.95rem;
+      margin-bottom: 0.35rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--primary);
+    }
+    
+    .mode-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+    
+    .sub-options {
+      margin-top: 1rem;
+      padding: 1rem;
+      background: #f1f5f9;
+      border-radius: 8px;
+    }
+    
+    .bundle-buttons {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    
+    .bundle-btn {
+      padding: 0.6rem 1.2rem;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      background: white;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+    }
+    
+    .bundle-btn.active {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+    
+    .range-inputs {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    
+    .range-inputs input {
+      width: 80px;
+      padding: 0.5rem 0.75rem;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      font-size: 1rem;
+      text-align: center;
+      font-weight: 700;
+    }
+    
+    .btn-submit {
+      width: 100%;
+      padding: 1rem;
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.05rem;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+    }
+    
+    .btn-submit:hover {
+      background: linear-gradient(135deg, #1d4ed8, #1e40af);
+      transform: translateY(-1px);
+    }
+    
+    .result-box {
+      display: none;
+      margin-top: 1.5rem;
+      padding: 1.25rem;
+      border-radius: 10px;
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+    }
+    
+    .result-title {
+      font-weight: 800;
+      color: var(--success);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .file-list {
+      list-style: none;
+      margin-bottom: 1rem;
+    }
+    
+    .file-item {
+      padding: 0.4rem 0;
+      font-size: 0.88rem;
+      color: #166534;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: monospace;
+    }
+    
+    .btn-open-folder {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      background: var(--success);
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.85rem;
+      cursor: pointer;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <div class="brand-icon">
+          <i class="fa-solid fa-file-word"></i>
+        </div>
+        <div>
+          <div class="brand-title">HỆ THỐNG XUẤT KẾ HOẠCH BÀI DẠY THEO TUẦN</div>
+          <div class="brand-sub">Chuẩn Công văn 2345/BGDĐT-GDTH • Trường Tiểu học Đỗ Văn Nại</div>
+        </div>
+      </a>
+      <a href="index.html" class="btn-back">
+        <i class="fa-solid fa-house"></i> Về Thư Viện
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div class="card">
+      <div class="card-title">
+        <i class="fa-solid fa-sliders"></i> Tùy Chọn Xuất Kế Hoạch Bài Dạy
+      </div>
+      <div class="card-desc">
+        Hệ thống tự động nối các tệp giáo án đã số hóa theo đúng phân phối chương trình, chèn ngắt trang (Page Break) và giữ nguyên toàn bộ định dạng bảng biểu, hình ảnh để nộp chuyên môn.
+      </div>
+
+      <!-- Chọn Khối Lớp -->
+      <div class="form-group">
+        <label><i class="fa-solid fa-graduation-cap"></i> 1. Chọn Khối Lớp:</label>
+        <div class="grade-selector">
+          <button type="button" class="grade-btn active" onclick="selectGrade(1)">Lớp 1</button>
+          <button type="button" class="grade-btn" onclick="selectGrade(2)">Lớp 2</button>
+          <button type="button" class="grade-btn" onclick="selectGrade(3)">Lớp 3</button>
+          <button type="button" class="grade-btn" onclick="selectGrade(4)">Lớp 4</button>
+          <button type="button" class="grade-btn" onclick="selectGrade(5)">Lớp 5</button>
+        </div>
+      </div>
+
+      <!-- Chọn Chế độ xuất -->
+      <div class="form-group">
+        <label><i class="fa-solid fa-layer-group"></i> 2. Chọn Chế Độ Ghép Tuần:</label>
+        <div class="mode-selector">
+          <div class="mode-card active" id="mode-bundle" onclick="selectMode('bundle')">
+            <div class="mode-title">
+              <i class="fa-solid fa-boxes-stacked"></i> Xuất Theo Gói Cố Định
+            </div>
+            <div class="mode-desc">
+              Tự động xuất toàn bộ năm học chia đều thành từng tệp 2 tuần, 3 tuần hoặc 4 tuần.
+            </div>
+          </div>
+
+          <div class="mode-card" id="mode-range" onclick="selectMode('range')">
+            <div class="mode-title">
+              <i class="fa-solid fa-calendar-days"></i> Xuất Khoảng Tuần Tùy Chọn
+            </div>
+            <div class="mode-desc">
+              Chỉ xuất một tệp ghép duy nhất từ tuần bắt đầu đến tuần kết thúc do thầy/cô chọn.
+            </div>
+          </div>
+        </div>
+
+        <!-- Tùy chọn chi tiết theo chế độ -->
+        <div class="sub-options" id="bundle-options">
+          <label style="margin-bottom: 0.4rem; font-size: 0.85rem;">Chọn kích thước gói tuần:</label>
+          <div class="bundle-buttons">
+            <button type="button" class="bundle-btn active" onclick="selectBundle(2)">Gói 2 Tuần (Tuần 1-2, 3-4,...)</button>
+            <button type="button" class="bundle-btn" onclick="selectBundle(3)">Gói 3 Tuần (Tuần 1-3, 4-6,...)</button>
+            <button type="button" class="bundle-btn" onclick="selectBundle(4)">Gói 4 Tuần (Tuần 1-4, 5-8,...)</button>
+          </div>
+        </div>
+
+        <div class="sub-options" id="range-options" style="display: none;">
+          <label style="margin-bottom: 0.4rem; font-size: 0.85rem;">Chọn khoảng tuần:</label>
+          <div class="range-inputs">
+            <span>Từ Tuần:</span>
+            <input type="number" id="start-week" min="1" max="35" value="1">
+            <span>Đến Tuần:</span>
+            <input type="number" id="end-week" min="1" max="35" value="2">
+          </div>
+        </div>
+      </div>
+
+      <!-- Nút Thực Hiện -->
+      <button type="button" class="btn-submit" onclick="startExport()">
+        <i class="fa-solid fa-file-export"></i> BẮT ĐẦU XUẤT FILE GIÁO ÁN
+      </button>
+
+      <!-- Hộp kết quả -->
+      <div class="result-box" id="result-box">
+        <div class="result-title">
+          <i class="fa-solid fa-circle-check"></i> Đã Xuất Thành Công!
+        </div>
+        <p style="font-size: 0.85rem; color: #15803d; margin-bottom: 0.5rem;" id="result-summary"></p>
+        <ul class="file-list" id="file-list"></ul>
+        <button type="button" class="btn-open-folder" onclick="openExportFolder()">
+          <i class="fa-solid fa-folder-open"></i> Mở Thư Mục Chứa File Đã Xuất (XUAT_GIAO_AN)
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    let currentGrade = 1;
+    let currentMode = 'bundle';
+    let currentBundle = 2;
+
+    function selectGrade(g) {
+      currentGrade = g;
+      document.querySelectorAll('.grade-btn').forEach((btn, idx) => {
+        btn.classList.toggle('active', idx + 1 === g);
+      });
+    }
+
+    function selectMode(m) {
+      currentMode = m;
+      document.getElementById('mode-bundle').classList.toggle('active', m === 'bundle');
+      document.getElementById('mode-range').classList.toggle('active', m === 'range');
+      
+      document.getElementById('bundle-options').style.display = m === 'bundle' ? 'block' : 'none';
+      document.getElementById('range-options').style.display = m === 'range' ? 'block' : 'none';
+    }
+
+    function selectBundle(b) {
+      currentBundle = b;
+      document.querySelectorAll('.bundle-btn').forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.innerText.includes(b + ' Tuần')) btn.classList.add('active');
+      });
+    }
+
+    async function startExport() {
+      const resultBox = document.getElementById('result-box');
+      resultBox.style.display = 'none';
+
+      let url = `/api/export?grade=${currentGrade}`;
+      if (currentMode === 'bundle') {
+        url += `&bundle=${currentBundle}`;
+      } else {
+        const startW = parseInt(document.getElementById('start-week').value) || 1;
+        const endW = parseInt(document.getElementById('end-week').value) || 2;
+        url += `&start=${startW}&end=${endW}`;
+      }
+
+      const submitBtn = document.querySelector('.btn-submit');
+      const originBtnHtml = submitBtn.innerHTML;
+      submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Đang ghép và xuất tài liệu...';
+      submitBtn.disabled = true;
+
+      try {
+        const response = await fetch(url);
+        const data = await response.json();
+        
+        if (data.success) {
+          resultBox.style.display = 'block';
+          document.getElementById('result-summary').innerText = `Đã xuất ${data.files.length} tệp cho Lớp ${data.grade}:`;
+          const list = document.getElementById('file-list');
+          list.innerHTML = '';
+          data.files.forEach(f => {
+            const li = document.createElement('li');
+            li.className = 'file-item';
+            li.innerHTML = `<i class="fa-solid fa-file-word"></i> ${f}`;
+            list.appendChild(li);
+          });
+        } else {
+          alert("Có lỗi xảy ra: " + (data.error || "Không thể xuất file"));
+        }
+      } catch (err) {
+        // Fallback: Nếu không chạy qua server API
+        alert("Thầy/cô có thể chạy tệp 'XUAT_GIAO_AN.bat' trên máy tính để thực hiện xuất file trực tiếp cực nhanh!");
+      } finally {
+        submitBtn.innerHTML = originBtnHtml;
+        submitBtn.disabled = false;
+      }
+    }
+
+    function openExportFolder() {
+      fetch('/api/open_folder').catch(() => {});
+    }
+  </script>
+</body>
+</html>

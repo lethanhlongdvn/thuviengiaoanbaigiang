@@ -2168,6 +2168,30 @@
       .trim();
   }
 
+  var GDDP_STOP_WORDS = {
+    'bai': true, 'tiet': true, 'chu': true, 'diem': true, 'tap': true,
+    'va': true, 'cua': true, 'trong': true, 'cac': true, 'nhung': true,
+    'mot': true, 'hai': true, 'ba': true, 'bon': true, 'nam': true,
+    'sau': true, 'bay': true, 'tam': true, 'chin': true, 'muoi': true,
+    'so': true, 'la': true, 'o': true, 'cho': true, 've': true,
+    'voi': true, 'theo': true, 'de': true, 'phan': true, 'tuan': true,
+    'quy': true, 'kntt': true, 'canh': true, 'dieu': true, 'chan': true, 'troi': true
+  };
+
+  function extractGddpTokens(s) {
+    var norm = normalizeStr(s);
+    if (!norm) return [];
+    var parts = norm.split(' ');
+    var res = [];
+    for (var i = 0; i < parts.length; i++) {
+      var w = parts[i];
+      if (w.length >= 2 && !GDDP_STOP_WORDS[w] && !/^\d+$/.test(w)) {
+        res.push(w);
+      }
+    }
+    return res;
+  }
+
   var GddpService = {
     provinces: [
       { id: 'tra_vinh', name: 'Tỉnh Trà Vinh', decision: 'QĐ 2727/QĐ-BGDĐT' }
@@ -2177,51 +2201,86 @@
 
     /**
      * Tìm kiếm nội dung GDĐP Trà Vinh phù hợp nhất cho 1 bài học
+     * TUÂN THỦ NGHIÊM NGẶT 100% THEO KẾ HOẠCH GỐC ĐÃ DUYỆT (QĐ 2727/QĐ-BGDĐT):
+     * - Chỉ tích hợp khi đúng Môn, đúng Bài/Tuần được phê duyệt trong Kế hoạch gốc.
+     * - TẮT BỎ HOÀN TOÀN FALLBACK: Tuyệt đối không tự chèn sang môn Toán, Tin học, GDTC hoặc các tuần không quy định.
      */
     getTraVinhGddpForLesson: function(grade, subjectKey, week, lessonTitle) {
       var g = parseInt(grade) || 5;
-      var sKey = (subjectKey || '').toLowerCase();
+      var sKey = (subjectKey || '').toLowerCase().trim();
       var w = parseInt(week) || 1;
-      var rawTitle = lessonTitle || '';
-      var normTitle = normalizeStr(rawTitle);
+      var rawTitle = (lessonTitle || '').trim();
 
-      // 1. Lọc theo Khối lớp và Môn học
+      // Chuẩn hóa môn học
+      var sNorm = sKey;
+      if (sNorm === 'mi_thuat') sNorm = 'my_thuat';
+      if (sNorm === 'tv') sNorm = 'tieng_viet';
+      if (sNorm === 'lsdl' || sNorm === 'ls_dl' || sNorm === 'su_dia') sNorm = 'lich_su_dia_ly';
+      if (sNorm === 'kh') sNorm = 'khoa_hoc';
+      if (sNorm === 'dd') sNorm = 'dao_duc';
+      if (sNorm === 'cn') sNorm = 'cong_nghe';
+      if (sNorm === 'an') sNorm = 'am_nhac';
+
+      // 1. Kiểm tra danh mục môn học được phép lồng ghép theo Kế hoạch gốc GDĐP tỉnh Trà Vinh
+      // Môn Toán, Tin học, Thể dục (GDTC), Tiếng Anh KHÔNG CÓ trong kế hoạch -> Lập tức trả về null
+      var ALLOWED_GDDP_SUBJECTS = [
+        'tnxh', 'tieng_viet', 'dao_duc', 'hdtn', 'my_thuat', 'am_nhac', 'cong_nghe', 'khoa_hoc', 'lich_su_dia_ly'
+      ];
+      if (ALLOWED_GDDP_SUBJECTS.indexOf(sNorm) === -1) {
+        return null;
+      }
+
+      // 2. Lọc danh sách bài được phê duyệt theo đúng Khối lớp và Môn học
       var candidates = GDDP_TRA_VINH_ITEMS.filter(function(it) {
         if (it.grade !== g) return false;
-        if (it.subjectKey !== sKey) {
-          if ((sKey === 'tnxh' || sKey === 'khoa_hoc' || sKey === 'lich_su_dia_ly') &&
-              (it.subjectKey === 'tnxh' || it.subjectKey === 'khoa_hoc' || it.subjectKey === 'lich_su_dia_ly')) {
-            // Cho phép xem xét linh hoạt
-          } else {
-            return false;
-          }
-        }
-        return true;
+        var itSubj = (it.subjectKey === 'mi_thuat') ? 'my_thuat' : it.subjectKey;
+        return itSubj === sNorm;
       });
 
-      // 2. Ưu tiên 1: Khớp chính xác cả Tuần và Tên bài học
+      if (candidates.length === 0) {
+        return null;
+      }
+
+      var userTokens = extractGddpTokens(rawTitle);
+      var userTokenSet = {};
+      userTokens.forEach(function(tok) { userTokenSet[tok] = true; });
+      var normRawTitle = normalizeStr(rawTitle);
+
       var bestItem = null;
       var bestScore = 0;
 
       for (var i = 0; i < candidates.length; i++) {
         var it = candidates[i];
-        var score = 0;
-        var hasWeek = (it.weeks || []).indexOf(w) !== -1;
-        if (hasWeek) score += 50;
-
+        var itTokens = extractGddpTokens(it.lessonTitle);
         var itNormTitle = normalizeStr(it.lessonTitle);
-        var words = itNormTitle.split(' ').filter(function(wd) {
-          return wd.length >= 3 && !['bai', 'tiet', 'chu', 'diem', 'tap'].includes(wd);
-        });
 
-        var matchedWords = 0;
-        words.forEach(function(wd) {
-          if (normTitle.indexOf(wd) !== -1) matchedWords++;
-        });
+        var hasWeek = (it.weeks || []).indexOf(w) !== -1;
 
-        if (words.length > 0) {
-          var titleMatchRatio = matchedWords / words.length;
-          score += titleMatchRatio * 50;
+        // Đếm số token trùng khớp theo từng từ nguyên vẹn (tránh match substring nhầm)
+        var matchedCount = 0;
+        for (var j = 0; j < itTokens.length; j++) {
+          if (userTokenSet[itTokens[j]]) {
+            matchedCount++;
+          }
+        }
+
+        var matchRatio = itTokens.length > 0 ? (matchedCount / itTokens.length) : 0;
+
+        // Kiểm tra chuỗi con chứa nhau nếu tiêu đề đủ dài
+        var isSubstring = (normRawTitle.length >= 8 && itNormTitle.indexOf(normRawTitle) !== -1) ||
+                          (itNormTitle.length >= 8 && normRawTitle.indexOf(itNormTitle) !== -1);
+
+        var score = 0;
+        if (hasWeek) {
+          // Đúng tuần: Bắt buộc phải có sự liên quan về nội dung bài học
+          if (matchedCount >= 2 || matchRatio >= 0.25 || isSubstring) {
+            score = 60 + (matchRatio * 40);
+          }
+        } else {
+          // Khác tuần: Chỉ chấp nhận nếu tiêu đề trùng khớp rất cao (dịch chuyển tuần dạy thực tế)
+          if ((matchedCount >= 3 && matchRatio >= 0.6) || (isSubstring && matchRatio >= 0.5)) {
+            score = matchRatio * 50;
+          }
         }
 
         if (score > bestScore) {
@@ -2230,8 +2289,8 @@
         }
       }
 
-      // Nếu điểm số đủ tốt (>= 35)
-      if (bestItem && bestScore >= 35) {
+      // Chỉ chấp nhận khi khớp bài học chính xác trong Kế hoạch gốc đã phê duyệt (Score >= 40)
+      if (bestItem && bestScore >= 40) {
         return {
           id: bestItem.id,
           topic: bestItem.topic,
@@ -2239,32 +2298,13 @@
           activityTitle: bestItem.activityTitle,
           teacherAct: bestItem.teacherAct,
           studentAct: bestItem.studentAct,
-          isExactMatch: true
+          isExactMatch: true,
+          score: bestScore
         };
       }
 
-      // 3. Fallback chuyên biệt theo môn và khối lớp của tỉnh Trà Vinh
-      var fallback = null;
-      if (GDDP_FALLBACK_THEMES[sKey]) {
-        fallback = GDDP_FALLBACK_THEMES[sKey][g] || GDDP_FALLBACK_THEMES[sKey].default;
-      }
-      if (!fallback) {
-        // Môn GDTC (thể dục) nếu không có bài tích hợp chuyên biệt thì KHÔNG dùng fallback danh lam thắng cảnh / sản vật
-        if (sKey === 'gdtc') {
-          return null;
-        }
-        fallback = GDDP_FALLBACK_THEMES.general.default;
-      }
-
-      return {
-        id: 'gddp_tv_fallback_' + g + '_' + sKey,
-        topic: fallback.topic,
-        yccdText: fallback.yccd,
-        activityTitle: 'Hoạt động liên hệ thực tế Giáo dục địa phương tỉnh Trà Vinh',
-        teacherAct: fallback.teacherAct,
-        studentAct: fallback.studentAct,
-        isExactMatch: false
-      };
+      // TUÂN THỦ NGHIÊM NGẶT 100%: Tuyệt đối không fallback tự tạo cho các tuần/môn không quy định
+      return null;
     }
   };
 

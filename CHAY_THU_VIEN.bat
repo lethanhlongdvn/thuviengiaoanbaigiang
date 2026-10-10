@@ -9,5 +9,5 @@ echo Website đang chạy tại địa chỉ: http://localhost:8000
 echo Nhấn Ctrl + C để dừng website khi không sử dụng.
 echo.
 start http://localhost:8000
-python -m http.server 8000
+python tools\server_export.py
 pause

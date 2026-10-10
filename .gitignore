@@ -28,3 +28,5 @@ real_drive_cache.json
 *.original_bak
 TÀI LIỆU PHỤC VỤ RA ĐỀ ĐỌC HIỂU VÀ ĐỌC TRẢ LỜI CÂU HỎI MÔN TIẾNG VIỆT/
 scratch/
+__pycache__/
+*.pyc
