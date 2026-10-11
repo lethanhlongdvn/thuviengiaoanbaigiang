@@ -910,6 +910,22 @@ var IntegrationService = {
       rawTitle = lessonObj.lessonTitle || lessonObj.title || '';
     }
     var t = (rawTitle && typeof rawTitle === 'string') ? rawTitle : '';
+
+    var effSubjName = subjectName || (lessonObj && (lessonObj.subjectName || (typeof IntegrationService !== 'undefined' && lessonObj.subjectKey ? IntegrationService.getSubjectDisplayName(lessonObj.subjectKey) : ''))) || (typeof integrationState !== 'undefined' && integrationState.subjectKey && typeof IntegrationService !== 'undefined' ? IntegrationService.getSubjectDisplayName(integrationState.subjectKey) : '') || '';
+
+    // Loại bỏ tiền tố rác kiểu "MÔN: ... LỚP ... BỘ SÁCH: ... - " nếu có
+    t = t.replace(/^MÔN:\s*[^–—-]+[-–—]\s*(?:LỚP\s*\d+\s*[-–—]\s*)?(?:BỘ SÁCH:[^–—-]+[-–—]\s*)?/i, '').trim();
+
+    // Loại bỏ tiền tố tên môn học thừa ở đầu tiêu đề bài dạy (ví dụ: "Lịch sử và địa lí - ...", "Tiếng Việt - ...", "Đạo đức - ...")
+    var commonSubjRegex = /^(?:MÔN\s*:\s*)?(?:Lịch sử và [Đđ]ịa l[íy]|LỊCH SỬ VÀ ĐỊA LÍ|Lịch sử - Địa lí|LS&ĐL|LSĐL|Địa lí|Lịch sử|Tiếng Việt|Toán|Khoa học|[Đđ]ạo đức|Tin học|Âm nhạc|AM NHẠC|M[ĩỹ] thuật|Mỹ thuật|Công nghệ|Giáo dục thể chất|GDTC|Hoạt động trải nghiệm|HĐTN|Tự nhiên và Xã hội|TNXH|Tiếng Anh|English)\s*[-–—:]\s*/i;
+    t = t.replace(commonSubjRegex, '').trim();
+
+    if (effSubjName) {
+      var escSubj = effSubjName.replace(/[.*+?^$()|[\]\\]/g, '\\$&');
+      t = t.replace(new RegExp('^(?:MÔN\\s*:\\s*)?' + escSubj + '\\s*[-–—:]\\s*', 'i'), '').trim();
+    }
+
+    // Loại bỏ tiền tố Tuần
     t = t
       .replace(/^TUẦN\s*:\s*\d+\s*[-–—:]\s*/i, '')
       .replace(/^TUẦN\s+\d+\s*[-–—:]\s*/i, '')
@@ -917,14 +933,20 @@ var IntegrationService = {
       .replace(/^Tuần\s+\d+\s*[-–—:]\s*/i, '')
       .trim();
 
+    // Loại bỏ tiền tố Tiết PPCT thừa nếu có Bài... hoặc Chủ đề... đi kèm (ví dụ: "Tiết 17 - Bài 8: ..." -> "Bài 8: ...")
+    t = t.replace(/^TIẾT\s*\d+\s*[-–—:]\s*(?=(?:Bài|Chủ đề)\b)/i, '').trim();
+
+    // Khử lặp tiêu đề dạng "BÀI X: ... - BÀI X: ... (TIẾT Y)"
+    var dupeMatch = t.match(/^(.+?)\s*[-–—]\s*\1(?:\s*\((.+?)\))?$/i);
+    if (dupeMatch) {
+      t = dupeMatch[2] ? (dupeMatch[1].trim() + ' (' + dupeMatch[2].trim() + ')') : dupeMatch[1].trim();
+    }
+
     // Loại bỏ các đoạn chấm lửng/gạch ngang thừa ở đầu (placeholder từ file mẫu)
     t = t.replace(/^(?:[.…\s_–—-]{3,}\s*[-–—:]*\s*)+/g, '');
 
     // Loại bỏ tiền tố (X tiết) ở đầu
     t = t.replace(/^\s*\(\d+\s*tiết\)\s*[-–—\s]*/gi, '');
-
-    // Loại bỏ tiền tố rác kiểu "MÔN: ... LỚP ... BỘ SÁCH: ... - " nếu có
-    t = t.replace(/^MÔN:\s*[^–—-]+[-–—]\s*(?:LỚP\s*\d+\s*[-–—]\s*)?(?:BỘ SÁCH:[^–—-]+[-–—]\s*)?/i, '').trim();
 
     // Loại bỏ cụm ghi chú học sinh khuyết tật / hòa nhập nếu có dính vào tiêu đề
     t = t.replace(/\(?[\s*•-]*HỌC\s*SINH\s*(?:KHUYẾT\s*TẬT|HÒA\s*NHẬP)[^\)\n]*\)?/gi, ' ');
@@ -959,7 +981,7 @@ var IntegrationService = {
 
     // KIỂM TRA TIÊU ĐỀ RỖNG / GENERIC / TRÙNG TÊN MÔN VÀ TỰ ĐỘNG BÙ ĐẮP THÔNG MINH
     var normT = t.replace(/[\s\-_–—:]+/g, ' ').toUpperCase().trim();
-    var normSubj = (subjectName || '').replace(/[\s\-_–—:]+/g, ' ').toUpperCase().trim();
+    var normSubj = (effSubjName || subjectName || '').replace(/[\s\-_–—:]+/g, ' ').toUpperCase().trim();
 
     var isGeneric = !normT ||
       normT === 'BÀI DẠY' ||

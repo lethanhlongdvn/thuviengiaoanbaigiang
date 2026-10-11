@@ -5032,8 +5032,9 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
     return '<div style="text-align: center; padding: 2rem;">Chưa có dữ liệu bài dạy.</div>';
   }
   if (typeof IntegrationService !== 'undefined' && IntegrationService.cleanLessonTitle) {
-    if (les.title) les.title = IntegrationService.cleanLessonTitle(les.title, les, les.subjectName);
-    if (les.lessonTitle) les.lessonTitle = IntegrationService.cleanLessonTitle(les.lessonTitle, les, les.subjectName);
+    var effSubj = les.subjectName || (typeof integrationState !== 'undefined' && integrationState.subjectKey && IntegrationService.getSubjectDisplayName ? IntegrationService.getSubjectDisplayName(integrationState.subjectKey) : '') || '';
+    if (les.title) les.title = IntegrationService.cleanLessonTitle(les.title, les, effSubj);
+    if (les.lessonTitle) les.lessonTitle = IntegrationService.cleanLessonTitle(les.lessonTitle, les, effSubj);
   }
   if (!les.title && les.lessonTitle) {
     les.title = les.lessonTitle;
@@ -5652,10 +5653,13 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
   var cleanLessonTitle = (typeof IntegrationService !== 'undefined' && IntegrationService.cleanLessonTitle)
     ? IntegrationService.cleanLessonTitle(rawTitle, les, subjName)
     : rawTitle
+        .replace(/^MÔN:\s*[^–—-]+[-–—]\s*(?:LỚP\s*\d+\s*[-–—]\s*)?(?:BỘ SÁCH:[^–—-]+[-–—]\s*)?/i, '')
+        .replace(/^(?:MÔN\s*:\s*)?(?:Lịch sử và [Đđ]ịa l[íy]|LỊCH SỬ VÀ ĐỊA LÍ|Lịch sử - Địa lí|LS&ĐL|LSĐL|Địa lí|Lịch sử|Tiếng Việt|Toán|Khoa học|[Đđ]ạo đức|Tin học|Âm nhạc|AM NHẠC|M[ĩỹ] thuật|Mỹ thuật|Công nghệ|Giáo dục thể chất|GDTC|Hoạt động trải nghiệm|HĐTN|Tự nhiên và Xã hội|TNXH|Tiếng Anh|English)\s*[-–—:]\s*/i, '')
         .replace(/^TUẦN\s*:\s*\d+\s*[-–—:]\s*/i, '')
         .replace(/^TUẦN\s+\d+\s*[-–—:]\s*/i, '')
         .replace(/^Tuần\s*:\s*\d+\s*[-–—:]\s*/i, '')
         .replace(/^Tuần\s+\d+\s*[-–—:]\s*/i, '')
+        .replace(/^TIẾT\s*\d+\s*[-–—:]\s*(?=(?:Bài|Chủ đề)\b)/i, '')
         .trim();
 
   if (isEnLesson && typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish) {

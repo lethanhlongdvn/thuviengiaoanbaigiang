@@ -14,7 +14,7 @@
     "sourceFile": "LSĐL TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "Lịch sử và Địa lí - Tuần 1 - Tiết 1 - BÀI 1: LÀM QUEN VỚI PHƯƠNG TIỆN HỌC TẬP MÔN LỊCH SỬ VÀ ĐỊA LÍ - Tiết 1",
+        "lessonTitle": "BÀI 1: LÀM QUEN VỚI PHƯƠNG TIỆN HỌC TẬP MÔN LỊCH SỬ VÀ ĐỊA LÍ (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -267,7 +267,7 @@
         ]
       },
       {
-        "lessonTitle": "Lịch sử và Địa lí - Tuần 1 - Tiết 2 - BÀI 1: LÀM QUEN VỚI PHƯƠNG TIỆN HỌC TẬP MÔN LỊCH SỬ VÀ ĐỊA LÍ - Tiết 2",
+        "lessonTitle": "BÀI 1: LÀM QUEN VỚI PHƯƠNG TIỆN HỌC TẬP MÔN LỊCH SỬ VÀ ĐỊA LÍ (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -458,7 +458,7 @@
     "sourceFile": "LSĐL TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "Lịch sử và Địa lí - Tuần 2 - Tiết 3 - BÀI 2: THIÊN NHIÊN VÀ CON NGƯỜI Ở ĐỊA PHƯƠNG EM (Tiết 1)",
+        "lessonTitle": "BÀI 2: THIÊN NHIÊN VÀ CON NGƯỜI Ở ĐỊA PHƯƠNG EM (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -637,7 +637,7 @@
         ]
       },
       {
-        "lessonTitle": "Lịch sử và Địa lí - Tuần 2 - Tiết 4 - BÀI 2: THIÊN NHIÊN VÀ CON NGƯỜI Ở ĐỊA PHƯƠNG EM (Tiết 2)",
+        "lessonTitle": "BÀI 2: THIÊN NHIÊN VÀ CON NGƯỜI Ở ĐỊA PHƯƠNG EM (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -807,7 +807,7 @@
     "sourceFile": "LSĐL TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Lịch sử và Địa lí - Bài 3: LỊCH SỬ VÀ VĂN HÓA TRUYỀN THỐNG ĐỊA PHƯƠNG EM - Tiết 1",
+        "lessonTitle": "BÀI 3: LỊCH SỬ VÀ VĂN HÓA TRUYỀN THỐNG ĐỊA PHƯƠNG EM (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -961,7 +961,7 @@
         ]
       },
       {
-        "lessonTitle": "Lịch sử và Địa lí - Bài 3: LỊCH SỬ VÀ VĂN HÓA TRUYỀN THỐNG ĐỊA PHƯƠNG EM - Tiết 2",
+        "lessonTitle": "BÀI 3: LỊCH SỬ VÀ VĂN HÓA TRUYỀN THỐNG ĐỊA PHƯƠNG EM (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1116,7 +1116,7 @@
     "sourceFile": "LSĐL TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "Lịch sử và địa lí - Tuần 4 - Tiết 7 - Bài 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 1)",
+        "lessonTitle": "BÀI 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1315,7 +1315,7 @@
         ]
       },
       {
-        "lessonTitle": "Lịch sử và địa lí - Tuần 4 - Tiết 8 - Bài 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)",
+        "lessonTitle": "BÀI 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1508,7 +1508,7 @@
     "sourceFile": "LSĐL TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Lịch sử và Địa lí - Tuần 5 - Tiết 9 - Bài 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 3)",
+        "lessonTitle": "BÀI 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (TIẾT 3)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1677,7 +1677,7 @@
         ]
       },
       {
-        "lessonTitle": "Lịch sử và Địa lí - Tuần 5 - Tiết 10 - Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 1)",
+        "lessonTitle": "BÀI 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1818,7 +1818,7 @@
     "sourceFile": "LSĐL TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "Lịch sử và Địa lí - Tuần 6 - Tiết 11 - Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)",
+        "lessonTitle": "BÀI 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1948,7 +1948,7 @@
         ]
       },
       {
-        "lessonTitle": "Lịch sử và Địa lí - Tuần 6 - Tiết 12 - Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 3)",
+        "lessonTitle": "BÀI 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (TIẾT 3)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2069,7 +2069,7 @@
     "sourceFile": "LSĐL  TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "LỊCH SỬ VÀ ĐỊA LÍ - TUẦN 7 - TIẾT 13 - Bài 6: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 1)",
+        "lessonTitle": "TUẦN 7 (TIẾT 13) - BÀI 6: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2223,7 +2223,7 @@
         ]
       },
       {
-        "lessonTitle": "Lịch sử và địa lí - Tuần 7 - Tiết 14 - Bài 6: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)",
+        "lessonTitle": "BÀI 6: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2384,7 +2384,7 @@
     "sourceFile": "LSĐL TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "Lịch sử và địa lí - Tuần 8 - Tiết 15 - Bài 7: ĐỀN HÙNG VÀ LỄ GIỖ TỔ HÙNG VƯƠNG (Tiết 1)",
+        "lessonTitle": "BÀI 7: ĐỀN HÙNG VÀ LỄ GIỖ TỔ HÙNG VƯƠNG (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2542,7 +2542,7 @@
         ]
       },
       {
-        "lessonTitle": "Lịch sử và địa lí - Tuần 8 - Tiết 16 - Bài 7: ĐỀN HÙNG VÀ LỄ GIỖ TỔ HÙNG VƯƠNG (Tiết 2)",
+        "lessonTitle": "BÀI 7: ĐỀN HÙNG VÀ LỄ GIỖ TỔ HÙNG VƯƠNG (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2682,7 +2682,7 @@
     "sourceFile": "LSĐL TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "Lịch sử và địa lí - Tuần 9 - Tiết 17 - Bài 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 1)",
+        "lessonTitle": "BÀI 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2872,7 +2872,7 @@
         ]
       },
       {
-        "lessonTitle": "Lịch sử và địa lí - Tuần 9 - Tiết 18 - Bài 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)",
+        "lessonTitle": "BÀI 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2997,7 +2997,7 @@
     "sourceFile": "LSĐL TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "Lịch sử và địa lí - Tuần 10 - Tiết 19 - Bài 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 3)",
+        "lessonTitle": "BÀI 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (TIẾT 3)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3118,7 +3118,7 @@
         ]
       },
       {
-        "lessonTitle": "Lịch sử và địa lí - Tuần 10 - Tiết 20 - Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 1)",
+        "lessonTitle": "BÀI 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3252,7 +3252,7 @@
     "sourceFile": "LSĐL TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "Lịch sử và địa lí - Tuần 11 - Tiết 21 - Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)",
+        "lessonTitle": "BÀI 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3376,7 +3376,7 @@
         ]
       },
       {
-        "lessonTitle": "Lịch sử và địa lí - Tuần 11 - Tiết 22 - Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 3)",
+        "lessonTitle": "BÀI 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (TIẾT 3)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3492,7 +3492,7 @@
     "sourceFile": "LSĐL TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "Lịch sử và địa lí - Tuần 12 - Tiết 23 - Bài 10: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 1)",
+        "lessonTitle": "BÀI 10: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG ĐỒNG BẰNG BẮC BỘ (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3617,7 +3617,7 @@
         ]
       },
       {
-        "lessonTitle": "Lịch sử và địa lí - Tuần 12 - Tiết 24 - Bài 10: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)",
+        "lessonTitle": "BÀI 10: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG ĐỒNG BẰNG BẮC BỘ (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3757,7 +3757,7 @@
     "sourceFile": "LSĐL TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "Lịch sử và địa lí - Tuần 13 - Tiết 25 - Bài 11: SÔNG HỒNG VÀ VĂN MINH SÔNG HỒNG (Tiết 1)",
+        "lessonTitle": "BÀI 11: SÔNG HỒNG VÀ VĂN MINH SÔNG HỒNG (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3895,7 +3895,7 @@
         ]
       },
       {
-        "lessonTitle": "Lịch sử và địa lí - Tuần 13 - Tiết 26 - Bài 11: SÔNG HỒNG VÀ VĂN MINH SÔNG HỒNG (Tiết 2)",
+        "lessonTitle": "BÀI 11: SÔNG HỒNG VÀ VĂN MINH SÔNG HỒNG (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4034,7 +4034,7 @@
     "sourceFile": "LSĐL TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "Lịch sử và Địa lí - Tuần 14 - Tiết 27 - Bài 12: THĂNG LONG – HÀ NỘI (Tiết 1)",
+        "lessonTitle": "BÀI 12: THĂNG LONG – HÀ NỘI (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4160,7 +4160,7 @@
         ]
       },
       {
-        "lessonTitle": "Lịch sử và Địa lí - Tuần 14 - Tiết 28 - Bài 12: THĂNG LONG – HÀ NỘI (Tiết 2)",
+        "lessonTitle": "BÀI 12: THĂNG LONG – HÀ NỘI (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4277,7 +4277,7 @@
     "sourceFile": "LSĐL TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "Lịch sử và Địa lí - Tuần 15 - Tiết 29 - Bài 12: THĂNG LONG - HÀ NỘI (Tiết 3)",
+        "lessonTitle": "BÀI 12: THĂNG LONG - HÀ NỘI (TIẾT 3)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4383,7 +4383,7 @@
         ]
       },
       {
-        "lessonTitle": "Lịch sử và Địa lí - Tuần 15 - Tiết 30 - Bài 13: VĂN MIẾU - QUỐC TỬ GIÁM (Tiết 1)",
+        "lessonTitle": "BÀI 13: VĂN MIẾU - QUỐC TỬ GIÁM (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4495,7 +4495,7 @@
     "sourceFile": "LSĐL TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "Lịch sử và Địa lí - Tuần 16 - Tiết 31 - Bài 13: VĂN MIẾU - QUỐC TỬ GIÁM (Tiết 2)",
+        "lessonTitle": "BÀI 13: VĂN MIẾU - QUỐC TỬ GIÁM (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4593,7 +4593,7 @@
         ]
       },
       {
-        "lessonTitle": "Lịch sử và Địa lí - Tuần 16 - Tiết 32 - Bài 14: ÔN TẬP",
+        "lessonTitle": "BÀI 14: ÔN TẬP",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4970,7 +4970,7 @@
         ]
       },
       {
-        "lessonTitle": "────────────────────────────────────────",
+        "lessonTitle": "BÀI 15: THIÊN NHIÊN VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5586,7 +5586,7 @@
     "sourceFile": "LSĐL TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ - BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 1)",
+        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5665,7 +5665,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ - BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 2)",
+        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5751,7 +5751,7 @@
     "sourceFile": "LSĐL TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ - BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 3)",
+        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 3)",
         "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5834,7 +5834,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ - BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 4)",
+        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 4)",
         "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
         "yccd": [
           "1. Năng lực đặc thù",

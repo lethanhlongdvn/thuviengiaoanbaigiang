@@ -20146,7 +20146,7 @@
     "sourceFile": "TV TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾNG VIỆT - ÔN TẬP GIỮA HỌC KÌ II (Tiết 1 + 2)",
+        "lessonTitle": "ÔN TẬP GIỮA HỌC KÌ II (Tiết 1 + 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù.",
@@ -20247,7 +20247,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - ÔN TẬP GIỮA HỌC KÌ II (Tiết 3 + 4)",
+        "lessonTitle": "ÔN TẬP GIỮA HỌC KÌ II (Tiết 3 + 4)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù.",
@@ -20342,7 +20342,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - ÔN TẬP GIỮA HỌC KÌ II (Tiết 5)",
+        "lessonTitle": "ÔN TẬP GIỮA HỌC KÌ II (Tiết 5)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù.",
@@ -20416,7 +20416,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - ÔN TẬP GIỮA HỌC KÌ II (Tiết 6 + 7)",
+        "lessonTitle": "ÔN TẬP GIỮA HỌC KÌ II (Tiết 6 + 7)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù.",
@@ -20517,7 +20517,7 @@
     "sourceFile": "TV TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾNG VIỆT - Bài 17: ĐẤT NƯỚC LÀ GÌ? - Tiết 1: Đọc - Đọc văn bản, đọc hiểu câu 1, 2",
+        "lessonTitle": "Bài 17: ĐẤT NƯỚC LÀ GÌ? - Tiết 1: Đọc - Đọc văn bản, đọc hiểu câu 1, 2",
         "topic": "CHỦ ĐIỂM: ĐẤT NƯỚC NGÀN NĂM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -20639,7 +20639,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - Bài 17: ĐẤT NƯỚC LÀ GÌ? - Tiết 2: Đọc hiểu câu 3, 4 - Luyện đọc lại - Nói và nghe: Cảnh đẹp đất nước",
+        "lessonTitle": "Bài 17: ĐẤT NƯỚC LÀ GÌ? - Tiết 2: Đọc hiểu câu 3, 4 - Luyện đọc lại - Nói và nghe: Cảnh đẹp đất nước",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -20782,7 +20782,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - Tiết 3: Viết - Nghe - viết: BẢN EM",
+        "lessonTitle": "Tiết 3: Viết - Nghe - viết: BẢN EM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -20895,7 +20895,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - Bài 18: NÚI QUÊ TÔI - Tiết 1: Đọc - Đọc văn bản, đọc hiểu câu 1, 2",
+        "lessonTitle": "Bài 18: NÚI QUÊ TÔI - Tiết 1: Đọc - Đọc văn bản, đọc hiểu câu 1, 2",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -21005,7 +21005,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - Bài 18: NÚI QUÊ TÔI - Tiết 2: Đọc hiểu câu 3, 4, 5 - Luyện đọc lại - Ôn chữ hoa V, X",
+        "lessonTitle": "Bài 18: NÚI QUÊ TÔI - Tiết 2: Đọc hiểu câu 3, 4, 5 - Luyện đọc lại - Ôn chữ hoa V, X",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -21130,7 +21130,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - Bài 18: NÚI QUÊ TÔI - Tiết 3: Luyện tập - Từ ngữ có nghĩa giống nhau. So sánh",
+        "lessonTitle": "Bài 18: NÚI QUÊ TÔI - Tiết 3: Luyện tập - Từ ngữ có nghĩa giống nhau. So sánh",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -21239,7 +21239,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - Bài 18: NÚI QUÊ TÔI - Tiết 4: Luyện tập - Viết đoạn văn nêu tình cảm, cảm xúc về một cảnh đẹp của đất nước",
+        "lessonTitle": "Bài 18: NÚI QUÊ TÔI - Tiết 4: Luyện tập - Viết đoạn văn nêu tình cảm, cảm xúc về một cảnh đẹp của đất nước",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -21355,7 +21355,7 @@
     "sourceFile": "TV TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾNG VIỆT - Bài 19: SÔNG HƯƠNG",
+        "lessonTitle": "Bài 19: SÔNG HƯƠNG",
         "topic": "CHỦ ĐỀ 4: ĐẤT NƯỚC NGÀN NĂM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -21700,7 +21700,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - Nghe - viết: CHỢ HÒN GAI (Tiết 3)",
+        "lessonTitle": "Nghe - viết: CHỢ HÒN GAI (Tiết 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -21900,7 +21900,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - Bài 20: TIẾNG NƯỚC MÌNH",
+        "lessonTitle": "Bài 20: TIẾNG NƯỚC MÌNH",
         "topic": "CHỦ ĐỀ 4: ĐẤT NƯỚC NGÀN NĂM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -22209,7 +22209,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - LUYỆN TỪ VÀ CÂU (Tiết 3)",
+        "lessonTitle": "LUYỆN TỪ VÀ CÂU (Tiết 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -22385,7 +22385,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - LUYỆN VIẾT ĐOẠN (Tiết 4)",
+        "lessonTitle": "LUYỆN VIẾT ĐOẠN (Tiết 4)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -24261,7 +24261,7 @@
     "sourceFile": "TV TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾNG VIỆT - Bài 26: NGỌN LỬA Ô-LIM-PÍCH",
+        "lessonTitle": "Bài 26: NGỌN LỬA Ô-LIM-PÍCH",
         "topic": "CHỦ ĐIỂM: TRÁI ĐẤT CỦA CHÚNG MÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -24420,7 +24420,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - Bài 26: NGỌN LỬA Ô-LIM-PÍCH",
+        "lessonTitle": "Bài 26: NGỌN LỬA Ô-LIM-PÍCH",
         "topic": "CHỦ ĐIỂM: TRÁI ĐẤT CỦA CHÚNG MÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -24578,7 +24578,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - NGHE - VIẾT: NGỌN LỬA Ô-LIM-PÍCH - TIẾT 3",
+        "lessonTitle": "NGHE - VIẾT: NGỌN LỬA Ô-LIM-PÍCH - TIẾT 3",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -24740,7 +24740,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - Bài 27: RÔ-BỐT Ở QUANH TA",
+        "lessonTitle": "Bài 27: RÔ-BỐT Ở QUANH TA",
         "topic": "CHỦ ĐIỂM: TRÁI ĐẤT CỦA CHÚNG MÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -24903,7 +24903,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - Bài 27: RÔ-BỐT Ở QUANH TA",
+        "lessonTitle": "Bài 27: RÔ-BỐT Ở QUANH TA",
         "topic": "CHỦ ĐIỂM: TRÁI ĐẤT CỦA CHÚNG MÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -25055,7 +25055,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - LUYỆN TỪ VÀ CÂU - DẤU HAI CHẤM - CÂU HỎI “ĐỂ LÀM GÌ?” - TIẾT 3",
+        "lessonTitle": "LUYỆN TỪ VÀ CÂU - DẤU HAI CHẤM - CÂU HỎI “ĐỂ LÀM GÌ?” - TIẾT 3",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -25237,7 +25237,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - LUYỆN VIẾT ĐOẠN - VIẾT BẢN TIN NGẮN - ĐỌC MỞ RỘNG - TIẾT 4",
+        "lessonTitle": "LUYỆN VIẾT ĐOẠN - VIẾT BẢN TIN NGẮN - ĐỌC MỞ RỘNG - TIẾT 4",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",

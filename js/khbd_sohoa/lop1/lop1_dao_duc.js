@@ -3677,7 +3677,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "ĐẠO ĐỨC - BÀI 26: PHÒNG, TRÁNH BỎNG",
+        "lessonTitle": "BÀI 26: PHÒNG, TRÁNH BỎNG",
         "topic": "CHỦ ĐỀ 8: PHÒNG, TRÁNH TAI NẠN, THƯƠNG TÍCH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3862,7 +3862,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "ĐẠO ĐỨC - BÀI 27: PHÒNG, TRÁNH THƯƠNG TÍCH DO NGÃ",
+        "lessonTitle": "BÀI 27: PHÒNG, TRÁNH THƯƠNG TÍCH DO NGÃ",
         "topic": "CHỦ ĐỀ 8: PHÒNG, TRÁNH TAI NẠN, THƯƠNG TÍCH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4047,7 +4047,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "ĐẠO ĐỨC - BÀI 28: PHÒNG, TRÁNH ĐIỆN GIẬT",
+        "lessonTitle": "BÀI 28: PHÒNG, TRÁNH ĐIỆN GIẬT",
         "topic": "CHỦ ĐỀ 8: PHÒNG, TRÁNH TAI NẠN, THƯƠNG TÍCH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4233,7 +4233,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "ĐẠO ĐỨC - Bài 29: PHÒNG, TRÁNH NGỘ ĐỘC THỰC PHẨM",
+        "lessonTitle": "Bài 29: PHÒNG, TRÁNH NGỘ ĐỘC THỰC PHẨM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4415,7 +4415,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "ĐẠO ĐỨC - Bài 30: PHÒNG, TRÁNH XÂM HẠI",
+        "lessonTitle": "Bài 30: PHÒNG, TRÁNH XÂM HẠI",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",

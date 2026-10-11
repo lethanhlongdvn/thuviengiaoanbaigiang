@@ -14,7 +14,7 @@
     "sourceFile": "TV TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾNG VIỆT - TIẾT 1 + 2: LÀM QUEN VỚI TRƯỜNG LỚP, BẠN BÈ; LÀM QUEN VỚI ĐỒ DÙNG HỌC TẬP",
+        "lessonTitle": "TIẾT 1 + 2: LÀM QUEN VỚI TRƯỜNG LỚP, BẠN BÈ; LÀM QUEN VỚI ĐỒ DÙNG HỌC TẬP",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -160,7 +160,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - TIẾT 3 + 4: LÀM QUEN VỚI TƯ THẾ ĐỌC, VIẾT, NÓI, NGHE",
+        "lessonTitle": "TIẾT 3 + 4: LÀM QUEN VỚI TƯ THẾ ĐỌC, VIẾT, NÓI, NGHE",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -302,7 +302,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - TIẾT 5 - 10: LÀM QUEN VỚI CÁC NÉT CƠ BẢN, CÁC CHỮ SỐ, BẢNG CHỮ CÁI VÀ DẤU THANH",
+        "lessonTitle": "TIẾT 5 - 10: LÀM QUEN VỚI CÁC NÉT CƠ BẢN, CÁC CHỮ SỐ, BẢNG CHỮ CÁI VÀ DẤU THANH",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -417,7 +417,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - TIẾT 11 + 12: ÔN LUYỆN VIẾT CÁC NÉT CƠ BẢN VÀ ĐỌC ÂM",
+        "lessonTitle": "TIẾT 11 + 12: ÔN LUYỆN VIẾT CÁC NÉT CƠ BẢN VÀ ĐỌC ÂM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -534,7 +534,7 @@
     "sourceFile": "TV TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾNG VIỆT - TUẦN 2 - BÀI 1: A, a (TIẾT 13 + 14)",
+        "lessonTitle": "TUẦN 2 - BÀI 1: A, a (TIẾT 13 + 14)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -766,7 +766,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - TUẦN 2 - BÀI 2: B, b, DẤU HUYỀN (TIẾT 15 + 16)",
+        "lessonTitle": "TUẦN 2 - BÀI 2: B, b, DẤU HUYỀN (TIẾT 15 + 16)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1002,7 +1002,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - TUẦN 2 - LUYỆN TẬP: LUYỆN ĐỌC, VIẾT BÀI 1, 2",
+        "lessonTitle": "TUẦN 2 - LUYỆN TẬP: LUYỆN ĐỌC, VIẾT BÀI 1, 2",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1101,7 +1101,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - TUẦN 2 - BÀI 3: C, c, DẤU SẮC (TIẾT 17 + 18)",
+        "lessonTitle": "TUẦN 2 - BÀI 3: C, c, DẤU SẮC (TIẾT 17 + 18)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1337,7 +1337,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - TUẦN 2 - BÀI 4: E, e, Ê, ê (TIẾT 19 + 20)",
+        "lessonTitle": "TUẦN 2 - BÀI 4: E, e, Ê, ê (TIẾT 19 + 20)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1573,7 +1573,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - TUẦN 2 - LUYỆN TẬP: LUYỆN ĐỌC, VIẾT BÀI 3, 4",
+        "lessonTitle": "TUẦN 2 - LUYỆN TẬP: LUYỆN ĐỌC, VIẾT BÀI 3, 4",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1672,7 +1672,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - TUẦN 2 - BÀI 5: ÔN TẬP VÀ KỂ CHUYỆN (TIẾT 21 + 22)",
+        "lessonTitle": "TUẦN 2 - BÀI 5: ÔN TẬP VÀ KỂ CHUYỆN (TIẾT 21 + 22)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -17629,7 +17629,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 67: UÔC, UÔT",
+        "lessonTitle": "BÀI 67: UÔC, UÔT",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -17826,7 +17826,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - LUYỆN VIẾT NÂNG CAO",
+        "lessonTitle": "LUYỆN VIẾT NÂNG CAO",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -17906,7 +17906,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 68: UÔN, UÔNG",
+        "lessonTitle": "BÀI 68: UÔN, UÔNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -18103,7 +18103,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 69: ƯƠI, ƯƠU",
+        "lessonTitle": "BÀI 69: ƯƠI, ƯƠU",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -18304,7 +18304,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - LUYỆN VIẾT NÂNG CAO",
+        "lessonTitle": "LUYỆN VIẾT NÂNG CAO",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -18384,7 +18384,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 70: ÔN TẬP VÀ KỂ CHUYỆN",
+        "lessonTitle": "BÀI 70: ÔN TẬP VÀ KỂ CHUYỆN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -18727,7 +18727,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 72: ƯƠM, ƯƠP",
+        "lessonTitle": "BÀI 72: ƯƠM, ƯƠP",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -18924,7 +18924,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - LUYỆN VIẾT: ƯƠC, ƯƠT, ƯƠM, ƯƠP",
+        "lessonTitle": "LUYỆN VIẾT: ƯƠC, ƯƠT, ƯƠM, ƯƠP",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -19004,7 +19004,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 73: ƯƠN, ƯƠNG",
+        "lessonTitle": "BÀI 73: ƯƠN, ƯƠNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -19201,7 +19201,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 74: OA, OE",
+        "lessonTitle": "BÀI 74: OA, OE",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -19398,7 +19398,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - LUYỆN VIẾT NÂNG CAO",
+        "lessonTitle": "LUYỆN VIẾT NÂNG CAO",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -19478,7 +19478,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 75: ÔN TẬP VÀ KỂ CHUYỆN",
+        "lessonTitle": "BÀI 75: ÔN TẬP VÀ KỂ CHUYỆN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -19823,7 +19823,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 77: OAI, UÊ, UY",
+        "lessonTitle": "BÀI 77: OAI, UÊ, UY",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -20020,7 +20020,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - LUYỆN VIẾT NÂNG CAO",
+        "lessonTitle": "LUYỆN VIẾT NÂNG CAO",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -20100,7 +20100,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 78: UÂN, UÂT",
+        "lessonTitle": "BÀI 78: UÂN, UÂT",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -20316,7 +20316,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 79: UYÊN, UYÊT",
+        "lessonTitle": "BÀI 79: UYÊN, UYÊT",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -20532,7 +20532,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - LUYỆN VIẾT NÂNG CAO",
+        "lessonTitle": "LUYỆN VIẾT NÂNG CAO",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -20612,7 +20612,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 80: ÔN TẬP VÀ KỂ CHUYỆN",
+        "lessonTitle": "BÀI 80: ÔN TẬP VÀ KỂ CHUYỆN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -20857,7 +20857,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 82: ÔN TẬP",
+        "lessonTitle": "BÀI 82: ÔN TẬP",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -20951,7 +20951,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - LUYỆN VIẾT CÁC CHỮ HOA",
+        "lessonTitle": "LUYỆN VIẾT CÁC CHỮ HOA",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -21031,7 +21031,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 83: ÔN TẬP – VẬN DỤNG, THỰC HÀNH KIẾN THỨC",
+        "lessonTitle": "BÀI 83: ÔN TẬP – VẬN DỤNG, THỰC HÀNH KIẾN THỨC",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -21145,7 +21145,7 @@
     "sourceFile": "TV TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 1: TÔI LÀ HỌC SINH LỚP 1 (4 TIẾT)",
+        "lessonTitle": "BÀI 1: TÔI LÀ HỌC SINH LỚP 1 (4 TIẾT)",
         "topic": "CHỦ ĐỀ 1: TÔI VÀ CÁC BẠN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -21386,7 +21386,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 2: ĐÔI TAI XẤU XÍ (4 TIẾT)",
+        "lessonTitle": "BÀI 2: ĐÔI TAI XẤU XÍ (4 TIẾT)",
         "topic": "CHỦ ĐỀ 1: TÔI VÀ CÁC BẠN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -21583,7 +21583,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 3: BẠN CỦA GIÓ (2 TIẾT)",
+        "lessonTitle": "BÀI 3: BẠN CỦA GIÓ (2 TIẾT)",
         "topic": "CHỦ ĐỀ 1: TÔI VÀ CÁC BẠN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -21721,7 +21721,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - ÔN LUYỆN TUẦN 19 (2 TIẾT)",
+        "lessonTitle": "ÔN LUYỆN TUẦN 19 (2 TIẾT)",
         "topic": "CHỦ ĐỀ 1: TÔI VÀ CÁC BẠN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -21839,7 +21839,7 @@
     "sourceFile": "TV TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 4: GIẢI THƯỞNG TÌNH BẠN (4 TIẾT)",
+        "lessonTitle": "BÀI 4: GIẢI THƯỞNG TÌNH BẠN (4 TIẾT)",
         "topic": "CHỦ ĐỀ 1: TÔI VÀ CÁC BẠN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -22009,7 +22009,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 5: SINH NHẬT CỦA VOI CON (4 TIẾT)",
+        "lessonTitle": "BÀI 5: SINH NHẬT CỦA VOI CON (4 TIẾT)",
         "topic": "CHỦ ĐỀ 1: TÔI VÀ CÁC BẠN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -22187,7 +22187,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - ÔN TẬP CHỦ ĐỀ 1 (2 TIẾT)",
+        "lessonTitle": "ÔN TẬP CHỦ ĐỀ 1 (2 TIẾT)",
         "topic": "CHỦ ĐỀ 1: TÔI VÀ CÁC BẠN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -22272,7 +22272,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - ÔN LUYỆN TUẦN 20 (2 TIẾT)",
+        "lessonTitle": "ÔN LUYỆN TUẦN 20 (2 TIẾT)",
         "topic": "CHỦ ĐỀ 1: TÔI VÀ CÁC BẠN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -22362,7 +22362,7 @@
     "sourceFile": "TV TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 1: NỤ HÔN TRÊN BÀN TAY (4 TIẾT)",
+        "lessonTitle": "BÀI 1: NỤ HÔN TRÊN BÀN TAY (4 TIẾT)",
         "topic": "CHỦ ĐỀ 2: MÁI ẤM GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -22575,7 +22575,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 2: LÀM ANH (2 TIẾT)",
+        "lessonTitle": "BÀI 2: LÀM ANH (2 TIẾT)",
         "topic": "CHỦ ĐỀ 2: MÁI ẤM GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -22724,7 +22724,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 3: CẢ NHÀ ĐI CHƠI NÚI (4 TIẾT)",
+        "lessonTitle": "BÀI 3: CẢ NHÀ ĐI CHƠI NÚI (4 TIẾT)",
         "topic": "CHỦ ĐỀ 2: MÁI ẤM GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -22946,7 +22946,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - ÔN LUYỆN TUẦN 21 (2 TIẾT)",
+        "lessonTitle": "ÔN LUYỆN TUẦN 21 (2 TIẾT)",
         "topic": "CHỦ ĐỀ 2: MÁI ẤM GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -25714,7 +25714,7 @@
     "sourceFile": "TV TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 4: CÂY BÀNG VÀ LỚP HỌC (TIẾT 1 + 2)",
+        "lessonTitle": "BÀI 4: CÂY BÀNG VÀ LỚP HỌC (TIẾT 1 + 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -25900,7 +25900,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 5: BÁC TRỐNG TRƯỜNG (TIẾT 1 + 2)",
+        "lessonTitle": "BÀI 5: BÁC TRỐNG TRƯỜNG (TIẾT 1 + 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -26065,7 +26065,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 5: BÁC TRỐNG TRƯỜNG (TIẾT 3, 4)",
+        "lessonTitle": "BÀI 5: BÁC TRỐNG TRƯỜNG (TIẾT 3, 4)",
         "topic": "",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -26262,7 +26262,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 6: GIỜ RA CHƠI (TIẾT 1,2)",
+        "lessonTitle": "BÀI 6: GIỜ RA CHƠI (TIẾT 1,2)",
         "topic": "",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -26502,7 +26502,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - ÔN TẬP (TIẾT 1,2)",
+        "lessonTitle": "ÔN TẬP (TIẾT 1,2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -28130,7 +28130,7 @@
     "sourceFile": "TV TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾNG VIỆT - Bài 4: NẾU KHÔNG MAY BỊ LẠC (TIẾT 1 + 2)",
+        "lessonTitle": "Bài 4: NẾU KHÔNG MAY BỊ LẠC (TIẾT 1 + 2)",
         "topic": "",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -29643,7 +29643,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 1: KIẾN VÀ CHIM BỒ CÂU (TIẾT 3 + 4)",
+        "lessonTitle": "BÀI 1: KIẾN VÀ CHIM BỒ CÂU (TIẾT 3 + 4)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -29763,7 +29763,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 2: CÂU CHUYỆN CỦA RỄ (TIẾT 1 + 2)",
+        "lessonTitle": "BÀI 2: CÂU CHUYỆN CỦA RỄ (TIẾT 1 + 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -30120,7 +30120,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - BÀI 3: CÂU HỎI CỦA SÓI (TIẾT 3 + 4)",
+        "lessonTitle": "BÀI 3: CÂU HỎI CỦA SÓI (TIẾT 3 + 4)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -30262,7 +30262,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - LUYỆN TẬP TUẦN 27 (TIẾT 1)",
+        "lessonTitle": "LUYỆN TẬP TUẦN 27 (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -30300,7 +30300,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - LUYỆN TẬP TUẦN 27 (TIẾT 2)",
+        "lessonTitle": "LUYỆN TẬP TUẦN 27 (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -31359,7 +31359,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - LUYỆN TẬP TUẦN 28 (TIẾT 1)",
+        "lessonTitle": "LUYỆN TẬP TUẦN 28 (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -31397,7 +31397,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾNG VIỆT - LUYỆN TẬP TUẦN 28 (TIẾT 2)",
+        "lessonTitle": "LUYỆN TẬP TUẦN 28 (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",

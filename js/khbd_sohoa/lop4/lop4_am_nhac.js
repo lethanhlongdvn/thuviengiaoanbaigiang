@@ -782,7 +782,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 9-12- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "AM NHẠC - TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG – SÁNG TẠO",
+        "lessonTitle": "TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG – SÁNG TẠO",
         "topic": "- Nhớ tên chủ đề đang học.",
         "yccd": [
           "1. Năng lực đặc thù:",
