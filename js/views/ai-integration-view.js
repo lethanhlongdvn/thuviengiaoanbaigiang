@@ -3600,6 +3600,16 @@ async function triggerDirectFastExport() {
         throw new Error('Chưa tìm thấy dữ liệu giáo án số hóa cho Khối ' + grade + ' - Môn ' + subj);
       }
 
+      // Đảm bảo 100% các lesson trong weeksPlan có đầy đủ grade, subjectKey, subjectName, week
+      weeksPlan.forEach(function(wItem) {
+        (wItem.lessons || []).forEach(function(l) {
+          if (!l.grade) l.grade = grade;
+          if (!l.subjectKey) l.subjectKey = subj;
+          if (!l.subjectName) l.subjectName = IntegrationService.getSubjectDisplayName(subj);
+          if (!l.week) l.week = wItem.week;
+        });
+      });
+
       if (disSupport && disSupport.enabled) {
         weeksPlan = JSON.parse(JSON.stringify(weeksPlan));
         var allPlanLessons = [];
@@ -3621,6 +3631,7 @@ async function triggerDirectFastExport() {
 
       var saveResult = await IntegrationService.exportToWord(weeksPlan, {
         grade: grade,
+        subjectKey: subj,
         subjectName: IntegrationService.getSubjectDisplayName(subj),
         startWeek: sWeek,
         endWeek: eWeek,
@@ -5767,21 +5778,30 @@ async function triggerExportIntegrationWord() {
   }
 
   var plan = integrationState.analyzedPlan || {};
+  var firstLes = integrationState.appliedLessons[0] || {};
+  var effGrade = plan.grade || integrationState.grade || firstLes.grade || 5;
+  var effSubjKey = plan.subjectKey || integrationState.subjectKey || firstLes.subjectKey || '';
+  var effSubjName = plan.subjectName || (effSubjKey ? IntegrationService.getSubjectDisplayName(effSubjKey) : '') || firstLes.subjectName || 'Môn học';
+  var effStartWeek = plan.startWeek || integrationState.startWeek || firstLes.week || 1;
+  var effEndWeek = plan.endWeek || integrationState.endWeek || effStartWeek;
+
   var docTitleClean = (plan.docTitle || 'Tich_Hop').replace(/[^a-zA-Z0-9_\u00C0-\u1EF9]/g, '_');
-  var baseDocFile = 'KHBD_Lop' + (plan.grade || 5) + '_' + (plan.subjectKey || 'mon') + '_Tuan' + (plan.startWeek || 1) + '-' + (plan.endWeek || 1) + '_' + docTitleClean + '.docx';
+  var baseDocFile = 'KHBD_Lop' + effGrade + '_' + (effSubjKey || 'mon').toUpperCase() + '_Tuan' + effStartWeek + '-' + effEndWeek + '_' + docTitleClean + '.docx';
   var filename = (typeof IntegrationService !== 'undefined' && IntegrationService.appendTeacherNameToFilename)
     ? IntegrationService.appendTeacherNameToFilename(baseDocFile, integrationState.teacherName)
     : baseDocFile;
 
   var saveResult = await IntegrationService.exportToWord(integrationState.appliedLessons, {
-    grade: plan.grade,
-    subjectName: plan.subjectName,
-    startWeek: plan.startWeek,
-    endWeek: plan.endWeek,
+    grade: effGrade,
+    subjectKey: effSubjKey,
+    subjectName: effSubjName,
+    startWeek: effStartWeek,
+    endWeek: effEndWeek,
     teacherName: integrationState.teacherName,
     schoolName: integrationState.schoolName,
     gddpSupport: integrationState.gddpSupport,
     approvalConfig: integrationState.approvalConfig,
+    preserveExistingGddp: true,
     filename: filename
   });
 

@@ -2948,33 +2948,38 @@ ${sampleJson}`;
       lesson.yccd = lesson.yccd ? [lesson.yccd] : [];
     }
 
-    // 1. Luôn làm sạch GDĐP cũ trước (tính lũy đẳng)
-    this.cleanGddpFromLesson(lesson);
-
-    var rawSubj = lesson.subjectKey || lesson.subjectName || lesson.subject || '';
-    var sKey = this.normalizeSubjectKey(rawSubj).toLowerCase();
-
-    // TUÂN THỦ NGHIÊM NGẶT 100%: Môn không có trong Kế hoạch gốc -> Không chèn
-    var disallowedSubjects = ['toan', 'tin_hoc', 'gdtc', 'tieng_anh'];
-    if (disallowedSubjects.indexOf(sKey) !== -1) {
-      return lesson;
-    }
-
-    // 2. Nếu không bật cấu hình GDĐP -> dừng lại
+    // 1. Kiểm tra cấu hình GDĐP
     var cfg = this.resolveGddpSupport(gddpConfig);
     if (!cfg || !cfg.enabled) {
       return lesson;
     }
 
-    // 3. Tìm nội dung GDĐP Trà Vinh phù hợp từ GDDP_DATA
+    var effGrade = lesson.grade || (typeof integrationState !== 'undefined' && integrationState.grade) || 5;
+    var rawSubj = lesson.subjectKey || lesson.subjectName || lesson.subject || (typeof integrationState !== 'undefined' && integrationState.subjectKey) || '';
+    var sKey = this.normalizeSubjectKey(rawSubj).toLowerCase();
+
+    // TUÂN THỦ NGHIÊM NGẶT 100%: Môn không có trong Kế hoạch gốc -> Dọn sạch và không chèn
+    var disallowedSubjects = ['toan', 'tin_hoc', 'gdtc', 'tieng_anh'];
+    if (disallowedSubjects.indexOf(sKey) !== -1) {
+      this.cleanGddpFromLesson(lesson);
+      return lesson;
+    }
+
+    var effWeek = lesson.week || (typeof integrationState !== 'undefined' && integrationState.startWeek) || 1;
+    var effTitle = lesson.lessonTitle || lesson.title || '';
+
+    // 2. Tìm nội dung GDĐP Trà Vinh phù hợp từ GDDP_DATA
     var gddpItem = (typeof GDDP_DATA !== 'undefined' && GDDP_DATA.getTraVinhGddpForLesson)
-      ? GDDP_DATA.getTraVinhGddpForLesson(lesson.grade, sKey, lesson.week, lesson.lessonTitle || lesson.title)
+      ? GDDP_DATA.getTraVinhGddpForLesson(effGrade, sKey, effWeek, effTitle)
       : null;
 
     // Bắt buộc phải có gddpItem, phải là khớp chính xác 100% (isExactMatch: true) và có yccdText
     if (!gddpItem || !gddpItem.isExactMatch || !gddpItem.yccdText) {
       return lesson;
     }
+
+    // 3. Làm sạch GDĐP cũ trước khi chèn mới (tính lũy đẳng)
+    this.cleanGddpFromLesson(lesson);
 
     var gddpLine = gddpItem.yccdText.trim();
     if (!gddpLine.endsWith('.')) gddpLine += '.';
@@ -3019,29 +3024,35 @@ ${sampleJson}`;
    */
   injectGddpActivitiesIntoTables: function(lesson, gddpConfig) {
     if (!lesson) return lesson;
-    this.cleanGddpFromTables(lesson);
-
-    var rawSubj = lesson.subjectKey || lesson.subjectName || lesson.subject || '';
-    var sKey = this.normalizeSubjectKey(rawSubj).toLowerCase();
-
-    // TUÂN THỦ NGHIÊM NGẶT 100%: Môn không có trong Kế hoạch gốc -> Dọn sạch và dừng lại
-    var disallowedSubjects = ['toan', 'tin_hoc', 'gdtc', 'tieng_anh'];
-    if (disallowedSubjects.indexOf(sKey) !== -1) {
-      return lesson;
-    }
 
     var cfg = this.resolveGddpSupport(gddpConfig);
     if (!cfg || !cfg.enabled || cfg.scope === 'yccd_only') {
       return lesson;
     }
 
+    var effGrade = lesson.grade || (typeof integrationState !== 'undefined' && integrationState.grade) || 5;
+    var rawSubj = lesson.subjectKey || lesson.subjectName || lesson.subject || (typeof integrationState !== 'undefined' && integrationState.subjectKey) || '';
+    var sKey = this.normalizeSubjectKey(rawSubj).toLowerCase();
+
+    // TUÂN THỦ NGHIÊM NGẶT 100%: Môn không có trong Kế hoạch gốc -> Dọn sạch và dừng lại
+    var disallowedSubjects = ['toan', 'tin_hoc', 'gdtc', 'tieng_anh'];
+    if (disallowedSubjects.indexOf(sKey) !== -1) {
+      this.cleanGddpFromTables(lesson);
+      return lesson;
+    }
+
     if (!Array.isArray(lesson.tables) || lesson.tables.length === 0) return lesson;
 
+    var effWeek = lesson.week || (typeof integrationState !== 'undefined' && integrationState.startWeek) || 1;
+    var effTitle = lesson.lessonTitle || lesson.title || '';
+
     var gddpItem = (typeof GDDP_DATA !== 'undefined' && GDDP_DATA.getTraVinhGddpForLesson)
-      ? GDDP_DATA.getTraVinhGddpForLesson(lesson.grade, sKey, lesson.week, lesson.lessonTitle || lesson.title)
+      ? GDDP_DATA.getTraVinhGddpForLesson(effGrade, sKey, effWeek, effTitle)
       : null;
 
     if (!gddpItem || !gddpItem.isExactMatch) return lesson;
+
+    this.cleanGddpFromTables(lesson);
 
     var targetTable = lesson.tables[lesson.tables.length - 1];
     if (!Array.isArray(targetTable) || targetTable.length < 2) return lesson;
@@ -5084,10 +5095,12 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
    */
   exportToWord: async function(lessonsOrWeeks, metadata) {
     var meta = metadata || {};
-    var grade = meta.grade || 5;
-    var subjectName = meta.subjectName || 'Môn học';
-    var startWeek = meta.startWeek || 1;
-    var endWeek = meta.endWeek || startWeek;
+    var grade = meta.grade || (lessonsOrWeeks && lessonsOrWeeks[0] && lessonsOrWeeks[0].grade) || (typeof integrationState !== 'undefined' && integrationState.grade) || 5;
+    var subjectKey = meta.subjectKey || meta.subjectId || (typeof integrationState !== 'undefined' && integrationState.subjectKey) || '';
+    var subjectName = meta.subjectName || (subjectKey ? IntegrationService.getSubjectDisplayName(subjectKey) : '') || (lessonsOrWeeks && lessonsOrWeeks[0] && lessonsOrWeeks[0].subjectName) || 'Môn học';
+    if (!subjectKey && subjectName) subjectKey = IntegrationService.normalizeSubjectKey(subjectName);
+    var startWeek = meta.startWeek || (lessonsOrWeeks && lessonsOrWeeks[0] && lessonsOrWeeks[0].week) || (typeof integrationState !== 'undefined' && integrationState.startWeek) || 1;
+    var endWeek = meta.endWeek || (typeof integrationState !== 'undefined' && integrationState.endWeek) || startWeek;
     var schoolName = meta.schoolName || 'TRƯỜNG TIỂU HỌC .................................';
     var teacherName = this.getEffectiveTeacherName(meta, null);
     var schoolYear = meta.schoolYear || '2026 - 2027';
@@ -5107,7 +5120,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         lessonsOrWeeks.forEach(function(w) {
           (w.lessons || []).forEach(function(l) {
             if (!l.week) l.week = w.week;
-            if (!l.subjectName && meta.subjectName) l.subjectName = meta.subjectName;
+            if (!l.grade) l.grade = grade;
+            if (!l.subjectKey) l.subjectKey = subjectKey || (meta.subjectKey) || (meta.subjectId);
+            if (!l.subjectName && subjectName) l.subjectName = subjectName;
             lessons.push(l);
           });
         });
@@ -5115,6 +5130,15 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         lessons = lessonsOrWeeks;
       }
     }
+
+    // Đảm bảo 100% mọi lesson đều có đầy đủ grade, subjectKey, subjectName, week
+    lessons.forEach(function(l) {
+      if (!l.grade && grade) l.grade = grade;
+      if (!l.subjectKey && subjectKey) l.subjectKey = subjectKey;
+      if (!l.subjectKey && l.subjectName) l.subjectKey = IntegrationService.normalizeSubjectKey(l.subjectName);
+      if (!l.subjectName && subjectName) l.subjectName = subjectName;
+      if (!l.week && startWeek) l.week = startWeek;
+    });
 
     var disSupport = IntegrationService.resolveDisabilitySupport(meta.disabilitySupport);
     if (disSupport && disSupport.enabled) {
@@ -5131,6 +5155,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       schoolYear: schoolYear,
       className: className,
       grade: grade,
+      subjectKey: subjectKey,
       subjectName: subjectName,
       startWeek: startWeek,
       endWeek: endWeek,
@@ -5153,6 +5178,10 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     var grade = weeklyPlanResult.grade || meta.grade || 5;
     var weekNum = weeklyPlanResult.week || meta.week || 1;
     var lessons = weeklyPlanResult.lessons || [];
+    lessons.forEach(function(l) {
+      if (!l.grade && grade) l.grade = grade;
+      if (!l.week && weekNum) l.week = weekNum;
+    });
     var disSupport = IntegrationService.resolveDisabilitySupport(meta.disabilitySupport || (weeklyPlanResult && weeklyPlanResult.metadata && weeklyPlanResult.metadata.disabilitySupport));
     if (disSupport && disSupport.enabled) {
       await this.adaptLessonsDisabilityWithGemini(lessons, disSupport);
@@ -5348,8 +5377,10 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
   formatCellParagraphs: function(rawText, isTichHop, align, isEnLesson) {
     if (!rawText) return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: ' + (align || 'justify') + ';">&nbsp;</p>';
     var textAlign = align || 'justify';
-    var cellStyle = (isTichHop && !isEnLesson) ? 'color: #C00000;' : '';
-    var str = String(rawText).trim();
+    var isRowTichHop = isTichHop || (!isEnLesson && /tích\s*hợp|địa\s*phương|gdđp|trà\s*vinh/i.test(rawText));
+    var cellStyle = (isRowTichHop && !isEnLesson) ? 'color: #C00000;' : '';
+    // Xóa thẻ <p>...</p> bọc sẵn nếu có để tránh lỗi lồng thẻ <p><p>...</p></p> trong Word
+    var str = String(rawText).replace(/<\/?p[^>]*>/gi, '\n').trim();
     var rawLines = str.split(/(?:\r?\n|<br\s*\/?>)/i);
     var lines = [];
     for (var r = 0; r < rawLines.length; r++) {
@@ -5390,7 +5421,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       var isLineDisability = !isEnLesson && (/\b(?:HSHN|SEN)\b/i.test(line) || /\[(?:HSHN|SEN)\]/i.test(line) || /học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test(line) || /inclusive\s*student/i.test(line));
       var isLineTichHop = !isEnLesson && (/\[(?:Tích\s*hợp|Integration|GDĐP|GDQCN|NLS|AI)\]/i.test(line) || /^integrated\s*focus:|^digital\/ai\s*pupil\s*action:/i.test(line) || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(line) || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || line.indexOf('[Tích hợp') !== -1);
       var curLineStyle = (!isEnLesson && (cellStyle || isLineDisability || isLineTichHop)) ? 'color: #C00000;' : '';
-      var inner = curLineStyle ? ('<span style="' + curLineStyle + '"><font color="#C00000">' + line + '</font></span>') : line;
+      var cleanLineText = line.replace(/<span style="color:\s*#[A-Fa-f0-9]+;?">/gi, '').replace(/<\/span>/gi, '');
+      var inner = curLineStyle ? ('<span style="' + curLineStyle + '"><font color="#C00000">' + cleanLineText + '</font></span>') : cleanLineText;
       pList.push('<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: ' + textAlign + '; ' + curLineStyle + '">' + inner + '</p>');
     }
     return pList.length > 0 ? pList.join('') : '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: ' + textAlign + ';">&nbsp;</p>';
@@ -6029,9 +6061,13 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       }
 
       if (meta) {
+        if (!les.grade && meta.grade) les.grade = meta.grade;
+        if (!les.grade && meta.gradeNum) les.grade = meta.gradeNum;
+        if (!les.week && meta.week) les.week = meta.week;
+        if (!les.week && meta.startWeek) les.week = meta.startWeek;
         if (!les.subjectKey && meta.subjectId) les.subjectKey = meta.subjectId;
         if (!les.subjectKey && meta.subjectKey) les.subjectKey = meta.subjectKey;
-        if (!les.subjectKey && meta.subjectName && (meta.subjectName.toLowerCase().includes('tiếng anh') || meta.subjectName.toLowerCase().includes('english'))) les.subjectKey = 'tieng_anh';
+        if (!les.subjectKey && meta.subjectName) les.subjectKey = IntegrationService.normalizeSubjectKey(meta.subjectName);
         if (!les.subjectName && meta.subjectName) les.subjectName = meta.subjectName;
       }
 
@@ -6056,7 +6092,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         } else {
           IntegrationService.cleanGddpFromTables(les);
         }
-      } else {
+      } else if (gddpSupport && gddpSupport.enabled === false && !meta.preserveExistingGddp) {
         IntegrationService.cleanGddpFromTables(les);
         IntegrationService.cleanGddpFromLesson(les);
       }
@@ -6381,10 +6417,10 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                   c3 = IntegrationService.translateVnToEnglish(c3);
                 }
 
-                var c0Html = IntegrationService.formatCellParagraphs(c0, false, 'justify', isEnLesson);
+                var c0Html = IntegrationService.formatCellParagraphs(c0, isTichHop, 'justify', isEnLesson);
                 var c1Html = IntegrationService.formatCellParagraphs(c1, false, 'center', isEnLesson);
-                var c2Html = IntegrationService.formatCellParagraphs(c2, false, 'justify', isEnLesson);
-                var c3Html = IntegrationService.formatCellParagraphs(c3, false, 'justify', isEnLesson);
+                var c2Html = IntegrationService.formatCellParagraphs(c2, isTichHop, 'justify', isEnLesson);
+                var c3Html = IntegrationService.formatCellParagraphs(c3, isTichHop, 'justify', isEnLesson);
 
                 rowsHtml += `
                   <tr>
@@ -6494,8 +6530,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                   hsText = IntegrationService.translateVnToEnglish(hsText);
                 }
 
-                var gvHtml = IntegrationService.formatCellParagraphs(gvText, false, 'justify', isEnLesson);
-                var hsHtml = IntegrationService.formatCellParagraphs(hsText, false, 'justify', isEnLesson);
+                var isTichHop = !isEnLesson && (/tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test((r[0]||'') + ' ' + (r[1]||'')) || (r[0]||'').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1]||'').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[0]||'').indexOf('[Tích hợp') !== -1 || (r[1]||'').indexOf('[Tích hợp') !== -1 || !!r.isGddpRow);
+                var gvHtml = IntegrationService.formatCellParagraphs(gvText, isTichHop, 'justify', isEnLesson);
+                var hsHtml = IntegrationService.formatCellParagraphs(hsText, isTichHop, 'justify', isEnLesson);
 
                 rowsHtml += `
                   <tr>
