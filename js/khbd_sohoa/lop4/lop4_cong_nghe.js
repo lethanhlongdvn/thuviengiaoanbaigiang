@@ -2122,7 +2122,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4",
+        "lessonTitle": "Ôn tập phần 1: Công nghệ và đời sống",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2277,7 +2277,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4",
+        "lessonTitle": "Ôn tập phần 1: Công nghệ và đời sống",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",

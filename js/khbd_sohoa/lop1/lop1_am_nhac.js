@@ -2092,7 +2092,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 13-18-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "a. Mục tiêu: Giúp học sinh tự tin thể hiện bài hát yêu thích nhất và hoàn thành bài tập trong vở bài tập. - b. Nội dung: Học sinh trả lời câu hỏi và trình diễn bài hát tự chọn trước lớp.",
+        "lessonTitle": "Ôn tập và đánh giá cuối học kì I",
         "topic": "- Máy tính, tivi lớp học để trình chiếu bản nhạc số, mẫu tiết tấu và tranh ảnh các chủ đề.",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2707,16 +2707,16 @@
     "sourceFile": "Giao_an_tich_hop-tuan 23-26-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "b. Nội dung: Học sinh kể tên các công trình kiến trúc, cảnh đẹp của Hà Nội và địa phương qua hình ảnh trực quan. - B. Hoạt động khám phá - Hoạt động 1: Tìm hiểu tên một số công trình tiêu biểu nơi em ở",
-        "topic": "CHỦ ĐỀ 2: MÓN ĂN TRUYỀN THỐNG CỐM LÀNG VÒNG - TUẦN 24",
+        "lessonTitle": "Ôn tập bài hát: Gà gáy - Vận dụng sáng tạo",
+        "topic": "Chủ đề 6: Dân ca - Ôn tập bài hát Gà gáy",
         "yccd": [
           "1. Năng lực đặc thù:",
           "- Biết hát kết hợp vận động theo nhịp điệu của bài hát Gà gáy bằng nhiều hình thức Đơn ca, song ca, tốp ca, ...",
           "- Biết sơ lược về thanh phách.",
-          "- Nêu được tên, vị trí, khái quát lịch sử Cốm làng Vòng.",
-          "- Nêu/mô tả được các bước chính để làm ra Cốm làng Vòng.",
-          "- Kể được tên một số sản phẩm làm từ Cốm làng Vòng của địa phương.",
-          "- Trải nghiệm và giới thiệu được Cốm làng Vòng của địa phương.",
+          "- Nêu được tên, vị trí, khái quát lịch sử bài hát Gà gáy.",
+          "- Nêu/mô tả được các bước chính để làm ra bài hát Gà gáy.",
+          "- Kể được tên một số sản phẩm làm từ bài hát Gà gáy của địa phương.",
+          "- Trải nghiệm và giới thiệu được bài hát Gà gáy của địa phương.",
           "- Có ý thức bảo vệ và phát triển cốm làng Vòng bằng những việc làm phù hợp với lứa tuổi.",
           "- II. PHƯƠNG PHÁP VÀ THIẾT BỊ DẠY HỌC:",
           "2. Năng lực chung:",
@@ -2786,11 +2786,11 @@
               "- HS quan sát.\n- HS trả lời.\n- HS lắng nghe."
             ],
             [
-              "Hoạt động 1: Nêu một số thông tin về cốm làng Vòng\n- GV yêu cầu HS quan sát, trao đổi và cho biết một số thông tin về cốm làng Vòng?\n- GV khuyến khích HS tham gia trả lời. GV có thể gợi ý HS đọc nội dung và quan sát hình ảnh, đồng thời dựa trên các tài liệu mà HS đã chuẩn bị để trả lời.\n- GV đọc câu thơ:\nCốm Vòng nhớ mãi bàn tay\nĐi xa Hà Nội nhớ ngày cốm thơm.\n- GV mời đại diện một số HS trả lời câu hỏi.\n- GV nhận xét, kết luận: Cốm làng Vòng là một món ăn đặc sản của làng Vòng, thuộc phường Dịch Vọng Hậu, quận Cầu Giấy. Cốm làng Vòng thường có vào mùa thu. Cốm xanh, dẻo, thơm ngon và có thể chế biến thành nhiều món ăn đặc sắc.\n- `GV chiếu video giới thiệu thêm cho HS về cốm làng Vòng trên trang YouTube: (1.1.CB1b)`\nhttps://www.youtube.com/watch?v=R0H14okaXFA\nHoạt động 2: Kể tên các bước làm cốm làng Vòng\n- `GV yêu cầu HS quan sát hình ảnh và video trên YouTube dưới đây để nêu tên các bước làm cốm làng Vòng: (1.1.CB1b)`\nhttps://www.youtube.com/watch?v=wEGwGb4c4GQ&t=109s\n- GV mời đại diện một số HS trả lời câu hỏi.\n- GV nhận xét, đánh giá, kết luận: Để làm ra cốm, cần thực hiện 5 bước sau:\n+ Bước 1: Chọn lúa nếp hoa vàng, non vừa phải.\n+ Bước 2: Sàng để loại bỏ thóc lép.\n+ Bước 3: Rang thóc ở nhiệt độ cao để bong lớp vỏ trấu.\n+ Bước 4: Giã thóc bằng cối đá và chày gỗ.\n+ Bước 5: Thu hoạch được hạt cốm sau khi hoàn thành công đoạn giã thóc.\nHoạt động 3: Tìm hiểu một số món ăn từ cốm làng Vòng\n- GV yêu cầu HS quan sát, trao đổi và cho biết:\n+ Kể tên các món ăn từ cốm làng Vòng.\n+ Mô tả một món ăn từ cốm làng Vòng theo các gợi ý:\nMàu sắc của món ăn;\nHương vị;\nCảm nhận của em về món ăn.\n- GV mời đại diện một số HS trả lời câu hỏi. Các HS khác lắng nghe, nhận xét, nêu ý kiến bổ sung (nếu có).\n- GV nhận xét, kết luận.",
+              "Hoạt động 1: Nêu một số thông tin về cốm làng Vòng\n- GV yêu cầu HS quan sát, trao đổi và cho biết một số thông tin về cốm làng Vòng?\n- GV khuyến khích HS tham gia trả lời. GV có thể gợi ý HS đọc nội dung và quan sát hình ảnh, đồng thời dựa trên các tài liệu mà HS đã chuẩn bị để trả lời.\n- GV đọc câu thơ:\nCốm Vòng nhớ mãi bàn tay\nĐi xa Hà Nội nhớ ngày cốm thơm.\n- GV mời đại diện một số HS trả lời câu hỏi.\n- GV nhận xét, kết luận: bài hát Gà gáy là một món ăn đặc sản của làng Vòng, thuộc phường Dịch Vọng Hậu, quận Cầu Giấy. bài hát Gà gáy thường có vào mùa thu. Cốm xanh, dẻo, thơm ngon và có thể chế biến thành nhiều món ăn đặc sắc.\n- `GV chiếu video giới thiệu thêm cho HS về cốm làng Vòng trên trang YouTube: (1.1.CB1b)`\nhttps://www.youtube.com/watch?v=R0H14okaXFA\nHoạt động 2: Kể tên các bước làm cốm làng Vòng\n- `GV yêu cầu HS quan sát hình ảnh và video trên YouTube dưới đây để nêu tên các bước làm cốm làng Vòng: (1.1.CB1b)`\nhttps://www.youtube.com/watch?v=wEGwGb4c4GQ&t=109s\n- GV mời đại diện một số HS trả lời câu hỏi.\n- GV nhận xét, đánh giá, kết luận: Để làm ra cốm, cần thực hiện 5 bước sau:\n+ Bước 1: Chọn lúa nếp hoa vàng, non vừa phải.\n+ Bước 2: Sàng để loại bỏ thóc lép.\n+ Bước 3: Rang thóc ở nhiệt độ cao để bong lớp vỏ trấu.\n+ Bước 4: Giã thóc bằng cối đá và chày gỗ.\n+ Bước 5: Thu hoạch được hạt cốm sau khi hoàn thành công đoạn giã thóc.\nHoạt động 3: Tìm hiểu một số món ăn từ cốm làng Vòng\n- GV yêu cầu HS quan sát, trao đổi và cho biết:\n+ Kể tên các món ăn từ cốm làng Vòng.\n+ Mô tả một món ăn từ cốm làng Vòng theo các gợi ý:\nMàu sắc của món ăn;\nHương vị;\nCảm nhận của em về món ăn.\n- GV mời đại diện một số HS trả lời câu hỏi. Các HS khác lắng nghe, nhận xét, nêu ý kiến bổ sung (nếu có).\n- GV nhận xét, kết luận.",
               "- HS quan sát, trao đổi và trả lời câu hỏi.\n- HS lắng nghe.\n- HS theo dõi video do GV trình chiếu.\n- `HS tập trung quan sát video quy trình làm cốm trên màn hình máy chiếu. (1.1.CB1b)`\n- HS trả lời.\n- HS ghi nhớ 5 bước làm cốm.\n- HS quan sát, trao đổi và trả lời câu hỏi.\n- HS trả lời.\n- HS lắng nghe và nhận xét."
             ],
             [
-              "Nhiệm vụ 1:\n- GV yêu cầu HS quan sát hình ảnh và lựa chọn những thông tin phù hợp với Cốm làng Vòng?\nNhiệm vụ 2:\n- GV yêu cầu HS làm việc theo cặp đôi: Chia sẻ với thầy cô, bạn bè về một món ăn đặc sản em yêu thích theo các gợi ý sau:\n+ Tên món ăn là gì?\n+ Màu sắc, hương vị của món ăn như thế nào?\n+ Cảm nhận của em về món ăn này.\n- GV mời đại diện một số HS trả lời câu hỏi.\n- GV nhận xét, kết luận.",
+              "Nhiệm vụ 1:\n- GV yêu cầu HS quan sát hình ảnh và lựa chọn những thông tin phù hợp với bài hát Gà gáy?\nNhiệm vụ 2:\n- GV yêu cầu HS làm việc theo cặp đôi: Chia sẻ với thầy cô, bạn bè về một món ăn đặc sản em yêu thích theo các gợi ý sau:\n+ Tên món ăn là gì?\n+ Màu sắc, hương vị của món ăn như thế nào?\n+ Cảm nhận của em về món ăn này.\n- GV mời đại diện một số HS trả lời câu hỏi.\n- GV nhận xét, kết luận.",
               "- HS quan sát và thực hiện nhiệm vụ.\n- HS làm việc theo cặp đôi, chia sẻ thông tin.\n- HS trả lời.\n- HS lắng nghe."
             ],
             [
@@ -3034,25 +3034,25 @@
     "sourceFile": "Giao_an_tich_hop-tuan 27-30-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "3. Luyện tập thực hành - a. Mục tiêu: - Học sinh biết hát kết hợp vận động sắm vai các nhân vật trong bài hát.",
-        "topic": "GIÁO DỤC ĐỊA PHƯƠNG - CHỦ ĐỀ 5: HỒ HOÀN KIẾM",
+        "lessonTitle": "Ôn tập bài hát: Cây gia đình - Vận dụng sáng tạo",
+        "topic": "Chủ đề 7: Gia đình - Ôn tập bài hát Cây gia đình",
         "yccd": [
           "1. Năng lực đặc thù:",
           "- Sau bài học, HS sẽ:",
-          "- Biết được cảnh đẹp và hoạt động ở khu vực hồ Hoàn Kiếm.",
-          "- Nêu được cảnh quan, di tích xung quanh khu vực hồ Hoàn Kiếm.",
+          "- Biết được cảnh đẹp và hoạt động ở khu vực bài hát Cây gia đình.",
+          "- Nêu được cảnh quan, di tích xung quanh khu vực bài hát Cây gia đình.",
           "- Trao đổi, chia sẻ; vận dụng hiểu biết vào đời sống, thực tiễn.",
-          "- Tự hào và có ý thức giữ gìn nét đẹp khu vực hồ Hoàn Kiếm.",
+          "- Tự hào và có ý thức giữ gìn nét đẹp khu vực bài hát Cây gia đình.",
           "- II. PHƯƠNG PHÁP VÀ THIẾT BỊ DẠY HỌC:",
           "2. Năng lực chung:",
-          "- Hoạt động nhóm, phân tích nội dung liên quan đến hồ Hoàn Kiếm.",
+          "- Hoạt động nhóm, phân tích nội dung liên quan đến bài hát Cây gia đình.",
           "- 1. Phương pháp dạy học: Thuyết trình, gợi mở, vấn đáp, trực quan, thảo luận nhóm, thực hành sáng tạo, đánh giá, luyện tập.",
           "3. Phẩm chất:",
           "- Hình thành và phát triển cho HS năng lực, phẩm chất:",
           "4. Tích hợp:",
           "- Năng lực số:",
           "- Quan sát và nhận diện các địa danh, di tích lịch sử qua hình ảnh số được trình chiếu trên bảng tương tác. (1.1.CB1a)",
-          "- Biết tương tác đơn giản bằng cách xem video sự tích Hồ Hoàn Kiếm được phát từ máy tính của giáo viên. (2.1.CB1a)"
+          "- Biết tương tác đơn giản bằng cách xem video sự tích Cây gia đình được phát từ máy tính của giáo viên. (2.1.CB1a)"
         ],
         "dodung": [
           "- Đối với GV: Tài liệu GDDP tỉnh Hà Nội 1; Một số tranh, ảnh, video liên quan đến bài học; Máy tính, máy chiếu.",
@@ -3074,19 +3074,19 @@
               "- HS thực hiện hát và chia sẻ tình cảm.\n- HS nhận xét bạn.\n- HS lắng nghe và ghi nhớ.\n- HS thực hiện ở nhà."
             ],
             [
-              "A. HOẠT ĐỘNG KHỞI ĐỘNG\na. Mục tiêu: Tạo hứng thú cho HS tích cực tham gia vào nội dung bài học mới.\nb. Cách thức thực hiện:\n- GV chiếu một số hình ảnh số trên máy chiếu cho HS quan sát (1.1.CB1a) và cho biết: Địa điểm nào được nhắc đến trong các bức tranh dưới đây?\n- GV gợi ý cho HS về địa điểm được nhắc đến trong bài.\n- GV nhận xét, chuẩn kiến thức và dẫn dắt vào bài: Hồ Hoàn Kiếm là một danh lam thắng cảnh của Thủ đô Hà Nội...",
+              "A. HOẠT ĐỘNG KHỞI ĐỘNG\na. Mục tiêu: Tạo hứng thú cho HS tích cực tham gia vào nội dung bài học mới.\nb. Cách thức thực hiện:\n- GV chiếu một số hình ảnh số trên máy chiếu cho HS quan sát (1.1.CB1a) và cho biết: Địa điểm nào được nhắc đến trong các bức tranh dưới đây?\n- GV gợi ý cho HS về địa điểm được nhắc đến trong bài.\n- GV nhận xét, chuẩn kiến thức và dẫn dắt vào bài: Cây gia đình là một danh lam thắng cảnh của Thủ đô Hà Nội...",
               "- HS quan sát các hình ảnh số được trình chiếu và trả lời.\n- Đáp án: HỒ HOÀN KIẾM.\n- HS lắng nghe."
             ],
             [
-              "B. HOẠT ĐỘNG KHÁM PHÁ\nHoạt động 1: Cảnh quan và di tích ở khu vực hồ Hoàn Kiếm\na. Mục tiêu: HS biết được cảnh quan và di tích ở khu vực hồ Hoàn Kiếm.\nb. Cách thức tiến hành:\n- GV yêu cầu HS quan sát, trao đổi theo cặp đôi và cho biết các di tích trong hình:\n- GV khuyến khích HS tham gia trả lời. GV có thể gợi ý HS đọc nội dung và quan sát hình ảnh, đồng thời dựa trên các tài liệu mà HS đã chuẩn bị để trả lời.\n- GV mời đại diện một số HS trả lời câu hỏi.\n- GV mở trình duyệt web và chiếu video sự tích Hồ Hoàn Kiếm cho học sinh xem (2.1.CB1a):\n[https://www.youtube.com/watch?v=5sGQuTNrBnM](https://www.youtube.com/watch?v=5sGQuTNrBnM)\n- GV giới thiệu: Sự tích hồ Hoàn Kiếm:\n[https://www.youtube.com/watch?v=dIp34UXzofE](https://www.youtube.com/watch?v=dIp34UXzofE)\n- GV nhận xét, kết luận:\n+ Khu vực hồ Hoàn Kiếm có nhiều di tích văn hoá như: tháp Bút, đài Nghiên, tháp Rùa, cầu Thê Húc, đền Ngọc Sơn,...\n+ Hồ Hoàn Kiếm có tên gọi khác là hồ Gươm, hồ Lục Thuỷ, hồ Tả Vọng,...",
-              "- HS quan sát, trao đổi theo cặp đôi.\n- HS đại diện trả lời:\n+ Hình 1: Toàn cảnh hồ Hoàn Kiếm\n+ Hình 2: Hoạt động lễ hội ở hồ Hoàn Kiếm\n+ Hình 3: Tháp Rùa\n+ Hình 4: Đền Ngọc Sơn\n+ Hình 5: Tháp Bút\n+ Hình 6: Cầu Thê Húc\n+ Hình 7: Đài Nghiên\n- Các HS khác lắng nghe, nhận xét, nêu ý kiến bổ sung.\n- HS tập trung theo dõi video được trình chiếu và tóm tắt lại sự tích hồ Hoàn Kiếm."
+              "B. HOẠT ĐỘNG KHÁM PHÁ\nHoạt động 1: Cảnh quan và di tích ở khu vực bài hát Cây gia đình\na. Mục tiêu: HS biết được cảnh quan và di tích ở khu vực bài hát Cây gia đình.\nb. Cách thức tiến hành:\n- GV yêu cầu HS quan sát, trao đổi theo cặp đôi và cho biết các di tích trong hình:\n- GV khuyến khích HS tham gia trả lời. GV có thể gợi ý HS đọc nội dung và quan sát hình ảnh, đồng thời dựa trên các tài liệu mà HS đã chuẩn bị để trả lời.\n- GV mời đại diện một số HS trả lời câu hỏi.\n- GV mở trình duyệt web và chiếu video sự tích Cây gia đình cho học sinh xem (2.1.CB1a):\n[https://www.youtube.com/watch?v=5sGQuTNrBnM](https://www.youtube.com/watch?v=5sGQuTNrBnM)\n- GV giới thiệu: Sự tích bài hát Cây gia đình:\n[https://www.youtube.com/watch?v=dIp34UXzofE](https://www.youtube.com/watch?v=dIp34UXzofE)\n- GV nhận xét, kết luận:\n+ Khu vực bài hát Cây gia đình có nhiều di tích văn hoá như: tháp Bút, đài Nghiên, tháp Rùa, cầu Thê Húc, đền Ngọc Sơn,...\n+ Cây gia đình có tên gọi khác là hồ Gươm, hồ Lục Thuỷ, hồ Tả Vọng,...",
+              "- HS quan sát, trao đổi theo cặp đôi.\n- HS đại diện trả lời:\n+ Hình 1: Toàn cảnh bài hát Cây gia đình\n+ Hình 2: Hoạt động lễ hội ở bài hát Cây gia đình\n+ Hình 3: Tháp Rùa\n+ Hình 4: Đền Ngọc Sơn\n+ Hình 5: Tháp Bút\n+ Hình 6: Cầu Thê Húc\n+ Hình 7: Đài Nghiên\n- Các HS khác lắng nghe, nhận xét, nêu ý kiến bổ sung.\n- HS tập trung theo dõi video được trình chiếu và tóm tắt lại sự tích bài hát Cây gia đình."
             ],
             [
-              "HOẠT ĐỘNG THỰC HÀNH\na. Mục tiêu: Học sinh sử dụng kiến thức, kĩ năng được trang bị để luyện tập, thực hành, củng cố nhằm khắc sâu kiến thức.\nb. Cách thức tiến hành:\n- GV yêu cầu HS làm việc nhóm hãy: Chia sẻ những hiểu biết của em về hồ Hoàn Kiếm theo các gợi ý:\n+ Em biết ở khu vực hồ Hoàn Kiếm có những di tích nào?\n+ Vì sao hồ có tên là Hoàn Kiếm?\n- GV mời đại diện một số HS trả lời câu hỏi. Các HS khác lắng nghe, nhận xét, nêu ý kiến bổ sung (nếu có).",
-              "- HS dựa vào kiến thức đã học hãy chia sẻ trước lớp.\nVD:\n+ Em biết ở hồ Hoàn Kiếm có các di tích như: Tháp Rùa, Đền Ngọc Sơn, Tháp Bút, Cầu Thê Húc, Đài Nghiên.\n+ Hồ có tên là Hoàn kiếm vì: Giặc Minh xâm lược nước ta, Đức Long Quân cho nghĩa quân mượn thanh gươm thần để đánh đuổi giặc. Có gươm thần, nghĩa quân đánh đâu thắng đấy và đánh tan quân xâm lược. Khi đất nước yên bình, vua Lê Lợi đi thuyền trên hồ Tả Vọng, gặp Rùa vàng. Rùa vàng nổi trên mặt nước và nói: “Xin nhà vua hoàn gươm cho Long Quân!”. Vua Lê Lợi nghe vậy liền rút gươm đeo bên mình và trao trả cho Rùa vàng. Rùa vàng ngậm gươm và lặn xuống hồ. Từ đó, hồ có tên là hồ Hoàn Kiếm hay hồ Gươm."
+              "HOẠT ĐỘNG THỰC HÀNH\na. Mục tiêu: Học sinh sử dụng kiến thức, kĩ năng được trang bị để luyện tập, thực hành, củng cố nhằm khắc sâu kiến thức.\nb. Cách thức tiến hành:\n- GV yêu cầu HS làm việc nhóm hãy: Chia sẻ những hiểu biết của em về bài hát Cây gia đình theo các gợi ý:\n+ Em biết ở khu vực bài hát Cây gia đình có những di tích nào?\n+ Vì sao hồ có tên là Hoàn Kiếm?\n- GV mời đại diện một số HS trả lời câu hỏi. Các HS khác lắng nghe, nhận xét, nêu ý kiến bổ sung (nếu có).",
+              "- HS dựa vào kiến thức đã học hãy chia sẻ trước lớp.\nVD:\n+ Em biết ở bài hát Cây gia đình có các di tích như: Tháp Rùa, Đền Ngọc Sơn, Tháp Bút, Cầu Thê Húc, Đài Nghiên.\n+ Hồ có tên là Hoàn kiếm vì: Giặc Minh xâm lược nước ta, Đức Long Quân cho nghĩa quân mượn thanh gươm thần để đánh đuổi giặc. Có gươm thần, nghĩa quân đánh đâu thắng đấy và đánh tan quân xâm lược. Khi đất nước yên bình, vua Lê Lợi đi thuyền trên hồ Tả Vọng, gặp Rùa vàng. Rùa vàng nổi trên mặt nước và nói: “Xin nhà vua hoàn gươm cho Long Quân!”. Vua Lê Lợi nghe vậy liền rút gươm đeo bên mình và trao trả cho Rùa vàng. Rùa vàng ngậm gươm và lặn xuống hồ. Từ đó, hồ có tên là bài hát Cây gia đình hay hồ Gươm."
             ],
             [
-              "HOẠT ĐỘNG VẬN DỤNG\na. Mục tiêu: Học sinh sẽ giải quyết các tình huống, các bài học liên hệ, vận dụng thực tiễn của học sinh, gia đình và địa phương.\nb. Cách thức tiến hành:\n- GV giao nhiệm vụ cho HS:\n+ Kể về một cảnh đẹp nơi em ở theo những gợi ý sau:\nCảnh đẹp tên là gì? Ở đâu?\nQuang cảnh như thế nào?\nEm thích nhất điều gì ở cảnh đẹp đó?\n+ Làm một sản phẩm mĩ thuật thể hiện vẻ đẹp của hồ Hoàn Kiếm.\n- GV gợi ý cho HS có thể thực hiện theo các hình thức: nặn; xé, dán; nặn, đắp, nổi;…\n- GV mời đại diện một số HS lên chia sẻ trước lớp.\n- GV cho HS trưng bày sản phẩm.\nCủng cố, dặn dò và đánh giá:\n- GV y/c HS nhắc lại kiến thức vừa học.\n- GV hướng dẫn HS chuẩn bị nội dung cho tiết học sau.",
+              "HOẠT ĐỘNG VẬN DỤNG\na. Mục tiêu: Học sinh sẽ giải quyết các tình huống, các bài học liên hệ, vận dụng thực tiễn của học sinh, gia đình và địa phương.\nb. Cách thức tiến hành:\n- GV giao nhiệm vụ cho HS:\n+ Kể về một cảnh đẹp nơi em ở theo những gợi ý sau:\nCảnh đẹp tên là gì? Ở đâu?\nQuang cảnh như thế nào?\nEm thích nhất điều gì ở cảnh đẹp đó?\n+ Làm một sản phẩm mĩ thuật thể hiện vẻ đẹp của bài hát Cây gia đình.\n- GV gợi ý cho HS có thể thực hiện theo các hình thức: nặn; xé, dán; nặn, đắp, nổi;…\n- GV mời đại diện một số HS lên chia sẻ trước lớp.\n- GV cho HS trưng bày sản phẩm.\nCủng cố, dặn dò và đánh giá:\n- GV y/c HS nhắc lại kiến thức vừa học.\n- GV hướng dẫn HS chuẩn bị nội dung cho tiết học sau.",
               "- HS liên hệ với địa phương và giới thiệu chia sẻ trước lớp.\n- HS thực hiện làm sản phẩm mĩ thuật ở nhà.\n- HS trưng bày sản phẩm.\n- HS nhắc lại kiến thức.\n- HS lắng nghe hướng dẫn chuẩn bị bài sau."
             ],
             [
@@ -3101,7 +3101,7 @@
         ],
         "dieuchinh": [
           "TUẦN 27",
-          "GIÁO DỤC ĐỊA PHƯƠNG - CHỦ ĐỀ 5: HỒ HOÀN KIẾM",
+          "Chủ đề 7: Gia đình - Ôn tập bài hát Cây gia đình",
           "Ngày giảng: 24/03/2026 (1A); 25/02/2023 (1C)"
         ]
       }
@@ -3112,24 +3112,24 @@
     "sourceFile": "Giao_an_tich_hop-tuan 27-30-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "a. Mục tiêu: - Học sinh biết hát kết hợp vận động minh họa nhịp nhàng theo lời ca. - Học sinh nhận biết các nốt nhạc Đô - Rê - Mi - Pha - Son và bước đầu đọc đúng cao độ, trường độ.",
-        "topic": "GIÁO DỤC ĐỊA PHƯƠNG - CHỦ ĐỀ 8: NGHỀ LÀM NÓN LÁ Ở LÀNG CHUÔNG",
+        "lessonTitle": "Đọc nhạc: Đô - Rê - Mi - Pha - Son - Vận dụng sáng tạo",
+        "topic": "Chủ đề 7: Gia đình - Đọc nhạc Đô Rê Mi Pha Son",
         "yccd": [
           "1. Năng lực đặc thù:",
           "- Sau bài học, HS sẽ:",
-          "- Nêu được các bước làm nón lá ở làng Chuông.",
-          "- Biết được vẻ đẹp, công dụng của nón lá ở làng Chuông.",
+          "- Nêu được các bước làm nón lá ở quê hương.",
+          "- Biết được vẻ đẹp, công dụng của nón lá ở quê hương.",
           "- Trao đổi, chia sẻ; vận dụng hiểu biết vào đời sống, thực tiễn.",
           "- Tự hào và có ý thức giữ gìn nét đẹp làng nghề truyền thống của địa phương.",
           "- II. PHƯƠNG PHÁP VÀ THIẾT BỊ DẠY HỌC:",
           "2. Năng lực chung:",
-          "- Hoạt động nhóm, phân tích nội dung liên quan đến nón lá ở làng Chuông.",
+          "- Hoạt động nhóm, phân tích nội dung liên quan đến nón lá ở quê hương.",
           "- 1. Phương pháp dạy học: Thuyết trình, gợi mở, vấn đáp, trực quan, thảo luận nhóm, thực hành sáng tạo, đánh giá, luyện tập.",
           "3. Phẩm chất:",
           "- Hình thành và phát triển cho HS năng lực, phẩm chất:",
           "4. Tích hợp:",
           "- Năng lực số:",
-          "- Quan sát các hình ảnh số về làng Chuông được trình chiếu trên bảng tương tác để nhận biết sản phẩm nón lá. (1.1.CB1a)",
+          "- Quan sát các hình ảnh số về quê hương được trình chiếu trên bảng tương tác để nhận biết sản phẩm nón lá. (1.1.CB1a)",
           "- Xem video clip giới thiệu các bước làm nón lá trên kênh Youtube bằng máy chiếu của lớp học. (2.1.CB1a)"
         ],
         "dodung": [
@@ -3148,19 +3148,19 @@
               "- HS thực hiện hát vận động.\n- HS thực hiện tô màu vào vở bài tập.\n- HS lắng nghe và ghi nhớ thực hiện ở nhà."
             ],
             [
-              "A. HOẠT ĐỘNG KHỞI ĐỘNG\na. Mục tiêu: Tạo hứng thú cho HS tích cực tham gia vào nội dung bài học mới.\nb. Cách thức thực hiện:\n- GV chiếu hình ảnh số trên máy chiếu (1.1.CB1a) và yêu cầu HS: Quan sát hình và kể những điều em thấy ở làng Chuông.\n- GV gợi ý cho HS về những điều được nhắc đến trong hình ảnh.\n- GV đặt câu hỏi:\n+ Sản phẩm có tên là gì?\n+ Chất liệu sản phẩm là gì?\n- GV nhận xét, chuẩn kiến thức và dẫn dắt vào bài:\nMuốn ăn cơm trắng cá trê\nMuốn đội nón tốt thì về làng Chuông\nLàng Chuông ở huyện Thanh Oai, thành phố Hà Nội. Làng có nghề làm nón lá lâu đời và nổi tiếng khắp vùng.",
-              "- HS quan sát các hình ảnh số được trình chiếu và trả lời câu hỏi:\n+ Hình 1: Cổng làng Chuông\n+ Hình 2: Sân đình làng Chuông\n+ Hình 3: Chuẩn bị nguyên liệu làm nón ở làng Chuông\n+ Hình 4: Làm nón ở làng Chuông\n+ Hình 5: Nón lá làng Chuông\n- Sản phẩm là nón lá.\n- Chất liệu làm bằng lá cọ, tre, giang,…\n- HS lắng nghe."
+              "A. HOẠT ĐỘNG KHỞI ĐỘNG\na. Mục tiêu: Tạo hứng thú cho HS tích cực tham gia vào nội dung bài học mới.\nb. Cách thức thực hiện:\n- GV chiếu hình ảnh số trên máy chiếu (1.1.CB1a) và yêu cầu HS: Quan sát hình và kể những điều em thấy ở quê hương.\n- GV gợi ý cho HS về những điều được nhắc đến trong hình ảnh.\n- GV đặt câu hỏi:\n+ Sản phẩm có tên là gì?\n+ Chất liệu sản phẩm là gì?\n- GV nhận xét, chuẩn kiến thức và dẫn dắt vào bài:\nMuốn ăn cơm trắng cá trê\nMuốn đội nón tốt thì về quê hương\nLàng Chuông ở huyện Thanh Oai, thành phố Hà Nội. Làng có nghề làm nón lá lâu đời và nổi tiếng khắp vùng.",
+              "- HS quan sát các hình ảnh số được trình chiếu và trả lời câu hỏi:\n+ Hình 1: Cổng quê hương\n+ Hình 2: Sân đình quê hương\n+ Hình 3: Chuẩn bị nguyên liệu làm nón ở quê hương\n+ Hình 4: Làm nón ở quê hương\n+ Hình 5: Nón lá quê hương\n- Sản phẩm là nón lá.\n- Chất liệu làm bằng lá cọ, tre, giang,…\n- HS lắng nghe."
             ],
             [
-              "B. HOẠT ĐỘNG KHÁM PHÁ\na. Mục tiêu: HS biết được các bước làm nón lá ở làng Chuông.\nb. Cách thức tiến hành:\n- GV yêu cầu HS thảo luận theo cặp đôi, quan sát, trao đổi và cho biết các bước làm nón lá ở làng Chuông.\n- GV khuyến khích HS tham gia trả lời. GV có thể gợi ý HS đọc nội dung và quan sát hình ảnh, đồng thời dựa trên các tài liệu mà HS đã chuẩn bị để trả lời.\n- GV mời đại diện một số HS trả lời câu hỏi.\n- GV chiếu video giới thiệu nghề làm nón lá làng Chuông từ Youtube (2.1.CB1a):\n[https://www.youtube.com/watch?v=Tju0sRjnzms](https://www.youtube.com/watch?v=Tju0sRjnzms)\n- GV yêu cầu HS cho biết nón lá có công dụng gì?\n- GV nhận xét, kết luận.",
-              "- HS thảo luận theo cặp đôi, quan sát, trao đổi và kể tên các bước làm nón lá.\n- Các bước làm nón lá ở làng Chuông:\n+ bước 1: phơi lá\n+ bước 2: duỗi lá cho thẳng\n+ bước 3: làm khung và lót lá\n+ bước 4: khâu nón và hoàn thiện nón.\n[HÌNH ẢNH (Bị mất)]\n- Các HS khác lắng nghe, nhận xét, nêu ý kiến bổ sung.\n- HS tập trung xem video trình chiếu.\n- HS trả lời công dụng của nón lá: dùng để che nắng, che mưa, làm quạt, biểu diễn văn nghệ, làm quà tặng..."
+              "B. HOẠT ĐỘNG KHÁM PHÁ\na. Mục tiêu: HS biết được các bước làm nón lá ở quê hương.\nb. Cách thức tiến hành:\n- GV yêu cầu HS thảo luận theo cặp đôi, quan sát, trao đổi và cho biết các bước làm nón lá ở quê hương.\n- GV khuyến khích HS tham gia trả lời. GV có thể gợi ý HS đọc nội dung và quan sát hình ảnh, đồng thời dựa trên các tài liệu mà HS đã chuẩn bị để trả lời.\n- GV mời đại diện một số HS trả lời câu hỏi.\n- GV chiếu video giới thiệu nghề làm nón lá quê hương từ Youtube (2.1.CB1a):\n[https://www.youtube.com/watch?v=Tju0sRjnzms](https://www.youtube.com/watch?v=Tju0sRjnzms)\n- GV yêu cầu HS cho biết nón lá có công dụng gì?\n- GV nhận xét, kết luận.",
+              "- HS thảo luận theo cặp đôi, quan sát, trao đổi và kể tên các bước làm nón lá.\n- Các bước làm nón lá ở quê hương:\n+ bước 1: phơi lá\n+ bước 2: duỗi lá cho thẳng\n+ bước 3: làm khung và lót lá\n+ bước 4: khâu nón và hoàn thiện nón.\n[HÌNH ẢNH (Bị mất)]\n- Các HS khác lắng nghe, nhận xét, nêu ý kiến bổ sung.\n- HS tập trung xem video trình chiếu.\n- HS trả lời công dụng của nón lá: dùng để che nắng, che mưa, làm quạt, biểu diễn văn nghệ, làm quà tặng..."
             ],
             [
-              "HOẠT ĐỘNG THỰC HÀNH\na. Mục tiêu: Học sinh sử dụng kiến thức, kĩ năng được trang bị để luyện tập, thực hành, củng cố nhằm khắc sâu kiến thức.\nb. Cách thức tiến hành:\n- GV cho HS làm việc cá nhân: Hãy chia sẻ hiểu biết của em về nón lá làng Chuông theo các gợi ý:\n+ Tại sao gọi là nón lá làng Chuông?\n+ Làm nón lá gồm những bước nào?\n- GV mời đại diện một số HS trả lời câu hỏi.\n- GV nhận xét, kết luận.",
-              "- HS dựa vào kiến thức đã học và chia sẻ trước lớp.\n- Đại diện một số HS chia sẻ:\n+ Làng có nghề làm nón lá lâu đời và nổi tiếng khắp vùng nên gọi là nón lá làng Chuông.\n+ Các bước làm nón lá gồm: phơi lá, duỗi lá cho thẳng, làm khung và lót lá, khâu nón và hoàn thiện nón.\n- Các HS khác lắng nghe, nhận xét, nêu ý kiến bổ sung."
+              "HOẠT ĐỘNG THỰC HÀNH\na. Mục tiêu: Học sinh sử dụng kiến thức, kĩ năng được trang bị để luyện tập, thực hành, củng cố nhằm khắc sâu kiến thức.\nb. Cách thức tiến hành:\n- GV cho HS làm việc cá nhân: Hãy chia sẻ hiểu biết của em về nón lá quê hương theo các gợi ý:\n+ Tại sao gọi là nón lá quê hương?\n+ Làm nón lá gồm những bước nào?\n- GV mời đại diện một số HS trả lời câu hỏi.\n- GV nhận xét, kết luận.",
+              "- HS dựa vào kiến thức đã học và chia sẻ trước lớp.\n- Đại diện một số HS chia sẻ:\n+ Làng có nghề làm nón lá lâu đời và nổi tiếng khắp vùng nên gọi là nón lá quê hương.\n+ Các bước làm nón lá gồm: phơi lá, duỗi lá cho thẳng, làm khung và lót lá, khâu nón và hoàn thiện nón.\n- Các HS khác lắng nghe, nhận xét, nêu ý kiến bổ sung."
             ],
             [
-              "HOẠT ĐỘNG VẬN DỤNG\na. Mục tiêu: Học sinh sẽ giải quyết các tình huống, các bài học liên hệ, vận dụng thực tiễn của học sinh, gia đình và địa phương.\nb. Cách thức tiến hành:\n- GV giao nhiệm vụ cho HS:\n+ Đóng vai là hướng dẫn viên hãy: Giới thiệu về vẻ đẹp, công dụng của nón lá làng Chuông cho người thân trong gia đình.\n+ Kể về một nghề truyền thống ở Hà Nội mà em biết.\nNghề đó là nghề gì?\nSản phẩm của nghề đó là gì?\nHình dáng bên ngoài của sản phẩm như thế nào?\n- GV mời đại diện một số HS trả lời câu hỏi.\nCủng cố, dặn dò và đánh giá:\n- GV y/c HS nhắc lại kiến thức vừa học.\n- GV hướng dẫn HS chuẩn bị nội dung cho tiết học sau.",
+              "HOẠT ĐỘNG VẬN DỤNG\na. Mục tiêu: Học sinh sẽ giải quyết các tình huống, các bài học liên hệ, vận dụng thực tiễn của học sinh, gia đình và địa phương.\nb. Cách thức tiến hành:\n- GV giao nhiệm vụ cho HS:\n+ Đóng vai là hướng dẫn viên hãy: Giới thiệu về vẻ đẹp, công dụng của nón lá quê hương cho người thân trong gia đình.\n+ Kể về một nghề truyền thống ở Hà Nội mà em biết.\nNghề đó là nghề gì?\nSản phẩm của nghề đó là gì?\nHình dáng bên ngoài của sản phẩm như thế nào?\n- GV mời đại diện một số HS trả lời câu hỏi.\nCủng cố, dặn dò và đánh giá:\n- GV y/c HS nhắc lại kiến thức vừa học.\n- GV hướng dẫn HS chuẩn bị nội dung cho tiết học sau.",
               "- HS thực hiện nhiệm vụ đóng vai hướng dẫn viên giới thiệu cho người thân ở nhà.\n- HS kể về nghề truyền thống khác (Ví dụ: làng gốm Bát Tràng).\n- Các HS khác lắng nghe, nhận xét.\n- HS thực hiện ở nhà.\n- HS nhắc lại kiến thức và lắng nghe dặn dò."
             ],
             [
@@ -3182,8 +3182,8 @@
     "sourceFile": "Giao_an_tich_hop-tuan 27-30-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "Học sinh biết sơ lược về nhạc sĩ Hoàng Vân và cảm nhận được tính chất vui tươi, trong sáng của bài hát \"Con chim vành khuyên\". - - Quan sát hình ảnh và video chú chim vành khuyên được trình chiếu trên màn hình máy tính để nhận biết đặc điểm của loài chim này. (1.1.CB1a) - - Biết rằng việc chú chim ảo hay trợ lý ảo AI trên điện thoại phát ra lời chào lễ phép là do con người lập trình sẵn, từ đó hiểu rằng chỉ có con người mới có cảm xúc lễ phép, kính trọng thực sự khi chào hỏi người lớn. (NLa-A1)",
-        "topic": "GIÁO DỤC ĐỊA PHƯƠNG - CHỦ ĐỀ 8: NGHỀ LÀM NÓN LÁ Ở LÀNG CHUÔNG",
+        "lessonTitle": "Thường thức âm nhạc: Nhạc sĩ Hoàng Vân - Vận dụng sáng tạo"Con chim vành khuyên\". - - Quan sát hình ảnh và video chú chim vành khuyên được trình chiếu trên màn hình máy tính để nhận biết đặc điểm của loài chim này. (1.1.CB1a) - - Biết rằng việc chú chim ảo hay trợ lý ảo AI trên điện thoại phát ra lời chào lễ phép là do con người lập trình sẵn, từ đó hiểu rằng chỉ có con người mới có cảm xúc lễ phép, kính trọng thực sự khi chào hỏi người lớn. (NLa-A1)",
+        "topic": "Chủ đề 7: Gia đình - Đọc nhạc Đô Rê Mi Pha Son",
         "yccd": [
           "1. Năng lực đặc thù:",
           "- Bước đầu biết cảm nhận được các yếu tố trong âm nhạc như cao – thấp, dài – ngắn, to – nhỏ thông qua việc được nghe, hát và vận động.",

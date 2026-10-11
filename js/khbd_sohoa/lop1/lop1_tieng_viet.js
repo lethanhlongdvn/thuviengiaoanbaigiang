@@ -1845,7 +1845,7 @@
     "sourceFile": "TV TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN TIẾNG VIỆT 1 - KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - TUẦN 3 - BÀI 6: O o, DẤU HỎI",
+        "lessonTitle": "BÀI 6: O o, DẤU HỎI",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3083,7 +3083,7 @@
     "sourceFile": "TV TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN TIẾNG VIỆT 1 - KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - TUẦN 4 - BÀI 11: I i, K k",
+        "lessonTitle": "BÀI 11: I i, K k",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3866,7 +3866,7 @@
     "sourceFile": "TV TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN TIẾNG VIỆT 1 - KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - TUẦN 5 - BÀI 16: M m, N n",
+        "lessonTitle": "BÀI 16: M m, N n",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5104,7 +5104,7 @@
     "sourceFile": "TV TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN TIẾNG VIỆT 1 - KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - TUẦN 6 - BÀI 21: R r, S s",
+        "lessonTitle": "BÀI 21: R r, S s",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5339,7 +5339,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN TIẾNG VIỆT 1 - KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - TUẦN 6 - BÀI 22: T t, Tr tr",
+        "lessonTitle": "BÀI 22: T t, Tr tr",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6368,7 +6368,7 @@
     "sourceFile": "TV TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN TIẾNG VIỆT 1 - KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - TUẦN 7 - BÀI 26: Ph ph, Qu qu",
+        "lessonTitle": "BÀI 26: Ph ph, Qu qu",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7437,7 +7437,7 @@
     "sourceFile": "TV TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN TIẾNG VIỆT 1 - KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - TUẦN 8 - BÀI 31: An, ăn, ân",
+        "lessonTitle": "BÀI 31: An, ăn, ân",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8674,7 +8674,7 @@
     "sourceFile": "TV TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN TIẾNG VIỆT 1 - KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - TUẦN 9 - BÀI 36: Om, ôm, ơm",
+        "lessonTitle": "BÀI 36: Om, ôm, ơm",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10120,7 +10120,7 @@
     "sourceFile": "TV TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN TIẾNG VIỆT 1 - KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - TUẦN 10 - BÀI 41: Ui, ưi",
+        "lessonTitle": "BÀI 41: Ui, ưi",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11565,7 +11565,7 @@
     "sourceFile": "TV TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN TIẾNG VIỆT 1 - KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - TUẦN 11 - BÀI 46: Ac, ăc, âc",
+        "lessonTitle": "BÀI 46: Ac, ăc, âc",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13043,7 +13043,7 @@
     "sourceFile": "TV TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN TIẾNG VIỆT 1 - KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - TUẦN 12 - BÀI 51: Et, êt, it",
+        "lessonTitle": "BÀI 51: Et, êt, it",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -14481,7 +14481,7 @@
     "sourceFile": "TV TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN TIẾNG VIỆT 1 - KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - TUẦN 13 - BÀI 56: Ep, êp, ip, up",
+        "lessonTitle": "BÀI 56: Ep, êp, ip, up",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -15899,7 +15899,7 @@
     "sourceFile": "TV TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN TIẾNG VIỆT 1 - KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - TUẦN 14 - BÀI 61: Ong, ông, ung, ưng",
+        "lessonTitle": "BÀI 61: Ong, ông, ung, ưng",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -17413,7 +17413,7 @@
     "sourceFile": "TV TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "Bộ sách: Kết nối tri thức với cuộc sống - TIẾNG VIỆT - BÀI 66: UÔI, UÔM",
+        "lessonTitle": "BÀI 66: UÔI, UÔM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -18522,7 +18522,7 @@
     "sourceFile": "TV TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "Bộ sách: Kết nối tri thức với cuộc sống - TIẾNG VIỆT - BÀI 71: ƯƠC, ƯƠT",
+        "lessonTitle": "BÀI 71: ƯƠC, ƯƠT",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -19626,7 +19626,7 @@
     "sourceFile": "TV TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "Bộ sách: Kết nối tri thức với cuộc sống - TIẾNG VIỆT - BÀI 76: OAN, OĂN, OAT, OĂT",
+        "lessonTitle": "BÀI 76: OAN, OĂN, OAT, OĂT",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -20763,7 +20763,7 @@
     "sourceFile": "TV TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "Bộ sách: Kết nối tri thức với cuộc sống - TIẾNG VIỆT - BÀI 81: ÔN TẬP",
+        "lessonTitle": "BÀI 81: ÔN TẬP",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",

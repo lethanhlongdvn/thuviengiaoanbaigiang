@@ -3474,7 +3474,7 @@
     "sourceFile": "KHOA HỌC TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "KHOA HỌC TUẦN 11 - BÀI 10: NĂNG LƯỢNG CHẤT ĐỐT (TIẾT 2)",
+        "lessonTitle": "BÀI 10: NĂNG LƯỢNG CHẤT ĐỐT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3623,7 +3623,7 @@
         ]
       },
       {
-        "lessonTitle": "KHOA HỌC TUẦN 11 - BÀI 11: SỬ DỤNG NĂNG LƯỢNG MẶT TRỜI, NĂNG LƯỢNG GIÓ, NĂNG LƯỢNG NƯỚC CHẢY (TIẾT 1)",
+        "lessonTitle": "BÀI 11: SỬ DỤNG NĂNG LƯỢNG MẶT TRỜI, NĂNG LƯỢNG GIÓ, NĂNG LƯỢNG NƯỚC CHẢY (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3836,7 +3836,7 @@
     "sourceFile": "KHOA HỌC TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "KHOA HỌC TUẦN 12 - BÀI 11: SỬ DỤNG NĂNG LƯỢNG MẶT TRỜI, NĂNG LƯỢNG GIÓ, NĂNG LƯỢNG NƯỚC CHẢY",
+        "lessonTitle": "BÀI 11: SỬ DỤNG NĂNG LƯỢNG MẶT TRỜI, NĂNG LƯỢNG GIÓ, NĂNG LƯỢNG NƯỚC CHẢY",
         "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3967,7 +3967,7 @@
         ]
       },
       {
-        "lessonTitle": "KHOA HỌC TUẦN 12 - BÀI HỌC STEM: MÔ HÌNH THUYỀN BUỒM",
+        "lessonTitle": "BÀI HỌC STEM: MÔ HÌNH THUYỀN BUỒM",
         "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4183,7 +4183,7 @@
     "sourceFile": "KHOA HỌC TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "KHOA HỌC TUẦN 13 - BÀI 12: ÔN TẬP CHỦ ĐỀ NĂNG LƯỢNG (TIẾT 1)",
+        "lessonTitle": "BÀI 12: ÔN TẬP CHỦ ĐỀ NĂNG LƯỢNG (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4295,7 +4295,7 @@
         ]
       },
       {
-        "lessonTitle": "KHOA HỌC TUẦN 13 - BÀI 13: SINH SẢN CỦA THỰC VẬT CÓ HOA (TIẾT 1)",
+        "lessonTitle": "BÀI 13: SINH SẢN CỦA THỰC VẬT CÓ HOA (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4506,7 +4506,7 @@
     "sourceFile": "KHOA HỌC TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "KHOA HỌC TUẦN 14 - BÀI 13: SINH SẢN CỦA THỰC VẬT CÓ HOA (TIẾT 2)",
+        "lessonTitle": "BÀI 13: SINH SẢN CỦA THỰC VẬT CÓ HOA (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4622,7 +4622,7 @@
         ]
       },
       {
-        "lessonTitle": "KHOA HỌC TUẦN 14 - BÀI 14: SỰ PHÁT TRIỂN CỦA CÂY CON (TIẾT 1)",
+        "lessonTitle": "BÀI 14: SỰ PHÁT TRIỂN CỦA CÂY CON (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4772,7 +4772,7 @@
     "sourceFile": "KHOA HỌC TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "KHOA HỌC TUẦN 15 - BÀI 14: SỰ PHÁT TRIỂN CỦA CÂY CON (TIẾT 2)",
+        "lessonTitle": "BÀI 14: SỰ PHÁT TRIỂN CỦA CÂY CON (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4878,7 +4878,7 @@
         ]
       },
       {
-        "lessonTitle": "KHOA HỌC TUẦN 15 - BÀI 14: SỰ PHÁT TRIỂN CỦA CÂY CON (TIẾT 3)",
+        "lessonTitle": "BÀI 14: SỰ PHÁT TRIỂN CỦA CÂY CON (TIẾT 3)",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4959,7 +4959,7 @@
     "sourceFile": "KHOA HỌC TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "KHOA HỌC TUẦN 16 - BÀI 15: SINH SẢN CỦA ĐỘNG VẬT (TIẾT 1)",
+        "lessonTitle": "BÀI 15: SINH SẢN CỦA ĐỘNG VẬT (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5133,7 +5133,7 @@
         ]
       },
       {
-        "lessonTitle": "KHOA HỌC TUẦN 16 - BÀI 15: SINH SẢN CỦA ĐỘNG VẬT (TIẾT 2)",
+        "lessonTitle": "BÀI 15: SINH SẢN CỦA ĐỘNG VẬT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5429,7 +5429,7 @@
         ]
       },
       {
-        "lessonTitle": "KHOA HỌC TUẦN 17 - BÀI 16: VÒNG ĐỜI VÀ SỰ PHÁT TRIỂN CỦA ĐỘNG VẬT (TIẾT 2)",
+        "lessonTitle": "BÀI 16: VÒNG ĐỜI VÀ SỰ PHÁT TRIỂN CỦA ĐỘNG VẬT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -5608,7 +5608,7 @@
     "sourceFile": "KHOA HỌC TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "KHOA HỌC TUẦN 18 - ÔN TẬP KIỂM TRA - ÔN TẬP CUỐI HKI - TIẾT 1",
+        "lessonTitle": "ÔN TẬP KIỂM TRA - ÔN TẬP CUỐI HKI - TIẾT 1",
         "topic": "",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -5701,7 +5701,7 @@
         ]
       },
       {
-        "lessonTitle": "KHOA HỌC TUẦN 18 - ÔN TẬP KIỂM TRA - KIỂM TRA CUỐI HKI - TIẾT 2",
+        "lessonTitle": "ÔN TẬP KIỂM TRA - KIỂM TRA CUỐI HKI - TIẾT 2",
         "topic": "",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -5796,7 +5796,7 @@
     "sourceFile": "KHOA HỌC TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "KHOA HỌC TUẦN 19 - BÀI 17: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT",
+        "lessonTitle": "BÀI 17: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -6027,7 +6027,7 @@
         ]
       },
       {
-        "lessonTitle": "KHOA HỌC TUẦN 19 - BÀI 18: VI KHUẨN XUNG QUANH CHÚNG TA (TIẾT 1) - TIẾT 1",
+        "lessonTitle": "BÀI 18: VI KHUẨN XUNG QUANH CHÚNG TA (TIẾT 1) - TIẾT 1",
         "topic": "CHỦ ĐỀ 4: VI KHUẨN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -6198,7 +6198,7 @@
     "sourceFile": "KHOA HỌC TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "KHOA HỌC TUẦN 20 - BÀI 18: VI KHUẨN XUNG QUANH CHÚNG TA (TIẾT 2) - TIẾT 2",
+        "lessonTitle": "BÀI 18: VI KHUẨN XUNG QUANH CHÚNG TA (TIẾT 2) - TIẾT 2",
         "topic": "CHỦ ĐỀ 4: VI KHUẨN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -6312,7 +6312,7 @@
         ]
       },
       {
-        "lessonTitle": "KHOA HỌC TUẦN 20 - BÀI 19: VI KHUẨN CÓ ÍCH TRONG CHẾ BIẾN THỰC PHẨM (TIẾT 1)",
+        "lessonTitle": "BÀI 19: VI KHUẨN CÓ ÍCH TRONG CHẾ BIẾN THỰC PHẨM (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: VI KHUẨN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -6469,7 +6469,7 @@
     "sourceFile": "KHOA HỌC TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "KHOA HỌC TUẦN 21 - BÀI 19: VI KHUẨN CÓ ÍCH TRONG CHẾ BIẾN THỰC PHẨM (TIẾT 2 - BÀI HỌC STEM)",
+        "lessonTitle": "BÀI 19: VI KHUẨN CÓ ÍCH TRONG CHẾ BIẾN THỰC PHẨM (TIẾT 2 - BÀI HỌC STEM)",
         "topic": "CHỦ ĐỀ 4: VI KHUẨN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -6672,7 +6672,7 @@
         ]
       },
       {
-        "lessonTitle": "KHOA HỌC TUẦN 21 - BÀI 20: VI KHUẨN GÂY BỆNH Ở NGƯỜI VÀ CÁCH PHÒNG TRÁNH (TIẾT 1)",
+        "lessonTitle": "BÀI 20: VI KHUẨN GÂY BỆNH Ở NGƯỜI VÀ CÁCH PHÒNG TRÁNH (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: VI KHUẨN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -6814,7 +6814,7 @@
     "sourceFile": "KHOA HỌC TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "KHOA HỌC TUẦN 22 - BÀI 20: VI KHUẨN GÂY BỆNH Ở NGƯỜI VÀ CÁCH PHÒNG TRÁNH (TIẾT 2)",
+        "lessonTitle": "BÀI 20: VI KHUẨN GÂY BỆNH Ở NGƯỜI VÀ CÁCH PHÒNG TRÁNH (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: VI KHUẨN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -6999,7 +6999,7 @@
         ]
       },
       {
-        "lessonTitle": "KHOA HỌC TUẦN 22 - BÀI 21: ÔN TẬP CHỦ ĐỀ VI KHUẨN",
+        "lessonTitle": "BÀI 21: ÔN TẬP CHỦ ĐỀ VI KHUẨN",
         "topic": "CHỦ ĐỀ 4: VI KHUẨN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -7126,7 +7126,7 @@
     "sourceFile": "KHOA HỌC TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "KHOA HỌC TUẦN 23 - BÀI 22: SỰ HÌNH THÀNH CƠ THỂ NGƯỜI (TIẾT 1)",
+        "lessonTitle": "BÀI 22: SỰ HÌNH THÀNH CƠ THỂ NGƯỜI (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -7238,7 +7238,7 @@
         ]
       },
       {
-        "lessonTitle": "KHOA HỌC TUẦN 23 - BÀI 22: SỰ HÌNH THÀNH CƠ THỂ NGƯỜI (TIẾT 2)",
+        "lessonTitle": "BÀI 22: SỰ HÌNH THÀNH CƠ THỂ NGƯỜI (TIẾT 2)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",

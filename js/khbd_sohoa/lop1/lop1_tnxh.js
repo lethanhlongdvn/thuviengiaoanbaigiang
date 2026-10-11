@@ -3973,7 +3973,7 @@
     "sourceFile": "TNXH TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 14: ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 1)",
+        "lessonTitle": "BÀI 14: ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4115,7 +4115,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 14: ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 2)",
+        "lessonTitle": "BÀI 14: ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4235,7 +4235,7 @@
     "sourceFile": "TNXH TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - ÔN TẬP CUỐI HỌC KÌ I",
+        "lessonTitle": "ÔN TẬP CUỐI HỌC KÌ I",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4349,7 +4349,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 15: CÂY XUNG QUANH EM (TIẾT 1)",
+        "lessonTitle": "BÀI 15: CÂY XUNG QUANH EM (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4489,7 +4489,7 @@
     "sourceFile": "TNXH TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 15: CÂY XUNG QUANH EM (TIẾT 2) - LỒNG GHÉP STEM",
+        "lessonTitle": "BÀI 15: CÂY XUNG QUANH EM (TIẾT 2) - LỒNG GHÉP STEM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4616,7 +4616,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 15: CÂY XUNG QUANH EM (TIẾT 3) - LỒNG GHÉP STEM",
+        "lessonTitle": "BÀI 15: CÂY XUNG QUANH EM (TIẾT 3) - LỒNG GHÉP STEM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4726,7 +4726,7 @@
     "sourceFile": "TNXH TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 16: CHĂM SÓC VÀ BẢO VỆ CÂY TRỒNG (TIẾT 1)",
+        "lessonTitle": "BÀI 16: CHĂM SÓC VÀ BẢO VỆ CÂY TRỒNG (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4861,7 +4861,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 16: CHĂM SÓC VÀ BẢO VỆ CÂY TRỒNG (TIẾT 2)",
+        "lessonTitle": "BÀI 16: CHĂM SÓC VÀ BẢO VỆ CÂY TRỒNG (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4977,7 +4977,7 @@
     "sourceFile": "TNXH TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 17: CON VẬT QUANH EM (TIẾT 1)",
+        "lessonTitle": "BÀI 17: CON VẬT QUANH EM (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5101,7 +5101,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 17: CON VẬT QUANH EM (TIẾT 2)",
+        "lessonTitle": "BÀI 17: CON VẬT QUANH EM (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5216,7 +5216,7 @@
     "sourceFile": "TNXH TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 17: CON VẬT QUANH EM (TIẾT 3)",
+        "lessonTitle": "BÀI 17: CON VẬT QUANH EM (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5340,7 +5340,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 18: CHĂM SÓC VÀ BẢO VỆ VẬT NUÔI (TIẾT 1)",
+        "lessonTitle": "BÀI 18: CHĂM SÓC VÀ BẢO VỆ VẬT NUÔI (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5477,7 +5477,7 @@
     "sourceFile": "TNXH TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 18: CHĂM SÓC VÀ BẢO VỆ VẬT NUÔI (TIẾT 2) - LỒNG GHÉP STEM",
+        "lessonTitle": "BÀI 18: CHĂM SÓC VÀ BẢO VỆ VẬT NUÔI (TIẾT 2) - LỒNG GHÉP STEM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5614,7 +5614,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 19: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 1)",
+        "lessonTitle": "BÀI 19: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5737,7 +5737,7 @@
     "sourceFile": "TNXH TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 19: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 2)",
+        "lessonTitle": "BÀI 19: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5854,7 +5854,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 19: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 3)",
+        "lessonTitle": "BÀI 19: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5983,7 +5983,7 @@
     "sourceFile": "TNXH TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 20: CƠ THỂ EM (TIẾT 1)",
+        "lessonTitle": "BÀI 20: CƠ THỂ EM (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6116,7 +6116,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 20: CƠ THỂ EM (TIẾT 2)",
+        "lessonTitle": "BÀI 20: CƠ THỂ EM (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6241,7 +6241,7 @@
     "sourceFile": "TNXH TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 20: CƠ THỂ EM (TIẾT 3)",
+        "lessonTitle": "BÀI 20: CƠ THỂ EM (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6364,7 +6364,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 21: CÁC GIÁC QUAN CỦA CƠ THỂ (TIẾT 1)",
+        "lessonTitle": "BÀI 21: CÁC GIÁC QUAN CỦA CƠ THỂ (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6494,7 +6494,7 @@
     "sourceFile": "TNXH TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 21: CÁC GIÁC QUAN CỦA CƠ THỂ (TIẾT 2)",
+        "lessonTitle": "BÀI 21: CÁC GIÁC QUAN CỦA CƠ THỂ (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6621,7 +6621,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 21: CÁC GIÁC QUAN CỦA CƠ THỂ (TIẾT 3)",
+        "lessonTitle": "BÀI 21: CÁC GIÁC QUAN CỦA CƠ THỂ (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6762,7 +6762,7 @@
     "sourceFile": "TNXH TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 22: ĂN, UỐNG HẰNG NGÀY (TIẾT 1)",
+        "lessonTitle": "BÀI 22: ĂN, UỐNG HẰNG NGÀY (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6885,7 +6885,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 22: ĂN, UỐNG HẰNG NGÀY (TIẾT 2)",
+        "lessonTitle": "BÀI 22: ĂN, UỐNG HẰNG NGÀY (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7006,7 +7006,7 @@
     "sourceFile": "TNXH TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 23: VẬN ĐỘNG VÀ NGHỈ NGƠI (TIẾT 1)",
+        "lessonTitle": "BÀI 23: VẬN ĐỘNG VÀ NGHỈ NGƠI (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7123,7 +7123,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 23: VẬN ĐỘNG VÀ NGHỈ NGƠI (TIẾT 2)",
+        "lessonTitle": "BÀI 23: VẬN ĐỘNG VÀ NGHỈ NGƠI (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7246,7 +7246,7 @@
     "sourceFile": "TNXH TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 24: TỰ BẢO VỆ MÌNH (TIẾT 1)",
+        "lessonTitle": "BÀI 24: TỰ BẢO VỆ MÌNH (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7360,7 +7360,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 24: TỰ BẢO VỆ MÌNH (TIẾT 2)",
+        "lessonTitle": "BÀI 24: TỰ BẢO VỆ MÌNH (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7479,7 +7479,7 @@
     "sourceFile": "TNXH TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 25: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 1)",
+        "lessonTitle": "BÀI 25: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7596,7 +7596,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 25: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 2)",
+        "lessonTitle": "BÀI 25: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7719,7 +7719,7 @@
     "sourceFile": "TNXH TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 25: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 3)",
+        "lessonTitle": "BÀI 25: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7828,7 +7828,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 26: CÙNG KHÁM PHÁ BẦU TRỜI (TIẾT 1)",
+        "lessonTitle": "BÀI 26: CÙNG KHÁM PHÁ BẦU TRỜI (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7948,7 +7948,7 @@
     "sourceFile": "TNXH TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 26: CÙNG KHÁM PHÁ BẦU TRỜI (TIẾT 2) - LỒNG GHÉP STEM: BẦU TRỜI NGÀY VÀ ĐÊM",
+        "lessonTitle": "BÀI 26: CÙNG KHÁM PHÁ BẦU TRỜI (TIẾT 2) - LỒNG GHÉP STEM: BẦU TRỜI NGÀY VÀ ĐÊM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8078,7 +8078,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 26: CÙNG KHÁM PHÁ BẦU TRỜI (TIẾT 3)",
+        "lessonTitle": "BÀI 26: CÙNG KHÁM PHÁ BẦU TRỜI (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8201,7 +8201,7 @@
     "sourceFile": "TNXH TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 27: THỜI TIẾT LUÔN THAY ĐỔI (TIẾT 1)",
+        "lessonTitle": "BÀI 27: THỜI TIẾT LUÔN THAY ĐỔI (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8336,7 +8336,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 27: THỜI TIẾT LUÔN THAY ĐỔI (TIẾT 2)",
+        "lessonTitle": "BÀI 27: THỜI TIẾT LUÔN THAY ĐỔI (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8459,7 +8459,7 @@
     "sourceFile": "TNXH TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 27: THỜI TIẾT LUÔN THAY ĐỔI (TIẾT 3)",
+        "lessonTitle": "BÀI 27: THỜI TIẾT LUÔN THAY ĐỔI (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8576,7 +8576,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 28: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 1)",
+        "lessonTitle": "BÀI 28: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8695,7 +8695,7 @@
     "sourceFile": "TNXH TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 28: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 2)",
+        "lessonTitle": "BÀI 28: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8804,7 +8804,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - ÔN TẬP CUỐI HỌC KÌ II",
+        "lessonTitle": "ÔN TẬP CUỐI HỌC KÌ II",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
