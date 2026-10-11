@@ -1107,8 +1107,8 @@
     "topic": "Chủ đề 1 GDĐP 4: Địa hình, khí hậu tỉnh Trà Vinh",
     "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (1 GDĐP 4: Địa hình, khí hậu tỉnh Trà Vinh): Tìm hiểu đặc điểm sông ngòi và hệ sinh thái rừng ngập mặn quê hương",
     "activityTitle": "Hoạt động Khám phá & Liên hệ thực tế:Tìm hiểu đặc điểm sông ngòi và hệ sinh thái rừng ngập mặn quê hương",
-    "teacherAct": "GV trình chiếu video flycam về những cánh rừng đước Duyên Hải, dải rừng ngập mặn ven biển Thạnh Phú và miệt vườn Cù lao An Bình. giáo dục ý thức bảo vệ tài nguyên rừng, không chặt phá cây rừng phòng hộ và giữ gìn dòng sông quê hương.",
-    "studentAct": "HS thảo luận cặp đôi: Nêu vai trò phòng hộ chắn sóng, chống sạt lở bờ biển của rừng ngập mặn và tiềm năng phát triển du lịch sinh thái nông nghiệp nông thôn."
+    "teacherAct": "GV trình chiếu video, hình ảnh về những cánh rừng đước Duyên Hải, dải rừng ngập mặn ven biển Ba Động và miệt vườn Cù lao Long Trị, Cù lao Tân Quy (Cầu Kè). Giáo dục ý thức bảo vệ tài nguyên rừng, không chặt phá cây rừng phòng hộ và giữ gìn môi trường dòng sông quê hương Trà Vinh.",
+    "studentAct": "HS thảo luận cặp đôi: Nêu vai trò phòng hộ chắn sóng, chống sạt lở bờ biển của rừng ngập mặn Duyên Hải và tiềm năng phát triển du lịch sinh thái miệt vườn sông nước tỉnh Trà Vinh."
   },
   {
     "id": "gddp_tv_77",
@@ -1442,11 +1442,11 @@
       4
     ],
     "lessonTitle": "Bài 1:Lợi ích của hoa, cây cảnh đối với đời sống (Chủ đề 1",
-    "topic": "Chủ đề 8 GDĐP 4: Khuôn viên cây xanh và nghệ thuật cảnh quan tại các chùa cổ Trà Vinh (Trang 36 - QĐ 2727/QĐ-BGDĐT)(Tìm hiểu vai trò thanh lọc không khí, tạo cảnh quan tươi đẹp và giá trị kinh tế của nghề ươm hoa kiểng Cái Mơn).",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (8 GDĐP 4: Khuôn viên cây xanh và nghệ thuật cảnh quan tại các chùa cổ Trà Vinh(Tìm hiểu vai trò thanh lọc không khí, tạo cảnh quan tươi đẹp và giá trị kinh tế của nghề ươm hoa kiểng Cái Mơn).): Tìm hiểu lợi ích của hoa kiểng và nghề ươm cây giống quê hương",
-    "activityTitle": "Hoạt động Khám phá & Vận dụng:Tìm hiểu lợi ích của hoa kiểng và nghề ươm cây giống quê hương",
-    "teacherAct": "GV trình chiếu hình ảnh 'Vương quốc hoa kiểng Chợ Lách' và các bồn hoa rực rỡ tại công viên, sân trường. giáo dục ý thức yêu thiên nhiên, không ngắt hoa bẻ cành tại các khu vực công cộng.",
-    "studentAct": "HS thảo luận: Nêu lợi ích của việc trồng cây xanh, hoa kiểng đối với sức khỏe con người, làm đẹp môi trường sống và mang lại nguồn thu nhập cho người dân."
+    "topic": "Chủ đề 8 GDĐP 4: Khuôn viên cây xanh và nghệ thuật cảnh quan tại các chùa cổ Trà Vinh (Trang 36 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 8: Khuôn viên cây xanh và nghệ thuật cảnh quan tại các chùa cổ Trà Vinh): Nhận biết lợi ích của cây xanh, hoa kiểng trong việc thanh lọc không khí, tạo cảnh quan tươi đẹp tại các ngôi chùa cổ và đô thị xanh Trà Vinh; có ý thức chăm sóc, bảo vệ hoa, cây cảnh.",
+    "activityTitle": "Hoạt động Khám phá & Vận dụng: Tìm hiểu lợi ích của hoa, cây cảnh trong khuôn viên các ngôi chùa cổ và đô thị xanh Trà Vinh.",
+    "teacherAct": "GV trình chiếu hình ảnh khuôn viên rợp bóng mát cây xanh, hàng cây sao dầu cổ thụ và các bồn hoa kiểng tại Chùa Âng, Chùa Hang (Trà Vinh). Giáo dục học sinh ý thức yêu thiên nhiên, không hái hoa bẻ cành tại trường học và nơi công cộng.",
+    "studentAct": "HS thảo luận: Nêu lợi ích của việc trồng cây xanh, hoa kiểng đối với sức khỏe con người, làm đẹp môi trường sống và cảnh quan thanh tịnh của các ngôi chùa cổ Trà Vinh."
   },
   {
     "id": "gddp_tv_97",
@@ -1545,10 +1545,10 @@
     ],
     "lessonTitle": "Bài 5:Nông nghiệp, lâm nghiệp, thủy sản",
     "topic": "Chủ đề 7 GDĐP 5: Mô hình nuôi tôm công nghệ cao",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (7 GDĐP 5: Mô hình nuôi tôm công nghệ cao): Tìm hiểu các ngành sản xuất nông - lâm - thủy sản thế mạnh của quê hương",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 7: Mô hình nuôi tôm công nghệ cao): Tìm hiểu các ngành sản xuất nông nghiệp và nuôi trồng thuỷ sản thế mạnh của tỉnh Trà Vinh (nuôi tôm công nghệ cao Duyên Hải, Cầu Ngang; lúa chất lượng cao Càng Long); tự hào về những đổi mới trong sản xuất của quê hương.",
     "activityTitle": "Hoạt động Khám phá & Vận dụng:Tìm hiểu các ngành sản xuất nông - lâm - thủy sản thế mạnh của quê hương",
-    "teacherAct": "GV trình chiếu phóng sự ngắn về vùng chuyên canh khoai lang Bình Tân xuất khẩu, mô hình nuôi tôm thẻ chân trắng công nghệ cao duyên hải và vùng cây trái Cái Mơn. giáo dục lòng tự hào về thành tựu đổi mới nông nghiệp, xây dựng nông thôn mới kiểu mẫu trên quê hương.",
-    "studentAct": "HS thảo luận nhóm: Lập sơ đồ tư duy về các sản phẩm nông - thủy sản chủ lực và vai trò của việc áp dụng khoa học kỹ thuật hiện đại."
+    "teacherAct": "GV trình chiếu phóng sự ngắn về mô hình nuôi tôm thẻ chân trắng công nghệ cao siêu thâm canh tại Duyên Hải và vùng chuyên canh lúa chất lượng cao Càng Long, Tiểu Cần. Giáo dục lòng tự hào về thành tựu đổi mới nông nghiệp, xây dựng nông thôn mới kiểu mẫu trên quê hương Trà Vinh.",
+    "studentAct": "HS thảo luận nhóm: Lập sơ đồ tư duy về các sản phẩm nông - thủy sản chủ lực của Trà Vinh (tôm, cua biển, lúa gạo, dừa sáp) và vai trò của việc áp dụng khoa học kỹ thuật hiện đại."
   },
   {
     "id": "gddp_tv_103",
@@ -1608,10 +1608,10 @@
     ],
     "lessonTitle": "Bài 14:Cuộc kháng chiến chống thực dân Pháp (1945 - 1954)",
     "topic": "Chủ đề 4 GDĐP 5: Bí thư Tỉnh ủy Phạm Thái Bường",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (4 GDĐP 5: Bí thư Tỉnh ủy Phạm Thái Bường): Tìm hiểu căn cứ kháng chiến và các tấm gương cách mạng kiên trung",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 4: Bí thư Tỉnh ủy Phạm Thái Bường): Tìm hiểu căn cứ kháng chiến và tấm gương hoạt động cách mạng kiên trung của đồng chí Phạm Thái Bường trên quê hương Trà Vinh.",
     "activityTitle": "Hoạt động Khám phá 1 & Vận dụng:Tìm hiểu căn cứ kháng chiến và các tấm gương cách mạng kiên trung",
-    "teacherAct": "GV chiếu phim tư liệu về Căn cứ Cái Ngang (Tam Bình) - nơi chở che Tỉnh ủy, quân và dân vượt qua bom đạn khốc liệt. liên hệ giáo dục truyền thống 'Uống nước nhớ nguồn', chăm ngoan học giỏi đền đáp công ơn cha anh.",
-    "studentAct": "HS kể lại tóm tắt tiểu sử đồng chí Phạm Thái Bường - người cộng sản kiên trung mẫu mực của quê hương."
+    "teacherAct": "GV chiếu phim tư liệu, hình ảnh về đồng chí Phạm Thái Bường (quê xã An Trường, Càng Long, Bí thư Tỉnh ủy Trà Vinh) - người cộng sản kiên trung đã lãnh đạo quân dân Trà Vinh kiên cường đánh giặc. Giáo dục truyền thống 'Uống nước nhớ nguồn', học tập noi gương cha anh.",
+    "studentAct": "HS kể lại tóm tắt tiểu sử đồng chí Phạm Thái Bường - người cộng sản kiên trung mẫu mực của quê hương Trà Vinh."
   },
   {
     "id": "gddp_tv_107",
@@ -1640,10 +1640,10 @@
     ],
     "lessonTitle": "Bài 17:Đất nước đổi mới và hội nhập quốc tế",
     "topic": "Chủ đề 6 GDĐP 5: Nông thôn mới trên quê hương Trà Vinh",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (6 GDĐP 5: Nông thôn mới trên quê hương Trà Vinh): Tìm hiểu tấm gương bác Sáu Dân (Thủ tướng Võ Văn Kiệt) và diện mạo đổi mới quê hương",
-    "activityTitle": "Hoạt động Khám phá & Vận dụng:Tìm hiểu tấm gương bác Sáu Dân (Thủ tướng Võ Văn Kiệt) và diện mạo đổi mới quê hương",
-    "teacherAct": "GV trình chiếu chùm ảnh Khu tưởng niệm Thủ tướng Võ Văn Kiệt (Vũng Liêm) và các công trình giao thông thế kỷ bắc qua sông Tiền, sông Cổ Chiên. phát động phong trào thi đua học tập, sáng tạo để mai sau góp sức xây dựng quê hương giàu đẹp.",
-    "studentAct": "HS chia sẻ cảm nghĩ: Bác Võ Văn Kiệt là tấm gương tiêu biểu cho tinh thần dám nghĩ, dám làm, hết lòng vì nước vì dân."
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 6: Nông thôn mới trên quê hương Trà Vinh): Tìm hiểu diện mạo đổi mới vượt bậc của quê hương Trà Vinh trong phong trào xây dựng Nông thôn mới (huyện đạt chuẩn NTM, hạ tầng giao thông liên ấp, đê bao ngăn mặn, kinh tế xanh).",
+    "activityTitle": "Hoạt động Khám phá & Vận dụng: Diện mạo đổi mới và khởi sắc của Nông thôn mới quê hương Trà Vinh.",
+    "teacherAct": "GV trình chiếu chùm ảnh và video về phong trào xây dựng Nông thôn mới tỉnh Trà Vinh: đường hoa nông thôn có đèn chiếu sáng, đê bao ngăn mặn và các cây cầu mới nối nhịp đôi bờ. Phát động học sinh thi đua học tập tốt và giữ gìn vệ sinh đường làng ngõ xóm.",
+    "studentAct": "HS chia sẻ cảm nghĩ: Tự hào về sự đổi mới của quê hương Trà Vinh; có ý thức bảo vệ môi trường, không xả rác và cùng gia đình xây dựng nếp sống văn minh nông thôn mới."
   },
   {
     "id": "gddp_tv_109",
