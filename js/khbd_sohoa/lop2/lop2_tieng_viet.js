@@ -7466,7 +7466,7 @@
     "sourceFile": "TV TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC - TUẦN 7\nCHỦ ĐỀ 2: ĐI HỌC VUI SAO\nBÀI 13: YÊU LẮM TRƯỜNG ƠI!\nTIẾT 1 - 2: ĐỌC: YÊU LẮM TRƯỜNG ƠI!",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -7678,7 +7678,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC - TUẦN 7\nCHỦ ĐỀ 2: ĐI HỌC VUI SAO\nBÀI 13: YÊU LẮM TRƯỜNG ƠI!\nTIẾT 3: VIẾT: CHỮ HOA E, Ê",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -7788,7 +7788,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC - TUẦN 7\nCHỦ ĐỀ 2: ĐI HỌC VUI SAO\nBÀI 13: YÊU LẮM TRƯỜNG ƠI!\nTIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN BỮA ĂN TRƯA",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -7908,7 +7908,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC - TUẦN 7\nCHỦ ĐỀ 2: ĐI HỌC VUI SAO\nBÀI 14: EM HỌC VẼ\nTIẾT 1 - 2: ĐỌC: EM HỌC VẼ",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8108,7 +8108,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC - TUẦN 7\nCHỦ ĐỀ 2: ĐI HỌC VUI SAO\nBÀI 14: EM HỌC VẼ\nTIẾT 3: VIẾT: NGHE - VIẾT: EM HỌC VẼ; PHÂN BIỆT NG/NGH, R/D/GI, AN/ANG",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8226,7 +8226,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC - TUẦN 7\nCHỦ ĐỀ 2: ĐI HỌC VUI SAO\nBÀI 14: EM HỌC VẼ\nTIẾT 4: LUYỆN TỪ VÀ CÂU: TỪ NGỮ CHỈ SỰ VẬT; DẤU CHẤM, DẤU CHẤM HỎI",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8344,7 +8344,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC - TUẦN 7\nCHỦ ĐỀ 2: ĐI HỌC VUI SAO\nBÀI 14: EM HỌC VẼ\nTIẾT 5 - 6: LUYỆN VIẾT ĐOẠN; ĐỌC MỞ RỘNG",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8508,7 +8508,7 @@
     "sourceFile": "TV TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 8\nCHỦ ĐỀ 2: ĐI HỌC VUI SAO\nBÀI 15: CUỐN SÁCH CỦA EM\nTIẾT 1 - 2: ĐỌC: CUỐN SÁCH CỦA EM",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8716,7 +8716,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 8\nCHỦ ĐỀ 2: ĐI HỌC VUI SAO\nBÀI 15: CUỐN SÁCH CỦA EM\nTIẾT 3: VIẾT: CHỮ HOA G",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8826,7 +8826,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 8\nCHỦ ĐỀ 2: ĐI HỌC VUI SAO\nBÀI 15: CUỐN SÁCH CỦA EM\nTIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN HỌA MI, VẸT VÀ QUẠ",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8943,7 +8943,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 8\nCHỦ ĐỀ 2: ĐI HỌC VUI SAO\nBÀI 16: KHI TRANG SÁCH MỞ RA\nTIẾT 1 - 2: ĐỌC: KHI TRANG SÁCH MỞ RA",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9133,7 +9133,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 8\nCHỦ ĐỀ 2: ĐI HỌC VUI SAO\nBÀI 16: KHI TRANG SÁCH MỞ RA\nTIẾT 3: VIẾT: NGHE - VIẾT: KHI TRANG SÁCH MỞ RA; PHÂN BIỆT L/N, ĂN/ĂNG, ÂN/ÂNG",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9261,7 +9261,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 8\nCHỦ ĐỀ 2: ĐI HỌC VUI SAO\nBÀI 16: KHI TRANG SÁCH MỞ RA\nTIẾT 4: LUYỆN TỪ VÀ CÂU: TỪ NGỮ CHỈ ĐẶC ĐIỂM; CÂU NÊU ĐẶC ĐIỂM; DẤU CHẤM, DẤU CHẤM HỎI",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9374,7 +9374,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 8\nCHỦ ĐỀ 2: ĐI HỌC VUI SAO\nBÀI 16: KHI TRANG SÁCH MỞ RA\nTIẾT 5 - 6: LUYỆN VIẾT ĐOẠN: TẢ ĐỒ DÙNG HỌC TẬP; ĐỌC MỞ RỘNG",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10331,7 +10331,7 @@
     "sourceFile": "TV TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC - TUẦN 10\nCHỦ ĐỀ 3: NIỀM VUI TUỔI THƠ\nBÀI 17: GỌI BẠN\nTIẾT 1 - 2: ĐỌC: GỌI BẠN",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:\n- Đọc đúng bài thơ Gọi bạn; biết ngắt nghỉ hơi theo nhịp 2/3 hoặc 3/2, đọc lời gọi “Bê! Bê!” tha thiết.\n- Hiểu nghĩa các từ sâu thẳm, hạn hán, lang thang; trả lời được câu hỏi trong SGK và nêu được nội dung bài thơ.\n- Cảm nhận được tình bạn thân thiết giữa bê vàng và dê trắng; biết nói lời an ủi phù hợp.\n2. Năng lực chung:\n- Tự chủ và tự học: chủ động luyện đọc, tự sửa lỗi phát âm.\n- Giao tiếp và hợp tác: biết trao đổi nhóm 2, nhóm 4 và lắng nghe bạn.\n- Giải quyết vấn đề và sáng tạo: biết liên hệ bài học với cách ứng xử trong tình bạn.\n3. Phẩm chất:\n- Nhân ái: biết quan tâm, chia sẻ, yêu thương và giúp đỡ bạn bè.\n- Trách nhiệm: tích cực hợp tác trong hoạt động nhóm.\n4. Tích hợp:\n- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục HS biết yêu thương, quan tâm, giúp đỡ bạn bè; biết sống nhân ái, chan hòa trong tình bạn.\n- Tích hợp AI 2.A1.1: Nhận biết một số tình huống AI có thể hỗ trợ con người gợi ý lời nói trong giao tiếp đơn giản: HS biết tham khảo gợi ý lời an ủi do AI/trợ lí ảo tạo ra dưới sự hướng dẫn của GV, nhưng cần tự kiểm tra, chọn câu phù hợp, lịch sự, đúng hoàn cảnh và nói bằng lời chân thành của mình."
@@ -10569,7 +10569,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC - TUẦN 10\nCHỦ ĐỀ 3: NIỀM VUI TUỔI THƠ\nBÀI 17: GỌI BẠN\nTIẾT 3: VIẾT: CHỮ HOA H",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:\n- Biết viết chữ hoa H cỡ vừa và cỡ nhỏ đúng mẫu, đúng quy trình.\n- Viết đúng câu ứng dụng: Học thầy không tày học bạn.\n- Trình bày bài viết sạch, rõ ràng, đúng khoảng cách; đặt dấu thanh đúng vị trí.\n2. Năng lực chung:\n- Tự chủ và tự học: tự quan sát mẫu chữ, luyện viết và soát lỗi.\n- Giao tiếp và hợp tác: biết nhận xét bài viết của bạn bằng lời lịch sự.\n3. Phẩm chất:\n- Chăm chỉ, trách nhiệm: kiên trì rèn chữ, giữ vở sạch đẹp."
@@ -10664,7 +10664,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC - TUẦN 10\nCHỦ ĐỀ 3: NIỀM VUI TUỔI THƠ\nBÀI 17: GỌI BẠN\nTIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN GỌI BẠN",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:\n- Nhận biết được sự việc trong câu chuyện Gọi bạn qua tranh minh họa.\n- Dựa vào tranh và gợi ý để kể lại 1 - 2 đoạn câu chuyện; biết kể tiếp đoạn kết theo ý của mình.\n- Viết được 2 - 3 câu nêu nhận xét về đôi bạn bê vàng và dê trắng.\n2. Năng lực chung:\n- Giao tiếp và hợp tác: kể rõ ràng, biết nghe và góp ý cho bạn.\n- Giải quyết vấn đề và sáng tạo: lựa chọn lời kể và kết thúc phù hợp.\n3. Phẩm chất:\n- Nhân ái, chăm chỉ: yêu quý bạn bè, tích cực tham gia kể chuyện."
@@ -10787,7 +10787,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC - TUẦN 10\nCHỦ ĐỀ 3: NIỀM VUI TUỔI THƠ\nBÀI 18: TỚ NHỚ CẬU\nTIẾT 1 - 2: ĐỌC: TỚ NHỚ CẬU",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:\n- Đọc đúng, trôi chảy bài Tớ nhớ cậu; biết ngắt nghỉ hơi đúng theo dấu câu và câu dài.\n- Hiểu nghĩa từ nắn nót, cặm cụi; trả lời được câu hỏi SGK và nêu được nội dung bài.\n- Biết nói và đáp lời chào khi chia tay; hiểu cách giữ gìn tình bạn.\n2. Năng lực chung:\n- Tự chủ và tự học: chủ động luyện đọc, trả lời câu hỏi.\n- Giao tiếp và hợp tác: biết trao đổi nhóm, luyện đọc theo vai.\n- Giải quyết vấn đề và sáng tạo: biết liên hệ với cách duy trì tình bạn trong thực tế.\n3. Phẩm chất:\n- Nhân ái: biết trân trọng, giữ gìn tình bạn.\n- Trách nhiệm: tích cực hợp tác và giúp đỡ bạn trong học tập.\n4. Tích hợp:\n- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục HS biết trân trọng, giữ gìn tình bạn, thể hiện sự quan tâm, chia sẻ và cư xử chân thành với bạn bè.\n- Tích hợp NLS 4.2.CB1a: Nhận biết cách bảo vệ dữ liệu cá nhân và thông tin của người khác khi tham gia môi trường số: HS biết khi viết thư, nhắn tin, gọi điện hoặc gửi lời hỏi thăm cho bạn cần dùng lời lịch sự; không chia sẻ địa chỉ, số điện thoại, hình ảnh riêng tư của mình và của bạn khi chưa được phép; biết nhờ người lớn hỗ trợ khi liên lạc qua thiết bị số."
@@ -11013,7 +11013,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC - TUẦN 10\nCHỦ ĐỀ 3: NIỀM VUI TUỔI THƠ\nBÀI 18: TỚ NHỚ CẬU\nTIẾT 3: VIẾT: NGHE - VIẾT: TỚ NHỚ CẬU; PHÂN BIỆT C/K, IÊU/ƯƠU, EN/ENG",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:\n- Nghe - viết đúng một đoạn trong bài Tớ nhớ cậu; biết viết hoa chữ cái đầu câu, đầu tên bài.\n- Làm đúng bài tập chính tả phân biệt c/k, iêu/ươu, en/eng.\n2. Năng lực chung:\n- Tự chủ và tự học: biết nghe kĩ, soát lỗi và sửa lỗi.\n- Giao tiếp và hợp tác: biết đổi vở, góp ý bài viết cho bạn.\n3. Phẩm chất:\n- Chăm chỉ, trách nhiệm: viết bài cẩn thận, sạch đẹp; yêu quý tình bạn."
@@ -11136,7 +11136,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC - TUẦN 10\nCHỦ ĐỀ 3: NIỀM VUI TUỔI THƠ\nBÀI 18: TỚ NHỚ CẬU\nTIẾT 4: LUYỆN TỪ VÀ CÂU: MỞ RỘNG VỐN TỪ VỀ TÌNH CẢM BẠN BÈ; DẤU CHẤM, DẤU CHẤM HỎI, DẤU CHẤM THAN",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:\n- Tìm được từ ngữ chỉ tình cảm bạn bè.\n- Biết chọn từ trong ngoặc đơn, ghép câu phù hợp và sử dụng dấu chấm, dấu chấm hỏi, dấu chấm than.\n2. Năng lực chung:\n- Tự chủ và tự học: hoàn thành nhiệm vụ cá nhân.\n- Giao tiếp và hợp tác: thảo luận nhóm, trình bày rõ ràng.\n3. Phẩm chất:\n- Nhân ái, trách nhiệm: biết trân trọng tình bạn, hợp tác cùng bạn."
@@ -11243,7 +11243,7 @@
         ]
       },
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC - TUẦN 10\nCHỦ ĐỀ 3: NIỀM VUI TUỔI THƠ\nBÀI 18: TỚ NHỚ CẬU\nTIẾT 5 - 6: LUYỆN VIẾT ĐOẠN; ĐỌC MỞ RỘNG",
+        "lessonTitle": "",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:\n- Quan sát tranh, nói được việc làm của các bạn trong mỗi tranh.\n- Viết được 3 - 4 câu kể về một hoạt động em tham gia cùng các bạn.\n- Tìm đọc được một bài thơ về tình bạn; biết chia sẻ tên bài thơ, tên tác giả và điều em thích.\n2. Năng lực chung:\n- Tự chủ và tự học: hoàn thành nhiệm vụ cá nhân, biết chuẩn bị bài đọc mở rộng.\n- Giao tiếp và hợp tác: trao đổi nhóm, chia sẻ bài viết và bài đọc.\n- Giải quyết vấn đề và sáng tạo: biết lựa chọn từ ngữ phù hợp khi kể về hoạt động.\n3. Phẩm chất:\n- Nhân ái: biết yêu quý, trân trọng tình bạn.\n- Chăm chỉ, trách nhiệm: tích cực đọc sách, tham gia hoạt động cùng bạn bè."

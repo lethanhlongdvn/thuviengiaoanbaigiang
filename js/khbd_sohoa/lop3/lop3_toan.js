@@ -5362,7 +5362,7 @@
     "sourceFile": "TOÁN TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN TOÁN 3",
+        "lessonTitle": "Bài học STEM: BẢNG NHÂN, CHIA",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",

@@ -3983,7 +3983,7 @@
     "sourceFile": "TNXH TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "Tự nhiên – xã hội - BÀI 12. THỰC HÀNH MUA BÁN HÀNG HÓA (1 tiết)",
+        "lessonTitle": "BÀI 12. THỰC HÀNH MUA BÁN HÀNG HÓA (1 tiết)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4236,7 +4236,7 @@
         ]
       },
       {
-        "lessonTitle": "Tự nhiên – xã hội - BÀI 13. HOẠT ĐỘNG GIAO THÔNG (Tiết 1)",
+        "lessonTitle": "BÀI 13. HOẠT ĐỘNG GIAO THÔNG (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "Sau bài học, HS có khả năng:",
@@ -4553,7 +4553,7 @@
     "sourceFile": "TNXH TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "Tự nhiên – xã hội - BÀI 13. HOẠT ĐỘNG GIAO THÔNG (Tiết 2)",
+        "lessonTitle": "BÀI 13. HOẠT ĐỘNG GIAO THÔNG (Tiết 2)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "Sau bài học, HS có khả năng:",
@@ -4831,7 +4831,7 @@
         ]
       },
       {
-        "lessonTitle": "Tự nhiên – xã hội - BÀI 14. CÙNG THAM GIA GIAO THÔNG (Tiết 1)",
+        "lessonTitle": "BÀI 14. CÙNG THAM GIA GIAO THÔNG (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5102,7 +5102,7 @@
     "sourceFile": "TNXH TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "Tự nhiên và xã hội - BÀI 14. CÙNG THAM GIA GIAO THÔNG (Tiết 2)",
+        "lessonTitle": "BÀI 14. CÙNG THAM GIA GIAO THÔNG (Tiết 2)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5319,7 +5319,7 @@
         ]
       },
       {
-        "lessonTitle": "Tự nhiên và xã hội - BÀI 15. ÔN TẬP CHỦ ĐỀ: CỘNG ĐỒNG ĐỊA PHƯƠNG (Tiết 1)",
+        "lessonTitle": "BÀI 15. ÔN TẬP CHỦ ĐỀ: CỘNG ĐỒNG ĐỊA PHƯƠNG (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5492,7 +5492,7 @@
     "sourceFile": "TNXH TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "Tự nhiên và Xã hội - BÀI 15. ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 2)",
+        "lessonTitle": "BÀI 15. ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5631,7 +5631,7 @@
         ]
       },
       {
-        "lessonTitle": "Tự nhiên và Xã hội - BÀI 15. ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 3)",
+        "lessonTitle": "BÀI 15. ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 3)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5775,7 +5775,7 @@
     "sourceFile": "TNXH TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 16: THỰC VẬT SỐNG Ở ĐÂU? (TIẾT 1)",
+        "lessonTitle": "BÀI 16: THỰC VẬT SỐNG Ở ĐÂU? (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -5991,7 +5991,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 16: THỰC VẬT SỐNG Ở ĐÂU? (TIẾT 2)",
+        "lessonTitle": "BÀI 16: THỰC VẬT SỐNG Ở ĐÂU? (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -6274,7 +6274,7 @@
     "sourceFile": "TNXH TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 17: ĐỘNG VẬT SỐNG Ở ĐÂU? - BÀI HỌC STEM: NƠI SỐNG CỦA ĐỘNG VẬT (TIẾT 1)",
+        "lessonTitle": "BÀI 17: ĐỘNG VẬT SỐNG Ở ĐÂU? - BÀI HỌC STEM: NƠI SỐNG CỦA ĐỘNG VẬT (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -6586,7 +6586,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 17: ĐỘNG VẬT SỐNG Ở ĐÂU? - BÀI HỌC STEM: NƠI SỐNG CỦA ĐỘNG VẬT (TIẾT 2)",
+        "lessonTitle": "BÀI 17: ĐỘNG VẬT SỐNG Ở ĐÂU? - BÀI HỌC STEM: NƠI SỐNG CỦA ĐỘNG VẬT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -11113,7 +11113,7 @@
     "sourceFile": "TNXH TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 27: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 2)",
+        "lessonTitle": "BÀI 27: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 2)",
         "topic": "CHỦ ĐỀ: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11301,7 +11301,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 27: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 3)",
+        "lessonTitle": "BÀI 27: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 3)",
         "topic": "CHỦ ĐỀ: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11473,7 +11473,7 @@
     "sourceFile": "TNXH TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 28: CÁC MÙA TRONG NĂM (TIẾT 1)",
+        "lessonTitle": "BÀI 28: CÁC MÙA TRONG NĂM (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11598,7 +11598,7 @@
         ]
       },
       {
-        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 28: CÁC MÙA TRONG NĂM (TIẾT 2)",
+        "lessonTitle": "BÀI 28: CÁC MÙA TRONG NĂM (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",

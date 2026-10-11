@@ -903,7 +903,7 @@
     "sourceFile": "TV TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 3: CÁNH RỪNG TRONG NẮNG - Bài 4: LẦN ĐẦU RA BIỂN - BÀI 3: CÁNH RỪNG TRONG NẮNG\nTIẾT 1, 2: Đọc - Cánh rừng trong nắng; Nói và nghe - Sự tích loài hoa của mùa hạ",
+        "lessonTitle": "BÀI 3: CÁNH RỪNG TRONG NẮNG - TIẾT 1, 2: Đọc - Cánh rừng trong nắng; Nói và nghe - Sự tích loài hoa của mùa hạ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1132,7 +1132,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 3: CÁNH RỪNG TRONG NẮNG\nTIẾT 3: Viết - Nghe viết: Cánh rừng trong nắng",
+        "lessonTitle": "BÀI 3: CÁNH RỪNG TRONG NẮNG - TIẾT 3: Viết - Nghe viết: Cánh rừng trong nắng",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1263,7 +1263,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 4: LẦN ĐẦU RA BIỂN\nTIẾT 1, 2: Đọc - Lần đầu ra biển; Đọc mở rộng",
+        "lessonTitle": "BÀI 4: LẦN ĐẦU RA BIỂN - TIẾT 1, 2: Đọc - Lần đầu ra biển; Đọc mở rộng",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1472,7 +1472,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 4: LẦN ĐẦU RA BIỂN\nTIẾT 3: Luyện tập - Từ ngữ chỉ đặc điểm; Câu nêu đặc điểm",
+        "lessonTitle": "BÀI 4: LẦN ĐẦU RA BIỂN - TIẾT 3: Luyện tập - Từ ngữ chỉ đặc điểm; Câu nêu đặc điểm",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1576,7 +1576,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 4: LẦN ĐẦU RA BIỂN\nTIẾT 4: Luyện tập - Viết đoạn văn kể lại hoạt động",
+        "lessonTitle": "BÀI 4: LẦN ĐẦU RA BIỂN - TIẾT 4: Luyện tập - Viết đoạn văn kể lại hoạt động",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",

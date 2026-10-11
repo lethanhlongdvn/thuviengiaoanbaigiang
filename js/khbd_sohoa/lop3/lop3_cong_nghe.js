@@ -2777,7 +2777,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN CÔNG NGHỆ 3",
+        "lessonTitle": "Ôn tập, kiểm tra học kì I (Tiết 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2924,7 +2924,7 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN CÔNG NGHỆ 3"
+        "title": "Ôn tập, kiểm tra học kì I (Tiết 1)"
       }
     ]
   },
@@ -2933,7 +2933,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN CÔNG NGHỆ 3",
+        "lessonTitle": "Ôn tập, kiểm tra học kì I (Tiết 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3083,7 +3083,7 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN CÔNG NGHỆ 3"
+        "title": "Ôn tập, kiểm tra học kì I (Tiết 2)"
       }
     ]
   },
@@ -5031,7 +5031,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN CÔNG NGHỆ 3",
+        "lessonTitle": "Ôn tập kiểm tra học kì II (Tiết 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5171,7 +5171,7 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN CÔNG NGHỆ 3"
+        "title": "Ôn tập kiểm tra học kì II (Tiết 1)"
       }
     ]
   },
@@ -5180,7 +5180,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN CÔNG NGHỆ 3",
+        "lessonTitle": "Ôn tập kiểm tra học kì II (Tiết 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5320,7 +5320,7 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN CÔNG NGHỆ 3"
+        "title": "Ôn tập kiểm tra học kì II (Tiết 2)"
       }
     ]
   }
