@@ -2737,7 +2737,7 @@ ${sampleJson}`;
       else if (curSec === 2) sec2.push(line);
       else if (curSec === 3) {
         // Tự động phát hiện nếu dòng trong mục 3 là nội dung Tích hợp -> Chuyển xuống mục 4 cho khoa học!
-        var isTichHopLine = /^[\-*•+–—]?\s*(?:tích\s*hợp|năng\s*lực\s*số|kỹ\s*năng\s*số|trí\s*tuệ\s*nhân\s*tạo|stem|gdđp|địa\s*phương|trà\s*vinh|ai\b|nls\b|digital\s*competence|ai\s*literacy)/i.test(line) || /tích\s*hợp\s*ai/i.test(line);
+        var isTichHopLine = /^[\-*•+–—]?\s*(?:tích\s*hợp|định\s*hướng\s*nls|định\s*hướng\s*năng\s*lực\s*số|năng\s*lực\s*số|kỹ\s*năng\s*số|trí\s*tuệ\s*nhân\s*tạo|stem|gdđp|giáo\s*dục\s*địa\s*phương|ai\b|nls\b|digital\s*competence|ai\s*literacy)/i.test(line) || /\[(?:tích\s*hợp|gdđp|nls|ai)\]/i.test(line) || /tích\s*hợp\s*ai/i.test(line);
         if (isTichHopLine) {
           sec4.push(line);
         } else {
@@ -5402,15 +5402,15 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     if (isPureIntegration) {
       return '<span style="color: #C00000;">' + formattedText + '</span>';
     }
-    if (/mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai|nội\s*dung\s*tích\s*hợp|giáo\s*dục\s*địa\s*phương|gdđp|địa\s*phương|trà\s*vinh/i.test(formattedText)) {
+    if (/mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai|nội\s*dung\s*tích\s*hợp|giáo\s*dục\s*địa\s*phương|gdđp/i.test(formattedText)) {
       var lines = formattedText.split(/(<br\s*\/?>)/i);
       var result = lines.map(function(part) {
         if (/^<br\s*\/?>$/i.test(part)) return part;
-        if (/mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai|nội\s*dung\s*tích\s*hợp|giáo\s*dục\s*địa\s*phương|gdđp|địa\s*phương|trà\s*vinh/i.test(part)) {
+        if (/mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai|nội\s*dung\s*tích\s*hợp|giáo\s*dục\s*địa\s*phương|gdđp/i.test(part)) {
           if (/^\s*(?:\*\s*)?(?:mục\s*tiêu\s*tích\s*hợp|tích\s*hợp|hoạt\s*động\s*tích\s*hợp|giáo\s*dục\s*địa\s*phương|gdđp)/i.test(part)) {
             return '<span style="color: #C00000;">' + part + '</span>';
           }
-          var subparts = part.split(/((?:mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai|giáo\s*dục\s*địa\s*phương|gdđp|địa\s*phương|trà\s*vinh).*$)/i);
+          var subparts = part.split(/((?:mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai|giáo\s*dục\s*địa\s*phương|gdđp).*$)/i);
           return subparts.map(function(sp) {
             if (/mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai|giáo\s*dục\s*địa\s*phương|gdđp|địa\s*phương|trà\s*vinh/i.test(sp)) {
               return '<span style="color: #C00000;">' + sp + '</span>';
@@ -5432,7 +5432,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
   formatCellParagraphs: function(rawText, isTichHop, align, isEnLesson) {
     if (!rawText) return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: ' + (align || 'justify') + ';">&nbsp;</p>';
     var textAlign = align || 'justify';
-    var isRowTichHop = isTichHop || (!isEnLesson && /tích\s*hợp|địa\s*phương|gdđp|trà\s*vinh/i.test(rawText));
+    var isRowTichHop = (isTichHop === true);
     var cellStyle = (isRowTichHop && !isEnLesson) ? 'color: #C00000;' : '';
     // Xóa thẻ <p>...</p> bọc sẵn nếu có để tránh lỗi lồng thẻ <p><p>...</p></p> trong Word
     var str = String(rawText).replace(/<\/?p[^>]*>/gi, '\n').trim();
@@ -5474,7 +5474,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         continue;
       }
       var isLineDisability = !isEnLesson && (/\b(?:HSHN|SEN)\b/i.test(line) || /\[(?:HSHN|SEN)\]/i.test(line) || /học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test(line) || /inclusive\s*student/i.test(line));
-      var isLineTichHop = !isEnLesson && (/\[(?:Tích\s*hợp|Integration|GDĐP|GDQCN|NLS|AI)\]/i.test(line) || /^integrated\s*focus:|^digital\/ai\s*pupil\s*action:/i.test(line) || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(line) || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || line.indexOf('[Tích hợp') !== -1);
+      var isLineTichHop = !isEnLesson && (/^\s*[-*•+–—]?\s*(?:tích\s*hợp|định\s*hướng\s*nls|định\s*hướng\s*năng\s*lực\s*số|giáo\s*dục\s*địa\s*phương|gdđp|mizuiku|qpan|anqp|qcn|bvmt|stem|ai)\b/i.test(line) || /^\s*\*?\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(line) || /^\s*\*?\s*tích\s*hợp\s*(?:gdđp|giáo\s*dục\s*địa\s*phương|ai|mizuiku|hshn)/i.test(line) || /\[(?:tích\s*hợp|integration|gdđp|gdqcn|nls|ai|mizuiku)\]/i.test(line) || /^integrated\s*focus:|^digital\/ai\s*pupil\s*action:/i.test(line) || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || line.indexOf('[Tích hợp') !== -1);
       var curLineStyle = (!isEnLesson && (cellStyle || isLineDisability || isLineTichHop)) ? 'color: #C00000;' : '';
       var cleanLineText = line.replace(/<span style="color:\s*#[A-Fa-f0-9]+;?">/gi, '').replace(/<\/span>/gi, '');
       var inner = curLineStyle ? ('<span style="' + curLineStyle + '"><font color="#C00000">' + cleanLineText + '</font></span>') : cleanLineText;
@@ -6269,7 +6269,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         }
 
         var isKhuyetTat = inDisabilitySection || IntegrationService.isDisabilityLine(cleanLine);
-        var isTichHop = !isMajorNumberedHeader && (inTichHopSection || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|human\s*rights|stem|local/i.test(cleanLine) || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('[Integration') !== -1);
+        var isExplicitTichHopPrefix = /^[-*•+–—]?\s*(?:tích\s*hợp|định\s*hướng\s*nls|định\s*hướng\s*năng\s*lực\s*số|giáo\s*dục\s*địa\s*phương|gdđp|mizuiku|qpan|anqp|qcn|bvmt|stem|ai)\b/i.test(cleanLine) || /\[(?:tích\s*hợp|integration|gdđp|gdqcn|nls|ai|mizuiku)\]/i.test(cleanLine) || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('[Integration') !== -1;
+        var isTichHop = !isMajorNumberedHeader && (inTichHopSection || isExplicitTichHopPrefix);
         if (isKhuyetTat) {
           inDisabilitySection = true;
           inTichHopSection = false;
@@ -6418,7 +6419,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           var disSpanClose = isEnLesson ? '' : '</span>';
           return '<p style="margin: 0pt; margin-top: 2pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 2pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; ' + disColorCss + 'text-align: justify;">' + disSpanOpen + line + disSpanClose + '</p>';
         }
-        var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(line) || line.indexOf('[Tích hợp') !== -1 || line.indexOf('[Tích hợp mới]') !== -1 || line.indexOf('(Tích hợp)') !== -1 || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1;
+        var isTichHop = /^[-*•+–—]?\s*(?:tích\s*hợp\b|\[(?:tích\s*hợp|ai|nls|gdđp)\])/i.test(line) || line.indexOf('[Tích hợp') !== -1 || line.indexOf('[Tích hợp mới]') !== -1 || line.indexOf('(Tích hợp)') !== -1 || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1;
         if (isTichHop) {
           var displayLine = line
             .replace(/<!--.*?-->/g, '')
@@ -6454,7 +6455,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
             if (has4Cols) {
               if (r.length >= 4) {
-                var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(r[0] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(r[2] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(r[3] || '') || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[2] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[3] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[2] || '').indexOf('[Tích hợp') !== -1 || (r[3] || '').indexOf('[Tích hợp') !== -1;
+                var isTichHop = !isEnLesson && (!!r.isGddpRow || !!r.isIntegrationRow);
                 var isDisability = IntegrationService.isDisabilityRow(r);
                 var isRed = false; // Disable whole-cell red coloring
                 var c0 = (r[0] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
@@ -6495,7 +6496,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                 if (isEnLesson) cleanHeader = IntegrationService.translateVnToEnglish(cleanHeader);
                 var isTietRow = /^tiết\s+\d+|period\s+\d+/i.test(cleanHeader);
                 var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố|warm-up|presentation|practice|production|consolidation|game|activity)/i.test(cleanHeader);
-                var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || /địa\s*phương|gdđp|trà\s*vinh/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
+                var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || /^\s*\*?\s*(?:giáo\s*dục\s*địa\s*phương|gdđp)\b/i.test(cleanHeader) || /\[(?:tích\s*hợp|integration|gdđp)\]/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
                 var rowBgColor = isTietRow ? '#FFF2CC' : (isActivityRow ? '#D9EAF7' : '#f8fafc');
                 var cellHeaderColorStyle = (isPureIntegration && !isEnLesson) ? 'color: #C00000;' : '';
                 var formattedHeader = IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration, isEnLesson);
@@ -6543,7 +6544,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                 if (isEnLesson) cleanHeader = IntegrationService.translateVnToEnglish(cleanHeader);
                 var isTietRow = /^tiết\s+\d+|period\s+\d+/i.test(cleanHeader);
                 var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố|warm-up|presentation|practice|production|consolidation|game|activity)|hoạt\s*động\s*\d+/i.test(cleanHeader);
-                var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || /địa\s*phương|gdđp|trà\s*vinh/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
+                var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || /^\s*\*?\s*(?:giáo\s*dục\s*địa\s*phương|gdđp)\b/i.test(cleanHeader) || /\[(?:tích\s*hợp|integration|gdđp)\]/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
                 var rowBgColor = isTietRow ? '#FFF2CC' : (isActivityRow ? '#D9EAF7' : '#f8fafc');
                 var cellHeaderColorStyle = (isPureIntegration && !isEnLesson) ? 'color: #C00000;' : '';
                 var formattedHeader = IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration, isEnLesson);
@@ -6581,7 +6582,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                   hsText = IntegrationService.translateVnToEnglish(hsText);
                 }
 
-                var isTichHop = !isEnLesson && (/tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test((r[0]||'') + ' ' + (r[1]||'')) || (r[0]||'').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1]||'').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[0]||'').indexOf('[Tích hợp') !== -1 || (r[1]||'').indexOf('[Tích hợp') !== -1 || !!r.isGddpRow);
+                var isTichHop = !isEnLesson && (!!r.isGddpRow || !!r.isIntegrationRow);
                 var gvHtml = IntegrationService.formatCellParagraphs(gvText, isTichHop, 'justify', isEnLesson);
                 var hsHtml = IntegrationService.formatCellParagraphs(hsText, isTichHop, 'justify', isEnLesson);
 
