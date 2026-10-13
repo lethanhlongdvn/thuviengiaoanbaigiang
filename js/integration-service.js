@@ -3089,19 +3089,74 @@ ${sampleJson}`;
     if (!Array.isArray(lessons)) return lessons;
     var self = this;
     var cfg = this.resolveGddpSupport(gddpConfig);
-    lessons.forEach(function(les) {
-      if (cfg && cfg.enabled) {
-        self.injectGddpIntoLesson(les, cfg);
-        if (cfg.scope !== 'yccd_only') {
-          self.injectGddpActivitiesIntoTables(les, cfg);
-        } else {
-          self.cleanGddpFromTables(les);
-        }
-      } else {
+
+    // Nếu tắt GDĐP -> Dọn sạch toàn bộ 100%
+    if (!cfg || !cfg.enabled) {
+      lessons.forEach(function(les) {
         self.cleanGddpFromLesson(les);
         self.cleanGddpFromTables(les);
+      });
+      return lessons;
+    }
+
+    // 1. Dọn sạch GDĐP cũ khỏi tất cả các bài để đảm bảo tính lũy đẳng
+    lessons.forEach(function(les) {
+      self.cleanGddpFromLesson(les);
+      self.cleanGddpFromTables(les);
+    });
+
+    // 2. Phân loại và đánh giá độ khớp của từng bài học với GDĐP theo Kế hoạch gốc đã duyệt
+    // BẢO ĐẢM NGUYÊN TẮC SƯ PHẠM: Mỗi mục GDĐP chỉ được tích hợp vào DUY NHẤT 1 TIẾT TRỌNG TÂM PHÙ HỢP NHẤT trong tuần!
+    var matchCandidates = [];
+    lessons.forEach(function(les, idx) {
+      var effGrade = les.grade || (typeof integrationState !== 'undefined' && integrationState.grade) || 4;
+      var rawSubj = les.subjectKey || les.subjectName || les.subject || (typeof integrationState !== 'undefined' && integrationState.subjectKey) || '';
+      var sKey = self.normalizeSubjectKey(rawSubj).toLowerCase();
+      var effWeek = les.week || (typeof integrationState !== 'undefined' && integrationState.startWeek) || 1;
+      var effTitle = les.lessonTitle || les.title || '';
+
+      var gddpItem = (typeof GDDP_DATA !== 'undefined' && GDDP_DATA.getTraVinhGddpForLesson)
+        ? GDDP_DATA.getTraVinhGddpForLesson(effGrade, sKey, effWeek, effTitle)
+        : null;
+
+      if (gddpItem && gddpItem.isExactMatch) {
+        // Điểm ưu tiên chọn tiết:
+        // Với môn HĐTN: Ưu tiên tiết 'Hoạt động giáo dục theo chủ đề' (tiết chính khóa của GV)
+        var priority = gddpItem.score || 50;
+        var tNorm = effTitle.toLowerCase();
+        if (tNorm.indexOf('hoạt động giáo dục theo chủ đề') !== -1 || tNorm.indexOf('hđgd') !== -1) {
+          priority += 30;
+        } else if (tNorm.indexOf('sinh hoạt dưới cờ') !== -1) {
+          priority += 10;
+        }
+
+        matchCandidates.push({
+          index: idx,
+          lesson: les,
+          gddpItem: gddpItem,
+          groupKey: sKey + '_' + effWeek + '_' + gddpItem.id,
+          priority: priority
+        });
       }
     });
+
+    // 3. Nhóm theo (subject_week_gddpId) và chỉ chọn 1 bài có priority cao nhất cho mỗi item GDĐP trong tuần
+    var bestMatchPerGroup = {};
+    matchCandidates.forEach(function(cand) {
+      if (!bestMatchPerGroup[cand.groupKey] || cand.priority > bestMatchPerGroup[cand.groupKey].priority) {
+        bestMatchPerGroup[cand.groupKey] = cand;
+      }
+    });
+
+    // 4. Áp dụng tích hợp cho đúng bài được chọn duy nhất trong tuần
+    Object.keys(bestMatchPerGroup).forEach(function(k) {
+      var winner = bestMatchPerGroup[k];
+      self.injectGddpIntoLesson(winner.lesson, cfg);
+      if (cfg.scope !== 'yccd_only') {
+        self.injectGddpActivitiesIntoTables(winner.lesson, cfg);
+      }
+    });
+
     return lessons;
   },
 
@@ -6049,6 +6104,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
     var disSupport = IntegrationService.resolveDisabilitySupport(meta && meta.disabilitySupport);
     var gddpSupport = IntegrationService.resolveGddpSupport(meta && meta.gddpSupport);
+    // Đồng bộ chuẩn hóa 100% GDĐP trước khi kết xuất Word (ngăn chặn thêm/bớt/lặp lại):
+    IntegrationService.applyGddpToLessons(lessons, gddpSupport);
 
     var isContinuousMode = !isTimetableDoc;
     lessons.forEach(function(les, lIdx) {
@@ -6085,14 +6142,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         IntegrationService.cleanDisabilityFromLesson(les);
       }
 
-      if (gddpSupport && gddpSupport.enabled) {
-        IntegrationService.injectGddpIntoLesson(les, gddpSupport);
-        if (gddpSupport.scope === 'both') {
-          IntegrationService.injectGddpActivitiesIntoTables(les, gddpSupport);
-        } else {
-          IntegrationService.cleanGddpFromTables(les);
-        }
-      } else if (gddpSupport && gddpSupport.enabled === false && !meta.preserveExistingGddp) {
+      // GDĐP đã được phân bổ chuẩn xác 100% theo đúng Kế hoạch gốc qua applyGddpToLessons
+      if (!gddpSupport || !gddpSupport.enabled) {
         IntegrationService.cleanGddpFromTables(les);
         IntegrationService.cleanGddpFromLesson(les);
       }
