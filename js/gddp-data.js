@@ -1141,43 +1141,11 @@
             32
         ],
         "lessonTitle": "Bài 24:\nMột số nét văn hoá và truyền thống yêu nước, cách mạng của đồng bào Nam Bộ",
-        "topic": "Chủ đề 4 & 8 GDĐP 4: Lễ hội Ka-thi-na & Nghệ thuật điêu khắc gỗ Chùa Hang (Trang 20, 35 - QĐ 2727/QĐ-BGDĐT)\n(Lễ hội dâng y Ka-thi-na, Lễ Kỳ yên đình làng, các điệu múa Lâm-thôn, dân ca Nam Bộ và nghệ thuật điêu khắc gỗ chùa Khmer).",
-        "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 4 & 8 GDĐP 4): Nêu được nét độc đáo của lễ hội Ka-thi-na, điệu múa Lâm-thôn và nghệ thuật điêu khắc gỗ Chùa Hang; tôn trọng bản sắc văn hóa đoàn kết các dân tộc Kinh - Khmer - Hoa.",
-        "activityTitle": "Hoạt động Khám phá & Trải nghiệm văn hóa: Tìm hiểu lễ hội truyền thống và nghệ thuật điêu khắc dân gian",
-        "teacherAct": "GV chiếu trích đoạn lễ dâng y Ka-thi-na trang trọng và các hiện vật điêu khắc gỗ tinh xảo tại Chùa Hang. giáo dục thái độ tôn trọng, gìn giữ bản sắc văn hóa đa dạng của các dân tộc Kinh - Khmer - Hoa trên quê hương Trà Vinh.",
-        "studentAct": "HS thảo luận: Trình bày nét đẹp văn hóa đoàn kết, lòng hiếu thảo và ước vọng mưa thuận gió hòa trong các lễ hội truyền thống."
-    },
-    {
-        "id": "gddp_tv_79",
-        "grade": 4,
-        "subjectKey": "lich_su_dia_ly",
-        "subjectName": "Lịch sử và Địa lí",
-        "weeks": [
-            31,
-            32
-        ],
-        "lessonTitle": "Bài 24:\nMột số nét văn hoá và truyền thống yêu nước, cách mạng của đồng bào Nam Bộ",
-        "topic": "Chủ đề 5 GDĐP 4: Di tích Lưu Cừ II (Trang 23 - QĐ 2727/QĐ-BGDĐT)\n(Di tích khảo cổ học Óc Eo Lưu Cừ II ở Trà Cú, Chùa Âng cổ kính, Bảo tàng Văn hóa dân tộc Khmer và Đền thờ Bác Hồ ở xã Long Đức, TP. Trà Vinh).",
-        "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 5 GDĐP 4): Kể tên và nêu được ý nghĩa lịch sử của Di tích khảo cổ Lưu Cừ II, Đền thờ Bác Hồ (Long Đức); có ý thức giữ gìn, bảo vệ di tích khi đến tham quan.",
-        "activityTitle": "Hoạt động Khám phá & Luyện tập: Tìm hiểu giá trị lịch sử, kiến trúc của các di tích cổ kính trên quê hương",
-        "teacherAct": "GV trình chiếu sa bàn di tích khảo cổ Lưu Cừ II (Lưu Nghiệp Anh, Trà Cú) và Khu tưởng niệm Đền thờ Bác Hồ (xã Long Đức, TP. Trà Vinh). giáo dục ý thức tôn trọng, giữ gìn hiện vật và bảo tồn di sản văn hóa khi đến tham quan các di tích.",
-        "studentAct": "HS làm việc nhóm: Nêu giá trị khảo cổ văn hóa Óc Eo và ý nghĩa lịch sử của các di tích trong tiến trình bảo vệ vùng đất phương Nam."
-    },
-    {
-        "id": "gddp_tv_80",
-        "grade": 4,
-        "subjectKey": "lich_su_dia_ly",
-        "subjectName": "Lịch sử và Địa lí",
-        "weeks": [
-            31,
-            32
-        ],
-        "lessonTitle": "Bài 24:\nMột số nét văn hoá và truyền thống yêu nước, cách mạng của đồng bào Nam Bộ",
-        "topic": "Chủ đề 6 GDĐP 4: Anh hùng Lực lượng vũ trang nhân dân Nguyễn Thị Út (Trang 27 - QĐ 2727/QĐ-BGDĐT)\n(Tấm gương bất khuất của Nữ Anh hùng Út Tịch quê Cầu Kè, khí phách kiên cường trong phong trào Đồng Khởi Trà Vinh).",
-        "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 6 GDĐP 4): Nêu được tấm gương chiến đấu dũng cảm của Anh hùng LLVTND Nguyễn Thị Út (Út Tịch); bồi dưỡng lòng biết ơn và noi gương các thế hệ cha anh quê hương.",
-        "activityTitle": "Hoạt động Khám phá & Kể chuyện lịch sử: Tìm hiểu tinh thần đấu tranh kiên cường, bất khuất của các anh hùng quê hương",
-        "teacherAct": "GV kể câu chuyện về cuộc đời chiến đấu quả cảm của Chị Út Tịch với câu nói bất hủ: 'Còn cái lai quần cũng đánh!'. củng cố niềm tự hào truyền thống cách mạng vẻ vang, phát động phong trào thi đua học tốt, rèn luyện chăm.",
-        "studentAct": "HS phát biểu cảm nghĩ: Bày tỏ lòng khâm phục trước sự mưu trí, dũng cảm của các thế hệ cha anh giữ đất, giữ làng."
+        "topic": "Chủ đề 4, 5, 6 & 8 GDĐP 4: Nét đẹp văn hóa truyền thống, di tích lịch sử và tấm gương yêu nước tỉnh Trà Vinh (Trang 20, 23, 27, 35 - QĐ 2727/QĐ-BGDĐT)\n(Lễ hội Ka-thi-na, nghệ thuật điêu khắc gỗ Chùa Hang; Di tích khảo cổ Lưu Cừ II, Đền thờ Bác Hồ và Nữ Anh hùng LLVTND Nguyễn Thị Út).",
+        "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 4, 5, 6 & 8 GDĐP 4): Nêu được nét độc đáo của lễ hội Ka-thi-na, điêu khắc Chùa Hang; ý nghĩa Di tích khảo cổ Lưu Cừ II, Đền thờ Bác Hồ và tấm gương chiến đấu bất khuất của Nữ Anh hùng Nguyễn Thị Út (Út Tịch); bồi dưỡng lòng yêu nước, niềm tự hào và ý thức giữ gìn bản sắc quê hương.",
+        "activityTitle": "Hoạt động Khám phá & Trải nghiệm: Tìm hiểu nét đẹp văn hóa, di tích lịch sử và truyền thống yêu nước quê hương",
+        "teacherAct": "GV tổ chức cho HS tìm hiểu qua tranh ảnh, video về lễ dâng y Ka-thi-na, nghệ thuật điêu khắc Chùa Hang, di tích Lưu Cừ II, Đền thờ Bác Hồ và kể chuyện tấm gương Anh hùng Út Tịch (\"Còn cái lai quần cũng đánh\"); giáo dục lòng biết ơn các thế hệ cha anh, ý thức bảo tồn di sản văn hóa và phấn đấu học tập, rèn luyện.",
+        "studentAct": "HS thảo luận nhóm, bày tỏ niềm tự hào về truyền thống văn hóa, di tích lịch sử và tinh thần bất khuất của quê hương Trà Vinh."
     },
     {
         "id": "gddp_tv_82",

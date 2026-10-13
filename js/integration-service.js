@@ -5446,7 +5446,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           }
           var subparts = part.split(/((?:mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai|giáo\s*dục\s*địa\s*phương|gdđp).*$)/i);
           return subparts.map(function(sp) {
-            if (/mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai|giáo\s*dục\s*địa\s*phương|gdđp|địa\s*phương|trà\s*vinh/i.test(sp)) {
+            if (/mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai|giáo\s*dục\s*địa\s*phương|gdđp/i.test(sp)) {
               return '<span style="color: #C00000;">' + sp + '</span>';
             }
             return '<span>' + sp + '</span>';
@@ -5510,8 +5510,12 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       var isLineDisability = !isEnLesson && (/\b(?:HSHN|SEN)\b/i.test(line) || /\[(?:HSHN|SEN)\]/i.test(line) || /học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test(line) || /inclusive\s*student/i.test(line));
       var isLineTichHop = !isEnLesson && (/^\s*[-*•+–—]?\s*(?:tích\s*hợp|định\s*hướng\s*nls|định\s*hướng\s*năng\s*lực\s*số|giáo\s*dục\s*địa\s*phương|gdđp|mizuiku|qpan|anqp|qcn|bvmt|stem|ai)\b/i.test(line) || /^\s*\*?\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(line) || /^\s*\*?\s*tích\s*hợp\s*(?:gdđp|giáo\s*dục\s*địa\s*phương|ai|mizuiku|hshn)/i.test(line) || /\[(?:tích\s*hợp|integration|gdđp|gdqcn|nls|ai|mizuiku)\]/i.test(line) || /^integrated\s*focus:|^digital\/ai\s*pupil\s*action:/i.test(line) || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || line.indexOf('[Tích hợp') !== -1);
       var curLineStyle = (!isEnLesson && (cellStyle || isLineDisability || isLineTichHop)) ? 'color: #C00000;' : '';
-      var cleanLineText = line.replace(/<span style="color:\s*#[A-Fa-f0-9]+;?">/gi, '').replace(/<\/span>/gi, '');
-      var inner = curLineStyle ? ('<span style="' + curLineStyle + '"><font color="#C00000">' + cleanLineText + '</font></span>') : cleanLineText;
+
+      // Làm sạch triệt để mọi thẻ màu, thẻ span/font lỗi thời để chống tràn màu chữ đỏ
+      var isBoldSubHead = /font-weight:\s*bold/i.test(line) || /<b>|<strong>/i.test(line) || /^\s*\*?\s*(?:tích\s*hợp|hoạt\s*động\s*tích\s*hợp|học\s*sinh\s*hòa\s*nhập|hshn)/i.test(line.replace(/<[^>]+>/g, '').trim());
+      var textOnly = line.replace(/<[^>]+>/g, '').trim();
+      var cleanLineText = isBoldSubHead ? ('<b>' + textOnly + '</b>') : textOnly;
+      var inner = curLineStyle ? ('<span style="' + curLineStyle + '">' + cleanLineText + '</span>') : cleanLineText;
       pList.push('<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: ' + textAlign + '; ' + curLineStyle + '">' + inner + '</p>');
     }
     return pList.length > 0 ? pList.join('') : '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: ' + textAlign + ';">&nbsp;</p>';
