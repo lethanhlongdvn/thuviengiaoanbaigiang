@@ -2181,9 +2181,17 @@
           }
         }
 
-        // Khối 4 Tiếng Việt: Bắt buộc phải khớp tên bài hoặc số bài
+        // Khối 4 Tiếng Việt: Bắt buộc phải khớp tên bài hoặc số bài hoặc hoạt động
         if (g === 4 && sNorm === 'tieng_viet') {
-          if (matchedCount < 1 && !isSubstring) continue;
+          if (it.id === 'gddp_tv_85') {
+            var isBai27OrDocMoRong = /bai\s*27|bang\s*tan|doc\s*mo\s*rong|ca\s*dao/i.test(normRawTitle);
+            if (!isBai27OrDocMoRong && matchedCount < 1 && !isSubstring) continue;
+            if (isBai27OrDocMoRong) {
+              matchedCount = Math.max(matchedCount, 1);
+            }
+          } else {
+            if (matchedCount < 1 && !isSubstring) continue;
+          }
         }
 
         var score = 0;

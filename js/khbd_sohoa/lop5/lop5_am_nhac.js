@@ -246,7 +246,7 @@
     "sourceFile": "Giao_an_tich_hop-chu de 1- lop 5.docx",
     "lessons": [
       {
-        "lessonTitle": "TỔ CHỨC CÁC HOẠT ĐỘNG VẬN DỤNG – SÁNG TẠO",
+        "lessonTitle": "VẬN DỤNG – SÁNG TẠO",
         "topic": "b. Nội dung: Quan sát video, trả lời câu hỏi và kể tên một số bài hát thiếu nhi cùng chủ đề.",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -520,7 +520,7 @@
     "sourceFile": "Giao_an_tich_hop-chu de 2- lop 5.docx",
     "lessons": [
       {
-        "lessonTitle": "TỔ CHỨC CÁC HOẠT ĐỘNG VẬN DỤNG – SÁNG TẠO",
+        "lessonTitle": "VẬN DỤNG – SÁNG TẠO",
         "topic": "- Học sinh biểu diễn kèn phím và nghe giáo viên tổng kết chủ đề.",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -768,7 +768,7 @@
     "sourceFile": "Giao_an_tich_hop-chu de 3- lop 5.docx",
     "lessons": [
       {
-        "lessonTitle": "TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG – SÁNG TẠO",
+        "lessonTitle": "VẬN DỤNG – SÁNG TẠO",
         "topic": "b. Nội dung: Thảo luận, trả lời câu hỏi tổng kết chủ đề.",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -982,7 +982,7 @@
     "sourceFile": "Giao_an_tich_hop-chu de 4- lop 5.docx",
     "lessons": [
       {
-        "lessonTitle": "TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG – SÁNG TẠO",
+        "lessonTitle": "VẬN DỤNG – SÁNG TẠO",
         "topic": "- Đánh giá và tổng kết chủ đề:",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1371,7 +1371,7 @@
     "sourceFile": "Giao_an_tich_hop-chu de 5- lop 5.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 22 - ÔN HÁT EM ĐI GIỮA BIỂN VÀNG - TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG - SÁNG TẠO",
+        "lessonTitle": "TIẾT 22 - ÔN HÁT EM ĐI GIỮA BIỂN VÀNG - VẬN DỤNG – SÁNG TẠO",
         "topic": "a. Mục tiêu: Giúp học sinh tự nhìn nhận lại kết quả học tập của mình và các bạn trong suốt chủ đề.",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1591,7 +1591,7 @@
     "sourceFile": "Giao_an_tich_hop-chu de 6- lop 5.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 26 - TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG - SÁNG TẠO",
+        "lessonTitle": "TIẾT 26: - VẬN DỤNG – SÁNG TẠO",
         "topic": "- Trình diễn nội dung đã học trong chủ đề với hình thức phù hợp.",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1853,7 +1853,7 @@
     "sourceFile": "Giao_an_tich_hop-chu de 7- lop 5.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 30 - TỔ CHỨC VẬN DỤNG SÁNG TẠO.",
+        "lessonTitle": "TIẾT 30: - VẬN DỤNG – SÁNG TẠO",
         "topic": "- Biểu diễn các nội dung đã học trong chủ đề với các hình thức phù hợp.",
         "yccd": [
           "1. Năng lực đặc thù:",

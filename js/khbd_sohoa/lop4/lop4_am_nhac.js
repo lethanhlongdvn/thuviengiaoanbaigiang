@@ -249,7 +249,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 1-4- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG – SÁNG TẠO - 02/10/2025(4B,4A)",
+        "lessonTitle": "VẬN DỤNG – SÁNG TẠO",
         "topic": "- Nhớ tên chủ đề đang học.",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -503,7 +503,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 5-8- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 8: - TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG – SÁNG TẠO",
+        "lessonTitle": "TIẾT 8: - VẬN DỤNG – SÁNG TẠO",
         "topic": "- Nhớ tên chủ đề đang học.",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -782,7 +782,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 9-12- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG – SÁNG TẠO",
+        "lessonTitle": "VẬN DỤNG – SÁNG TẠO",
         "topic": "- Nhớ tên chủ đề đang học.",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1080,7 +1080,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 13-18- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG – SÁNG TẠO",
+        "lessonTitle": "VẬN DỤNG – SÁNG TẠO",
         "topic": "- Nội dung: Thảo luận nhóm thống nhất hình tiết tấu, thực hành đệm hát và tổng kết chủ đề.",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1828,7 +1828,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 23-26- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TỔ CHỨC VẬN DỤNG SÁNG TẠO",
+        "lessonTitle": "VẬN DỤNG – SÁNG TẠO",
         "topic": "CHỦ ĐỀ 7: TÌNH BẠN TUỔI THƠ (4 tiết)",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2128,7 +2128,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 27-30- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TỔ CHỨC VẬN DỤNG SÁNG TẠO",
+        "lessonTitle": "VẬN DỤNG – SÁNG TẠO",
         "topic": "- Biểu diễn nội dung đã học trong chủ đề với các hình thức phù hợp.",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2329,7 +2329,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 31-35- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "NGHE NHẠC: KHÚC CA VÀO HÈ - TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG - SÁNG TẠO",
+        "lessonTitle": "NGHE NHẠC: KHÚC CA VÀO HÈ - VẬN DỤNG – SÁNG TẠO",
         "topic": "CHỦ ĐỀ 8: CHÀO MÙA HÈ (5 tiết)",
         "yccd": [
           "1. Năng lực đặc thù:",

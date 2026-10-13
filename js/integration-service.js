@@ -969,6 +969,15 @@ var IntegrationService = {
     t = t.replace(/\s*\((?:Thời\s*gian|Ngày)\s*thực\s*hiện\s*:[^\)]*\)/gi, ' ');
     t = t.replace(/[\s\-–—•·]*(?:Thời\s*gian|Ngày)\s*thực\s*hiện\s*:\s*[.\s_…/–\-]*(?:\(.*\))?/gi, ' ');
 
+    // Loại bỏ tiền tố rác kiểu "TỔ CHỨC HOẠT ĐỘNG / TỔ CHỨC CÁC HOẠT ĐỘNG" trước "VẬN DỤNG – SÁNG TẠO", "KHÁM PHÁ", "LUYỆN TẬP"...
+    t = t.replace(/(^|[-–—:]\s*)TỔ\s*CHỨC\s*(?:CÁC\s*)?(?:HOẠT\s*ĐỘNG\s+)?(?=VẬN\s*DỤNG|KHÁM\s*PHÁ|LUYỆN\s*TẬP|KHỞI\s*ĐỘNG)/gi, '$1').trim();
+    t = t.replace(/^TỔ\s*CHỨC\s+VẬN\s*DỤNG\s*[-–—\s]*SÁNG\s*TẠO/gi, 'VẬN DỤNG – SÁNG TẠO').trim();
+
+    // Loại bỏ ngày tháng năm và ghi chú lớp học thừa của giáo viên (ví dụ: "- 02/10/2025(4B,4A)", "- 12/2/2026 (3B)", "(4B,4A)")
+    t = t.replace(/[\s\-–—•·]*\b\d{1,2}[/-]\d{1,2}[/-]\d{2,4}(?:\s*\([^\)]*\))?\s*$/gi, '').trim();
+    t = t.replace(/\s*\([0-9A-Za-z,\s/]*\d+[A-Za-z][0-9A-Za-z,\s/]*\)\s*$/gi, '').trim();
+    t = t.replace(/^[/\s\d.]*20\.\.\s*[-–—:]*\s*/gi, '').trim(); // khử placeholder rác dạng "/0/20.. - "
+
     // Loại bỏ chuỗi chấm lửng thừa ở bất kỳ vị trí nào
     t = t.replace(/[-–—]?\s*[.…]{3,}\s*[-–—]?/g, ' ');
 
@@ -3106,7 +3115,9 @@ ${sampleJson}`;
     });
 
     // 2. Phân loại và đánh giá độ khớp của từng bài học với GDĐP theo Kế hoạch gốc đã duyệt
-    // BẢO ĐẢM NGUYÊN TẮC SƯ PHẠM: Mỗi mục GDĐP chỉ được tích hợp vào DUY NHẤT 1 TIẾT TRỌNG TÂM PHÙ HỢP NHẤT trong tuần!
+    // BẢO ĐẢM NGUYÊN TẮC SƯ PHẠM VÀ CẤU HÌNH CỨNG 100% THEO KẾ HOẠCH:
+    // Mỗi mục trong 21 mục GDĐP đã duyệt chỉ được tích hợp vào DUY NHẤT 1 TIẾT TRỌNG TÂM PHÙ HỢP NHẤT!
+    // TUYỆT ĐỐI KHÔNG LẶP LẠI cùng một mục GDĐP qua các tuần khác nhau của cùng chủ đề/bài học!
     var matchCandidates = [];
     lessons.forEach(function(les, idx) {
       var effGrade = les.grade || (typeof integrationState !== 'undefined' && integrationState.grade) || 4;
@@ -3120,27 +3131,50 @@ ${sampleJson}`;
         : null;
 
       if (gddpItem && gddpItem.isExactMatch) {
-        // Điểm ưu tiên chọn tiết:
-        // Với môn HĐTN: Ưu tiên tiết 'Hoạt động giáo dục theo chủ đề' (tiết chính khóa của GV)
         var priority = gddpItem.score || 50;
         var tNorm = effTitle.toLowerCase();
-        if (tNorm.indexOf('hoạt động giáo dục theo chủ đề') !== -1 || tNorm.indexOf('hđgd') !== -1) {
+        var actNorm = (gddpItem.activityTitle || '').toLowerCase();
+
+        // Ưu tiên cao nhất cho tiết có tên hoạt động trùng khớp trực tiếp với địa chỉ tích hợp trong Kế hoạch:
+        if (actNorm.includes('thường thức âm nhạc') && tNorm.includes('thường thức âm nhạc')) {
+          priority += 60;
+        } else if (actNorm.includes('vận dụng') && (tNorm.includes('vận dụng') || tNorm.includes('sáng tạo'))) {
+          priority += 50;
+        } else if (actNorm.includes('nói và nghe') && tNorm.includes('nói và nghe')) {
+          priority += 60;
+        } else if (actNorm.includes('viết') && (tNorm.includes('viết đoạn') || tNorm.includes('viết văn') || tNorm.includes('viết'))) {
+          priority += 50;
+        } else if (actNorm.includes('đọc mở rộng') && tNorm.includes('đọc mở rộng')) {
+          priority += 60;
+        } else if (actNorm.includes('hoạt động giáo dục theo chủ đề') && (tNorm.includes('hoạt động giáo dục theo chủ đề') || tNorm.includes('hđgd'))) {
+          priority += 60;
+        } else if (actNorm.includes('khám phá') && tNorm.includes('khám phá')) {
           priority += 30;
-        } else if (tNorm.indexOf('sinh hoạt dưới cờ') !== -1) {
-          priority += 10;
+        } else if (actNorm.includes('thực hành') && tNorm.includes('thực hành')) {
+          priority += 30;
         }
+
+        // Ưu tiên Tiết 1 nếu các tiết ngang hàng nhau
+        if (/tiết\s*1\b|\(t1\)/i.test(tNorm)) {
+          priority += 15;
+        }
+
+        // Phạt điểm đối với tiết sinh hoạt dưới cờ / sinh hoạt lớp / ôn tập / kiểm tra
+        if (/sinh\s*hoạt\s*dưới\s*cờ/i.test(tNorm)) priority -= 20;
+        if (/sinh\s*hoạt\s*lớp/i.test(tNorm)) priority -= 25;
+        if (/ôn\s*tập|kiểm\s*tra|đánh\s*giá/i.test(tNorm)) priority -= 40;
 
         matchCandidates.push({
           index: idx,
           lesson: les,
           gddpItem: gddpItem,
-          groupKey: sKey + '_' + effWeek + '_' + gddpItem.id,
+          groupKey: gddpItem.id, // BẮT BUỘC: Khóa theo gddpItem.id để mỗi mục kế hoạch chỉ chèn DUY NHẤT 1 BÀI TRỌNG TÂM!
           priority: priority
         });
       }
     });
 
-    // 3. Nhóm theo (subject_week_gddpId) và chỉ chọn 1 bài có priority cao nhất cho mỗi item GDĐP trong tuần
+    // 3. Nhóm theo gddpItem.id và chỉ chọn DUY NHẤT 1 bài có priority cao nhất cho mỗi item GDĐP
     var bestMatchPerGroup = {};
     matchCandidates.forEach(function(cand) {
       if (!bestMatchPerGroup[cand.groupKey] || cand.priority > bestMatchPerGroup[cand.groupKey].priority) {
@@ -3148,7 +3182,7 @@ ${sampleJson}`;
       }
     });
 
-    // 4. Áp dụng tích hợp cho đúng bài được chọn duy nhất trong tuần
+    // 4. Áp dụng tích hợp cho đúng bài được chọn duy nhất
     Object.keys(bestMatchPerGroup).forEach(function(k) {
       var winner = bestMatchPerGroup[k];
       self.injectGddpIntoLesson(winner.lesson, cfg);

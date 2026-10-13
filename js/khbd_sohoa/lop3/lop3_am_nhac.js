@@ -190,7 +190,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 1-4-lop3.docx",
     "lessons": [
       {
-        "lessonTitle": "TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG - SÁNG TẠO",
+        "lessonTitle": "VẬN DỤNG – SÁNG TẠO",
         "topic": "CHỦ ĐỀ 1: LỄ HỘI ÂM THANH (4 tiết)",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -457,7 +457,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 5-8-lop3.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 8: TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG – SÁNG TẠO",
+        "lessonTitle": "TIẾT 8: - VẬN DỤNG – SÁNG TẠO",
         "topic": "- Dặn dò chuẩn bị cho chủ đề tiếp theo.",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -742,7 +742,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 9-12-lop3.docx",
     "lessons": [
       {
-        "lessonTitle": "TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG – SÁNG TẠO",
+        "lessonTitle": "VẬN DỤNG – SÁNG TẠO",
         "topic": "- Biểu diễn trước lớp và chia sẻ cảm nhận về chủ đề.",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1033,7 +1033,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 13-18-lop3.docx",
     "lessons": [
       {
-        "lessonTitle": "TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG – SÁNG TẠO",
+        "lessonTitle": "VẬN DỤNG – SÁNG TẠO",
         "topic": "- Biểu diễn nội dung đã học trong chủ đề với hình thức phù hợp.",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1441,7 +1441,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 19-22-lop3.docx",
     "lessons": [
       {
-        "lessonTitle": "TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG – SÁNG TẠO - 12/2/2026 (3B)",
+        "lessonTitle": "VẬN DỤNG – SÁNG TẠO",
         "topic": "- Biểu diễn nội dung đã học trong chủ đề với các hình thức phù hợp.",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1736,7 +1736,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 22-26-lop3.docx",
     "lessons": [
       {
-        "lessonTitle": "TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG – SÁNG TẠO",
+        "lessonTitle": "VẬN DỤNG – SÁNG TẠO",
         "topic": "- Nói được tên chủ đề đang học.",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2043,7 +2043,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 27-30-lop3.docx",
     "lessons": [
       {
-        "lessonTitle": "TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG – SÁNG TẠO",
+        "lessonTitle": "VẬN DỤNG – SÁNG TẠO",
         "topic": "- HS biểu diễn nội dung đã học trong chủ đề với hình thức phù hợp.",
         "yccd": [
           "1. Năng lực đặc thù:",
