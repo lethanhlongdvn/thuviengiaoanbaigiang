@@ -19,6 +19,8 @@ yarn-error.log*
 chrome_temp_profile*/
 *.doc
 *.docx
+!TAI_LIEU_GDDP/*.docx
+!TAI_LIEU_GDDP/**/*.docx
 *.doc1.doc
 *_tree.json
 *_raw.json
