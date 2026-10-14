@@ -126,11 +126,7 @@
               "- GV mời HS nhận xét, đánh giá kết quả của hai đội theo tiêu chí: đúng tên nhân vật, đúng đóng góp, trình bày rõ ràng.\n- GV nhận xét, tuyên dương và kết luận: “Ở mỗi thời kì, mỗi lĩnh vực đều có những người đã cống hiến cho quê hương, đất nước. Biết ơn họ là biểu hiện của lòng yêu nước và truyền thống uống nước nhớ nguồn.”",
               "- HS nhận xét, bổ sung ý kiến cho đội bạn.\n- HS lắng nghe, ghi nhớ bài học: biết ơn người có công bằng thái độ kính trọng, lời nói và việc làm phù hợp với lứa tuổi."
             ],
-            [
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- GV trình chiếu chùm ảnh và kể chuyện ngắn về tấm gương cống hiến trọn đời vì quê hương đất nước của Bác Võ Văn Kiệt (Vĩnh Long), Nữ tướng Nguyễn Thị Định (Bến Tre) và đồng chí Phạm Thái Bường (Trà Vinh). Đặt câu hỏi: \"Các nhân vật lịch sử tiêu biểu trên đã có những đóng góp to lớn gì cho quê hương? Thiếu nhi chúng ta cần làm gì để bày tỏ lòng biết ơn?\".\n- GV nhận xét, khen ngợi tinh thần tự hào của HS; nhấn mạnh: Bày tỏ lòng biết ơn người có công không chỉ bằng lời nói mà bằng hành động cụ thể: chăm ngoan học giỏi, kính trọng người có công, tích cực tham gia chăm sóc đài tưởng niệm liệt sĩ, di tích lịch sử tại địa phương.",
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- HS quan sát hình ảnh tư liệu, lắng nghe câu chuyện; thảo luận nhóm đôi và chia sẻ trước lớp:\n+ Nêu những cống hiến to lớn của tiền nhân đối với sự phát triển của quê hương và đất nước.\n+ Nêu các việc làm thiết thực của bản thân: Cố gắng học tập tốt, lễ phép với các bác thương binh, cựu chiến binh, tham gia cùng trường quét dọn, dâng hoa tại nghĩa trang liệt sĩ xã/phường."
-            ],
-            [
+                        [
               "3. Vận dụng - Trải nghiệm (2 phút)\nMục tiêu: HS vận dụng điều đã học để nêu việc làm thể hiện lòng biết ơn người có công; hình thành ý thức tiếp tục tìm hiểu và trân trọng truyền thống uống nước nhớ nguồn.\n*Cách tiến hành:"
             ],
             [
@@ -181,8 +177,7 @@
           "4. Tích hợp",
           "- Tích hợp AI 5.A2.2 (Công cụ: AI Search, Google Search có gợi ý AI): HS tìm hiểu cách AI phục vụ lợi ích chung như robot y tế hỗ trợ bác sĩ, AI trong nông nghiệp hỗ trợ kĩ sư giúp dân.",
           "- Tích hợp ANQP: HS liên hệ việc tri ân anh hùng, liệt sĩ, thương binh, người có công bằng việc làm phù hợp.",
-          "- Tiết kiệm và bảo vệ nguồn nước: Biết ơn các thế hệ cha ông đã khai phá, đào đắp hệ thống kênh mương dẫn nước ngọt cho quê hương; có ý thức giữ gìn nguồn nước sạch.",
-          "- Giáo dục địa phương (Chủ đề 4 & 2): Tấm gương người cộng sản kiên trung Phạm Thái Bường (Bí thư Tỉnh ủy Trà Vinh, quê Càng Long) và truyền thống đền ơn đáp nghĩa tại Khu di tích Đền thờ Bác Hồ (xã Long Đức, TP. Trà Vinh)."
+          "- Tiết kiệm và bảo vệ nguồn nước: Biết ơn các thế hệ cha ông đã khai phá, đào đắp hệ thống kênh mương dẫn nước ngọt cho quê hương; có ý thức giữ gìn nguồn nước sạch."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 5; máy tính, máy chiếu; tranh trong SGK; phiếu học tập; thẻ bày tỏ ý kiến.",
@@ -307,12 +302,8 @@
             [
               "- GV kết luận tiết học: “Biết ơn người có công là truyền thống tốt đẹp của dân tộc. Mỗi em hãy thể hiện lòng biết ơn bằng những lời nói, việc làm cụ thể, chân thành và phù hợp.”",
               "- HS lắng nghe, ghi nhớ và tự nhắc bản thân thực hiện nhiệm vụ trải nghiệm."
-            ],
-            [
-              "- Tích hợp GDĐP (CĐ 4, 2) & Mizuiku: GV hướng dẫn HS liên hệ truyền thống uống nước nhớ nguồn tại Trà Vinh: Tự hào về đồng chí Phạm Thái Bường - người con ưu tú của quê hương An Trường, Càng Long, suốt đời cống hiến cho cách mạng; tự hào về quân dân Long Đức kiên cường bảo vệ Đền thờ Bác Hồ giữa làn mưa bom bão đạn. Đồng thời nhắc nhở HS trân trọng công sức của tiền nhân đã khai phá dòng kênh mương dẫn nước ngọt thau chua rửa mặn cho đồng ruộng quê mình. Em sẽ làm gì để đền đáp công ơn đó?",
-              "- HS xúc động bày tỏ lòng biết ơn các anh hùng liệt sĩ quê hương Trà Vinh; cam kết nỗ lực học tốt, tích cực tham gia viếng đền, đài tưởng niệm liệt sĩ và có ý thức giữ gìn vệ sinh, không vứt rác xuống lòng kênh mương quê hương."
             ]
-          ]
+                      ]
         ],
         "dieuchinh": [
           "........................................................................................................................................................................",
@@ -462,11 +453,7 @@
               "- GV hỏi thêm: “Trường hợp d, em sẽ khuyên Kha như thế nào?”\n- GV nhận xét, chốt nội dung luyện tập.",
               "- HS trả lời: “Kha chưa đúng. Ngoài việc học, HS còn cần tham gia hoạt động tri ân phù hợp để biết ơn người có công.”\n- HS lắng nghe, hoàn thiện câu trả lời."
             ],
-            [
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- GV trình chiếu chùm ảnh và kể chuyện ngắn về tấm gương cống hiến trọn đời vì quê hương đất nước của Bác Võ Văn Kiệt (Vĩnh Long), Nữ tướng Nguyễn Thị Định (Bến Tre) và đồng chí Phạm Thái Bường (Trà Vinh). Đặt câu hỏi: \"Các nhân vật lịch sử tiêu biểu trên đã có những đóng góp to lớn gì cho quê hương? Thiếu nhi chúng ta cần làm gì để bày tỏ lòng biết ơn?\".\n- GV nhận xét, khen ngợi tinh thần tự hào của HS; nhấn mạnh: Bày tỏ lòng biết ơn người có công không chỉ bằng lời nói mà bằng hành động cụ thể: chăm ngoan học giỏi, kính trọng người có công, tích cực tham gia chăm sóc đài tưởng niệm liệt sĩ, di tích lịch sử tại địa phương.",
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- HS quan sát hình ảnh tư liệu, lắng nghe câu chuyện; thảo luận nhóm đôi và chia sẻ trước lớp:\n+ Nêu những cống hiến to lớn của tiền nhân đối với sự phát triển của quê hương và đất nước.\n+ Nêu các việc làm thiết thực của bản thân: Cố gắng học tập tốt, lễ phép với các bác thương binh, cựu chiến binh, tham gia cùng trường quét dọn, dâng hoa tại nghĩa trang liệt sĩ xã/phường."
-            ],
-            [
+                        [
               "3. Vận dụng - Trải nghiệm (2 phút)\nMục tiêu: HS vận dụng nội dung luyện tập vào một việc làm cụ thể sau tiết học.\n*Cách tiến hành:"
             ],
             [
@@ -630,8 +617,7 @@
           "4. Tích hợp",
           "- Tích hợp Năng lực số 2.1.CB2a: HS lựa chọn phương tiện giao tiếp số như Email hoặc Zalo nhóm để mời các bạn có hoàn cảnh khác nhau tham gia nhóm học tập bằng lời lẽ lịch sự.",
           "- Tích hợp QCN: HS hiểu mỗi người có quyền được tôn trọng và đối xử công bằng.",
-          "- Tiết kiệm và bảo vệ nguồn nước: Tôn trọng, bình đẳng trong việc chia sẻ và tiếp cận nguồn nước sạch sinh hoạt giữa các cộng đồng dân cư.",
-          "- Giáo dục địa phương (Chủ đề 1 & 3): Tôn trọng trang phục, tiếng nói, chữ viết và phong tục tập quán truyền thống của cộng đồng các dân tộc Kinh - Khmer - Hoa tại tỉnh Trà Vinh."
+          "- Tiết kiệm và bảo vệ nguồn nước: Tôn trọng, bình đẳng trong việc chia sẻ và tiếp cận nguồn nước sạch sinh hoạt giữa các cộng đồng dân cư."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 5; tranh phần Khám phá; máy chiếu, máy tính; thẻ bày tỏ thái độ, phiếu học tập, sticker.",
@@ -743,12 +729,8 @@
             [
               "- GV giao nhiệm vụ: “Trong tuần này, em hãy thực hiện một lời nói hoặc việc làm thể hiện tôn trọng sự khác biệt của bạn và chuẩn bị chia sẻ ở tiết sau.”",
               "- HS ghi nhiệm vụ: dùng lời nói lịch sự, chơi cùng bạn, không chê bai điểm khác biệt của bạn, chủ động làm quen bạn mới."
-            ],
-            [
-              "- Tích hợp GDĐP (CĐ 1, 3) & Mizuiku: GV liên hệ thực tế tinh thần đoàn kết tại quê hương Trà Vinh: Nơi đây là mái nhà chung của đồng bào các dân tộc Kinh, Khmer, Hoa với nhiều nét văn hóa độc đáo (như chữ Khmer, lễ hội Ok Om Bok, chùa cổ kính). Sự tôn trọng lẫn nhau, không chê bai tiếng nói, trang phục truyền thống của bạn và cùng nhau tương trợ chia sẻ nguồn nước ngọt trong mùa khô chính là nét đẹp văn hóa tiêu biểu của người dân Trà Vinh. Em thể hiện sự tôn trọng bạn như thế nào?",
-              "- HS liên hệ bản thân: tôn trọng tiếng nói, chữ viết và phong tục của các bạn dân tộc Khmer, Hoa trong lớp; hòa đồng, giúp đỡ nhau cùng tiến bộ và cùng giữ gìn nguồn nước sạch trường học."
             ]
-          ]
+                      ]
         ],
         "dieuchinh": [
           "........................................................................................................................................................................",
@@ -779,11 +761,10 @@
           "- Trách nhiệm: có ý thức xây dựng môi trường lớp học thân thiện, không kì thị, không phân biệt đối xử.",
           "4. Tích hợp",
           "- Tích hợp AI 5.B1.1 (Công cụ: Teachable Machine): HS quan sát mô phỏng dạy máy nhận diện đa dạng đặc điểm con người; thảo luận nếu AI chỉ nhận diện được một màu da, một giọng nói hoặc một vùng miền thì đó là thiếu công bằng.",
-          "- Tích hợp Giáo dục địa phương (GDĐP): Tôn trọng sự đa dạng bản sắc văn hóa, ngôn ngữ, trang phục, phong tục tập quán của các dân tộc Kinh, Khmer, Hoa cùng sinh sống hòa thuận tại địa phương (Chủ đề 1 & 3 - Trà Vinh, trang 6, 18; Chủ đề 1 - Vĩnh Long, trang 7; Chủ đề 1 - Bến Tre, trang 22).",
           "- Tích hợp QCN: HS tôn trọng quyền được đối xử bình đẳng của mọi người."
         ],
         "dodung": [
-          "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 5; tranh bài tập trong SGK; máy chiếu, máy tính; sticker hoặc thẻ mặt cười, mặt mếu; phiếu học tập.; hình ảnh trang phục truyền thống, chữ viết và không khí lễ hội Ok Om Bok, Tết Chôl Chnăm Thmây (Khmer), Tết Nguyên tiêu (Hoa), Lễ Kỳ yên (Kinh); Tài liệu GDĐP.",
+          "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 5; tranh bài tập trong SGK; máy chiếu, máy tính; sticker hoặc thẻ mặt cười, mặt mếu; phiếu học tập.; hình ảnh trang phục truyền thống, chữ viết và không khí lễ hội Ok Om Bok, Tết Chôl Chnăm Thmây (Khmer), Tết Nguyên tiêu (Hoa), Lễ Kỳ yên (Kinh).",
           "- Học sinh: SGK Đạo đức 5, vở ghi, bút màu; chuẩn bị ý kiến cá nhân về các biểu hiện tôn trọng sự khác biệt.",
           "- Công cụ tích hợp: Teachable Machine hoặc video/hình ảnh mô phỏng do GV chuẩn bị; nội dung về quyền được đối xử bình đẳng."
         ],
@@ -889,11 +870,7 @@
               "- GV kết luận: “Lời khuyên thể hiện tôn trọng sự khác biệt cần nhẹ nhàng, không áp đặt, giúp bạn hiểu rằng mỗi người có nét riêng, sở thích riêng và đều đáng được tôn trọng.”",
               "- HS nhắc lại: “Khi khuyên bạn, em cần dùng lời nói lịch sự, không chế giễu, không làm bạn xấu hổ.”"
             ],
-            [
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- GV trình chiếu hình ảnh trang phục truyền thống, chữ viết và các nét văn hóa đặc sắc của đồng bào Khmer, Hoa, Kinh tại địa phương. Đưa ra tình huống: \"Trong lớp học, nếu có bạn là người dân tộc thiểu số nói tiếng mẹ đẻ hoặc mang món bánh truyền thống đến chia sẻ, em sẽ có thái độ và hành động như thế nào?\".\n- GV đúc kết: Sự khác biệt về văn hóa, tiếng nói, trang phục làm nên bức tranh phong phú của quê hương. Tôn trọng và hòa đồng với bạn bè các dân tộc là nét đẹp truyền thống của người dân Nam Bộ.",
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- HS thảo luận nhóm đôi, bày tỏ thái độ:\n+ Đồng tình, hào hứng đón nhận và vui vẻ trò chuyện, học hỏi những điều hay từ nét văn hóa của bạn.\n+ Tuyệt đối không trêu chọc, không chê bai tiếng nói hay phong tục tập quán của bạn; luôn đoàn kết giúp đỡ nhau cùng tiến bộ."
-            ],
-            [
+                        [
               "3. Vận dụng - Trải nghiệm (1 phút)\nMục tiêu: HS chuẩn bị sản phẩm giới thiệu điểm đặc biệt của bản thân cho tiết học sau.\n*Cách tiến hành:"
             ],
             [
@@ -1249,11 +1226,7 @@
               "- GV nêu tình huống 3: “Em sắp kiểm tra nhưng bị ốm nên chưa ôn bài được.”\n- GV gợi ý HS nêu cách vượt qua khó khăn phù hợp.",
               "- HS xử lí: “Em cần nghỉ ngơi, uống thuốc theo hướng dẫn của người lớn/bác sĩ; khi đỡ hơn thì chia nhỏ thời gian ôn bài, nhờ bạn gửi bài, hỏi thầy cô phần chưa hiểu.”\n- HS nhận xét, bổ sung cách xử lí."
             ],
-            [
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- GV trình chiếu chùm ảnh và kể chuyện ngắn về tấm gương cống hiến trọn đời vì quê hương đất nước của Bác Võ Văn Kiệt (Vĩnh Long), Nữ tướng Nguyễn Thị Định (Bến Tre) và đồng chí Phạm Thái Bường (Trà Vinh). Đặt câu hỏi: \"Các nhân vật lịch sử tiêu biểu trên đã có những đóng góp to lớn gì cho quê hương? Thiếu nhi chúng ta cần làm gì để bày tỏ lòng biết ơn?\".\n- GV nhận xét, khen ngợi tinh thần tự hào của HS; nhấn mạnh: Bày tỏ lòng biết ơn người có công không chỉ bằng lời nói mà bằng hành động cụ thể: chăm ngoan học giỏi, kính trọng người có công, tích cực tham gia chăm sóc đài tưởng niệm liệt sĩ, di tích lịch sử tại địa phương.",
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- HS quan sát hình ảnh tư liệu, lắng nghe câu chuyện; thảo luận nhóm đôi và chia sẻ trước lớp:\n+ Nêu những cống hiến to lớn của tiền nhân đối với sự phát triển của quê hương và đất nước.\n+ Nêu các việc làm thiết thực của bản thân: Cố gắng học tập tốt, lễ phép với các bác thương binh, cựu chiến binh, tham gia cùng trường quét dọn, dâng hoa tại nghĩa trang liệt sĩ xã/phường."
-            ],
-            [
+                        [
               "3. Đánh giá - Vận dụng (5 phút)\nMục tiêu: HS tự đánh giá kết quả ôn tập và nêu việc làm cụ thể sau tiết học.\n*Cách tiến hành:"
             ],
             [
@@ -1466,11 +1439,7 @@
               "– GV dặn dò: “Về nhà, em thực hiện mục tiêu đã chọn, cuối tuần tự đánh giá mình đã làm được gì và cần cố gắng thêm điều gì.”",
               "– HS ghi nhiệm vụ vào vở và chuẩn bị chia sẻ ở tiết sau."
             ],
-            [
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- GV chiếu phóng sự ảnh về dòng sông quê trong lành đối lập với dòng kênh bị nghẽn bởi rác thải nhựa; giới thiệu phong trào \"Tuyến đường hoa Nông thôn mới\" và \"Ngày Chủ nhật xanh\". Hướng dẫn HS thảo luận nhóm lập \"Kế hoạch hành động xanh vì dòng sông và xóm ấp quê em\".\n- GV đánh giá, biểu dương tinh thần trách nhiệm của học sinh; phát động chiến dịch \"Thiếu nhi chung tay bảo vệ nguồn nước sạch và xây dựng quê hương tươi đẹp\".",
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- HS làm việc nhóm, xây dựng bản cam kết hành động xanh:\n+ Không vứt rác, túi ni-lông, chai nhựa xuống sông rạch, ao hồ.\n+ Tiết kiệm nước sinh hoạt hằng ngày.\n+ Cùng gia đình tham gia quét dọn đường làng ngõ xóm, trồng và chăm sóc hàng rào cây xanh, bồn hoa trước nhà."
-            ],
-            [
+                        [
               "– GV nhận xét tiết học, nhắc HS biết đặt mục tiêu nhỏ, kiên trì thực hiện và tìm sự hỗ trợ phù hợp khi gặp trở ngại.",
               "– HS lắng nghe và chuẩn bị nội dung tiết sau."
             ]
@@ -2019,8 +1988,7 @@
           "4. Tích hợp",
           "- Tích hợp AI 5.D1.1 (Công cụ: Scratch AI hoặc Teachable Machine): HS tìm hiểu dự án nhỏ “Dạy máy bảo vệ môi trường”, xác định vấn đề rác thải, chuẩn bị dữ liệu, dạy máy nhận biết và kiểm tra kết quả.",
           "- Tích hợp BVMT: HS nhận biết trách nhiệm bảo vệ môi trường sống.",
-          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Nhận diện các nguyên nhân gây ô nhiễm môi trường nước mặt và nước ngầm; đề xuất các giải pháp bảo vệ nguồn nước sinh hoạt.",
-          "- Giáo dục địa phương (Chủ đề 6): Nông thôn mới trên quê hương Trà Vinh - bảo vệ môi trường nông thôn, giữ cho các dòng kênh xanh, đường làng sạch đẹp."
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Nhận diện các nguyên nhân gây ô nhiễm môi trường nước mặt và nước ngầm; đề xuất các giải pháp bảo vệ nguồn nước sinh hoạt."
         ],
         "dodung": [
           "- SGK, SGV, Vở Bài tập Đạo đức 5; tranh ảnh trong SGK; phiếu học tập, giấy nháp, bút màu, sticker.",
@@ -2107,12 +2075,8 @@
             [
               "- GV yêu cầu HS nêu nhanh một việc em sẽ làm trong tuần này để bảo vệ môi trường sống ở nhà, ở trường hoặc nơi công cộng.\n- GV củng cố, dặn dò: “Về nhà, em quan sát và ghi lại một việc cụ thể em đã hoặc sẽ làm để bảo vệ môi trường sống; chuẩn bị chia sẻ ở tiết sau.”",
               "- HS chia sẻ ngắn gọn: “Em sẽ bỏ rác đúng nơi quy định, tiết kiệm nước, chăm sóc cây xanh, không dùng túi ni-lông khi không cần thiết.”\n- HS ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
-            ],
-            [
-              "- Tích hợp GDĐP (CĐ 6) & Mizuiku: GV liên hệ thực trạng môi trường sống tại tỉnh Trà Vinh: Tỉnh ta đang tích cực xây dựng nông thôn mới nâng cao, kiểu mẫu với các tiêu chí sáng - xanh - sạch - đẹp. Môi trường nước mặt sông Cổ Chiên, sông Hậu và hệ thống kênh mương có vai trò sống còn đối với cuộc sống của nhân dân. Em hãy nêu một số việc làm cụ thể để bảo vệ môi trường nước tại nơi em ở?",
-              "- HS nêu các hành động cụ thể: không xả nước thải bẩn chưa qua xử lí ra kênh rạch; thu gom rác thải nhựa, bao bì phân bón đúng quy định; thực hành tiết kiệm nước trong sinh hoạt gia đình."
             ]
-          ]
+                      ]
         ],
         "dieuchinh": [
           "................................................................................................................................................................",
@@ -2145,11 +2109,10 @@
           "4. Tích hợp",
           "- Tích hợp Năng lực số 1.1.CB2b: HS xem video trên YouTube về ô nhiễm không khí, rác thải nhựa để nhận thức tác hại đối với sức khỏe.",
           "- Tích hợp BVMT: HS nêu việc làm giảm rác thải nhựa, tiết kiệm tài nguyên và giữ môi trường sống xanh, sạch.",
-          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Đánh giá các hành vi bảo vệ hoặc làm tổn hại đến nguồn nước; rèn thói quen sử dụng nước hợp lí.",
-          "- Giáo dục địa phương (Chủ đề 7): Mô hình nuôi tôm nước lợ công nghệ cao tại Trà Vinh gắn với trách nhiệm xử lí nước thải, không gây ô nhiễm môi trường nước tự nhiên."
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Đánh giá các hành vi bảo vệ hoặc làm tổn hại đến nguồn nước; rèn thói quen sử dụng nước hợp lí."
         ],
         "dodung": [
-          "- SGK, SGV, Vở Bài tập Đạo đức 5; thẻ bày tỏ thái độ, phiếu học tập, sticker, bảng nhóm.; hình ảnh khuôn viên cây xanh tại Khu di tích Đền thờ Bác Hồ (Long Đức), Khu di tích Cái Ngang, cây Bạch mai cổ thụ Đình Phú Tự; Tài liệu GDĐP.",
+          "- SGK, SGV, Vở Bài tập Đạo đức 5; thẻ bày tỏ thái độ, phiếu học tập, sticker, bảng nhóm.; hình ảnh khuôn viên cây xanh tại Khu di tích Đền thờ Bác Hồ (Long Đức).",
           "- Máy chiếu, máy tính; video YouTube về ô nhiễm không khí, rác thải nhựa do GV chọn lọc và kiểm tra trước khi trình chiếu."
         ],
         "activities": [],
@@ -2224,12 +2187,8 @@
             [
               "- GV yêu cầu HS nêu nhanh một việc làm giảm rác thải nhựa, tiết kiệm tài nguyên hoặc giữ môi trường sống xanh, sạch trong tuần này.\n- GV củng cố, dặn dò: “Về nhà, em quan sát và ghi lại một việc cụ thể em đã hoặc sẽ làm để bảo vệ môi trường sống; chuẩn bị chia sẻ ở tiết sau.”",
               "- HS chia sẻ ngắn gọn việc sẽ làm: “Em sẽ mang bình nước cá nhân”; “Em sẽ tắt quạt khi ra khỏi lớp”; “Em sẽ nhắc bạn bỏ rác đúng nơi quy định.”\n- HS ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
-            ],
-            [
-              "- Tích hợp GDĐP (CĐ 7) & Mizuiku: GV hướng dẫn HS phân tích tình huống thực tế tại địa phương Trà Vinh: Nhiều hộ nuôi tôm tại các huyện Duyên Hải, Cầu Ngang đã đầu tư hệ thống ao lắng lọc xử lí vi sinh để làm sạch nước trước khi xả ra môi trường tự nhiên, giúp bảo vệ dòng sông chung không bị ô nhiễm mầm bệnh. Em có nhận xét gì về việc làm này và em học tập được điều gì?",
-              "- HS thảo luận nhóm, bày tỏ đồng tình: ủng hộ các mô hình sản xuất có trách nhiệm bảo vệ nguồn nước; cam kết tự giác khóa chặt vòi nước sau khi dùng và tuyên truyền gia đình giữ sạch nguồn nước chung."
             ]
-          ]
+                      ]
         ],
         "dieuchinh": [
           "................................................................................................................................................................",
@@ -2323,11 +2282,7 @@
               "- GV nêu tình huống 3: “Em thấy bạn vứt vỏ chai nhựa xuống sân trường.”\n- GV gợi ý HS nêu cách bảo vệ cái đúng, cái tốt và bảo vệ môi trường.",
               "- HS xử lí: “Em sẽ nhắc bạn nhặt vỏ chai bỏ vào thùng rác, nếu có phân loại rác thì bỏ đúng nơi quy định; em cũng tự nhắc bản thân không xả rác.”\n- HS nhận xét, bổ sung cách xử lí."
             ],
-            [
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- GV trình chiếu hình ảnh trang phục truyền thống, chữ viết và các nét văn hóa đặc sắc của đồng bào Khmer, Hoa, Kinh tại địa phương. Đưa ra tình huống: \"Trong lớp học, nếu có bạn là người dân tộc thiểu số nói tiếng mẹ đẻ hoặc mang món bánh truyền thống đến chia sẻ, em sẽ có thái độ và hành động như thế nào?\".\n- GV đúc kết: Sự khác biệt về văn hóa, tiếng nói, trang phục làm nên bức tranh phong phú của quê hương. Tôn trọng và hòa đồng với bạn bè các dân tộc là nét đẹp truyền thống của người dân Nam Bộ.",
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- HS thảo luận nhóm đôi, bày tỏ thái độ:\n+ Đồng tình, hào hứng đón nhận và vui vẻ trò chuyện, học hỏi những điều hay từ nét văn hóa của bạn.\n+ Tuyệt đối không trêu chọc, không chê bai tiếng nói hay phong tục tập quán của bạn; luôn đoàn kết giúp đỡ nhau cùng tiến bộ."
-            ],
-            [
+                        [
               "3. Vận dụng - Trải nghiệm (3 phút)\nMục tiêu: HS tự đánh giá việc rèn luyện và lựa chọn việc làm cụ thể sau tiết học.\n*Cách tiến hành:"
             ],
             [
@@ -2366,8 +2321,7 @@
           "- Chăm chỉ: tích cực tham gia lao động vệ sinh, chăm sóc cây xanh, giữ gìn môi trường ở nhà, ở trường, nơi công cộng.",
           "4. Tích hợp",
           "- Tích hợp BVMT: HS trao đổi nhóm, đề xuất thông điệp xanh cho lớp học và cam kết thực hiện hành động nhỏ hằng ngày như tắt điện, tiết kiệm nước, dùng bình nước cá nhân, phân loại rác đúng nơi quy định.",
-          "- Tiết kiệm và bảo vệ nguồn nước: Thực hiện kế hoạch hành động cá nhân: kiểm tra rò rỉ nước tại gia đình, trường học và vận động người thân tiết kiệm nước.",
-          "- Giáo dục địa phương (Chủ đề 6 & 7): Tham gia phong trào 'Ngày Chủ nhật xanh', trồng hoa ven đường và làm sạch lòng kênh rạch xây dựng nông thôn mới tại Trà Vinh."
+          "- Tiết kiệm và bảo vệ nguồn nước: Thực hiện kế hoạch hành động cá nhân: kiểm tra rò rỉ nước tại gia đình, trường học và vận động người thân tiết kiệm nước."
         ],
         "dodung": [
           "- SGK, SGV, Vở Bài tập Đạo đức 5; tranh tình huống trong SGK; giấy khổ to, phiếu học tập, bút dạ, sticker, thẻ bày tỏ thái độ.",
@@ -2472,11 +2426,7 @@
               "- GV yêu cầu HS nêu nhanh một thông điệp xanh hoặc một việc em sẽ làm trong tuần này để bảo vệ môi trường ở lớp, ở nhà, nơi công cộng.",
               "- HS chia sẻ: “Em sẽ tắt điện khi ra khỏi phòng”; “Em sẽ dùng bình nước cá nhân”; “Em sẽ phân loại rác đúng nơi quy định.”"
             ],
-            [
-              "- Tích hợp GDĐP (CĐ 6) & Mizuiku: GV phát động phong trào hành động vì quê hương Trà Vinh xanh: Mỗi học sinh lớp 5 xây dựng một kế hoạch nhỏ: 'Chiến sĩ nhí vì môi trường Trà Vinh' - kiểm tra vòi nước trường học, trồng và chăm sóc cây xanh quanh nhà, tích cực cùng người thân dọn dẹp rác thải kênh rạch trong phong trào Ngày Chủ nhật xanh. Em cam kết thực hiện điều gì?",
-              "- HS hào hứng viết cam kết vào phiếu hành động: tắt vòi nước khi đánh răng; nhặt rác sân trường; nhắc nhở bố mẹ phân loại rác và bảo vệ nguồn nước kênh mương trước nhà."
-            ],
-            [
+                        [
               "- GV củng cố, dặn dò: “Về nhà, em thực hiện một việc làm xanh đã cam kết và ghi lại kết quả để chia sẻ ở tiết sau.”",
               "- HS ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
             ]
@@ -2512,11 +2462,10 @@
           "- Yêu nước: biết yêu quý, giữ gìn môi trường sống xanh, sạch, đẹp ở địa phương.",
           "4. Tích hợp",
           "- Tích hợp Năng lực số 3.1.CB2a: HS thực hiện bảng tự đánh giá số trên Google Forms về việc tham gia bảo vệ môi trường.",
-          "- Tích hợp Giáo dục địa phương (GDĐP): Thực hiện các hành động thiết thực bảo vệ nguồn nước sông rạch, tham gia phong trào xây dựng Nông thôn mới sáng - xanh - sạch - đẹp trên quê hương (Chủ đề 6 - Trà Vinh, trang 34; Chủ đề 1 - Vĩnh Long, trang 9; Chủ đề 1 - Bến Tre, trang 25).",
           "- Tích hợp BVMT: HS biết nhìn lại việc làm của bản thân và đề xuất biện pháp khắc phục sai sót."
         ],
         "dodung": [
-          "- SGK, SGV, Vở Bài tập Đạo đức 5; phiếu tự đánh giá; bảng nhóm; giấy khổ to, bút dạ, tranh ảnh/sản phẩm về bảo vệ môi trường.; phóng sự ảnh về các dòng sông quê hương (sông Tiền, sông Cổ Chiên), hình ảnh các tuyến đường hoa Nông thôn mới kiểu mẫu; phiếu dự án nhỏ; Tài liệu GDĐP.",
+          "- SGK, SGV, Vở Bài tập Đạo đức 5; phiếu tự đánh giá; bảng nhóm; giấy khổ to, bút dạ, tranh ảnh/sản phẩm về bảo vệ môi trường.; phóng sự ảnh về các dòng sông quê hương (sông Tiền, sông Cổ Chiên), hình ảnh các tuyến đường hoa Nông thôn mới kiểu mẫu; phiếu dự án nhỏ.",
           "- Máy chiếu, máy tính; video “Tắt đèn giờ Trái Đất năm 2023”; Google Forms do GV chuẩn bị để HS tự đánh giá việc tham gia bảo vệ môi trường."
         ],
         "activities": [],
@@ -2605,11 +2554,7 @@
               "* Tình hình môi trường: Sông A bị ô nhiễm nguồn nước.\n* Nguyên nhân: Rác thải, nước thải.\n* Biện pháp khắc phục/phát huy: Cắm biển nhắc nhở cấm đổ rác; tuyên truyền người thân thực hiện các biện pháp bảo vệ; lên tiếng phản ánh thực trạng môi trường trong các diễn đàn trẻ em ở địa phương.",
               "+ HS trình bày kết quả điều tra theo các mục: tình hình môi trường, nguyên nhân, biện pháp khắc phục hoặc phát huy.\n+ HS triển lãm sản phẩm và thuyết trình theo sự hướng dẫn của GV."
             ],
-            [
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- GV chiếu phóng sự ảnh về dòng sông quê trong lành đối lập với dòng kênh bị nghẽn bởi rác thải nhựa; giới thiệu phong trào \"Tuyến đường hoa Nông thôn mới\" và \"Ngày Chủ nhật xanh\". Hướng dẫn HS thảo luận nhóm lập \"Kế hoạch hành động xanh vì dòng sông và xóm ấp quê em\".\n- GV đánh giá, biểu dương tinh thần trách nhiệm của học sinh; phát động chiến dịch \"Thiếu nhi chung tay bảo vệ nguồn nước sạch và xây dựng quê hương tươi đẹp\".",
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- HS làm việc nhóm, xây dựng bản cam kết hành động xanh:\n+ Không vứt rác, túi ni-lông, chai nhựa xuống sông rạch, ao hồ.\n+ Tiết kiệm nước sinh hoạt hằng ngày.\n+ Cùng gia đình tham gia quét dọn đường làng ngõ xóm, trồng và chăm sóc hàng rào cây xanh, bồn hoa trước nhà."
-            ],
-            [
+                        [
               "- GV củng cố, dặn dò: “Về nhà, em hoàn thiện nội dung điều tra/tự đánh giá và tiếp tục thực hiện việc làm bảo vệ môi trường đã cam kết.”",
               "- HS ghi nhiệm vụ vào vở, phân công nhiệm vụ nhóm và chuẩn bị chia sẻ kết quả vào tiết học sau."
             ]
@@ -3142,11 +3087,7 @@
               "- GV gợi ý thêm một số sản phẩm để HS tham khảo như:\n+ Tấm gương sống và làm việc theo kế hoạch của V.I. Lê-nin với câu chuyện “Mình bận học”.\n+ Châm ngôn, danh ngôn: “Việc hôm nay chớ để ngày mai”; “Bốn bước dẫn tới thành tựu: Lên kế hoạch có mục đích. Chuẩn bị chuyên tâm. Tiến hành tích cực. Theo đuổi bền bỉ” (William Arthur Ward).",
               "- Các HS khác quan sát sản phẩm, nhận xét, đánh giá."
             ],
-            [
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- GV chiếu phóng sự ảnh về dòng sông quê trong lành đối lập với dòng kênh bị nghẽn bởi rác thải nhựa; giới thiệu phong trào \"Tuyến đường hoa Nông thôn mới\" và \"Ngày Chủ nhật xanh\". Hướng dẫn HS thảo luận nhóm lập \"Kế hoạch hành động xanh vì dòng sông và xóm ấp quê em\".\n- GV đánh giá, biểu dương tinh thần trách nhiệm của học sinh; phát động chiến dịch \"Thiếu nhi chung tay bảo vệ nguồn nước sạch và xây dựng quê hương tươi đẹp\".",
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- HS làm việc nhóm, xây dựng bản cam kết hành động xanh:\n+ Không vứt rác, túi ni-lông, chai nhựa xuống sông rạch, ao hồ.\n+ Tiết kiệm nước sinh hoạt hằng ngày.\n+ Cùng gia đình tham gia quét dọn đường làng ngõ xóm, trồng và chăm sóc hàng rào cây xanh, bồn hoa trước nhà."
-            ],
-            [
+                        [
               "- GV củng cố, dặn dò: “Về nhà, em thực hiện kế hoạch đã lập, tự đánh giá sau một tuần và ghi lại điều cần điều chỉnh để chia sẻ ở tiết học sau.”",
               "- HS ghi nhiệm vụ vào vở, tiếp tục thực hiện kế hoạch cá nhân và chuẩn bị chia sẻ kết quả."
             ]
@@ -3597,11 +3538,7 @@
               "- GV mời một số HS chia sẻ một việc em sẽ thực hiện trong tuần tới.",
               "- HS chia sẻ: “Em sẽ tắt điện khi ra khỏi phòng”; “Em sẽ lập kế hoạch ôn bài”; “Em sẽ không chia sẻ thông tin cá nhân cho người lạ.”"
             ],
-            [
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- GV chiếu phóng sự ảnh về dòng sông quê trong lành đối lập với dòng kênh bị nghẽn bởi rác thải nhựa; giới thiệu phong trào \"Tuyến đường hoa Nông thôn mới\" và \"Ngày Chủ nhật xanh\". Hướng dẫn HS thảo luận nhóm lập \"Kế hoạch hành động xanh vì dòng sông và xóm ấp quê em\".\n- GV đánh giá, biểu dương tinh thần trách nhiệm của học sinh; phát động chiến dịch \"Thiếu nhi chung tay bảo vệ nguồn nước sạch và xây dựng quê hương tươi đẹp\".",
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- HS làm việc nhóm, xây dựng bản cam kết hành động xanh:\n+ Không vứt rác, túi ni-lông, chai nhựa xuống sông rạch, ao hồ.\n+ Tiết kiệm nước sinh hoạt hằng ngày.\n+ Cùng gia đình tham gia quét dọn đường làng ngõ xóm, trồng và chăm sóc hàng rào cây xanh, bồn hoa trước nhà."
-            ],
-            [
+                        [
               "- GV củng cố, dặn dò: “Về nhà, em ôn lại các nội dung đã học, tiếp tục thực hiện một việc làm bảo vệ môi trường, một việc thực hiện kế hoạch cá nhân và một nguyên tắc an toàn để phòng, tránh xâm hại.”",
               "- HS ghi nhiệm vụ vào vở và thực hiện sau tiết học."
             ]
@@ -4028,8 +3965,7 @@
           "4. Tích hợp",
           "- Tích hợp Năng lực số 5.2.CB2a: HS xác định nhu cầu và chọn website mua sắm hoặc tra giá để so sánh giá cả hàng hóa, giúp đưa ra quyết định mua sắm thông minh và tiết kiệm.",
           "- Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS biết cân nhắc nhu cầu, không chạy theo quảng cáo, không lãng phí tiền bạc.",
-          "- Tiết kiệm và bảo vệ nguồn nước: Nhận thức rằng nước sạch là tài nguyên phải trả tiền, tiết kiệm nước sinh hoạt chính là một cách tiết kiệm tiền thiết thực cho gia đình.",
-          "- Giáo dục địa phương (Chủ đề 6): Thực hành tiết kiệm để tích lũy và ủng hộ các phong trào vì cộng đồng, xây dựng nông thôn mới quê hương Trà Vinh."
+          "- Tiết kiệm và bảo vệ nguồn nước: Nhận thức rằng nước sạch là tài nguyên phải trả tiền, tiết kiệm nước sinh hoạt chính là một cách tiết kiệm tiền thiết thực cho gia đình."
         ],
         "dodung": [
           "- SGK, SGV, Vở Bài tập Đạo đức 5; video clip Cha Ching 7: Hãy biết chi tiêu một cách khôn ngoan nhé bạn tôi; bộ tranh minh hoạ những nét cơ bản của đồng tiền Việt Nam.",
@@ -4151,7 +4087,7 @@
               "- HS chia sẻ: “Em muốn mua bút màu; em sẽ xem mình có thật cần không, so sánh giá và hỏi ý kiến bố mẹ trước khi mua.”"
             ],
             [
-              "- Tích hợp Mizuiku & GDĐP (CĐ 6): GV giáo dục HS về mối quan hệ giữa tiết kiệm nước và tiết kiệm tiền: Hằng tháng gia đình đều phải chi trả tiền hóa đơn nước sạch và tiền điện bơm nước. Khi các em biết khóa vòi nước cẩn thận, không để nước chảy tràn, sử dụng lượng nước vừa đủ là đã trực tiếp giúp cha mẹ tiết kiệm tiền bạc. Khoản tiền tiết kiệm được có thể dùng mua đồ dùng học tập hoặc nuôi heo đất đóng góp xây dựng quê hương Trà Vinh.",
+              "- Tích hợp Mizuiku: GV giáo dục HS về mối quan hệ giữa tiết kiệm nước và tiết kiệm tiền: Hằng tháng gia đình đều phải chi trả tiền hóa đơn nước sạch và tiền điện bơm nước. Khi các em biết khóa vòi nước cẩn thận, không để nước chảy tràn, sử dụng lượng nước vừa đủ là đã trực tiếp giúp cha mẹ tiết kiệm tiền bạc. Khoản tiền tiết kiệm được có thể dùng mua đồ dùng học tập hoặc nuôi heo đất đóng góp xây dựng quê hương Trà Vinh.",
               "- HS ghi nhớ thông điệp: tiết kiệm nước là tiết kiệm tiền; cam kết về nhà kiểm tra các vòi nước, nhắc nhở cả nhà cùng thực hành tiết kiệm nước mỗi ngày."
             ],
             [
@@ -4682,11 +4618,7 @@
               "- GV mời một số HS chia sẻ cam kết rèn luyện.",
               "- HS chia sẻ trước lớp, các bạn lắng nghe và động viên."
             ],
-            [
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- GV chiếu phóng sự ảnh về dòng sông quê trong lành đối lập với dòng kênh bị nghẽn bởi rác thải nhựa; giới thiệu phong trào \"Tuyến đường hoa Nông thôn mới\" và \"Ngày Chủ nhật xanh\". Hướng dẫn HS thảo luận nhóm lập \"Kế hoạch hành động xanh vì dòng sông và xóm ấp quê em\".\n- GV đánh giá, biểu dương tinh thần trách nhiệm của học sinh; phát động chiến dịch \"Thiếu nhi chung tay bảo vệ nguồn nước sạch và xây dựng quê hương tươi đẹp\".",
-              "• Tích hợp Giáo dục địa phương (GDĐP):\n- HS làm việc nhóm, xây dựng bản cam kết hành động xanh:\n+ Không vứt rác, túi ni-lông, chai nhựa xuống sông rạch, ao hồ.\n+ Tiết kiệm nước sinh hoạt hằng ngày.\n+ Cùng gia đình tham gia quét dọn đường làng ngõ xóm, trồng và chăm sóc hàng rào cây xanh, bồn hoa trước nhà."
-            ],
-            [
+                        [
               "- GV củng cố, dặn dò: “Các em tiếp tục thực hiện những hành vi đạo đức đã học trong gia đình, nhà trường và cộng đồng; biết tự bảo vệ bản thân, sống trách nhiệm, nhân ái và tiết kiệm.”",
               "- HS lắng nghe, ghi nhớ và thực hiện sau tiết học."
             ]

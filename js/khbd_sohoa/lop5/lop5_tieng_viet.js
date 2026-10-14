@@ -34,7 +34,6 @@
           "4. Tích hợp",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục tình yêu quê hương, biết lắng nghe vẻ đẹp của thiên nhiên và sống chan hòa với bạn bè.",
           "- Quyền con người: Lồng ghép quyền trẻ em được vui chơi, được bày tỏ cảm xúc và chia sẻ trải nghiệm khi tham gia các trò chơi ngoài trời.",
-          "- Giáo dục địa phương (Chủ đề 1, 3): Cảm nhận những thanh âm đặc trưng của quê hương Trà Vinh (tiếng gió vi vu qua hàng phi lao bờ biển Ba Động, tiếng rì rào của những rặng dừa xanh soi bóng dòng sông Cổ Chiên, tiếng chuông chùa thanh tịnh nơi các ngôi chùa cổ kính); bồi dưỡng tình yêu quê hương, đất nước.",
           "- Tiết kiệm và bảo vệ nguồn nước: Lắng nghe âm thanh trong trẻo của dòng nước mát lành; nâng cao ý thức giữ sạch dòng nước và sử dụng nước tiết kiệm trong đời sống."
         ],
         "dodung": [
@@ -233,12 +232,8 @@
             [
               "- GV dặn HS luyện đọc lại bài và chuẩn bị tiết Luyện từ và câu.",
               "- HS ghi nhớ nhiệm vụ học tập."
-            ],
-            [
-              "- Tích hợp GDĐP (CĐ 1, 3) & Mizuiku: GV mở rộng liên hệ bài đọc với quê hương Trà Vinh: Gợi ý HS lắng nghe và cảm nhận những thanh âm thân thương của quê mình: tiếng gió biển Ba Động rào rạt qua rặng phi lao, tiếng rì rào của những dòng sông Cổ Chiên, sông Tiền và tiếng chuông ngân vang từ các ngôi chùa Khmer thanh tịnh; đồng thời nhắc nhở các em yêu quý thiên nhiên quê hương, biết giữ sạch nguồn nước mát và tiết kiệm nước sinh hoạt mỗi ngày.",
-              "- HS lắng nghe, chia sẻ cảm xúc về những thanh âm quen thuộc của quê hương Trà Vinh; cam kết yêu quý cảnh đẹp quê nhà và thực hành tiết kiệm nước sạch tại trường, tại gia đình."
             ]
-          ]
+                      ]
         ],
         "dieuchinh": [
           "- ....................................................................................................................................................",
@@ -13116,7 +13111,6 @@
           "4. Tích hợp",
           "Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục niềm tự hào về lao động xây dựng đất nước và tinh thần cống hiến của con người Việt Nam.",
           "Tiết kiệm và bảo vệ nguồn nước: Liên hệ sông Đà, thủy điện và trách nhiệm bảo vệ dòng sông, sử dụng điện - nước tiết kiệm.",
-          "- Giáo dục địa phương (Chủ đề 5): Tìm hiểu nét đẹp nghệ thuật âm nhạc dân gian của đồng bào dân tộc Khmer tỉnh Trà Vinh: Giai điệu rộn rã của Dàn nhạc Ngũ âm (Roneat, Ku-ông) và âm vang trầm bổng của tiếng trống Sa-dăm trong các dịp lễ hội Ok Om Bok, Chôl Chnăm Thmây.",
           "- Tiết kiệm và bảo vệ nguồn nước: Cảm nhận vẻ đẹp hùng vĩ của dòng sông quê hương; nâng cao trách nhiệm bảo vệ dòng nước trong sạch, sử dụng nước và điện tiết kiệm, hiệu quả."
         ],
         "dodung": [
@@ -13302,12 +13296,8 @@
             [
               "- GV tích hợp Tiết kiệm và bảo vệ nguồn nước:\n+ GV liên hệ sông Đà, thủy điện và vai trò của dòng sông đối với đời sống con người.\n+ HS hiểu cần bảo vệ dòng sông, không xả rác xuống sông, ao hồ, kênh rạch.\n+ HS nêu việc làm cụ thể: tiết kiệm điện, tiết kiệm nước, khóa vòi nước sau khi dùng, nhắc người thân sử dụng điện - nước hợp lí.",
               "- HS lắng nghe và thực hiện theo hướng dẫn.\n+ Liên hệ nội dung bài học với bản thân.\n+ Trao đổi, chia sẻ ý kiến phù hợp.\n+ Ghi nhớ cách thực hiện trong học tập và cuộc sống."
-            ],
-            [
-              "- Tích hợp GDĐP (CĐ 5) & Mizuiku: GV liên hệ tiếng đàn ba-la-lai-ca với bản sắc văn hóa âm nhạc quê hương Trà Vinh: Giới thiệu thanh âm độc đáo của Dàn nhạc Ngũ âm Khmer và tiếng trống Sa-dăm rộn ràng trong các lễ hội truyền thống Ok Om Bok, Chôl Chnăm Thmây; nhắc nhở HS tự hào về bản sắc văn hóa đa dân tộc Kinh - Khmer - Hoa ở Trà Vinh, đồng thời có ý thức trân trọng dòng nước ngọt ngào của quê hương và tiết kiệm điện, nước.",
-              "- HS lắng nghe, hào hứng chia sẻ hiểu biết về tiếng trống Sa-dăm và dàn nhạc Ngũ âm Trà Vinh; cam kết tự hào về văn hóa quê hương và thực hiện tốt việc bảo vệ nguồn nước, tiết kiệm điện nước."
             ]
-          ]
+                      ]
         ],
         "dieuchinh": [
           "- ....................................................................................................................................................",
@@ -16159,7 +16149,6 @@
           "4. Tích hợp",
           "Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục ý thức tôn trọng di sản kiến trúc, ứng xử văn minh nơi công cộng và nơi tham quan.",
           "Quyền con người: Lồng ghép thái độ tôn trọng giá trị văn hóa, tín ngưỡng và sự đa dạng trong đời sống cộng đồng.",
-          "- Giáo dục địa phương (Chủ đề 2, 5): Tìm hiểu vẻ đẹp kiến trúc độc đáo, cổ kính của hệ thống chùa Phật giáo Nam tông Khmer tại tỉnh Trà Vinh (tiêu biểu là Chùa Âng - ngôi chùa cổ nhất Trà Vinh tọa lạc bên Thắng cảnh Ao Bà Om, Chùa Hang với nghệ thuật điêu khắc gỗ tinh xảo); giáo dục ý thức trân trọng và bảo tồn di tích văn hóa lịch sử quê hương.",
           "- Tiết kiệm và bảo vệ nguồn nước: Bảo vệ cảnh quan mặt nước trong lành tại các khu di tích tôn giáo tiêu biểu (như Ao Bà Om ở TP. Trà Vinh), không xả rác xuống ao hồ."
         ],
         "dodung": [
@@ -16349,12 +16338,8 @@
             [
               "- GV diễn giải tích hợp Quyền con người:\n+ GV lồng ghép thái độ tôn trọng giá trị văn hóa, tín ngưỡng và sự đa dạng trong đời sống cộng đồng.\n+ GV nhắc HS khi đến nơi thờ tự, di tích văn hóa cần ăn mặc, nói năng, ứng xử phù hợp và tôn trọng niềm tin của người khác.\n+ HS biết tôn trọng sự khác biệt văn hóa, không chê bai, không có hành vi thiếu lịch sự ở nơi công cộng.",
               "- HS lắng nghe và thực hiện theo hướng dẫn.\n+ Liên hệ nội dung bài học với bản thân.\n+ Trao đổi, chia sẻ ý kiến phù hợp.\n+ Ghi nhớ cách thực hiện trong học tập và cuộc sống."
-            ],
-            [
-              "- Tích hợp GDĐP (CĐ 2, 5) & Mizuiku: GV liên hệ kiến trúc chùa Một Cột với các công trình chùa cổ độc đáo tại quê hương Trà Vinh: Giới thiệu kiến trúc cổ kính Chùa Âng (ngôi chùa Khmer lâu đời nhất Trà Vinh soi bóng bên Thắng cảnh Ao Bà Om), Chùa Hang với cổng vòm hình hang động độc đáo và nghệ thuật điêu khắc gỗ tinh tế; giáo dục HS lòng tự hào về di tích lịch sử địa phương và ý thức giữ sạch cảnh quan mặt nước ao hồ nơi tôn nghiêm.",
-              "- HS lắng nghe, nêu cảm nhận về vẻ đẹp các ngôi chùa Khmer nổi tiếng ở Trà Vinh; cam kết luôn giữ thái độ tôn kính, ứng xử văn minh và không vứt rác làm ô nhiễm nguồn nước ao hồ khi đến tham quan di tích."
             ]
-          ]
+                      ]
         ],
         "dieuchinh": [
           "- ....................................................................................................................................................",
@@ -20509,7 +20494,6 @@
           "4. Tích hợp",
           "- QPAN: Lồng ghép tình yêu biển đảo, ý thức giữ gìn chủ quyền biển đảo và an toàn cho ngư dân khi lao động trên biển.",
           "- Tiết kiệm và bảo vệ nguồn nước: Giáo dục bảo vệ môi trường biển, không xả rác xuống biển, giữ nguồn nước biển trong lành.",
-          "- Giáo dục địa phương (Chủ đề 7, 8): Tìm hiểu tiềm năng kinh tế biển và truyền thống bám biển kiên cường của ngư dân tỉnh Trà Vinh (khu vực thị xã Duyên Hải, huyện Cầu Ngang, cửa biển Định An); liên hệ sự phát triển của mô hình nuôi tôm công nghệ cao và kinh tế biển quê hương.",
           "- Tiết kiệm và bảo vệ nguồn nước: Bảo vệ môi trường biển trong sạch, bảo tồn nguồn lợi thủy sản, tuyên truyền không xả rác thải nhựa hay nước thải chưa qua xử lý ra biển và luồng sông Định An."
         ],
         "dodung": [
@@ -20679,12 +20663,8 @@
             [
               "- GV nhận xét, dặn HS về nhà luyện đọc thuộc lòng bài thơ và chuẩn bị bài Luyện tập về câu ghép.",
               "- HS ghi nhớ nhiệm vụ học tập."
-            ],
-            [
-              "- Tích hợp GDĐP (CĐ 7, 8) & Mizuiku: GV liên hệ vẻ đẹp người lao động trên biển với thực tế quê hương Trà Vinh: Ca ngợi ngư dân vùng ven biển Duyên Hải, Cầu Ngang ngày đêm kiên cường bám biển khai thác thủy hải sản qua luồng Định An; giới thiệu sự phát triển mô hình kinh tế biển và nuôi tôm công nghệ cao tại địa phương; đồng thời giáo dục HS ý thức bảo vệ môi trường biển, không xả rác thải nhựa xuống biển để bảo tồn nguồn nước và sinh vật biển.",
-              "- HS liên hệ thực tế tinh thần hăng say lao động của ngư dân miền biển Trà Vinh; thể hiện lòng biết ơn người lao động và hứa sẽ bảo vệ nguồn nước biển, giữ gìn bãi biển quê hương luôn xanh - sạch - đẹp."
             ]
-          ]
+                      ]
         ],
         "dieuchinh": [
           "- ....................................................................................................................................................",
@@ -25204,7 +25184,6 @@
           "4. Tích hợp",
           "- QPAN: Liên hệ trách nhiệm học tập để góp phần xây dựng, bảo vệ và phát triển đất nước trong thời đại mới.",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Bồi dưỡng niềm tự hào về truyền thống hiếu học, trọng người tài và văn hiến của dân tộc.",
-          "- Giáo dục địa phương (Chủ đề 4): Tìm hiểu truyền thống yêu nước, hiếu học và tấm gương người chiến sĩ cộng sản kiên trung: Đồng chí Bí thư Tỉnh ủy Trà Vinh Phạm Thái Bường (quê quán xã An Trường, huyện Càng Long); bồi dưỡng niềm tự hào, ý chí phấn đấu rèn luyện tiếp bước cha ông.",
           "- Tiết kiệm và bảo vệ nguồn nước: Nâng cao ý thức trách nhiệm của thế hệ trẻ trong việc bảo vệ tài nguyên thiên nhiên, nguồn nước sinh hoạt của quê hương Trà Vinh trong công cuộc đổi mới."
         ],
         "dodung": [
@@ -25413,12 +25392,8 @@
             [
               "- GV diễn giải tích hợp:\n+ Truyền thống hiếu học, trọng người tài là nét đẹp lâu đời của dân tộc Việt Nam.\n+ Mỗi em cần biết tự hào, biết học tập nghiêm túc và sống có trách nhiệm để xứng đáng với truyền thống văn hiến của cha ông.",
               "- HS lắng nghe và thực hiện:\n+ Ghi nhớ truyền thống hiếu học của dân tộc.\n+ Cố gắng học tập, rèn luyện và chia sẻ điều tốt đẹp với bạn bè."
-            ],
-            [
-              "- Tích hợp GDĐP (CĐ 4) & Mizuiku: GV kết nối truyền thống nghìn năm văn hiến và lịch sử hiếu học của dân tộc với truyền thống cách mạng tỉnh Trà Vinh: Kể cho HS nghe tấm gương sáng ngời về lòng yêu nước, ý chí tự học và tinh thần bất khuất của đồng chí Phạm Thái Bường - nguyên Bí thư Tỉnh ủy Trà Vinh, người con ưu tú của quê hương Càng Long; giáo dục các em noi gương tiền nhân, chăm ngoan học giỏi và có ý thức giữ gìn nguồn nước, bảo vệ tài nguyên quê hương.",
-              "- HS lắng nghe câu chuyện về đồng chí Phạm Thái Bường; bày tỏ niềm tự hào về người con quê hương Trà Vinh, hứa noi gương cha anh chăm chỉ học tập, rèn luyện đạo đức và giữ gìn môi trường sống xanh sạch."
             ]
-          ]
+                      ]
         ],
         "dieuchinh": [
           "- ........................................................................................................................................",
@@ -30019,8 +29994,7 @@
           "- Chăm chỉ: tích cực đọc bài, trả lời câu hỏi và tham gia hoạt động học tập.",
           "4. Tích hợp",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục lòng dũng cảm, tinh thần trách nhiệm, biết làm việc tốt âm thầm vì cộng đồng.",
-          "- Quyền con người: Lồng ghép quyền được bảo vệ an toàn và trách nhiệm hỗ trợ người gặp khó khăn trong khả năng của mình.",
-          "- Giáo dục địa phương (Chủ đề 6) & Tiết kiệm và bảo vệ nguồn nước: Tôn vinh những hành động đẹp thầm lặng vì cộng đồng: Biểu dương những người nông dân, cán bộ và người dân tỉnh Trà Vinh ngày đêm gìn giữ dòng kênh xanh, trồng cây chắn sóng ven biển, xây dựng cảnh quan Nông thôn mới tươi đẹp; nâng cao trách nhiệm của mỗi HS trong việc giữ sạch nguồn nước sinh hoạt và tiết kiệm từng giọt nước mát."
+          "- Quyền con người: Lồng ghép quyền được bảo vệ an toàn và trách nhiệm hỗ trợ người gặp khó khăn trong khả năng của mình."
         ],
         "dodung": [
           "- Tranh minh họa bài đọc Một người hùng thầm lặng; hình ảnh SGK được cắt và chèn đúng vị trí.",
@@ -30205,12 +30179,8 @@
             [
               "- GV hỏi: Qua câu chuyện, em học được điều gì từ ông Uyn-tơn?",
               "- HS nêu: Em học được lòng nhân hậu, tinh thần dũng cảm, trách nhiệm và cách làm việc tốt âm thầm vì người khác."
-            ],
-            [
-              "- Tích hợp GDĐP (CĐ 6) & Mizuiku: GV kết nối câu chuyện về người hùng thầm lặng với những tấm gương bình dị trên quê hương Trà Vinh: Kể về những người dân thầm lặng nạo vét kênh mương nội đồng, dọn sạch rác bảo vệ dòng nước ngọt cho ruộng vườn, hay những tấm lòng chung tay xây dựng Nông thôn mới kiểu mẫu tại Cầu Kè, Càng Long; nhắc nhở HS noi theo bằng hành động cụ thể: không xả rác, khóa chặt vòi nước sau khi dùng và nhắc nhở mọi người cùng giữ gìn nguồn nước sạch.",
-              "- HS lắng nghe và xúc động trước những việc làm thầm lặng cống hiến cho quê hương Trà Vinh; tự hào và hứa sẽ làm những việc tốt vừa sức như tiết kiệm nước sạch, giữ gìn vệ sinh nguồn nước ở trường và gia đình."
             ]
-          ]
+                      ]
         ],
         "dieuchinh": [
           "- ............................................................................................................................."

@@ -464,8 +464,7 @@
           "4. Tích hợp",
           "- Tích hợp NLS 1.1.CB2b: HS sử dụng Google Search/Google Maps/Google Earth để tìm hình ảnh, bản đồ địa hình, khoáng sản Việt Nam; biết dùng từ khóa phù hợp, chọn thông tin cần thiết và đối chiếu với SHS.",
           "- Tích hợp BVMT: HS nhận biết tài nguyên thiên nhiên là tài sản quý, cần khai thác hợp lí và bảo vệ môi trường sống.",
-          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Sử dụng nước sông hợp lí, có ý thức giữ gìn nguồn nước mặt không bị ô nhiễm bởi rác thải và chất độc hại.",
-          "- Giáo dục địa phương (Chủ đề 1): Đặc điểm mạng lưới sông ngòi tỉnh Trà Vinh (hai nhánh sông lớn Cổ Chiên và sông Hậu mang lại nguồn nước ngọt, phù sa và thủy sản dồi dào)."
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Sử dụng nước sông hợp lí, có ý thức giữ gìn nguồn nước mặt không bị ô nhiễm bởi rác thải và chất độc hại."
         ],
         "dodung": [
           "- Giáo viên: SGK/SHS Lịch sử và Địa lí 5, SGV Lịch sử và Địa lí 5, bản đồ/lược đồ tự nhiên Việt Nam, lược đồ khí hậu Việt Nam, lược đồ sông, hồ Việt Nam nếu có; hình ảnh, video thể hiện đặc điểm thiên nhiên và ảnh hưởng của môi trường thiên nhiên đối với sản xuất và đời sống; hoạt động của con người trong việc bảo vệ tài nguyên thiên nhiên và phòng, chống thiên tai.",
@@ -648,11 +647,7 @@
               "- GV yêu cầu HS làm việc cá nhân hoặc nhóm, hoàn thành nhiệm vụ: Tìm hiểu và chia sẻ với bạn về một đặc điểm địa hình hoặc một loại khoáng sản em biết ở Việt Nam.",
               "- HS ghi nhiệm vụ vận dụng và chia sẻ nhanh: địa phương/Việt Nam có đồi núi, đồng bằng, biển; có than đá, dầu mỏ, khí tự nhiên,..."
             ],
-            [
-              "- Tích hợp GDĐP (CĐ 1) & Mizuiku: GV hướng dẫn HS liên hệ đặc điểm sông ngòi đất nước với thực tế tỉnh Trà Vinh: Trà Vinh nằm ở hạ lưu sông Cửu Long, được kẹp giữa hai nhánh sông lớn là sông Cổ Chiên và sông Hậu. Mạng lưới sông ngòi, kênh rạch chằng chịt này là mạch sống nuôi dưỡng ruộng đồng, vườn cây ăn trái và nguồn thủy sản của tỉnh. Em cần làm gì để bảo vệ nguồn nước sông quê hương?",
-              "- HS quan sát lược đồ sông ngòi tỉnh Trà Vinh; thảo luận và nêu cam kết: không vứt rác, xác động vật, bao bì thuốc trừ sâu xuống sông ngòi, kênh rạch; tuyên truyền người thân cùng giữ sạch dòng nước quê hương."
-            ],
-            [
+                        [
               "- GV hướng dẫn HS chuẩn bị tiết sau: đọc trước mục Khí hậu và Sông, hồ trong SHS; quan sát bảng nhiệt độ trung bình của Hà Nội và Thành phố Hồ Chí Minh, các hình 3, 4, 5, 6.",
               "- HS chuẩn bị nội dung tiết sau theo hướng dẫn của GV."
             ]
@@ -1303,8 +1298,7 @@
           "4. Tích hợp",
           "- Tích hợp NLS 2.2.CB2a: HS chia sẻ cảm nghĩ, hình ảnh hoặc thông điệp về biển đảo Việt Nam trên Padlet theo hướng dẫn của GV.",
           "- Tích hợp QPAN: HS hiểu vị trí, vai trò của biển đảo trong bảo vệ chủ quyền quốc gia.",
-          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Giữ sạch bờ biển Ba Động, không xả rác thải nhựa xuống biển làm ô nhiễm môi trường nước biển và hủy hoại sinh vật biển.",
-          "- Giáo dục địa phương (Chủ đề 3 & 8): Tiềm năng kinh tế biển của tỉnh Trà Vinh (bờ biển dài 65 km, bãi biển Ba Động, luồng tàu cho tàu biển trọng tải lớn vào sông Hậu qua cửa biển Định An)."
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Giữ sạch bờ biển Ba Động, không xả rác thải nhựa xuống biển làm ô nhiễm môi trường nước biển và hủy hoại sinh vật biển."
         ],
         "dodung": [
           "- GV: Lược đồ hoặc bản đồ Việt Nam trong khu vực Đông Nam Á; tranh ảnh về vịnh Hạ Long, đảo Lý Sơn, đảo Phú Quốc, quần đảo Hoàng Sa, quần đảo Trường Sa; máy tính, máy chiếu; bảng phụ hoặc phiếu học tập; Padlet.",
@@ -1402,11 +1396,7 @@
               "Mục tiêu tích hợp NLS 2.2.CB2a: HS chia sẻ cảm nghĩ, hình ảnh hoặc thông điệp về biển đảo Việt Nam trên Padlet theo hướng dẫn của GV.\n- GV hướng dẫn HS sử dụng Padlet của lớp: Mỗi nhóm chọn một hình ảnh hoặc viết một thông điệp ngắn về biển, đảo Việt Nam. Khi đăng bài, HS cần ghi tên nhóm, viết lời chia sẻ lịch sự, không đăng thông tin cá nhân, không sử dụng hình ảnh không rõ nguồn gốc và bình luận tích cực vào sản phẩm của nhóm bạn.",
               "HS thực hiện theo nhóm: chọn hình ảnh hoặc viết thông điệp như “Em yêu biển đảo Việt Nam”, “Chung tay bảo vệ biển đảo quê hương”, “Tìm hiểu đúng thông tin về Hoàng Sa, Trường Sa”. HS đăng lên Padlet theo hướng dẫn và bình luận lịch sự."
             ],
-            [
-              "- Tích hợp GDĐP (CĐ 3, 8) & Mizuiku: GV kết nối bài học biển đảo với vùng biển Trà Vinh: Tỉnh Trà Vinh có đường bờ biển dài 65 km với bãi biển Ba Động cát mịn thoai thoải, khu kinh tế Định An và luồng hàng hải cho tàu lớn vào sông Hậu. Vùng biển Trà Vinh rất giàu tài nguyên thủy sản và tiềm năng điện gió. Em hãy nêu các hành động nhỏ để bảo vệ môi trường biển quê hương?",
-              "- HS chia sẻ hiểu biết về biển Ba Động - Trà Vinh; nêu cam kết bảo vệ môi trường biển: khi đi tắm biển Ba Động không vứt rác, túi ni-lông bừa bãi trên bãi cát; tích cực tham gia các phong trào làm sạch bờ biển."
-            ],
-            [
+                        [
               "- GV nhận xét, tuyên dương các nhóm có thông điệp rõ ràng, tích cực và chốt bài học.",
               "- HS lắng nghe, hoàn thiện sản phẩm nếu cần."
             ]
@@ -1584,8 +1574,7 @@
           "- Trách nhiệm: có ý thức đoàn kết, giữ gìn bản sắc văn hoá tốt đẹp của các dân tộc Việt Nam.",
           "4. Tích hợp",
           "Tích hợp NLS 1.3.CB2a: HS sử dụng Google Sheets/Excel để nhập, sắp xếp, so sánh số liệu dân số, phân bố dân cư và một số dân tộc Việt Nam.\nTích hợp QCN: HS hiểu các dân tộc Việt Nam đều bình đẳng, có quyền được tôn trọng bản sắc văn hóa.",
-          "- Tiết kiệm và bảo vệ nguồn nước: Tinh thần đoàn kết, tương trợ chia sẻ nguồn nước sinh hoạt trong cộng đồng các dân tộc Trà Vinh vào mùa khô hạn mặn.",
-          "- Giáo dục địa phương (Chủ đề 1): Đặc điểm dân cư tỉnh Trà Vinh (sự cộng cư đoàn kết, gắn bó keo sơn từ lâu đời của 3 dân tộc anh em Kinh - Khmer - Hoa)."
+          "- Tiết kiệm và bảo vệ nguồn nước: Tinh thần đoàn kết, tương trợ chia sẻ nguồn nước sinh hoạt trong cộng đồng các dân tộc Trà Vinh vào mùa khô hạn mặn."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, tranh ảnh, lược đồ/hình trong SHS, máy tính, ti vi, phiếu học tập.",
@@ -1762,11 +1751,7 @@
               "- GV giao nhiệm vụ: Về nhà chia sẻ với người thân một thông tin em học được về dân số Việt Nam.",
               "- HS ghi nhiệm vụ và thực hiện ở nhà."
             ],
-            [
-              "- Tích hợp GDĐP (CĐ 1) & Mizuiku: GV mở rộng về cộng đồng các dân tộc tại quê hương Trà Vinh: Trà Vinh là tỉnh có cộng đồng đồng bào dân tộc Khmer chiếm gần 32% dân số, cùng dân tộc Hoa và dân tộc Kinh chung sống hòa thuận, đoàn kết từ nhiều đời nay. Trong cuộc sống hằng ngày và đặc biệt vào mùa khô hạn mặn, nhân dân các dân tộc luôn đùm bọc, tương trợ, chia sẻ từng xô nước ngọt sạch cho nhau. Em học tập được điều gì từ tinh thần đoàn kết này?",
-              "- HS tự hào về sự đa dạng văn hóa và khối đại đoàn kết các dân tộc tại Trà Vinh; bày tỏ thái độ tôn trọng, yêu quý bạn bè thuộc mọi dân tộc; sẵn sàng giúp đỡ, sẻ chia với các bạn có hoàn cảnh khó khăn."
-            ],
-            [
+                        [
               "- GV hỏi: Em sẽ chia sẻ thông tin nào với người thân?",
               "- HS trả lời: Em sẽ chia sẻ rằng năm 2024 Việt Nam có 101,3 triệu người và đứng thứ 3 trong khu vực Đông Nam Á."
             ]
@@ -5290,8 +5275,7 @@
           "4. Tích hợp",
           "- Tích hợp NLS 1.1.CB2b: HS tra cứu hình ảnh số về Kinh thành Huế, Nhã nhạc cung đình Huế, lăng tẩm triều Nguyễn; lựa chọn thông tin phù hợp để giới thiệu di sản.",
           "- Tích hợp QCN: HS hiểu quyền được tiếp cận, học tập di sản văn hóa và trách nhiệm bảo vệ di tích, hiện vật lịch sử.",
-          "- Tiết kiệm và bảo vệ nguồn nước: Ý thức giữ gìn vệ sinh, bảo vệ cảnh quan và nguồn nước tại các khu di tích lịch sử cách mạng quê hương.",
-          "- Giáo dục địa phương (Chủ đề 4): Cuộc đời và sự nghiệp cách mạng kiên trung của đồng chí Phạm Thái Bường (người con ưu tú của quê hương An Trường, Càng Long, Bí thư Tỉnh ủy Trà Vinh)."
+          "- Tiết kiệm và bảo vệ nguồn nước: Ý thức giữ gìn vệ sinh, bảo vệ cảnh quan và nguồn nước tại các khu di tích lịch sử cách mạng quê hương."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -5464,11 +5448,7 @@
               "- GV yêu cầu HS nêu một việc làm thể hiện trách nhiệm khi tham quan di tích Triều Nguyễn.",
               "- HS nêu: Đi nhẹ, nói khẽ; không xả rác; không chạm tay vào hiện vật; không viết vẽ lên di tích; nghe hướng dẫn viên và chia sẻ thông tin đúng."
             ],
-            [
-              "- Tích hợp GDĐP (CĐ 4): GV khắc sâu truyền thống yêu nước của quê hương Trà Vinh qua tấm gương người chiến sĩ cộng sản kiên trung Phạm Thái Bường (quê xã An Trường, huyện Càng Long). Đồng chí là Bí thư Tỉnh ủy Trà Vinh, luôn tận tụy vì dân vì nước, dù bị địch bắt tù đày vẫn giữ vững khí tiết cách mạng sáng ngời. Em cần noi gương người anh hùng quê hương như thế nào?",
-              "- HS xúc động lắng nghe về cuộc đời hoạt động cách mạng của đồng chí Phạm Thái Bường; bày tỏ lòng biết ơn vô hạn đối với các thế hệ cha anh đi trước; nêu quyết tâm chăm ngoan học giỏi và giữ gìn các khu di tích lịch sử địa phương."
-            ],
-            [
+                        [
               "- GV dặn HS chuẩn bị tiết sau: đọc trước phần phong trào Cần vương chống Pháp và câu chuyện về Phan Đình Phùng.",
               "- HS ghi nhớ nhiệm vụ chuẩn bị bài."
             ]
@@ -7843,8 +7823,7 @@
           "4. Tích hợp",
           "- Tích hợp AI 5.C4.2: HS dùng ứng dụng dịch thuật AI để tìm hiểu nghĩa gốc, cách phát âm địa danh Trung Hoa.",
           "- Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS giao tiếp văn minh, tôn trọng văn hoá nước bạn.",
-          "- Tiết kiệm và bảo vệ nguồn nước: Bảo vệ cảnh quan khuôn viên ao sen, hồ nước trong xanh tại Khu di tích Đền thờ Bác Hồ.",
-          "- Giáo dục địa phương (Chủ đề 2): Khu di tích lịch sử Đền thờ Bác Hồ (xã Long Đức, thành phố Trà Vinh) - biểu tượng tấm lòng son sắt thủy chung của quân dân Trà Vinh đối với Bác."
+          "- Tiết kiệm và bảo vệ nguồn nước: Bảo vệ cảnh quan khuôn viên ao sen, hồ nước trong xanh tại Khu di tích Đền thờ Bác Hồ."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -8022,11 +8001,7 @@
               "- GV dặn dò HS hoàn thành nhiệm vụ, chuẩn bị bài học sau về nước Cộng hoà Dân chủ Nhân dân Lào.",
               "- HS ghi nhớ nhiệm vụ và chuẩn bị bài sau."
             ],
-            [
-              "- Tích hợp GDĐP (CĐ 2) & Mizuiku: GV giới thiệu di tích lịch sử tiêu biểu của tỉnh Trà Vinh: Khu di tích Đền thờ Chủ tịch Hồ Chí Minh tại ấp Vĩnh Hội, xã Long Đức, thành phố Trà Vinh. Ngôi đền được nhân dân Trà Vinh anh dũng xây dựng và bảo vệ ngay trong tầm pháo của giặc Mỹ để tưởng nhớ Bác Hồ muôn vàn kính yêu. Khuôn viên đền có hồ sen trong ngát, rợp mát bóng cây. Em cần có thái độ thế nào khi đến viếng Đền thờ Bác?",
-              "- HS bày tỏ niềm tự hào về truyền thống bất khuất của quê hương Trà Vinh; cam kết khi đến viếng Đền thờ Bác Hồ sẽ đi nhẹ nói khẽ, giữ gìn trang nghiêm và không vứt rác xuống hồ sen, bảo vệ nguồn nước sạch đẹp nơi di tích."
-            ],
-            [
+                        [
               "- GV nhận xét tiết học, tuyên dương HS kể chuyện tự tin, sử dụng tranh ảnh phù hợp và biết tôn trọng văn hoá nước bạn.",
               "- HS lắng nghe, tự đánh giá kết quả học tập."
             ]
@@ -11214,8 +11189,7 @@
           "4. Tích hợp",
           "- Tích hợp NLS 4.2.CB2a: HS soạn email/tin nhắn lan tỏa thông điệp yêu hòa bình; biết không chia sẻ thông tin cá nhân, hình ảnh bạn bè khi chưa được đồng ý.",
           "- Tích hợp QCN: HS hiểu tinh thần quyền được sống trong hòa bình, an toàn, được tôn trọng và bảo vệ.",
-          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Chung tay bảo vệ nguồn nước sạch dòng sông Cổ Chiên, sông Hậu để xây dựng cuộc sống bình yên, phát triển bền vững.",
-          "- Giáo dục địa phương (Chủ đề 6): Phong trào xây dựng Nông thôn mới trên quê hương Trà Vinh - kiến tạo làng quê văn minh, sáng - xanh - sạch - đẹp."
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Chung tay bảo vệ nguồn nước sạch dòng sông Cổ Chiên, sông Hậu để xây dựng cuộc sống bình yên, phát triển bền vững."
         ],
         "dodung": [
           "- GV: Tranh hình 1, hình 2, hình 3, hình 4 trong SGK; tư liệu về chim bồ câu và cành ô liu, Thế vận hội Ô-lim-pic, phong trào Chữ thập đỏ, Liên hợp quốc; máy chiếu hoặc bảng phụ; phiếu học tập.",
@@ -11366,11 +11340,7 @@
               "- GV mời 2 - 3 HS đọc thông điệp của mình và nhận xét.",
               "- HS chia sẻ thông điệp và lắng nghe nhận xét."
             ],
-            [
-              "- Tích hợp GDĐP (CĐ 6) & Mizuiku: GV hướng dẫn HS kết nối thông điệp thế giới xanh với quê hương Trà Vinh: Tỉnh Trà Vinh đạt nhiều thành tựu nổi bật trong phong trào xây dựng Nông thôn mới, các tuyến đường hoa nở rộ, hệ thống cấp nước sạch được đưa về tận các vùng sâu, vùng đồng bào dân tộc. Để giữ gìn môi trường sống bền vững, mỗi học sinh là một tuyên truyền viên nhí bảo vệ nguồn nước sạch. Em sẽ làm gì để góp phần xây dựng quê hương Trà Vinh giàu đẹp?",
-              "- HS hào hứng phát biểu: tích cực tham gia dọn vệ sinh trường lớp, đường làng; sử dụng nước tiết kiệm trong gia đình; không xả rác bừa bãi xuống dòng sông quê hương."
-            ],
-            [
+                        [
               "- GV kết luận tiết học: Hòa bình là mong ước chung của nhân loại. Mỗi HS có thể góp phần xây dựng hòa bình bằng lời nói tử tế, hành động nhân ái, tôn trọng người khác và sử dụng môi trường số văn minh.",
               "- HS lắng nghe, ghi nhớ và chuẩn bị bài cho tiết sau: tìm hiểu một số biện pháp xây dựng thế giới hòa bình."
             ]

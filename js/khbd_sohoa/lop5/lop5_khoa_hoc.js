@@ -1261,8 +1261,7 @@
           "- Trung thực: ghi nhận đúng kết quả quan sát, trình bày trung thực sản phẩm và kết quả thực hành của nhóm.",
           "4. Tích hợp",
           "- Tích hợp STEM: HS vận dụng kiến thức Khoa học về hỗn hợp, dung dịch và sự bay hơi, kết hợp thao tác đo lường, phác thảo ý tưởng, thử nghiệm, đánh giá để tách muối ra khỏi dung dịch.",
-          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Thực hành bảo vệ nguồn nước ngọt, không làm ô nhiễm nguồn nước ngầm và nguồn nước mặt dùng trong sinh hoạt.",
-          "- Giáo dục địa phương (Chủ đề 1): Liên hệ nguồn nước tự nhiên tại tỉnh Trà Vinh (nước ngầm, nước mặt sông Cổ Chiên, sông Hậu) và hiện tượng xâm nhập mặn mùa khô làm tăng độ mặn của nước."
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Thực hành bảo vệ nguồn nước ngọt, không làm ô nhiễm nguồn nước ngầm và nguồn nước mặt dùng trong sinh hoạt."
         ],
         "dodung": [
           "- GV: SGK, SGV, bài trình chiếu STEM “Tách muối ra khỏi dung dịch”, phiếu học tập, bảng tiêu chí, muối, nước, cốc thủy tinh, bát sứ, kiềng, lưới tản nhiệt, cốc nến hoặc đèn cồn, bật lửa, khăn lau.",
@@ -1406,11 +1405,7 @@
               "- GV kết luận: Có thể tách muối ra khỏi dung dịch muối bằng cách làm bay hơi nước; đây là ứng dụng của kiến thức về dung dịch và sự bay hơi trong đời sống.",
               "- HS lắng nghe, ghi nhớ kết luận của bài học."
             ],
-            [
-              "- Tích hợp GDĐP (CĐ 1) & Mizuiku: GV liên hệ thực tế hiện tượng bay hơi và độ mặn: Ở vùng ven biển Trà Vinh (như Duyên Hải, Ba Động), vào mùa khô nước biển dâng và xâm nhập mặn vào sông rạch, người dân cần theo dõi độ mặn của nước để tích trữ nước ngọt kịp thời. Em hãy nêu cách giữ gìn và bảo vệ nguồn nước ngọt của gia đình trong mùa khô?",
-              "- HS liên hệ thực tế: đậy kín lu khạp, bồn chứa nước mưa; sử dụng nước ngọt tiết kiệm; không vứt rác, xả nước thải bẩn vào kênh rạch làm ô nhiễm nguồn nước sinh hoạt."
-            ],
-            [
+                        [
               "- GV dặn HS về nhà quan sát hoặc tìm hiểu thêm nghề làm muối, nhưng không tự làm thí nghiệm với nguồn nhiệt khi không có người lớn.",
               "- HS tiếp nhận nhiệm vụ vận dụng và cam kết thực hiện an toàn."
             ]
@@ -3491,8 +3486,7 @@
           "- Trung thực: nêu đúng hiện tượng quan sát được, không tự ý thực hiện thí nghiệm hoặc xử lí sự cố chất đốt nguy hiểm.",
           "4. Tích hợp",
           "- Tích hợp AI 5.A1.1: HS quan sát cảm biến khói, cảm biến gas thông minh qua ứng dụng Smart Life hoặc Tuya Smart để hiểu thiết bị có thể cảnh báo rò rỉ gas, khói, cháy.",
-          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Sử dụng năng lượng xanh và năng lượng nước chảy hiệu quả, bảo vệ dòng chảy tự nhiên và nguồn nước sạch.",
-          "- Giáo dục địa phương (Chủ đề 8): Khai thác tiềm năng năng lượng tái tạo tại tỉnh Trà Vinh (Dự án Nhà máy điện gió ngoài khơi Duyên Hải, điện mặt trời mái nhà)."
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Sử dụng năng lượng xanh và năng lượng nước chảy hiệu quả, bảo vệ dòng chảy tự nhiên và nguồn nước sạch."
         ],
         "dodung": [
           "- GV: SGK, SGV, hình 3, 4, 5 SGK phóng to; phiếu học tập, phiếu giao việc; tranh ảnh hoặc clip về cảm biến khói, cảm biến gas thông minh; máy tính, màn hình trình chiếu.",
@@ -3607,11 +3601,7 @@
               "- GV củng cố: Qua bài học này, em biết những nguồn năng lượng chất đốt nào? Con người sử dụng năng lượng chất đốt vào những việc gì? Cần lưu ý gì khi sử dụng năng lượng chất đốt?",
               "- HS trả lời: nguồn chất đốt có củi, than, xăng, dầu hỏa, khí tự nhiên, khí sinh học; dùng để nấu ăn, đun nước, sưởi ấm, thắp sáng, vận hành máy móc; cần dùng an toàn, tiết kiệm, phòng chống cháy nổ và ô nhiễm."
             ],
-            [
-              "- Tích hợp GDĐP (CĐ 8) & Mizuiku: GV giới thiệu tiềm năng năng lượng sạch của tỉnh Trà Vinh: Với bờ biển dài 65 km, Trà Vinh phát triển mạnh các cụm tua-bin điện gió ngoài khơi tại thị xã Duyên Hải; đồng thời các dòng chảy sông Cổ Chiên, sông Hậu mang lại nguồn năng lượng và phù sa dồi dào. Chúng ta cần sử dụng tiết kiệm điện và nước để bảo vệ tài nguyên thiên nhiên.",
-              "- HS quan sát hình ảnh cánh đồng điện gió Duyên Hải - Trà Vinh; tự hào về nguồn năng lượng sạch của tỉnh nhà; ghi nhớ thói quen tiết kiệm điện, khóa chặt vòi nước khi không sử dụng."
-            ],
-            [
+                        [
               "- GV yêu cầu HS đọc mục “Em đã học”, giao nhiệm vụ về nhà: Mỗi HS thực hiện sử dụng an toàn, tiết kiệm năng lượng chất đốt và tuyên truyền người thân cùng thực hiện.",
               "- HS đọc mục “Em đã học”, ghi nhớ và nhận nhiệm vụ thực hiện ở gia đình."
             ]
@@ -5810,8 +5800,7 @@
           "- Trách nhiệm: Có trách nhiệm với việc giữ gìn vệ sinh nhà cửa, chủ động thực hiện biện pháp hạn chế muỗi phát triển.",
           "4. TÍCH HỢP",
           "- Tích hợp AI 5.D1.1: HS dùng Google Drive và Canva Whiteboard sắp xếp ảnh cây con, động vật đẻ trứng, động vật đẻ con, vòng đời động vật thành nhóm dữ liệu để “dạy” AI giả định.",
-          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Vai trò của nguồn nước sạch đối với sự sinh sản, phát triển của thủy sản và vật nuôi; xử lí nước thải nuôi tôm đúng quy chuẩn.",
-          "- Giáo dục địa phương (Chủ đề 7): Mô hình nuôi tôm nước lợ công nghệ cao tại Trà Vinh (các huyện Duyên Hải, Cầu Ngang, Trà Cú) - ứng dụng quy trình tuần hoàn khép kín bảo vệ môi trường nước."
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Vai trò của nguồn nước sạch đối với sự sinh sản, phát triển của thủy sản và vật nuôi; xử lí nước thải nuôi tôm đúng quy chuẩn."
         ],
         "dodung": [
           "- Hình ảnh minh hoạ các nội dung liên quan đến bài học về vòng đời của một số thực vật và động vật như SGK.",
@@ -5949,11 +5938,7 @@
               "- GV tóm tắt các kết quả chính, mở rộng cho HS một số ứng dụng hiểu biết vòng đời của động vật để hạn chế sự phát triển của những động vật có hại hay tạo điều kiện cho động vật có lợi phát triển.",
               "- HS lắng nghe."
             ],
-            [
-              "- Tích hợp GDĐP (CĐ 7) & Mizuiku: GV mở rộng ứng dụng vòng đời và sự sinh sản của động vật vào sản xuất ở Trà Vinh: Nghề nuôi tôm thẻ chân trắng, tôm sú công nghệ cao là thế mạnh kinh tế của tỉnh. Để tôm phát triển khỏe mạnh, nguồn nước ao nuôi phải được kiểm soát độ sạch nghiêm ngặt và nước thải sau nuôi tôm phải qua hồ lắng xử lí vi sinh trước khi xả ra sông để không gây ô nhiễm nguồn nước chung.",
-              "- HS chú ý lắng nghe, hiểu rõ tầm quan trọng của nguồn nước sạch đối với đời sống thủy sinh; cam kết cùng gia đình bảo vệ nguồn nước ao hồ, kênh rạch ở địa phương."
-            ],
-            [
+                        [
               "- GV dặn dò HS về nhà cùng thực hiện vệ sinh nơi ở để phòng chống bệnh tật, hạn chế sự phát triển của muỗi.",
               "- HS lắng nghe và ghi nhiệm vụ."
             ]
@@ -6484,7 +6469,6 @@
           "- Trách nhiệm: Có ý thức giữ gìn vệ sinh, an toàn khi thực hiện các bước chế biến thực phẩm sử dụng vi khuẩn có ích.",
           "4. TÍCH HỢP",
           "- Bài học STEM: Vi khuẩn có ích trong chế biến thực phẩm: HS vận dụng kiến thức về vi khuẩn lactic để đề xuất ý tưởng, thiết kế và làm cẩm nang hướng dẫn chế biến một số thực phẩm sử dụng vi khuẩn có ích.",
-          "- Giáo dục địa phương: Giữ gìn vệ sinh nguồn nước giếng khoan, nước máy và kênh rạch quanh khu dân cư tại tỉnh Trà Vinh.",
           "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Nhận biết vi khuẩn gây bệnh đường tiêu hóa (tả, lỵ, thương hàn) lây qua nguồn nước ô nhiễm; thực hành ăn chín, uống sôi, rửa tay bằng nước sạch và xà phòng."
         ],
         "dodung": [
@@ -6577,7 +6561,7 @@
               "- HS ghi nhớ nhiệm vụ, có thể tiếp tục hoàn thiện sản phẩm và vận dụng tại nhà cùng người thân."
             ],
             [
-              "- Tích hợp Mizuiku & GDĐP: GV hướng dẫn HS phòng bệnh do vi khuẩn trong môi trường nước: Nguồn nước ao hồ, kênh rạch bị ô nhiễm phân bón, rác thải là nơi trú ngụ của nhiều vi khuẩn nguy hiểm gây bệnh tiêu chảy, sốt xuất huyết. Ở Trà Vinh, học sinh cần rèn luyện thói quen uống nước đã đun sôi hoặc lọc sạch, rửa tay đúng cách bằng xà phòng dưới vòi nước chảy để bảo vệ sức khỏe bản thân và cộng đồng.",
+              "- Tích hợp Mizuiku: GV hướng dẫn HS phòng bệnh do vi khuẩn trong môi trường nước: Nguồn nước ao hồ, kênh rạch bị ô nhiễm phân bón, rác thải là nơi trú ngụ của nhiều vi khuẩn nguy hiểm gây bệnh tiêu chảy, sốt xuất huyết. Ở Trà Vinh, học sinh cần rèn luyện thói quen uống nước đã đun sôi hoặc lọc sạch, rửa tay đúng cách bằng xà phòng dưới vòi nước chảy để bảo vệ sức khỏe bản thân và cộng đồng.",
               "- HS nêu các việc làm phòng tránh bệnh: uống nước sạch đun sôi, không uống nước lã từ sông kênh; rửa tay sạch trước khi ăn; giữ vệ sinh bồn chứa nước sinh hoạt gia đình."
             ],
             [
@@ -9272,8 +9256,7 @@
           "- Trách nhiệm: Có ý thức vận dụng kiến thức đã học để chăm sóc, bảo vệ sức khoẻ thể chất và tinh thần; biết thể hiện sự tôn trọng với bạn cùng giới và khác giới; biết tìm kiếm sự giúp đỡ khi gặp tình huống không an toàn.",
           "4. Tích hợp",
           "- Tích hợp AI 5.A3.1: HS đọc một lời khuyên sức khỏe do ChatGPT, Gemini hoặc Copilot gợi ý, rồi đối chiếu SGK và học liệu của Bộ Y tế.",
-          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Môi trường nước là nơi cư trú và cung cấp thức ăn cho sinh vật; giữ sạch môi trường nước để bảo tồn đa dạng sinh học.",
-          "- Giáo dục địa phương (Chủ đề 3 & 7): Chức năng của môi trường rừng ngập mặn ven biển Duyên Hải và hệ sinh thái đất ngập nước Trà Vinh đối với sự sống của các loài động thực vật thủy sinh."
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Môi trường nước là nơi cư trú và cung cấp thức ăn cho sinh vật; giữ sạch môi trường nước để bảo tồn đa dạng sinh học."
         ],
         "dodung": [
           "- GV: Các câu hỏi, bài tập trắc nghiệm, điền từ ngắn; thẻ chữ, tranh tình huống, bảng nhóm hoặc giấy khổ lớn để tổ chức trò chơi Tiếp sức đồng đội.",
@@ -9354,12 +9337,8 @@
             [
               "- GV tổng kết một số nội dung của chủ đề, nhắc HS: (1) luôn kính trọng, thể hiện lòng biết ơn với cha mẹ, ông bà; (2) thể hiện sự tôn trọng với bạn cùng giới và khác giới; (3) thực hiện việc làm phù hợp với lứa tuổi để chăm sóc, bảo vệ sức khoẻ thể chất và tinh thần; (4) thể hiện quyền được an toàn của mình và phản đối mọi sự xâm hại.",
               "- HS lắng nghe.\n- HS nhắc lại nội dung chính của chủ đề và chia sẻ một việc em sẽ thực hiện để chăm sóc, bảo vệ sức khoẻ, tôn trọng bạn cùng giới và khác giới hoặc tìm kiếm sự giúp đỡ khi cần."
-            ],
-            [
-              "- Tích hợp GDĐP (CĐ 3) & Mizuiku: GV giúp HS liên hệ chức năng môi trường sống tại quê hương: Vùng rừng ngập mặn Duyên Hải và các cồn bãi ven sông Cổ Chiên ở Trà Vinh cung cấp môi trường sống an toàn cho hàng trăm loài tôm, cua, cá, chim nước sinh sản và phát triển. Việc xả rác và chất thải độc hại làm ô nhiễm nguồn nước sẽ phá hủy môi trường sống của các loài sinh vật này.",
-              "- HS thảo luận, nhận thức rõ: bảo vệ môi trường nước chính là bảo vệ sự sống của các loài sinh vật; cam kết không vứt rác xuống lòng sông, bờ biển để giữ gìn đa dạng sinh thái Trà Vinh."
             ]
-          ]
+                      ]
         ],
         "dieuchinh": []
       },
@@ -9614,8 +9593,7 @@
           "- Nhân ái: Biết yêu quý, trân trọng môi trường sống của con người, động vật và thực vật.",
           "4. Tích hợp",
           "- Tích hợp tiết kiệm và bảo vệ nguồn nước: HS hiểu nước là điều kiện sống quan trọng của sinh vật; biết sử dụng nước tiết kiệm, không xả rác, dầu mỡ, hóa chất xuống ao, hồ, sông, suối.",
-          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Đề xuất các biện pháp giảm thiểu ô nhiễm nguồn nước và sử dụng tiết kiệm nước trong sinh hoạt gia đình, trường học.",
-          "- Giáo dục địa phương (Chủ đề 6): Phong trào xây dựng Nông thôn mới trên quê hương Trà Vinh gắn liền với tiêu chí bảo vệ môi trường nông thôn, giữ sạch các dòng kênh thủy lợi nội đồng."
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Đề xuất các biện pháp giảm thiểu ô nhiễm nguồn nước và sử dụng tiết kiệm nước trong sinh hoạt gia đình, trường học."
         ],
         "dodung": [
           "- GV: Giáo án điện tử; tranh ảnh về môi trường; video nếu có; thẻ hoa có ghi tên từng thành phần của môi trường tự nhiên: đất, nước, không khí, ánh sáng, sinh vật.",
@@ -9767,11 +9745,7 @@
               "- GV nhận xét, khen ngợi.",
               "- HS lắng nghe."
             ],
-            [
-              "- Tích hợp GDĐP (CĐ 6) & Mizuiku: GV kết nối bài học với thành tựu xây dựng nông thôn mới của tỉnh Trà Vinh: Toàn tỉnh đẩy mạnh chỉnh trang đường làng ngõ xóm, trồng hoa ven đường và khơi thông cống rãnh, bảo vệ nguồn nước các tuyến kênh mương nội đồng phục vụ tưới tiêu lúa, hoa màu. Em có thể làm gì để chung tay giữ gìn dòng nước sạch cho quê hương?",
-              "- HS sôi nổi đề xuất hành động: thu gom bao bì thuốc BVTV sau sử dụng đúng nơi quy định; không vứt túi ni-lông xuống mương vườn; tiết kiệm nước tưới bằng phương pháp nhỏ giọt."
-            ],
-            [
+                        [
               "- GV dặn HS về nhà đọc trước SGK, sưu tầm tư liệu về những chất thải của sinh vật và con người, ô nhiễm môi trường.",
               "- HS ghi nhớ nhiệm vụ."
             ]

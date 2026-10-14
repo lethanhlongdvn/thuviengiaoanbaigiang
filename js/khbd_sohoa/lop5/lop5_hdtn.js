@@ -4104,7 +4104,6 @@
           "4. Tích hợp",
           "- Tích hợp AI (5.A1.2): Nhấn mạnh trách nhiệm: Con người là bên quyết định nội dung tri ân; AI chỉ hỗ trợ trình bày nội dung đó.",
           "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết thực hiện việc làm cụ thể để vun đắp tình thầy trò; hình thành lối sống lễ phép, chăm học, biết nói lời cảm ơn và giúp đỡ thầy cô trong việc phù hợp.",
-          "- Giáo dục địa phương (Chủ đề 5): Tìm hiểu nét đẹp nghệ thuật múa dân gian Khơ-me và Nhạc cụ dàn nhạc Ngũ âm Khmer tỉnh Trà Vinh (điệu múa Rô-băm, Rom-vong, tiếng trống Sa-dăm rộn rã trong các ngày hội); bồi dưỡng tình đoàn kết các dân tộc Kinh - Khmer - Hoa trên quê hương Trà Vinh.",
           "- Tiết kiệm và bảo vệ nguồn nước: Rèn luyện thói quen giữ gìn vệ sinh khuôn viên trường lớp, sử dụng nước tiết kiệm và hiệu quả khi sinh hoạt tập thể tại trường."
         ],
         "dodung": [
@@ -4206,12 +4205,8 @@
             [
               "- GV nhắc HS chuẩn bị nguyên liệu cho hoạt động thực hiện sản phẩm tri ân thầy cô; có thể phân công nhau thực hiện một phần ở nhà.",
               "- HS ghi nhớ nhiệm vụ, nhận phần việc và chuẩn bị nguyên liệu theo kế hoạch của nhóm."
-            ],
-            [
-              "- Tích hợp GDĐP (CĐ 5) & Mizuiku: GV gợi ý hoạt động trải nghiệm văn hóa: Hướng dẫn HS tìm hiểu điệu múa Rom-vong, Rô-băm và âm vang rộn ràng của dàn nhạc Ngũ âm, tiếng trống Sa-dăm đặc trưng của đồng bào Khmer Trà Vinh để biểu diễn chúc mừng thầy cô; đồng thời nhắc nhở các em luôn đoàn kết, giữ gìn vệ sinh lớp học và sử dụng nước tiết kiệm trong các buổi sinh hoạt tập thể.",
-              "- HS hào hứng tìm hiểu, tập một số động tác múa dân gian Khơ-me hoặc hát ca khúc về quê hương Trà Vinh dâng tặng thầy cô; cam kết luôn đoàn kết thân ái với bạn bè và có ý thức tiết kiệm nước sạch tại trường học."
             ]
-          ]
+                      ]
         ],
         "dieuchinh": [
           "................................................................................................................",
@@ -5305,8 +5300,7 @@
           "4. Tích hợp",
           "- Tích hợp AI (5.D1.1): Hiểu rằng bước thu thập dữ liệu (khảo sát) là khâu quan trọng nhất để huấn luyện AI đưa ra phản hồi chính xác.",
           "- Tích hợp QCN: HS biết khi khảo sát nhu cầu khách hàng cần tôn trọng người được hỏi, không ép buộc trả lời, không hỏi thông tin riêng tư không cần thiết và ghi nhận ý kiến trung thực.",
-          "- Tiết kiệm và bảo vệ nguồn nước: Xây dựng và thực hành kế hoạch 'Gia đình em tiết kiệm nước sạch - Tiết kiệm chi tiêu' (tính toán hóa đơn tiền nước, kiểm tra đường ống tránh rò rỉ, tái sử dụng nước an toàn để giảm chi phí sinh hoạt gia đình).",
-          "- Giáo dục địa phương: Gắn bài học với lối sống cần kiệm, tương thân tương ái và ý thức bảo vệ tài nguyên thiên nhiên của người dân quê hương Trà Vinh."
+          "- Tiết kiệm và bảo vệ nguồn nước: Xây dựng và thực hành kế hoạch 'Gia đình em tiết kiệm nước sạch - Tiết kiệm chi tiêu' (tính toán hóa đơn tiền nước, kiểm tra đường ống tránh rò rỉ, tái sử dụng nước an toàn để giảm chi phí sinh hoạt gia đình)."
         ],
         "dodung": [
           "- GV: Tranh minh họa trong SGK Hoạt động trải nghiệm 5; phiếu khảo sát nhu cầu khách hàng tham gia hội chợ; video hoặc hình ảnh về sản phẩm kinh doanh, dịch vụ.",
@@ -5389,7 +5383,7 @@
               "- HS lắng nghe và nêu cách khảo sát lịch sự, tôn trọng người được hỏi.\n- HS nhận nhiệm vụ, phân công bạn kiểm tra lại câu hỏi, bạn chuẩn bị phiếu, bạn dự kiến đối tượng khảo sát.\n- HS cam kết thực hiện khảo sát trung thực, văn minh."
             ],
             [
-              "- Tích hợp Mizuiku & GDĐP: GV hướng dẫn HS liên hệ ý tưởng kinh doanh và chi tiêu thông minh với việc tiết kiệm nguồn nước trong gia đình: Phổ biến chiến dịch 'Gia đình em tiết kiệm nước sạch - Tiết kiệm chi tiêu' (kiểm tra khóa vòi nước tránh thất thoát nước sạch, tận dụng nước rửa rau/vo gạo để tưới cây, giúp tiết kiệm chi phí hóa đơn nước sinh hoạt); học tập nếp sống cần kiệm, biết chia sẻ của người dân Trà Vinh.",
+              "- Tích hợp Mizuiku: GV hướng dẫn HS liên hệ ý tưởng kinh doanh và chi tiêu thông minh với việc tiết kiệm nguồn nước trong gia đình: Phổ biến chiến dịch 'Gia đình em tiết kiệm nước sạch - Tiết kiệm chi tiêu' (kiểm tra khóa vòi nước tránh thất thoát nước sạch, tận dụng nước rửa rau/vo gạo để tưới cây, giúp tiết kiệm chi phí hóa đơn nước sinh hoạt); học tập nếp sống cần kiệm, biết chia sẻ của người dân Trà Vinh.",
               "- HS thảo luận nhóm, ghi vào sổ tay kế hoạch chi tiêu gia đình việc thực hành tiết kiệm nước sạch hằng ngày; cam kết cùng người thân kiểm tra thiết bị dùng nước trong nhà để tránh lãng phí nước và tiền bạc."
             ]
           ]
@@ -5606,7 +5600,6 @@
           "- Nhân ái: Biết quan tâm, tôn trọng và hỗ trợ bạn trong quá trình hoạt động.",
           "4. Tích hợp",
           "Tích hợp năng lực số 1.1.CB2a: Xác định được nhu cầu thông tin; học sinh biết chọn từ khóa đơn giản và tìm tư liệu số phù hợp để thu thập thông tin, đưa ra lựa chọn và lập kế hoạch chi tiêu phù hợp.",
-          "- Giáo dục địa phương (Chủ đề 2, 4): Lập kế hoạch hoạt động về nguồn, tri ân: Thăm viếng Di tích lịch sử Đền thờ Bác Hồ (xã Long Đức, thành phố Trà Vinh) và Khu tưởng niệm đồng chí Phạm Thái Bường (xã An Trường, huyện Càng Long, Trà Vinh); bồi dưỡng niềm tự hào truyền thống cách mạng quê hương.",
           "- Tiết kiệm và bảo vệ nguồn nước: Tích cực tham gia dọn vệ sinh nguồn nước, ao hồ, khuôn viên cây xanh tại các khu di tích lịch sử ở địa phương."
         ],
         "dodung": [
@@ -5691,12 +5684,8 @@
             [
               "- GV chốt: Muốn kinh doanh hiệu quả cần có kế hoạch cụ thể, thông tin phù hợp, phân công rõ ràng và tinh thần hợp tác.",
               "- HS nhắc lại nội dung chốt và ghi nhớ nhiệm vụ vận dụng."
-            ],
-            [
-              "- Tích hợp GDĐP (CĐ 2, 4) & Mizuiku: GV hướng dẫn HS xây dựng kế hoạch trải nghiệm 'Hành trình về nguồn': Tìm hiểu và lên kế hoạch tham quan, dâng hương tại Đền thờ Bác Hồ (xã Long Đức, TP. Trà Vinh) và Khu tưởng niệm Bí thư Tỉnh ủy Phạm Thái Bường (Càng Long); lồng ghép hoạt động công ích: quét dọn khuôn viên di tích, giữ sạch ao hồ, nhặt rác bảo vệ cảnh quan và nguồn nước quanh khu di tích lịch sử.",
-              "- Các nhóm tiếp thu, bổ sung vào bản kế hoạch hoạt động về nguồn của lớp nội dung dọn dẹp vệ sinh khuôn viên, bảo vệ nguồn nước quanh Đền thờ Bác Hồ và các di tích lịch sử của tỉnh Trà Vinh."
             ]
-          ]
+                      ]
         ],
         "dieuchinh": [
           "................................................................................................................",
@@ -8406,8 +8395,7 @@
           "- Nhân ái: Tôn trọng danh dự, hình ảnh, thông tin của bạn và mọi người khi giao tiếp trên mạng.",
           "4. Tích hợp",
           "- Tích hợp AI (5.A3.1): Giáo dục an toàn: HS biết tuyệt đối không chia sẻ thông tin cá nhân, địa chỉ, ảnh riêng tư, mật khẩu hoặc thông tin người thân cho các chatbot AI lạ; chỉ sử dụng AI với mục đích học tập phù hợp và có sự hướng dẫn của thầy cô, người lớn.",
-          "- Tích hợp QCN: HS hiểu quyền riêng tư, danh dự, hình ảnh cá nhân cần được bảo vệ khi giao tiếp trên mạng; không chia sẻ mật khẩu, địa chỉ, ảnh riêng tư hoặc thông tin của bạn khi chưa được phép.",
-          "- Giáo dục địa phương (Chủ đề 6) & Tiết kiệm và bảo vệ nguồn nước: Sử dụng mạng và công nghệ số để lan tỏa phong trào xây dựng Nông thôn mới tỉnh Trà Vinh; thực hiện chiến dịch truyền thông 'Dòng kênh xanh quê em' - không vứt rác thải nhựa, bao bì thuốc BVTV xuống kênh rạch, bảo vệ an toàn nguồn nước sinh hoạt và sản xuất tại địa phương."
+          "- Tích hợp QCN: HS hiểu quyền riêng tư, danh dự, hình ảnh cá nhân cần được bảo vệ khi giao tiếp trên mạng; không chia sẻ mật khẩu, địa chỉ, ảnh riêng tư hoặc thông tin của bạn khi chưa được phép."
         ],
         "dodung": [
           "- GV: Video về văn hoá giao tiếp trên mạng, giấy A3 cho các nhóm, bút màu, phiếu khảo sát, bảng phụ, tranh minh họa trong SGK Hoạt động trải nghiệm 5, một số tình huống về an toàn khi sử dụng mạng.",
@@ -8497,12 +8485,8 @@
             [
               "- GV đề nghị HS về nhà chia sẻ bản Quy tắc với người thân để nhận thêm góp ý.\n- GV dặn HS ghi lại một góp ý của người thân hoặc một tình huống thực tế cần áp dụng quy tắc để chia sẻ trong tiết sinh hoạt lớp.",
               "- HS ghi nhớ nhiệm vụ vận dụng.\n- HS chuẩn bị chia sẻ kết quả thực hiện và góp ý của người thân trong tiết sinh hoạt lớp."
-            ],
-            [
-              "- Tích hợp GDĐP (CĐ 6) & Mizuiku: GV hướng dẫn HS ứng dụng quy tắc giao tiếp tích cực trên mạng để lan tỏa thông điệp vì cộng đồng: Chia sẻ bài viết, tranh cổ động về xây dựng Nông thôn mới trên quê hương Trà Vinh, bảo vệ dòng sông, kênh rạch quê em; tuyên truyền mọi người tuyệt đối không xả rác thải nhựa, chất thải chăn nuôi hay bao bì hóa chất xuống nguồn nước.",
-              "- HS ghi nhớ, thảo luận cách viết thông điệp truyền thông ngắn gọn, tích cực: 'Cùng người dân Trà Vinh chung tay giữ sạch dòng kênh, bảo vệ nguồn nước sinh hoạt và xây dựng quê hương tươi đẹp'."
             ]
-          ]
+                      ]
         ],
         "dieuchinh": [
           "................................................................................................................",
@@ -10073,7 +10057,6 @@
           "4. Tích hợp",
           "- Tích hợp AI (5.A2.2): Tìm hiểu cách AI giúp theo dõi đa dạng sinh học và bảo tồn các loài động vật hoang dã tại địa phương.",
           "- Tích hợp BVMT: HS tự hào về cảnh quan thiên nhiên quê hương, đất nước; biết yêu cây xanh, sông núi, biển đảo và có ý thức không xả rác, không phá hoại cảnh quan.",
-          "- Giáo dục địa phương (Chủ đề 3, 8): Tự hào cảnh quan thiên nhiên quê hương Trà Vinh: Khu du lịch Biển Ba Động, Cồn Chim, cù lao Long Trị ven sông Cổ Chiên; tìm hiểu tiềm năng kinh tế biển và Cánh đồng Điện gió Duyên Hải kì vĩ.",
           "- Tiết kiệm và bảo vệ nguồn nước: Nhận thức tầm quan trọng của việc bảo vệ nguồn nước ngọt, bảo tồn hệ sinh thái rừng ngập mặn ven biển Trà Vinh và giữ gìn môi trường biển không rác thải nhựa."
         ],
         "dodung": [
@@ -10158,12 +10141,8 @@
             [
               "- GV đề nghị nhóm HS sử dụng các cách thức đã gợi ý để tìm hiểu thêm về cảnh quan đã chọn.\n- GV giao nhiệm vụ vận dụng: hoàn thành báo cáo tìm hiểu cảnh quan của nhóm và luyện tập giới thiệu về vẻ đẹp cảnh quan thiên nhiên với người xung quanh.",
               "- HS nhận nhiệm vụ tiếp tục tìm hiểu.\n- HS ghi nhớ cần hoàn thành báo cáo và luyện tập giới thiệu."
-            ],
-            [
-              "- Tích hợp GDĐP (CĐ 3, 8) & Mizuiku: GV trình chiếu hình ảnh, video giới thiệu cảnh quan thiên nhiên Trà Vinh: Biển Ba Động (thị xã Duyên Hải), cù lao Cồn Chim trù phú sông nước, những cánh tuabin Điện gió vươn cao trên biển; giáo dục HS niềm tự hào quê hương gắn liền với trách nhiệm bảo vệ nguồn nước ngọt quý giá vùng ven biển, không xả rác thải nhựa làm ô nhiễm bãi biển và rừng ngập mặn.",
-              "- HS hào hứng quan sát, nhận diện các danh lam thắng cảnh của Trà Vinh; chia sẻ cảm xúc tự hào và cam kết luôn có ý thức giữ gìn vệ sinh, bảo vệ nguồn nước sạch khi đi tham quan, du lịch."
             ]
-          ]
+                      ]
         ],
         "dieuchinh": [
           "................................................................................................................",
@@ -11451,8 +11430,7 @@
           "- Yêu nước: Biết yêu và giữ gìn cảnh quan quê hương.",
           "- Chăm chỉ: Tích cực hoàn thành bản tin và kế hoạch nhóm.",
           "4. Tích hợp",
-          "- AI (5.D2.1); BVMT được đưa vào từng hoạt động phù hợp, mỗi tích hợp chỉ ghi ở một hoạt động.",
-          "- Giáo dục địa phương (Chủ đề 7) & Tiết kiệm và bảo vệ nguồn nước: Khảo sát thực trạng nguồn nước tại địa phương; nâng cao ý thức bảo vệ nguồn nước mặt và nước ngầm trong mô hình nuôi tôm công nghệ cao và sản xuất nông nghiệp tỉnh Trà Vinh (Cầu Kè, Duyên Hải, Cầu Ngang); vận động người dân xử lý nước thải trước khi đưa ra kênh rạch tự nhiên."
+          "- AI (5.D2.1); BVMT được đưa vào từng hoạt động phù hợp, mỗi tích hợp chỉ ghi ở một hoạt động."
         ],
         "dodung": [
           "- GV: Bảng tin Môi trường, thiết bị phát âm thanh/đoạn thu âm, giấy A3, bút màu, tranh SGK, máy tính/tivi nếu có.",
@@ -11600,12 +11578,8 @@
             [
               "- GV nhận xét, chốt lại nội dung chính của hoạt động và liên hệ với việc rèn luyện hằng ngày của HS.",
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
-            ],
-            [
-              "- Tích hợp GDĐP (CĐ 7) & Mizuiku: GV kết nối hoạt động bảo vệ môi trường với thực tế tỉnh Trà Vinh: Hướng dẫn HS đưa vào 'Bảng tin Môi trường' nội dung khảo sát nguồn nước quanh nơi sinh sống; đặc biệt chú ý giữ sạch nguồn nước kênh rạch vùng nuôi tôm công nghệ cao ở Duyên Hải, Cầu Ngang và vùng vườn cây ăn trái Cầu Kè; tuyên truyền gia đình sử dụng nước ngầm tiết kiệm và xử lý nước thải đúng quy trình.",
-              "- HS ghi chép thông tin vào kế hoạch hành động; tự giác tham gia dọn dẹp vệ sinh kênh rạch, mương nước quanh nhà và tuyên truyền người thân cùng chung tay bảo vệ nguồn nước trong sạch."
             ]
-          ]
+                      ]
         ],
         "dieuchinh": [
           "................................................................................................................",

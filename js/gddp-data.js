@@ -1207,7 +1207,7 @@
     "teacherAct": "GV hát mẫu làn điệu dân ca Nam Bộ với chất giọng ngọt ngào, hướng dẫn HS cách luyến láy nhẹ nhàng mang đậm âm sắc miền Tây sông nước. nhận xét, khích lệ học sinh nuôi dưỡng tình yêu đối với những làn điệu dân ca quê hương Trà Vinh.",
     "studentAct": "HS luyện hát theo tổ, nhóm và cá nhân kết hợp động tác phụ họa chèo xuồng hoặc múa tay Lâm-thôn duyên dáng."
   },
-  {
+    {
     "id": "gddp_tv_100",
     "grade": 5,
     "subjectKey": "lich_su_dia_ly",
@@ -1216,12 +1216,12 @@
       1,
       2
     ],
-    "lessonTitle": "Bài 1:\nVị trí địa lí, lãnh thổ, đơn vị hành chính, Quốc kì, Quốc huy, Quốc ca",
-    "topic": "Chủ đề 1 GDĐP 5: Dân cư Trà Vinh (Trang 5 - QĐ 2727/QĐ-BGDĐT)(Vị trí địa lí, mạng lưới sông ngòi cù lao, đơn vị hành chính các huyện, thị xã, thành phố quê hương).",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (1 GDĐP 5: Dân cư Trà Vinh(Vị trí địa lí, mạng lưới sông ngòi cù lao, đơn vị hành chính các huyện, thị xã, thành phố quê hương).): Xác định vị trí địa lí và đơn vị hành chính quê hương",
-    "activityTitle": "Hoạt động Khám phá & Luyện tập: Xác định vị trí địa lí và đơn vị hành chính quê hương",
-    "teacherAct": "GV chiếu bản đồ hành chính tỉnh Trà Vinh, hướng dẫn HS xác định vị trí địa lí tiếp giáp biển Đông, sông Hậu, sông Cổ Chiên và 9 huyện, thị xã, thành phố trong tỉnh. kết luận về vị trí địa lí chiến lược, cửa ngõ giao thương thủy - bộ của vùng ĐBSCL.",
-    "studentAct": "HS thảo luận nhóm 4: Chỉ và đọc tên các huyện, thị xã, thành phố trực thuộc quê hương trên lược đồ."
+    "lessonTitle": "Bài 1: Vị trí địa lí, lãnh thổ, đơn vị hành chính, Quốc kì, Quốc huy, Quốc ca",
+    "topic": "Chủ đề 1 GDĐP 5: Dân cư Trà Vinh (Trang 5 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 1: Dân cư Trà Vinh): Xác định được vị trí địa lí của tỉnh Trà Vinh trên bản đồ Việt Nam; kể tên được 9 đơn vị hành chính cấp huyện, thị xã, thành phố của tỉnh Trà Vinh (TP. Trà Vinh, TX. Duyên Hải, H. Càng Long, Cầu Kè, Tiểu Cần, Châu Thành, Cầu Ngang, Trà Cú, Duyên Hải); bồi dưỡng tình yêu quê hương đất nước.",
+    "activityTitle": "Hoạt động Khám phá & Luyện tập: Xác định vị trí địa lí và 9 đơn vị hành chính tỉnh Trà Vinh",
+    "teacherAct": "GV trình chiếu Bản đồ hành chính tỉnh Trà Vinh, hướng dẫn HS xác định vị trí địa lí cửa ngõ ven biển, tiếp giáp biển Đông và hai nhánh sông lớn sông Hậu, sông Cổ Chiên. Tổ chức cho HS thi đua đọc tên và xác định đúng vị trí 9 huyện, thị xã, thành phố của tỉnh trên lược đồ.",
+    "studentAct": "HS quan sát lược đồ, làm việc nhóm 4: Chỉ và đọc tên các đơn vị hành chính quê hương Trà Vinh; nêu cảm nghĩ tự hào về quê hương xứ sở."
   },
   {
     "id": "gddp_tv_101",
@@ -1232,12 +1232,12 @@
       5,
       6
     ],
-    "lessonTitle": "Bài 4:\nDân cư và dân tộc ở Việt Nam",
-    "topic": "Chủ đề 1 GDĐP 5: Dân cư Trà Vinh",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (1 GDĐP 5: Dân cư Trà Vinh): Tìm hiểu đặc điểm dân tộc và phong tục tập quán quê hương",
-    "activityTitle": "Hoạt động Khám phá 2 & Luyện tập: Tìm hiểu đặc điểm dân tộc và phong tục tập quán quê hương",
-    "teacherAct": "GV chiếu bảng số liệu dân cư và hình ảnh trang phục, nét văn hóa sinh hoạt đặc trưng của người Kinh, Khmer, Hoa. giáo dục tinh thần đại đoàn kết toàn dân tộc, bình đẳng và tôn trọng bản sắc văn hóa đa dạng.",
-    "studentAct": "HS làm việc theo cặp: Nêu những nét đẹp trong đời sống sinh hoạt, phong tục tương thân tương ái giữa các dân tộc anh em trên quê hương."
+    "lessonTitle": "Bài 4: Dân cư và dân tộc ở Việt Nam",
+    "topic": "Chủ đề 1 GDĐP 5: Dân cư Trà Vinh (Trang 5 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 1: Dân cư Trà Vinh): Nhận biết quy mô dân số và đặc điểm cộng đồng các dân tộc cùng chung sống tại Trà Vinh (chủ yếu là 3 dân tộc Kinh, Khmer, Hoa); tự hào về truyền thống đoàn kết, tương thân tương ái giữa các dân tộc trên quê hương.",
+    "activityTitle": "Hoạt động Khám phá 2 & Luyện tập: Tìm hiểu đặc điểm dân cư và khối đại đoàn kết các dân tộc Trà Vinh",
+    "teacherAct": "GV giới thiệu bảng số liệu dân số tỉnh Trà Vinh và hình ảnh đồng bào các dân tộc Kinh, Khmer, Hoa cùng chung sống chan hòa. Nêu câu hỏi gợi mở: 'Em hãy nêu những nét văn hóa đặc trưng và tinh thần đoàn kết giúp đỡ lẫn nhau của đồng bào các dân tộc ở Trà Vinh?'.",
+    "studentAct": "HS thảo luận cặp đôi: Chia sẻ về đời sống văn hóa, tinh thần tương trợ giữa các dân tộc anh em ở địa phương mình; bày tỏ thái độ tôn trọng, đoàn kết và tự hào về bản sắc văn hóa quê hương."
   },
   {
     "id": "gddp_tv_102",
@@ -1245,15 +1245,15 @@
     "subjectKey": "lich_su_dia_ly",
     "subjectName": "Lịch sử và Địa lí",
     "weeks": [
-      3,
-      4
+      7,
+      8
     ],
-    "lessonTitle": "Bài 2: Thiên nhiên Việt Nam - Bài 3: Biển, đảo Việt Nam",
-    "topic": "Chủ đề 7 GDĐP 5: Mô hình nuôi tôm công nghệ cao",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 7: Mô hình nuôi tôm công nghệ cao): Tìm hiểu các ngành sản xuất nông nghiệp và nuôi trồng thuỷ sản thế mạnh của tỉnh Trà Vinh (nuôi tôm công nghệ cao Duyên Hải, Cầu Ngang; lúa chất lượng cao Càng Long); tự hào về những đổi mới trong sản xuất của quê hương.",
-    "activityTitle": "Hoạt động Khám phá & Vận dụng: Tìm hiểu các ngành sản xuất nông - lâm - thủy sản thế mạnh của quê hương",
-    "teacherAct": "GV trình chiếu phóng sự ngắn về mô hình nuôi tôm thẻ chân trắng công nghệ cao siêu thâm canh tại Duyên Hải và vùng chuyên canh lúa chất lượng cao Càng Long, Tiểu Cần. Giáo dục lòng tự hào về thành tựu đổi mới nông nghiệp, xây dựng nông thôn mới kiểu mẫu trên quê hương Trà Vinh.",
-    "studentAct": "HS thảo luận nhóm: Lập sơ đồ tư duy về các sản phẩm nông - thủy sản chủ lực của Trà Vinh (tôm, cua biển, lúa gạo, dừa sáp) và vai trò của việc áp dụng khoa học kỹ thuật hiện đại."
+    "lessonTitle": "Bài 5: Nông nghiệp, lâm nghiệp, thủy sản",
+    "topic": "Chủ đề 7: Mô hình nuôi tôm công nghệ cao & Chủ đề 6: Nông thôn mới trên quê hương Trà Vinh (QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 7 & 6: Mô hình nuôi tôm công nghệ cao và Nông thôn mới): Tìm hiểu thế mạnh nuôi trồng thuỷ sản nước lợ (mô hình nuôi tôm thẻ chân trắng công nghệ cao ở Duyên Hải, Cầu Ngang) và vùng sản xuất nông nghiệp chất lượng cao (Càng Long, Tiểu Cần); tự hào về sự đổi mới trong sản xuất nông - thủy sản quê hương.",
+    "activityTitle": "Hoạt động Khám phá & Vận dụng: Tìm hiểu các ngành sản xuất nông - thuỷ sản thế mạnh của tỉnh Trà Vinh",
+    "teacherAct": "GV trình chiếu video phóng sự về mô hình nuôi tôm siêu thâm canh công nghệ cao tại huyện Duyên Hải, Cầu Ngang và các cánh đồng mẫu lớn ở Trà Vinh. Hướng dẫn HS phân tích vai trò của ứng dụng khoa học kỹ thuật hiện đại trong phát triển kinh tế biển và xây dựng nông thôn mới.",
+    "studentAct": "HS làm việc nhóm: Lập sơ đồ tư duy các sản phẩm nông - thuỷ sản chủ lực của Trà Vinh; nêu trách nhiệm học tập để mai sau góp phần xây dựng nông thôn mới quê hương giàu đẹp."
   },
   {
     "id": "gddp_tv_103",
@@ -1264,11 +1264,11 @@
       8
     ],
     "lessonTitle": "Bài 6: Vương quốc Phù Nam",
-    "topic": "Chủ đề: 4 GDĐP 5: Du lịch sinh thái và văn hóa tỉnh Trà Vinh",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (4 GDĐP 5: Du lịch sinh thái và văn hóa tỉnh Trà Vinh): Tìm hiểu các loại hình du lịch sinh thái Cồn Chim, Ao Bà Om và nghề tiểu thủ công nghiệp",
-    "activityTitle": "Hoạt động Khám phá & Luyện tập: Tìm hiểu các loại hình dịch vụ du lịch sinh thái và nghề tiểu thủ công nghiệp",
-    "teacherAct": "GV tổ chức trò chơi 'Hành trình tour du lịch sông nước', chiếu hình ảnh các điểm du lịch cù lao và cơ sở sản xuất hàng thủ công mỹ nghệ xuất khẩu. tổng kết về tiềm năng kinh tế du lịch xanh và giải quyết việc làm cho người lao động địa phương.",
-    "studentAct": "HS sắm vai hướng dẫn viên giới thiệu nét độc đáo của tour du lịch sinh thái miệt vườn và các sản phẩm mỹ nghệ từ lục bình, gáo dừa."
+    "topic": "Chủ đề 2 GDĐP 5: Bảo tồn các di tích ở quê hương em (Trang 9 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 2: Bảo tồn các di tích ở quê hương em): Biết Di tích khảo cổ học quốc gia Lưu Cừ II (huyện Trà Cú, tỉnh Trà Vinh) là di tích tiêu biểu minh chứng cho dấu ấn lịch sử của nền văn hóa Óc Eo và Vương quốc Phù Nam trên vùng đất Nam Bộ; có ý thức trân trọng di sản lịch sử văn hóa dân tộc.",
+    "activityTitle": "Hoạt động Khám phá & Luyện tập: Tìm hiểu Di tích khảo cổ quốc gia Lưu Cừ II (Trà Cú, Trà Vinh)",
+    "teacherAct": "GV giới thiệu hình ảnh và tư liệu khảo cổ về Di tích Lưu Cừ II (ấp Lưu Cừ II, xã Lưu Nghiệp Anh, huyện Trà Cú) - một trong những di tích kiến trúc tôn giáo tiêu biểu của văn hóa Óc Eo cổ đại tại Trà Vinh. Giúp HS kết nối kiến thức bài học về Vương quốc Phù Nam với dấu tích lịch sử thực tế tại quê hương.",
+    "studentAct": "HS quan sát hiện vật gạch ngói cổ, cấu trúc phế tích đền tháp; thảo luận về giá trị lịch sử lâu đời của vùng đất Trà Vinh và ý thức bảo vệ các di tích khảo cổ học."
   },
   {
     "id": "gddp_tv_104",
@@ -1279,31 +1279,15 @@
       13,
       14
     ],
-    "lessonTitle": "Bài 9:\nTriều Nguyễn (Chính sách khai hoang, xác lập chủ quyền và di tích kiến trúc)",
-    "topic": "Chủ đề 2 GDĐP 5: Bảo tồn các di tích ở quê em",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (2 GDĐP 5: Bảo tồn các di tích ở quê em): Tìm hiểu công cuộc khai phá và bảo tồn di tích cổ tại địa phương",
-    "activityTitle": "Hoạt động Khám phá 2 & Vận dụng: Tìm hiểu công cuộc khai phá và bảo tồn di tích cổ tại địa phương",
-    "teacherAct": "GV giới thiệu hình ảnh danh thắng Ao Bà Om, Đền thờ Bác Hồ (Long Đức), các ngôi chùa Khmer cổ kính (chùa Âng, chùa Hang) và kiến trúc truyền thống tại Trà Vinh. chốt lại truyền thống tôn sư trọng đạo và tri ân các bậc tiền nhân khai phá quê hương Trà Vinh.",
-    "studentAct": "HS thảo luận: Nêu giá trị lịch sử, kiến trúc nghệ thuật của các di tích và trách nhiệm của học sinh trong việc bảo tồn di sản văn hóa dân tộc."
+    "lessonTitle": "Bài 9: Triều Nguyễn (Chính sách khai hoang, xác lập chủ quyền và di tích kiến trúc)",
+    "topic": "Chủ đề 2 GDĐP 5: Bảo tồn các di tích ở quê hương em (Trang 9 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 2: Bảo tồn các di tích ở quê hương em): Tìm hiểu công cuộc khai hoang lập ấp của các bậc tiền nhân thời Nguyễn trên vùng đất Trà Vinh và các công trình di tích kiến trúc tôn giáo, danh lam thắng cảnh cổ kính (Văn Thánh Miếu Trà Vinh, Chùa Âng, Thắng cảnh Ao Bà Om).",
+    "activityTitle": "Hoạt động Khám phá 2 & Vận dụng: Tìm hiểu công cuộc khẩn hoang và các di tích kiến trúc cổ tại Trà Vinh",
+    "teacherAct": "GV trình chiếu hình ảnh Văn Thánh Miếu (phường 8, TP. Trà Vinh), Chùa Âng (ngôi chùa Khmer cổ nhất tỉnh) và Thắng cảnh Ao Bà Om. Hướng dẫn HS tìm hiểu dấu ấn lịch sử khẩn hoang và tinh thần tôn sư trọng đạo của cha ông qua các công trình kiến trúc.",
+    "studentAct": "HS thảo luận nhóm: Giới thiệu nét độc đáo của di tích kiến trúc cổ quê hương; đề xuất các việc làm thiết thực để giữ gìn vệ sinh và bảo tồn cảnh quan di tích."
   },
   {
     "id": "gddp_tv_105",
-    "grade": 5,
-    "subjectKey": "lich_su_dia_ly",
-    "subjectName": "Lịch sử và Địa lí",
-    "weeks": [
-      16,
-      17
-    ],
-    "lessonTitle": "Bài 13: Triều Nguyễn",
-    "topic": "Chủ đề 2 GDĐP 5: Bảo tồn các di tích ở quê em (Trang 10 - QĐ 2727/QĐ-BGDĐT)(Khí phách yêu nước, phong trào đấu tranh bất khuất của nghĩa quân và văn thân miền Tây Nam Bộ).",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (2 GDĐP 5: Bảo tồn các di tích ở quê em(Khí phách yêu nước, phong trào đấu tranh bất khuất của nghĩa quân và văn thân miền Tây Nam Bộ).): Tìm hiểu tinh thần yêu nước bất khuất của nhân dân quê hương thời kỳ chống Pháp",
-    "activityTitle": "Hoạt động Khám phá & Luyện tập: Tìm hiểu tinh thần yêu nước bất khuất của nhân dân quê hương thời kỳ chống Pháp",
-    "teacherAct": "GV đọc đoạn văn thơ yêu nước của cụ Đồ Chiểu ('Chở bao nhiêu đạo thuyền không khẳm / Đâm mấy thằng gian bút chẳng tà') và kể về các cuộc khởi nghĩa địa phương. giáo dục lòng tự hào và trách nhiệm noi gương cha anh.",
-    "studentAct": "HS chia sẻ cảm nghĩ về lòng yêu nước, ý chí kiên trung của các bậc chí sĩ tiền bối."
-  },
-  {
-    "id": "gddp_tv_106",
     "grade": 5,
     "subjectKey": "lich_su_dia_ly",
     "subjectName": "Lịch sử và Địa lí",
@@ -1312,14 +1296,14 @@
       19
     ],
     "lessonTitle": "Bài 14: Cách mạng tháng Tám năm 1945",
-    "topic": "Chủ đề 4 GDĐP 5: Bí thư Tỉnh ủy Phạm Thái Bường",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 4: Bí thư Tỉnh ủy Phạm Thái Bường): Tìm hiểu căn cứ kháng chiến và tấm gương hoạt động cách mạng kiên trung của đồng chí Phạm Thái Bường trên quê hương Trà Vinh.",
-    "activityTitle": "Hoạt động Khám phá 1 & Vận dụng: Tìm hiểu căn cứ kháng chiến và các tấm gương cách mạng kiên trung",
-    "teacherAct": "GV chiếu phim tư liệu, hình ảnh về đồng chí Phạm Thái Bường (quê xã An Trường, Càng Long, Bí thư Tỉnh ủy Trà Vinh) - người cộng sản kiên trung đã lãnh đạo quân dân Trà Vinh kiên cường đánh giặc. Giáo dục truyền thống 'Uống nước nhớ nguồn', học tập noi gương cha anh.",
-    "studentAct": "HS kể lại tóm tắt tiểu sử đồng chí Phạm Thái Bường - người cộng sản kiên trung mẫu mực của quê hương Trà Vinh."
+    "topic": "Chủ đề 4 GDĐP 5: Bí thư Tỉnh uỷ Phạm Thái Bường (Trang 19 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 4: Bí thư Tỉnh uỷ Phạm Thái Bường): Tìm hiểu phong trào cách mạng khởi nghĩa giành chính quyền tháng Tám năm 1945 tại Trà Vinh và tấm gương hoạt động kiên trung của đồng chí Phạm Thái Bường (quê xã An Trường, huyện Càng Long - Bí thư Tỉnh uỷ Trà Vinh); khắc sâu lòng biết ơn cha anh.",
+    "activityTitle": "Hoạt động Khám phá 1 & Vận dụng: Tìm hiểu tấm gương cách mạng kiên trung của đồng chí Bí thư Tỉnh uỷ Phạm Thái Bường",
+    "teacherAct": "GV kể chuyện tóm tắt về cuộc đời hoạt động cách mạng của đồng chí Phạm Thái Bường - người chiến sĩ cộng sản kiên trung mẫu mực, người con ưu tú của quê hương Càng Long, Trà Vinh. Nhấn mạnh tinh thần quả cảm lãnh đạo phong trào kháng chiến của Đảng bộ và nhân dân Trà Vinh.",
+    "studentAct": "HS lắng nghe, ghi chép tóm tắt tiểu sử đồng chí Phạm Thái Bường; bày tỏ lòng tự hào về truyền thống cách mạng quê hương và hứa noi gương cha anh rèn luyện học tập."
   },
   {
-    "id": "gddp_tv_107",
+    "id": "gddp_tv_106",
     "grade": 5,
     "subjectKey": "lich_su_dia_ly",
     "subjectName": "Lịch sử và Địa lí",
@@ -1328,14 +1312,14 @@
       21
     ],
     "lessonTitle": "Bài 16: Chiến dịch Hồ Chí Minh năm 1975",
-    "topic": "Chủ đề 2 GDĐP 5: Di tích Bến tiếp nhận vũ khí Cồn Tàu - Đường Hồ Chí Minh trên biển (Trang 11 - QĐ 2727/QĐ-BGDĐT).",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (2 GDĐP 5: Di tích Bến tiếp nhận vũ khí Cồn Tàu - Đường Hồ Chí Minh trên biển.): Tìm hiểu lịch sử Đường Hồ Chí Minh trên biển tại bến Cồn Tàu (Trà Vinh)",
-    "activityTitle": "Hoạt động Khám phá trọng tâm: Tìm hiểu ngọn cờ Đồng Khởi Trà Vinh và Đường Hồ Chí Minh trên biển tại bến Cồn Tàu",
-    "teacherAct": "GV chiếu thước phim tư liệu lịch sử về Đoàn tàu Không số và Di tích quốc gia Bến tiếp nhận vũ khí Cồn Tàu (thị xã Duyên Hải, Trà Vinh). củng cố: Tự hào về truyền thống anh hùng, bất khuất của quân dân Trà Vinh trong sự nghiệp bảo vệ Tổ quốc.",
-    "studentAct": "HS thảo luận nhóm: Trình bày ý nghĩa to lớn của Bến Cồn Tàu trên tuyến đường Hồ Chí Minh trên biển và lòng dũng cảm của các chiến sĩ tàu không số."
+    "topic": "Chủ đề 2 GDĐP 5: Di tích Bến tiếp nhận vũ khí Cồn Tàu - Đường Hồ Chí Minh trên biển (Trang 11 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 2: Di tích Bến tiếp nhận vũ khí Cồn Tàu): Tìm hiểu ý nghĩa lịch sử của Di tích quốc gia Bến tiếp nhận vũ khí Cồn Tàu (thị xã Duyên Hải, Trà Vinh) - một trong những điểm tiếp nhận vũ khí bí mật của Đường Hồ Chí Minh trên biển; bồi dưỡng lòng biết ơn các anh hùng liệt sĩ hải quân và quân dân miền duyên hải.",
+    "activityTitle": "Hoạt động Khám phá: Tìm hiểu huyền thoại Đường Hồ Chí Minh trên biển tại Bến Cồn Tàu (Trà Vinh)",
+    "teacherAct": "GV trình chiếu tư liệu lịch sử về Đoàn tàu Không số và Di tích lịch sử quốc gia Bến tiếp nhận vũ khí Cồn Tàu tại xã Trường Long Hòa, thị xã Duyên Hải. Giảng giải về sự mưu trí, dũng cảm và lòng quả cảm của quân dân Trà Vinh trong cuộc kháng chiến chống Mỹ cứu nước.",
+    "studentAct": "HS thảo luận nhóm: Nêu cảm nghĩ về sự hy sinh anh dũng của các chiến sĩ tàu Không số và tinh thần chở che cách mạng của đồng bào duyên hải Trà Vinh."
   },
   {
-    "id": "gddp_tv_108",
+    "id": "gddp_tv_107",
     "grade": 5,
     "subjectKey": "lich_su_dia_ly",
     "subjectName": "Lịch sử và Địa lí",
@@ -1344,11 +1328,26 @@
       22
     ],
     "lessonTitle": "Bài 17: Đất nước đổi mới",
-    "topic": "Chủ đề 6 GDĐP 5: Nông thôn mới trên quê hương Trà Vinh",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 6: Nông thôn mới trên quê hương Trà Vinh): Tìm hiểu diện mạo đổi mới vượt bậc của quê hương Trà Vinh trong phong trào xây dựng Nông thôn mới (huyện đạt chuẩn NTM, hạ tầng giao thông liên ấp, đê bao ngăn mặn, kinh tế xanh).",
-    "activityTitle": "Hoạt động Khám phá & Vận dụng: Tìm hiểu tấm gương bác Sáu Dân (Thủ tướng Phạm Thái Bường) và diện mạo đổi mới quê hương",
-    "teacherAct": "GV trình chiếu chùm ảnh và video về phong trào xây dựng Nông thôn mới tỉnh Trà Vinh: đường hoa nông thôn có đèn chiếu sáng, đê bao ngăn mặn và các cây cầu mới nối nhịp đôi bờ. Phát động học sinh thi đua học tập tốt và giữ gìn vệ sinh đường làng ngõ xóm.",
-    "studentAct": "HS chia sẻ cảm nghĩ: Tự hào về sự đổi mới của quê hương Trà Vinh; có ý thức bảo vệ môi trường, không xả rác và cùng gia đình xây dựng nếp sống văn minh nông thôn mới."
+    "topic": "Chủ đề 6 GDĐP 5: Nông thôn mới trên quê hương Trà Vinh (Trang 28 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 6: Nông thôn mới trên quê hương Trà Vinh): Tìm hiểu diện mạo đổi mới toàn diện của tỉnh Trà Vinh trong công cuộc công nghiệp hoá, hiện đại hoá và phong trào thi đua xây dựng nông thôn mới (các huyện nông thôn mới kiểu mẫu, cầu Cổ Chiên nối đôi bờ, hệ thống thủy lợi cống đập ngăn mặn hiện đại).",
+    "activityTitle": "Hoạt động Khám phá & Vận dụng: Tìm hiểu diện mạo đổi mới của quê hương Trà Vinh",
+    "teacherAct": "GV trình chiếu chùm ảnh và video giới thiệu những đổi thay vượt bậc của Trà Vinh: cầu Cổ Chiên bắc qua sông Tiền - Cổ Chiên, trường học trạm y tế khang trang, các tuyến đường hoa liên ấp có đèn thắp sáng. Khơi dậy trong học sinh ước mơ cống hiến xây dựng quê hương.",
+    "studentAct": "HS chia sẻ những đổi thay ngay tại xã, ấp/khóm nơi em sinh sống; cùng nhau cam kết thi đua học giỏi, rèn luyện chăm để tương lai góp phần làm giàu đẹp quê hương Trà Vinh."
+  },
+  {
+    "id": "gddp_tv_108",
+    "grade": 5,
+    "subjectKey": "tieng_viet",
+    "subjectName": "Tiếng Việt",
+    "weeks": [
+      1
+    ],
+    "lessonTitle": "Bài 1: Thanh âm của gió (Đọc)",
+    "topic": "Chủ đề 1 GDĐP 5: Dân cư Trà Vinh (Trang 5 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 1: Dân cư và cảnh sắc Trà Vinh): Cảm nhận vẻ đẹp thanh bình và những âm thanh thân thuộc của làng quê quê hương Trà Vinh (tiếng gió rì rào qua rặng phi lao Ba Động, tiếng sóng vỗ bờ kênh, tiếng chuông chùa thanh thản); bồi đắp tình cảm gắn bó với quê nhà.",
+    "activityTitle": "Hoạt động Luyện đọc & Cảm thụ: Lắng nghe vẻ đẹp âm thanh làng quê Trà Vinh",
+    "teacherAct": "Sau khi HS luyện đọc, GV mở rộng liên hệ: Quê hương Trà Vinh chúng ta cũng có biết bao thanh âm thân thuộc gắn liền với sông nước, rặng dừa và tiếng gió biển hiền hòa. Hướng dẫn HS cảm nhận vẻ đẹp quê hương qua trang văn.",
+    "studentAct": "HS liên hệ bản thân: Chia sẻ cảm nhận về những âm thanh thân thương nơi ấp/khóm mình sinh sống (tiếng mái chèo khua nước, tiếng ve sầu râm ran bóng râm vườn cây...)."
   },
   {
     "id": "gddp_tv_109",
@@ -1356,14 +1355,14 @@
     "subjectKey": "tieng_viet",
     "subjectName": "Tiếng Việt",
     "weeks": [
-      1
+      3
     ],
-    "lessonTitle": "Bài 1:\nThanh âm của gió (Chủ điểm",
-    "topic": "Chủ đề: 1 GDĐP 5: Nét đẹp văn hóa và cộng đồng các dân tộc tỉnh Trà Vinh",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (1 GDĐP 5: Nét đẹp văn hóa và cộng đồng các dân tộc tỉnh Trà Vinh): Cảm nhận vẻ đẹp thiên nhiên và văn hóa làng quê Trà Vinh",
-    "activityTitle": "Hoạt động Luyện đọc & Cảm thụ văn học: Cảm nhận âm thanh và vẻ đẹp thiên nhiên làng quê quê hương",
-    "teacherAct": "GV 1. Sau khi HS đọc bài đọc, GV mở file âm thanh tiếng gió thổi qua rặng dừa nước và tiếng sóng vỗ bờ kênh.2. HS liên hệ: Chia sẻ những âm thanh thân thuộc gắn liền với tuổi thơ của em (tiếng mái chèo, tiếng chim hót vườn cây cù lao).3. GV bồi đắp tâm hồn trong sáng, tình yêu thiên nhiên đất trời quê hương xứ sở.",
-    "studentAct": "HS liên hệ: Chia sẻ những âm thanh thân thuộc gắn liền với tuổi thơ của em (tiếng mái chèo, tiếng chim hót vườn cây cù lao)."
+    "lessonTitle": "Bài 5: Mở rộng vốn từ Trẻ em - Tuổi thơ (Luyện từ và câu)",
+    "topic": "Chủ đề 3 GDĐP 5: Giữ gìn và phát huy những phong tục tốt đẹp của người Trà Vinh (Trang 15 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 3: Phong tục tốt đẹp của người Trà Vinh): Sử dụng các từ ngữ thuộc chủ điểm Tuổi thơ - Trẻ em để đặt câu về đức tính chăm ngoan, hiếu thảo và hoạt động giữ gìn phong tục lễ hội truyền thống của thiếu nhi Trà Vinh.",
+    "activityTitle": "Hoạt động Luyện tập: Đặt câu với từ ngữ về trẻ em gắn với phong tục quê hương",
+    "teacherAct": "GV tổ chức trò chơi 'Bắt chữ nhanh - Đặt câu hay': Gợi ý các từ ngữ (chăm chỉ, hiếu thảo, hồn nhiên, lễ phép...) gắn với hình ảnh các bạn nhỏ Trà Vinh tham gia lễ hội Chôl Chnăm Thmây hoặc giúp đỡ ông bà cha mẹ.",
+    "studentAct": "HS thực hành đặt câu vào vở và chia sẻ trước lớp: 'Các bạn nhỏ Trà Vinh luôn chăm ngoan, hiếu thảo với ông bà cha mẹ.' hoặc 'Thiếu nhi quê em hân hoan mặc trang phục mới đón mừng năm mới.'"
   },
   {
     "id": "gddp_tv_110",
@@ -1371,14 +1370,14 @@
     "subjectKey": "tieng_viet",
     "subjectName": "Tiếng Việt",
     "weeks": [
-      3
+      5
     ],
-    "lessonTitle": "Bài 5:\nMở rộng vốn từ Trẻ em - Tuổi thơ",
-    "topic": "Chủ đề 3 GDĐP 5: Giữ gìn và phát huy những phong tục tốt đẹp của người Trà Vinh",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (3 GDĐP 5: Giữ gìn và phát huy những phong tục tốt đẹp của người Trà Vinh): Đặt câu với từ ngữ chỉ đức tính, hoạt động của trẻ em",
-    "activityTitle": "Hoạt động Luyện tập 2 & 3: Đặt câu với từ ngữ chỉ đức tính, hoạt động của trẻ em",
-    "teacherAct": "GV tổ chức trò chơi 'Đoán điệu múa, bắt chữ hay': Chiếu tranh các bạn nhỏ Khmer tập múa Lâm thôn, các bạn thiếu nhi chơi trò chơi dân gian. nhận xét, khen ngợi vốn từ ngữ phong phú và chuẩn xác của học sinh.",
-    "studentAct": "HS thực hành đặt câu: 'Các bạn nhỏ say sưa luyện tập điệu múa truyền thống.' hoặc 'Thiếu nhi quê hương luôn chăm ngoan, hiếu học.'"
+    "lessonTitle": "Bài 9: Viết bài văn tả cảnh (Viết)",
+    "topic": "Chủ đề 2 GDĐP 5: Bảo tồn các di tích ở quê em (Trang 9 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 2: Di tích danh lam thắng cảnh Trà Vinh): Luyện tập viết bài văn miêu tả cảnh đẹp quê hương Trà Vinh (cảnh mặt nước Ao Bà Om soi bóng hàng cây sao cổ thụ, dòng sông Cổ Chiên hiền hòa chở nặng phù sa, vườn cây ăn trái Cù lao Long Trị trĩu quả).",
+    "activityTitle": "Hoạt động Luyện tập viết: Viết bài văn tả cảnh đẹp quê hương Trà Vinh",
+    "teacherAct": "GV gợi ý cấu trúc 3 phần và các biện pháp tu từ so sánh, nhân hóa khi miêu tả danh lam thắng cảnh quê hương Trà Vinh (như mặt hồ Ao Bà Om phẳng lặng như chiếc gương soi, rặng sao dầu trăm tuổi sừng sững ôm lấy bờ hồ).",
+    "studentAct": "HS thực hành viết bài văn vào vở, chọn lọc chi tiết đặc sắc về màu sắc, âm thanh, ánh sáng của cảnh đẹp quê hương Trà Vinh; thể hiện tình cảm tha thiết với quê nhà."
   },
   {
     "id": "gddp_tv_111",
@@ -1386,63 +1385,17 @@
     "subjectKey": "tieng_viet",
     "subjectName": "Tiếng Việt",
     "weeks": [
-      5
+      22
     ],
-    "lessonTitle": "Bài 9:\nViết bài văn tả cảnh (Cảnh sông nước / Vườn cây quê hương)",
-    "topic": "Chủ đề 2 GDĐP 5: Bảo tồn các danh thắng ở quê em (Miêu tả cảnh vườn cây Cù lao Long Trị trĩu quả, dòng sông Cổ Chiên hoàng hôn, danh thắng Ao Bà Om Trà Vinh).",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (2 GDĐP 5: Bảo tồn các danh thắng ở quê em): Thực hành viết bài văn tả cảnh sinh động",
-    "activityTitle": "Hoạt động Luyện tập viết bài văn: Thực hành viết bài văn tả cảnh sinh động",
-    "teacherAct": "GV hướng dẫn cấu trúc 3 phần của bài văn miêu tả cảnh sông nước, vườn cây; gợi ý sử dụng biện pháp so sánh, nhân hóa. chọn 2 - 3 bài viết xuất sắc đọc trước lớp, nhận xét lời văn giàu cảm xúc.",
-    "studentAct": "HS viết bài văn vào vở, tập trung khắc họa màu sắc dòng nước chở nặng phù sa, hương thơm trái chín vườn cây miệt vườn."
+    "lessonTitle": "Bài 8: Nói và nghe - Thuyết trình về một người có công với đất nước / Danh nhân tiêu biểu",
+    "topic": "Chủ đề 4 GDĐP 5: Bí thư Tỉnh uỷ Phạm Thái Bường & Các danh nhân tiêu biểu tỉnh Trà Vinh (Trang 19 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 4: Danh nhân tiêu biểu tỉnh Trà Vinh): Tự tin thuyết trình ngắn giới thiệu về một danh nhân tiêu biểu của quê hương Trà Vinh (Đồng chí Bí thư Tỉnh uỷ Phạm Thái Bường, Giáo sư Phạm Văn Bạch, Thầy thuốc Nhân dân Nguyễn Thiện Thành, Nghệ sĩ Nhân dân Viễn Châu hoặc Nữ Anh hùng Út Tịch).",
+    "activityTitle": "Hoạt động Nói và nghe: Thuyết trình giới thiệu tấm gương danh nhân ưu tú quê hương Trà Vinh",
+    "teacherAct": "GV hướng dẫn tiêu chí thuyết trình: Giọng kể mạch lạc, truyền cảm, làm nổi bật công lao đóng góp to lớn của danh nhân quê hương Trà Vinh cho đất nước. Chiếu tranh chân dung và tóm tắt tiểu sử các danh nhân để HS lựa chọn.",
+    "studentAct": "HS đại diện các nhóm thực hành thuyết trình tự tin trước lớp: Kể về tấm gương người cộng sản kiên trung Phạm Thái Bường, sự tận tụy của Thầy thuốc ND Nguyễn Thiện Thành hoặc tài năng sáng tác của NSND Viễn Châu."
   },
   {
     "id": "gddp_tv_112",
-    "grade": 5,
-    "subjectKey": "tieng_viet",
-    "subjectName": "Tiếng Việt",
-    "weeks": [
-      15
-    ],
-    "lessonTitle": "Bài 27: Tranh Làng Hồ - Bài 28: Tập hát quan họ",
-    "topic": "Chủ đề 3 GDĐP 5: Giữ gìn và phát huy những phong tục tốt đẹp của người Trà Vinh",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (3 GDĐP 5: Giữ gìn và phát huy những phong tục tốt đẹp của người Trà Vinh): Bày tỏ tình cảm hiếu thảo đối với ông bà, tổ tiên",
-    "activityTitle": "Hoạt động Đọc hiểu & Liên hệ thực tế: Bày tỏ tình cảm hiếu thảo đối với ông bà, tổ tiên",
-    "teacherAct": "GV dẫn dắt: Đạo hiếu là nét đẹp truyền thống ngàn đời của gia đình người dân Nam Bộ. giáo dục học sinh luôn biết quan tâm, chăm sóc, lễ phép với ông bà, cha mẹ.",
-    "studentAct": "HS kể lại một kỷ niệm ấm áp khi về thăm quê, phụ giúp ông bà chăm sóc cây cối hoặc thưởng thức món ngon quê nhà."
-  },
-  {
-    "id": "gddp_tv_113",
-    "grade": 5,
-    "subjectKey": "tieng_viet",
-    "subjectName": "Tiếng Việt",
-    "weeks": [
-      19
-    ],
-    "lessonTitle": "Bài 1 (Tập 2):\nNgười thầy của muôn đời (Chủ điểm",
-    "topic": "Chủ đề: 3 GDĐP 5: Tấm gương anh hùng liệt sĩ quê hương Trà Vinh - Nữ Anh hùng Út Tịch",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (3 GDĐP 5: Tấm gương người con ưu tú của quê hương Trà Vinh): Tìm hiểu tấm gương quả cảm và tinh thần yêu nước kiên cường của người con ưu tú quê hương",
-    "activityTitle": "Hoạt động Khám phá & Luyện đọc hiểu: Tìm hiểu tấm gương đạo đức sáng ngời của người thầy trên quê hương",
-    "teacherAct": "GV kể câu chuyện về cuộc đời chiến đấu kiên cường của Nữ Anh hùng Lực lượng vũ trang nhân dân Út Tịch (quê hương Tam Ngãi, Cầu Kè, Trà Vinh) với câu nói bất hủ 'Còn cái lai quần cũng đánh'. Giáo dục niềm tự hào và lòng yêu nước sâu sắc.",
-    "studentAct": "HS thảo luận nhóm đôi: Nêu những phẩm chất dũng cảm, kiên cường của anh hùng liệt sĩ quê hương khiến mọi thế hệ kính phục."
-  },
-  {
-    "id": "gddp_tv_114",
-    "grade": 5,
-    "subjectKey": "tieng_viet",
-    "subjectName": "Tiếng Việt",
-    "weeks": [
-      21,
-      22
-    ],
-    "lessonTitle": "Bài 7: Đoàn thuyền đánh cá - Bài 8: Khu rừng của Mát",
-    "topic": "Chủ đề 4 GDĐP 5: Bí thư Tỉnh ủy Phạm Thái Bường",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (4 GDĐP 5: Bí thư Tỉnh ủy Phạm Thái Bường): Thuyết trình giới thiệu về một danh nhân tiêu biểu của quê hương",
-    "activityTitle": "Hoạt động Thực hành Nói và nghe: Thuyết trình giới thiệu về một danh nhân tiêu biểu của quê hương",
-    "teacherAct": "GV hướng dẫn tiêu chí thuyết trình: Giọng kể truyền cảm, phong thái tự tin, có hình ảnh/infographic minh họa. nhận xét, đánh giá khả năng thuyết trình mạch lạc, truyền cảm hứng của học sinh.",
-    "studentAct": "HS Quan sát, thảo luận nhóm và liên hệ thực tế quê hương Trà Vinh theo sự hướng dẫn của giáo viên."
-  },
-  {
-    "id": "gddp_tv_115",
     "grade": 5,
     "subjectKey": "tieng_viet",
     "subjectName": "Tiếng Việt",
@@ -1451,26 +1404,79 @@
       25
     ],
     "lessonTitle": "Bài 12: Vũ điệu trên nền thổ cẩm - Bài 13: Đàn T'rưng - Tiếng ca đại ngàn",
-    "topic": "Chủ đề 5 GDĐP 5: Nghệ thuật múa dân gian của đồng bào Khơ-me",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (5 GDĐP 5: Nghệ thuật múa dân gian của đồng bào Khơ-me): Tìm hiểu giá trị đặc sắc của các di sản văn hóa phi vật thể quê hương",
-    "activityTitle": "Hoạt động Khám phá & Cảm thụ nghệ thuật: Tìm hiểu giá trị đặc sắc của các di sản văn hóa phi vật thể quê hương",
-    "teacherAct": "GV mở trích đoạn video biểu diễn nghệ thuật Dù kê, dàn nhạc Ngũ âm và điệu múa Sa-dăm rộn rã trống chiêng của đồng bào Khmer Trà Vinh. khơi gợi niềm tự hào và ý thức giữ gìn bản sắc văn hóa dân tộc.",
-    "studentAct": "HS thảo luận: Nêu ý nghĩa cầu chúc bình an, mùa màng bội thu của các loại hình nghệ thuật dân gian."
+    "topic": "Chủ đề 5 GDĐP 5: Nghệ thuật múa dân gian của đồng bào Khơ-me (Trang 23 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 5: Nghệ thuật múa dân gian của đồng bào Khơ-me): Cảm nhận và tìm hiểu nét đẹp độc đáo của các điệu múa dân gian Khmer Trà Vinh (múa Lâm thôn - Rom-vong uyển chuyển, múa trống Sa-dăm rộn ràng) và Dàn nhạc Ngũ âm truyền thống; bồi dưỡng lòng tự hào về văn hóa các dân tộc quê hương.",
+    "activityTitle": "Hoạt động Khám phá & Cảm thụ: Tìm hiểu điệu múa Sa-dăm và Dàn nhạc Ngũ âm Khmer Trà Vinh",
+    "teacherAct": "GV chiếu trích đoạn video điệu múa trống Sa-dăm rộn rã và tiếng dàn nhạc Ngũ âm Khmer trong dịp lễ hội Ok Om Bok tại thành phố Trà Vinh. Giúp HS liên hệ nét tương đồng và bản sắc phong phú giữa văn hóa các dân tộc anh em trên dải đất Việt Nam.",
+    "studentAct": "HS hào hứng theo dõi, thảo luận về ý nghĩa cầu chúc ấm no, an vui của các điệu múa; bày tỏ ý thức trân trọng và giữ gìn di sản văn hóa phi vật thể của quê hương."
   },
   {
-    "id": "gddp_tv_116",
+    "id": "gddp_tv_113",
     "grade": 5,
     "subjectKey": "tieng_viet",
     "subjectName": "Tiếng Việt",
     "weeks": [
       31
     ],
-    "lessonTitle": "Bài 24 (Tập 2):\nViết đoạn văn nêu ý kiến về một hiện tượng / Việc làm bảo vệ môi trường",
-    "topic": "Chủ đề 6 GDĐP 5: Nông thôn mới trên quê hương Trà Vinh",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (6 GDĐP 5: Nông thôn mới trên quê hương Trà Vinh): Viết đoạn văn 6 - 8 câu nêu rõ quan điểm và đề xuất giải pháp",
-    "activityTitle": "Hoạt động Thực hành Viết đoạn văn: Viết đoạn văn 6 - 8 câu nêu rõ quan điểm và đề xuất giải pháp",
-    "teacherAct": "GV nêu vấn đề: Thực trạng ô nhiễm túi ni-lông tại kênh rạch và giải pháp xây dựng tuyến đường hoa nông thôn mới. chấm chữa, tuyên dương các bài viết có lập luận sắc bén và ý thức công dân cao.",
-    "studentAct": "HS thực hành viết đoạn văn lập luận chặt chẽ, đưa ra các dẫn chứng xác thực từ phong trào của địa phương."
+    "lessonTitle": "Bài 24: Viết đoạn văn nêu ý kiến về một hiện tượng / Việc làm bảo vệ môi trường (Viết)",
+    "topic": "Chủ đề 6 & 7: Nông thôn mới và Bảo vệ môi trường nước tại Trà Vinh (Trang 28, 34 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 6 & 7: Nông thôn mới và Bảo vệ môi trường nước): Viết đoạn văn nêu rõ quan điểm và đề xuất hành động bảo vệ môi trường nguồn nước, chung tay giữ sạch sông rạch và đường làng ngõ xóm trong phong trào Nông thôn mới ở Trà Vinh.",
+    "activityTitle": "Hoạt động Thực hành Viết: Viết đoạn văn bảo vệ môi trường dòng sông quê hương Trà Vinh",
+    "teacherAct": "GV nêu vấn đề: Thực trạng rác thải nhựa tại các dòng kênh rạch và phong trào trồng tuyến đường hoa, giữ gìn nguồn nước sạch xây dựng nông thôn mới kiểu mẫu tại tỉnh Trà Vinh. Hướng dẫn lập luận rõ ràng, dẫn chứng xác thực từ thực tế quê hương.",
+    "studentAct": "HS thực hành viết đoạn văn 6 - 8 câu nêu ý kiến tâm huyết: Đề xuất các giải pháp không vứt rác xuống lòng kênh, phân loại rác tại nguồn và tích cực tham gia 'Ngày Chủ nhật xanh' tại địa phương."
+  },
+  {
+    "id": "gddp_tv_114",
+    "grade": 5,
+    "subjectKey": "dao_duc",
+    "subjectName": "Đạo đức",
+    "weeks": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "lessonTitle": "Bài 1: Biết ơn những người có công với quê hương, đất nước",
+    "topic": "Chủ đề 4 GDĐP 5: Bí thư Tỉnh uỷ Phạm Thái Bường & Chủ đề 2: Đền thờ Bác Hồ ở Trà Vinh (Trang 9, 19 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 4 & 2: Bí thư Tỉnh uỷ Phạm Thái Bường và Đền thờ Bác Hồ): Nhận biết công lao to lớn của đồng chí Phạm Thái Bường, Chủ tịch Hồ Chí Minh vĩ đại và các anh hùng liệt sĩ quê hương Trà Vinh; thực hành các hành động thiết thực thể hiện lòng biết ơn: viếng đền thờ Bác Hồ (Long Đức), chăm sóc đài tưởng niệm liệt sĩ, giúp đỡ gia đình chính sách.",
+    "activityTitle": "Hoạt động Khám phá & Cam kết: Thực hành lòng biết ơn đối với người có công với quê hương Trà Vinh",
+    "teacherAct": "GV trình chiếu chùm ảnh Khu di tích lịch sử Đền thờ Bác Hồ (xã Long Đức, TP. Trà Vinh) và tượng đài đồng chí Phạm Thái Bường (huyện Càng Long). Giáo dục sâu sắc đạo lý 'Uống nước nhớ nguồn' của dân tộc qua những tấm gương hy sinh kiên cường trên mảnh đất Trà Vinh.",
+    "studentAct": "HS thảo luận nhóm: Lập kế hoạch hành động cụ thể của bản thân và chi đội (viếng nghĩa trang liệt sĩ, giữ gìn vệ sinh khu di tích lịch sử, chăm chỉ học tập để xứng đáng với sự hy sinh của cha anh)."
+  },
+  {
+    "id": "gddp_tv_115",
+    "grade": 5,
+    "subjectKey": "dao_duc",
+    "subjectName": "Đạo đức",
+    "weeks": [
+      5,
+      6,
+      7
+    ],
+    "lessonTitle": "Bài 2: Tôn trọng sự khác biệt của người khác",
+    "topic": "Chủ đề 1 & 3: Dân cư và Giữ gìn phong tục tốt đẹp của người Trà Vinh (Trang 5, 15 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 1 & 3: Dân cư và phong tục tốt đẹp Trà Vinh): Thể hiện thái độ hòa đồng, tôn trọng trang phục truyền thống, tiếng nói, chữ viết và phong tục tập quán lễ tết (Chôl Chnăm Thmây, Ok Om Bok, Sen Đôn-ta, Tết Nguyên đán...) của bạn bè các dân tộc Kinh, Khmer, Hoa cùng học tập dưới một mái trường.",
+    "activityTitle": "Hoạt động Xử lí tình huống & Sắm vai: Thực hành tôn trọng bản sắc văn hóa các dân tộc bạn bè",
+    "teacherAct": "GV đưa ra tình huống thực tế: Trong lớp học có bạn học sinh dân tộc thiểu số mang bánh tét Trà Cuôn, bánh ống truyền thống hoặc chia sẻ về ngày Tết Chôl Chnăm Thmây của gia đình. Hướng dẫn HS cách bày tỏ thái độ tôn trọng, chúc mừng và hòa nhập chân thành.",
+    "studentAct": "HS thực hành sắm vai: Thể hiện lời nói lịch sự, vui vẻ cùng tìm hiểu phong tục của bạn; khẳng định sự khác biệt tạo nên sự phong phú, ấm áp và tình bạn đoàn kết keo sơn."
+  },
+  {
+    "id": "gddp_tv_116",
+    "grade": 5,
+    "subjectKey": "dao_duc",
+    "subjectName": "Đạo đức",
+    "weeks": [
+      16,
+      17,
+      19,
+      20
+    ],
+    "lessonTitle": "Bài 5: Bảo vệ môi trường sống",
+    "topic": "Chủ đề 6 & 7: Nông thôn mới và Bảo vệ môi trường nước trên quê hương Trà Vinh (Trang 28, 34 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 6 & 7: Nông thôn mới và Bảo vệ môi trường nước Trà Vinh): Nêu được những việc làm thiết thực bảo vệ nguồn nước sạch và môi trường làng quê nông thôn mới ở Trà Vinh (không xả rác xuống sông rạch, thu gom bao bì thuốc bảo vệ thực vật, trồng và chăm sóc cây xanh).",
+    "activityTitle": "Hoạt động Vận dụng: Em hành động vì môi trường Trà Vinh sáng - xanh - sạch - đẹp",
+    "teacherAct": "GV tổ chức trò chơi 'Đúng - Sai' phân tích các hành vi tác động đến nguồn nước ngọt và rừng ngập mặn phòng hộ ven biển Duyên Hải; tuyên dương các ý tưởng xanh của học sinh.",
+    "studentAct": "HS viết phiếu cam kết hành động: Tham gia phong trào Ngày Chủ nhật xanh cùng ấp/khóm, nhắc nhở gia đình thu gom bao bì phân bón đúng quy định, bảo vệ nguồn nước sinh hoạt gia đình."
   },
   {
     "id": "gddp_tv_117",
@@ -1482,11 +1488,11 @@
       12
     ],
     "lessonTitle": "Bài 11: Sử dụng năng lượng mặt trời, năng lượng gió, năng lượng nước chảy",
-    "topic": "Chủ đề 1 GDĐP 5: Tiềm năng năng lượng gió ven biển Duyên Hải - Trà Vinh (Các dự án điện gió ngoài khơi, điện mặt trời mái nhà thân thiện môi trường).",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (1 GDĐP 5: Tiềm năng năng lượng gió ven biển Duyên Hải - Trà Vinh): Tìm hiểu mô hình khai thác năng lượng gió và năng lượng mặt trời tại địa phương",
-    "activityTitle": "Hoạt động Khám phá 2 & Vận dụng: Tìm hiểu mô hình khai thác năng lượng gió và năng lượng mặt trời tại địa phương",
-    "teacherAct": "GV chiếu video thực tế các cánh quạt tuabin điện gió sừng sững trên bờ biển Duyên Hải (Trà Vinh). kết luận về định hướng phát triển năng lượng xanh bền vững của quê hương Trà Vinh.",
-    "studentAct": "HS thảo luận nhóm: Nêu ưu điểm vượt trội của điện gió (không phát thải khí nhà kính, tái tạo vô tận) so với nhiệt điện than."
+    "topic": "Chủ đề 1 GDĐP 5: Dân cư và Tiềm năng năng lượng gió ven biển Duyên Hải - Trà Vinh (QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 1: Tiềm năng năng lượng gió ven biển Duyên Hải - Trà Vinh): Tìm hiểu tiềm năng khai thác năng lượng gió tại vùng duyên hải tỉnh Trà Vinh (Dự án Nhà máy điện gió ngoài khơi Duyên Hải); nhận biết ưu điểm sạch, tái tạo vô tận của năng lượng gió bảo vệ môi trường quê hương.",
+    "activityTitle": "Hoạt động Khám phá & Vận dụng: Tìm hiểu mô hình khai thác điện gió ven bờ biển Duyên Hải (Trà Vinh)",
+    "teacherAct": "GV trình chiếu hình ảnh và video thực tế các cánh quạt tuabin điện gió sừng sững trên bờ biển Duyên Hải (Trà Vinh). Kết luận về định hướng phát triển năng lượng xanh, bền vững thích ứng với biến đổi khí hậu của tỉnh Trà Vinh.",
+    "studentAct": "HS thảo luận nhóm: So sánh ưu điểm vượt trội của điện gió (không phát thải khói bụi, không gây ô nhiễm nguồn nước) so với nhiệt điện; tự hào về các công trình năng lượng hiện đại trên quê hương."
   },
   {
     "id": "gddp_tv_118",
@@ -1494,33 +1500,17 @@
     "subjectKey": "khoa_hoc",
     "subjectName": "Khoa học",
     "weeks": [
-      14,
-      15
+      19
     ],
-    "lessonTitle": "Bài 14: Sự phát triển của cây con",
-    "topic": "Chủ đề 6 GDĐP 5: Xây dựng Nông thôn mới",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (6 GDĐP 5: Xây dựng Nông thôn mới): Tìm hiểu các biện pháp bảo vệ và làm giàu đất phù sa, đất cát giồng",
-    "activityTitle": "Hoạt động Khám phá & Liên hệ thực tế: Tìm hiểu các biện pháp bảo vệ và làm giàu đất phù sa, đất cát giồng",
-    "teacherAct": "GV cho HS quan sát giáo dục ý thức giữ gìn 'tấc đất tấc vàng' của quê hương.",
-    "studentAct": "HS đề xuất các biện pháp canh tác bền vững: Luân canh cây trồng (lúa - màu), ủ phân hữu cơ rơm rạ, che phủ gốc cây ăn trái mùa nắng."
+    "lessonTitle": "Bài 19: Sự sinh sản và phát triển của động vật thủy sản",
+    "topic": "Chủ đề 7 GDĐP 5: Mô hình nuôi tôm công nghệ cao (Trang 32 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 7: Mô hình nuôi tôm công nghệ cao): Vận dụng kiến thức về sự sinh sản và phát triển của động vật thủy sản để tìm hiểu vòng đời của tôm và quy trình nuôi tôm nước lợ an toàn sinh học tại các huyện Duyên Hải, Cầu Ngang, Châu Thành (Trà Vinh).",
+    "activityTitle": "Hoạt động Khám phá & Liên hệ thực tế: Tìm hiểu quy trình phát triển của tôm trong mô hình nuôi công nghệ cao Trà Vinh",
+    "teacherAct": "GV trình chiếu sơ đồ vòng đời từ ấu trùng (Nauplius) - tôm giống (Postlarvae) - tôm thịt trong ao nuôi lót bạt công nghệ cao ở duyên hải Trà Vinh. Giảng giải về tầm quan trọng của việc kiểm soát nguồn nước sạch và oxy hòa tan trong ao nuôi.",
+    "studentAct": "HS quan sát, thảo luận cặp: Nhận biết tầm quan trọng của nguồn nước biển/nước lợ sạch đối với tỷ lệ sống và sự phát triển của tôm; liên hệ trách nhiệm bảo vệ môi trường nước sông rạch địa phương."
   },
   {
     "id": "gddp_tv_119",
-    "grade": 5,
-    "subjectKey": "khoa_hoc",
-    "subjectName": "Khoa học",
-    "weeks": [
-      19
-    ],
-    "lessonTitle": "Bài 19:\nSự sinh sản và phát triển của động vật thủy sản",
-    "topic": "Chủ đề 7 GDĐP 5: Mô hình nuôi tôm công nghệ cao",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (7 GDĐP 5: Mô hình nuôi tôm công nghệ cao): Tìm hiểu vòng đời phát triển của tôm, cá và kỹ thuật nuôi trồng an toàn sinh học",
-    "activityTitle": "Hoạt động Khám phá 1 & Luyện tập: Tìm hiểu vòng đời phát triển của tôm, cá và kỹ thuật nuôi trồng an toàn sinh học",
-    "teacherAct": "GV chiếu sơ đồ vòng đời từ trứng - ấu trùng - tôm giống (postlarvae) - tôm trưởng thành trong bể nuôi công nghệ cao. liên hệ giáo dục bảo vệ nguồn nước tự nhiên trên các con sông rạch quê hương.",
-    "studentAct": "HS làm việc nhóm: Trình bày vai trò của nguồn nước sạch và chế độ dinh dưỡng đối với tỉ lệ sống của thủy sản."
-  },
-  {
-    "id": "gddp_tv_120",
     "grade": 5,
     "subjectKey": "khoa_hoc",
     "subjectName": "Khoa học",
@@ -1530,193 +1520,89 @@
       33
     ],
     "lessonTitle": "Bài 28: Chức năng của môi trường đối với sinh vật - Bài 29: Tác động của con người và một số biện pháp bảo vệ môi trường",
-    "topic": "Chủ đề 7 GDĐP 5: Nuôi tôm công nghệ cao và bảo vệ môi trường nước",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (7 GDĐP 5: Nuôi tôm công nghệ cao và bảo vệ môi trường nước): Xây dựng giải pháp thích ứng biến đổi khí hậu và xâm nhập mặn tại địa phương",
-    "activityTitle": "Hoạt động Khám phá & Vận dụng: Xây dựng giải pháp thích ứng biến đổi khí hậu và xâm nhập mặn tại địa phương",
-    "teacherAct": "GV chiếu bản đồ xâm nhập mặn mùa khô và hình ảnh rừng ngập mặn chắn sóng bão tại duyên hải Nam Bộ. nhấn mạnh: Bảo vệ môi trường chính là bảo vệ tương lai bền vững của chính chúng ta.",
-    "studentAct": "HS thảo luận: Đề xuất các giải pháp trữ nước ngọt sinh hoạt (hồ chứa, lu bạt) và trồng rừng phòng hộ giữ đất bãi bồi."
+    "topic": "Chủ đề 7: Nuôi tôm công nghệ cao và Bảo vệ môi trường nước (Trang 34 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 7: Bảo vệ môi trường nước trong nuôi thủy sản): Đề xuất giải pháp bảo vệ môi trường nước và bảo vệ hệ sinh thái rừng ngập mặn chắn sóng bão ven biển Duyên Hải (Trà Vinh) trước tác động của xâm nhập mặn và biến đổi khí hậu.",
+    "activityTitle": "Hoạt động Vận dụng: Xây dựng giải pháp thích ứng biến đổi khí hậu và bảo vệ môi trường nước Trà Vinh",
+    "teacherAct": "GV trình chiếu bản đồ xâm nhập mặn mùa khô tại đồng bằng sông Cửu Long và hình ảnh rừng đước, mắm phòng hộ bãi bồi Duyên Hải (Trà Vinh). Hướng dẫn HS phân tích vai trò của rừng ngập mặn trong chắn sóng, giữ đất và lọc sạch nguồn nước biển.",
+    "studentAct": "HS thảo luận nhóm: Đề xuất các biện pháp trữ nước ngọt sinh hoạt trong mùa khô hạn mặn và tích cực tham gia trồng cây gây rừng bảo vệ đê biển quê hương."
   },
   {
-    "id": "gddp_tv_121",
-    "grade": 5,
-    "subjectKey": "dao_duc",
-    "subjectName": "Đạo đức",
-    "weeks": [
-      2
-    ],
-    "lessonTitle": "Bài 1:\nBiết ơn người có công với quê hương, đất nước",
-    "topic": "Chủ đề 4 GDĐP 5: Bí thư Tỉnh ủy Phạm Thái Bường",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (4 GDĐP 5: Bí thư Tỉnh ủy Phạm Thái Bường): Thực hành lòng biết ơn bằng những hành động cụ thể",
-    "activityTitle": "Hoạt động Khám phá & Vận dụng: Thực hành lòng biết ơn bằng những hành động cụ thể",
-    "teacherAct": "GV tổ chức cho HS đọc các câu chuyện cảm động về sự cống hiến trọn đời của các danh nhân, anh hùng quê hương. tổng kết, khắc sâu đạo lí cao đẹp của dân tộc Việt Nam.",
-    "studentAct": "HS thảo luận nhóm: Lập kế hoạch thực hiện các việc làm 'Đền ơn đáp nghĩa' (viếng nghĩa trang liệt sĩ, giúp đỡ gia đình thương binh, giữ gìn nhà bia tưởng niệm)."
-  },
-  {
-    "id": "gddp_tv_122",
-    "grade": 5,
-    "subjectKey": "dao_duc",
-    "subjectName": "Đạo đức",
-    "weeks": [
-      5,
-      6,
-      7
-    ],
-    "lessonTitle": "Bài 2: Tôn trọng sự khác biệt của người khác",
-    "topic": "Chủ đề 1 GDĐP 5: Dân cư Trà Vinh",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (1 GDĐP 5: Dân cư Trà Vinh): Thực hành thái độ hòa đồng, tôn trọng bản sắc văn hóa của bạn bè",
-    "activityTitle": "Hoạt động Xử lí tình huống & Sắm vai: Thực hành thái độ hòa đồng, tôn trọng bản sắc văn hóa của bạn bè",
-    "teacherAct": "GV đưa ra tình huống: Bạn học sinh người dân tộc thiểu số mang món ăn truyền thống hoặc mặc trang phục lễ hội đến lớp. kết luận: Tôn trọng sự khác biệt tạo nên khối đại đoàn kết bền vững và môi trường học đường hạnh phúc.",
-    "studentAct": "HS đóng vai thể hiện thái độ tôn trọng, chúc mừng, khen ngợi và cùng chung vui với bạn bè."
-  },
-  {
-    "id": "gddp_tv_123",
-    "grade": 5,
-    "subjectKey": "dao_duc",
-    "subjectName": "Đạo đức",
-    "weeks": [
-      1,
-      2,
-      3,
-      4
-    ],
-    "lessonTitle": "Bài 1: Biết ơn những người có công với quê hương, đất nước",
-    "topic": "Chủ đề 2 GDĐP 5: Bảo tồn các di tích ở quê em",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (2 GDĐP 5: Bảo tồn các di tích ở quê em): Em là tuyên truyền viên nhí bảo vệ di sản quê hương",
-    "activityTitle": "Hoạt động Khám phá & Cam kết hành động: Em là tuyên truyền viên nhí bảo vệ di sản quê hương",
-    "teacherAct": "GV chiếu hình ảnh các di tích quốc gia và lễ hội truyền thống đang được trùng tu, bảo tồn trên quê hương.",
-    "studentAct": "HS thảo luận: Xây dựng quy tắc ứng xử văn minh khi tham quan di tích (không viết vẽ bậy, giữ gìn vệ sinh, trang phục lịch sự)."
-  },
-  {
-    "id": "gddp_tv_124",
-    "grade": 5,
-    "subjectKey": "dao_duc",
-    "subjectName": "Đạo đức",
-    "weeks": [
-      16,
-      17,
-      19,
-      20
-    ],
-    "lessonTitle": "Bài 5: Bảo vệ môi trường sống",
-    "topic": "Chủ đề 6 GDĐP 5: Nông thôn mới trên quê hương Trà Vinh",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (6 GDĐP 5: Nông thôn mới trên quê hương Trà Vinh): Hành động thiết thực vì dòng sông xanh - đường làng sạch đẹp",
-    "activityTitle": "Hoạt động Vận dụng & Tuyên truyền: Hành động thiết thực vì dòng sông xanh - đường làng sạch đẹp",
-    "teacherAct": "GV tổ chức trò chơi 'Đúng - Sai' phân tích các hành vi tác động đến nguồn nước sông rạch và môi trường công cộng. khen ngợi ý thức trách nhiệm cộng đồng của các em học sinh.",
-    "studentAct": "HS viết cam kết hành động: Không vứt rác bừa bãi, thu gom bao bì phân bón/thuốc BVTV đúng nơi quy định, chăm sóc cây xanh quanh trường."
-  },
-  {
-    "id": "gddp_tv_125",
+    "id": "gddp_tv_120",
     "grade": 5,
     "subjectKey": "hdtn",
     "subjectName": "Hoạt động trải nghiệm",
     "weeks": [
       11
     ],
-    "lessonTitle": "Chủ đề 3:\nTự hào truyền thống quê hương (Sinh hoạt dưới cờ & HĐGD theo CĐ)",
-    "topic": "Chủ đề 3 GDĐP 5: Giữ gìn và phát huy những phong tục tốt đẹp",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (3 GDĐP 5: Giữ gìn và phát huy những phong tục tốt đẹp): Sân khấu hóa nét đẹp văn hóa dân gian và lễ hội quê hương",
-    "activityTitle": "Hoạt động Trải nghiệm tập thể: Sân khấu hóa nét đẹp văn hóa dân gian và lễ hội quê hương",
-    "teacherAct": "GV phối hợp tổ chức hội thi sân khấu hóa: Các tổ biểu diễn tiết mục múa Lâm thôn, trình diễn trang phục dân tộc hoặc hát dân ca Nam Bộ. tổng kết, trao thưởng và khơi dậy lòng tự hào về di sản văn hóa phong phú của quê hương.",
-    "studentAct": "HS hào hứng tham gia biểu diễn văn nghệ và thuyết minh ý nghĩa nét đẹp văn hóa quê mình."
+    "lessonTitle": "Chủ đề 3: Tự hào truyền thống quê hương (Sinh hoạt dưới cờ & HĐGD theo CĐ)",
+    "topic": "Chủ đề 3 & 5 GDĐP 5: Giữ gìn và phát huy những phong tục tốt đẹp, múa dân gian Khơ-me (Trang 15, 23 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 3 & 5: Phong tục tốt đẹp và múa dân gian Khơ-me): Tích cực tham gia hoạt động sân khấu hóa, biểu diễn điệu múa Lâm thôn, trình diễn trang phục dân tộc truyền thống hoặc giới thiệu lễ hội Ok Om Bok quê hương Trà Vinh.",
+    "activityTitle": "Hoạt động Trải nghiệm tập thể: Sân khấu hoá nét đẹp văn hóa lễ hội quê hương Trà Vinh",
+    "teacherAct": "GV phối hợp tổng phụ trách tổ chức hội thi sân khấu hóa: Hướng dẫn các tổ học sinh biểu diễn một đoạn múa Lâm thôn tập thể hoặc trình diễn trang phục truyền thống của đồng bào Kinh, Khmer, Hoa Trà Vinh. Khơi dậy lòng tự hào sâu sắc về văn hóa quê nhà.",
+    "studentAct": "HS hòa mình vào điệu múa truyền thống, thuyết minh ngắn gọn về ý nghĩa nét đẹp văn hóa tương thân tương ái giữa các dân tộc trên quê hương."
   },
   {
-    "id": "gddp_tv_126",
+    "id": "gddp_tv_121",
     "grade": 5,
     "subjectKey": "hdtn",
     "subjectName": "Hoạt động trải nghiệm",
     "weeks": [
       15
     ],
-    "lessonTitle": "Chủ đề 4:\nUống nước nhớ nguồn (Sinh hoạt lớp)",
-    "topic": "Chủ đề 4 GDĐP 5: Bí thư Tỉnh ủy Phạm Thái Bường",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (4 GDĐP 5: Bí thư Tỉnh ủy Phạm Thái Bường): Làm thiệp tri ân và lao động vệ sinh di tích lịch sử địa phương",
-    "activityTitle": "Hoạt động Tri ân & Đền ơn đáp nghĩa: Làm thiệp tri ân và lao động vệ sinh di tích lịch sử địa phương",
-    "teacherAct": "GV phát động phong trào 'Hành trình đến các địa chỉ đỏ': Tổ chức làm vệ sinh khuôn viên bia tưởng niệm liệt sĩ xã/phường. đánh giá tinh thần trách nhiệm và lòng biết ơn của học sinh.",
-    "studentAct": "HS tỉ mỉ cắt dán thiệp hoa ghi những lời tri ân sâu sắc gửi tặng các gia đình có công với cách mạng."
+    "lessonTitle": "Chủ đề 4: Uống nước nhớ nguồn (Sinh hoạt lớp)",
+    "topic": "Chủ đề 4 GDĐP 5: Bí thư Tỉnh uỷ Phạm Thái Bường & Chủ đề 2: Đền thờ Bác Hồ (Trang 9, 19 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 4 & 2: Bí thư Tỉnh uỷ Phạm Thái Bường và Đền thờ Bác Hồ): Thực hiện các việc làm 'Đền ơn đáp nghĩa' (tự tay làm thiệp tri ân, quét dọn vệ sinh nhà bia ghi danh liệt sĩ xã/phường, lên kế hoạch thăm viếng Đền thờ Bác Hồ ở Long Đức).",
+    "activityTitle": "Hoạt động Tri ân: Làm thiệp tri ân và hành trình về các địa chỉ đỏ quê hương Trà Vinh",
+    "teacherAct": "GV phát động phong trào 'Hành trình đến các địa chỉ đỏ': Hướng dẫn học sinh tìm hiểu về Khu di tích lịch sử Đền thờ Bác Hồ (xã Long Đức) và Khu tưởng niệm đồng chí Phạm Thái Bường (xã An Trường, Càng Long); tổ chức lao động giữ gìn bia tưởng niệm tại địa phương.",
+    "studentAct": "HS khéo léo cắt dán thiệp hoa tri ân, ghi lời biết ơn gửi các gia đình liệt sĩ, thương binh; cam kết giữ gìn trang nghiêm tại các di tích lịch sử."
   },
   {
-    "id": "gddp_tv_127",
+    "id": "gddp_tv_122",
     "grade": 5,
     "subjectKey": "hdtn",
     "subjectName": "Hoạt động trải nghiệm",
     "weeks": [
       23
     ],
-    "lessonTitle": "Chủ đề 6:\nEm và môi trường sống (Sinh hoạt dưới cờ & HĐGD theo CĐ)",
-    "topic": "Chủ đề 6 GDĐP 5: Nông thôn mới trên quê hương Trà Vinh",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (6 GDĐP 5: Nông thôn mới trên quê hương Trà Vinh): Triển khai chiến dịch 'Dòng sông xanh - Tuyến đường hoa nông thôn mới'",
-    "activityTitle": "Hoạt động Dự án xanh vì cộng đồng: Triển khai chiến dịch 'Dòng sông xanh - Tuyến đường hoa nông thôn mới'",
-    "teacherAct": "GV phân công các nhóm dự án: Nhóm 1 vẽ tranh cổ động bảo vệ nguồn nước; Nhóm tuyên dương các tập thể nhỏ có sáng kiến bảo vệ môi trường xuất sắc.",
-    "studentAct": "HS các tổ hào hứng thực hiện nhiệm vụ, báo cáo kết quả bằng hình ảnh sinh động."
+    "lessonTitle": "Chủ đề 6: Em và môi trường sống (Sinh hoạt dưới cờ & HĐGD theo CĐ)",
+    "topic": "Chủ đề 6 GDĐP 5: Nông thôn mới trên quê hương Trà Vinh (Trang 28 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 6: Nông thôn mới trên quê hương Trà Vinh): Tham gia triển khai dự án nhỏ 'Dòng sông quê em không rác thải nhựa - Tuyến đường hoa nông thôn mới', xây dựng cảnh quan trường lớp và đường làng ngõ xóm Trà Vinh sạch đẹp.",
+    "activityTitle": "Hoạt động Dự án xanh vì cộng đồng: Tuyến đường hoa nông thôn mới trên quê hương Trà Vinh",
+    "teacherAct": "GV phân công các nhóm dự án: Nhóm 1 vẽ tranh cổ động giữ sạch dòng kênh; Nhóm 2 chăm sóc bồn hoa quanh trường; phát động phong trào trồng cây phủ xanh trường học và xóm ấp.",
+    "studentAct": "HS hào hứng bắt tay thực hiện dự án; quay video ngắn hoặc chụp ảnh báo cáo sản phẩm 'Góc xanh nông thôn mới' của chi đội."
   },
   {
-    "id": "gddp_tv_128",
+    "id": "gddp_tv_123",
     "grade": 5,
     "subjectKey": "hdtn",
     "subjectName": "Hoạt động trải nghiệm",
     "weeks": [
       29
     ],
-    "lessonTitle": "Chủ đề 8:\nEm tìm hiểu nghề truyền thống quê hương (Sinh hoạt lớp)",
-    "topic": "Chủ đề 7 GDĐP 5: Mô hình nuôi tôm công nghệ cao",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (7 GDĐP 5: Mô hình nuôi tôm công nghệ cao): Thực hành làm sản phẩm thủ công mỹ nghệ đơn giản từ lục bình / xơ dừa",
-    "activityTitle": "Hoạt động Trải nghiệm nghề nghiệp: Thực hành làm sản phẩm thủ công mỹ nghệ đơn giản từ lục bình / xơ dừa",
-    "teacherAct": "GV mời nghệ nhân đan lục bình hoặc chuẩn bị sẵn sợi lục bình khô/cọng dừa hướng dẫn học sinh kỹ thuật tết sam đơn giản. trưng bày sản phẩm tại 'Góc bàn tay vàng', giáo dục tình yêu lao động và trân trọng nghề truyền thống.",
-    "studentAct": "HS thực hành theo cặp, khéo léo đan tết chiếc đế lót ly hoặc chiếc quạt mini xinh xắn."
+    "lessonTitle": "Chủ đề 8: Em tìm hiểu nghề truyền thống quê hương (Sinh hoạt lớp)",
+    "topic": "Chủ đề 6 & 7 GDĐP 5: Nghề truyền thống và Mô hình kinh tế Trà Vinh (Trang 28, 32 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 6 & 7: Nghề truyền thống và Kinh tế Trà Vinh): Tìm hiểu nét đặc sắc của các nghề truyền thống lâu đời trên quê hương Trà Vinh (nghề dệt chiếu Cà Hom Trà Cú, nghề đan lát lục bình, nghề làm bánh tét Trà Cuôn) và mô hình nuôi tôm công nghệ cao.",
+    "activityTitle": "Hoạt động Trải nghiệm nghề nghiệp: Tìm hiểu và giới thiệu nghề truyền thống quê hương Trà Vinh",
+    "teacherAct": "GV giới thiệu hình ảnh làng nghề dệt chiếu Cà Hom (huyện Trà Cú), cơ sở đan đát mỹ nghệ lục bình xuất khẩu và làng nghề bánh tét Trà Cuôn (Cầu Ngang). Giáo dục lòng trân quý sức lao động và ý thức gìn giữ nghề cha ông.",
+    "studentAct": "HS thảo luận theo nhóm: Giới thiệu một nghề truyền thống của người dân quê mình; nêu ước mơ phát triển sản phẩm quê hương vươn xa."
   },
   {
-    "id": "gddp_tv_129",
+    "id": "gddp_tv_124",
     "grade": 5,
     "subjectKey": "hdtn",
     "subjectName": "Hoạt động trải nghiệm",
     "weeks": [
       33
     ],
-    "lessonTitle": "Chủ đề 9:\nNgày hội tự hào quê hương em (Sinh hoạt dưới cờ & Sinh hoạt lớp)",
-    "topic": "Chủ đề 1, 2, 4, 5 GDĐP 5: Dân cư, Di tích, Du lịch và Đặc sản quê hương .",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (1, 2, 4, 5 GDĐP 5: Dân cư, Di tích, Du lịch và Đặc sản quê hương.): Gian hàng trưng bày 'Hương sắc quê hương Trà Vinh'",
-    "activityTitle": "Hoạt động Ngày hội Festival quê hương: Gian hàng trưng bày 'Hương sắc quê hương ba dải cù lao'",
-    "teacherAct": "GV cùng HS trang trí các gian hàng đặc sản Trà Vinh: Bánh tét Trà Cuôn, dừa sáp Cầu Kè, bún nước lèo, bánh ống Khmer, tranh ảnh lễ hội Ok Om Bok và danh thắng Ao Bà Om. tổng kết, trao giải gian hàng ấn tượng, khép lại năm học tràn đầy tự hào.",
-    "studentAct": "HS đóng vai thuyết minh viên giới thiệu văn hóa ẩm thực và tiềm năng phát triển của quê hương Trà Vinh đến phụ huynh và thầy cô."
+    "lessonTitle": "Chủ đề 9: Ngày hội tự hào quê hương em (Sinh hoạt dưới cờ & Sinh hoạt lớp)",
+    "topic": "Chủ đề 1, 2, 6, 7 GDĐP 5: Dân cư, Di tích, Nông thôn mới và Đặc sản Trà Vinh (QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 1, 2, 6, 7: Hương sắc quê hương Trà Vinh): Thiết kế gian hàng trưng bày giới thiệu sản vật, ẩm thực OCOP và danh lam thắng cảnh tiêu biểu của tỉnh Trà Vinh (dừa sáp Cầu Kè, bánh tét Trà Cuôn, gạo Rạch Lợp Tiểu Cần, Thắng cảnh Ao Bà Om).",
+    "activityTitle": "Hoạt động Hội chợ Festival quê hương: Gian hàng trưng bày 'Hương sắc quê hương Trà Vinh'",
+    "teacherAct": "GV cùng HS trang trí gian hàng đặc sản Trà Vinh; trưng bày tranh ảnh lễ hội Ok Om Bok, Đền thờ Bác Hồ và các nông sản tiêu biểu OCOP của tỉnh. Tổng kết, trao thưởng cho gian hàng ấn tượng, khép lại năm học tràn đầy niềm tự hào về mảnh đất quê hương.",
+    "studentAct": "HS đóng vai hướng dẫn viên giới thiệu văn hóa ẩm thực, phong tục tập quán và tiềm năng du lịch sinh thái Trà Vinh đến thầy cô, cha mẹ và bạn bè."
   },
   {
-    "id": "gddp_tv_130",
-    "grade": 5,
-    "subjectKey": "cong_nghe",
-    "subjectName": "Công nghệ",
-    "weeks": [
-      13,
-      14,
-      15,
-      16
-    ],
-    "lessonTitle": "Bài 5: Sử dụng điện thoại",
-    "topic": "Chủ đề 6 GDĐP 5: Nông thôn mới trên quê hương Trà Vinh - Chuyển đổi số nông thôn",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (6 GDĐP 5: Nông thôn mới trên quê hương Trà Vinh - Chuyển đổi số nông thôn): Ứng dụng công nghệ số phục vụ học tập và đời sống nông thôn mới",
-    "activityTitle": "Hoạt động Vận dụng: Ứng dụng công nghệ số phục vụ học tập và đời sống nông thôn mới",
-    "teacherAct": "GV hướng dẫn học sinh nhận biết các tiện ích của điện thoại thông minh: Tìm kiếm tư liệu học tập, xem dự báo thời tiết hạn mặn phục vụ sản xuất. giáo dục văn hóa ứng xử văn minh trên không gian mạng.",
-    "studentAct": "HS thảo luận: Quy tắc sử dụng điện thoại thông minh an toàn, không lạm dụng chơi game, bảo mật thông tin cá nhân."
-  },
-  {
-    "id": "gddp_tv_131",
-    "grade": 5,
-    "subjectKey": "cong_nghe",
-    "subjectName": "Công nghệ",
-    "weeks": [
-      26,
-      27,
-      28,
-      29
-    ],
-    "lessonTitle": "Bài 8: Mô hình máy phát điện gió",
-    "topic": "Chủ đề 1 GDĐP 5: Tiềm năng điện gió ngoài khơi Duyên Hải (Trà Vinh)",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (1 GDĐP 5: Tiềm năng điện gió ngoài khơi Duyên Hải (Trà Vinh)): Lắp ráp mô hình tuabin điện gió mini",
-    "activityTitle": "Hoạt động Thực hành sáng tạo: Lắp ráp mô hình tuabin điện gió mini",
-    "teacherAct": "GV chuẩn bị bộ lắp ghép kỹ thuật, hướng dẫn quy trình lắp ráp trụ đỡ, trục quay và cánh quạt tuabin gió. đánh giá kỹ năng khéo léo, tư duy kỹ thuật và liên hệ các công trình điện gió thực tế tại quê hương.",
-    "studentAct": "HS làm việc nhóm: Thực hành lắp ráp, dùng quạt gió thổi thử nghiệm để cánh quạt quay đều."
-  },
-  {
-    "id": "gddp_tv_132",
+    "id": "gddp_tv_125",
     "grade": 5,
     "subjectKey": "am_nhac",
     "subjectName": "Âm nhạc",
@@ -1726,14 +1612,14 @@
       8
     ],
     "lessonTitle": "Ôn bài hát: Lí đất giồng - Nhạc cụ - Thường thức âm nhạc: Đàn nhị",
-    "topic": "Chủ đề 5 GDĐP 5: Nghệ thuật múa dân gian Khơ-me",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (5 GDĐP 5: Nghệ thuật múa dân gian Khơ-me): Hát kết hợp gõ đệm nhạc cụ gõ dân tộc",
-    "activityTitle": "Hoạt động Luyện tập & Biểu diễn: Hát kết hợp gõ đệm nhạc cụ gõ dân tộc",
-    "teacherAct": "GV bắt nhịp cho cả lớp hát vang giai điệu dân ca Nam Bộ sâu lắng, mượt mà. biểu dương sự tự tin và tình cảm tha thiết của học sinh khi thể hiện làn điệu quê hương.",
-    "studentAct": "HS chia 2 nhóm: Nhóm 1 hát hòa bè, Nhóm 2 sử dụng song loan và thanh phách gõ nhịp giòn giã."
+    "topic": "Chủ đề 5 GDĐP 5: Nghệ thuật múa dân gian của đồng bào Khơ-me (Trang 23 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 5: Nghệ thuật múa dân gian của đồng bào Khơ-me): Hát giai điệu dân ca Nam Bộ kết hợp gõ đệm nhạc cụ dân tộc; tìm hiểu nét đặc trưng của điệu múa Sa-dăm và giai điệu dân tộc trên quê hương Trà Vinh.",
+    "activityTitle": "Hoạt động Luyện tập & Biểu diễn: Hát dân ca kết hợp nhạc cụ dân tộc gõ đệm",
+    "teacherAct": "GV bắt nhịp cho cả lớp hát vang điệu 'Lí đất giồng' sâu lắng, mượt mà của đồng bào Nam Bộ; kết hợp giới thiệu nét rộn rã của trống Sa-dăm Trà Vinh. Biểu dương sự tự tin và tình cảm tha thiết của học sinh khi thể hiện âm nhạc quê hương.",
+    "studentAct": "HS chia 2 nhóm: Nhóm 1 hát hòa bè, Nhóm 2 sử dụng thanh phách, song loan gõ đệm nhịp nhàng; cảm nhận giai điệu quê hương mộc mạc, chan chứa nghĩa tình."
   },
   {
-    "id": "gddp_tv_133",
+    "id": "gddp_tv_126",
     "grade": 5,
     "subjectKey": "am_nhac",
     "subjectName": "Âm nhạc",
@@ -1742,11 +1628,11 @@
       22
     ],
     "lessonTitle": "Tiết 21: Học hát Em đi giữa biển vàng - Tiết 22: Ôn hát Em đi giữa biển vàng",
-    "topic": "Chủ đề 5 GDĐP 5: Nhạc cụ dàn nhạc Ngũ âm Khmer",
-    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (5 GDĐP 5: Nhạc cụ dàn nhạc Ngũ âm Khmer): Nghe và phân biệt âm sắc các nhạc cụ truyền thống dân tộc",
-    "activityTitle": "Hoạt động Thường thức âm nhạc: Nghe và phân biệt âm sắc các nhạc cụ truyền thống dân tộc",
-    "teacherAct": "GV mở các trích đoạn hòa tấu: Tiếng đàn Roneat rộn rã trong lễ hội Ok Om Bok và tiếng đờn Kìm mùi mẫn trong Dạ cổ hoài lang. khích lệ học sinh tìm hiểu và trân trọng các loại nhạc cụ di sản của cha ông.",
-    "studentAct": "HS nghe và đoán đúng tên từng loại nhạc cụ qua âm sắc đặc trưng."
+    "topic": "Chủ đề 5 GDĐP 5: Nhạc cụ dàn nhạc Ngũ âm Khmer (Trang 25 - QĐ 2727/QĐ-BGDĐT)",
+    "yccdText": "- Tích hợp GDĐP tỉnh Trà Vinh (Chủ đề 5: Nhạc cụ dàn nhạc Ngũ âm Khmer): Thường thức âm nhạc: Lắng nghe, nhận biết và phân biệt âm sắc của các nhạc cụ truyền thống dân tộc tại Trà Vinh (tiếng đàn Roneat trong dàn nhạc Ngũ âm Khmer, đàn Kìm đờn ca tài tử).",
+    "activityTitle": "Hoạt động Thường thức âm nhạc: Lắng nghe âm sắc các nhạc cụ truyền thống Trà Vinh",
+    "teacherAct": "GV mở trích đoạn hòa tấu dàn nhạc Ngũ âm Khmer (Pin Peat) rộn rã trong lễ hội Ok Om Bok tại chùa Âng và tiếng đàn Kìm truyền thống Nam Bộ. Khích lệ học sinh trân trọng và tự hào về di sản âm nhạc độc đáo của quê hương Trà Vinh.",
+    "studentAct": "HS chăm chú lắng nghe, phân biệt âm thanh trong trẻo, rộn rã của đàn Roneat; chia sẻ cảm nhận về nét đặc sắc của âm nhạc dân gian địa phương."
   }
 ];
 
@@ -2020,7 +1906,112 @@
           }
         }
 
-        // Khối 4 HĐTN:
+                // Khối 5: BẢO ĐẢM CHÍNH XÁC 100% THEO KẾ HOẠCH GỐC (QĐ 2727/QĐ-BGDĐT TỈNH TRÀ VINH)
+        // DỨT KHOÁT KHÔNG GƯỢNG ÉP, KHÔNG LỒNG GHÉP BẰNG MỌI GIÁ, ĐÚNG TIẾT, ĐÚNG BÀI, ĐÚNG NỘI DUNG
+        if (g === 5) {
+          // Chỉ cho phép đúng 6 môn học theo Kế hoạch gốc chuẩn sư phạm:
+          if (['lich_su_dia_ly', 'tieng_viet', 'dao_duc', 'khoa_hoc', 'hdtn', 'am_nhac'].indexOf(sNorm) === -1) {
+            continue;
+          }
+
+          // 1. Lịch sử và Địa lí (8 bài)
+          if (sNorm === 'lich_su_dia_ly') {
+            if (it.id === 'gddp_tv_100') { // Bài 1: Vị trí địa lí... (Tuần 1, 2)
+              if (!/bai\s*1|vi\s*tri\s*dia\s*li|don\s*vi\s*hanh\s*chinh/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_101') { // Bài 4: Dân cư và dân tộc (Tuần 5, 6)
+              if (!/bai\s*4|dan\s*cu|dan\s*toc/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_102') { // Bài 5: Nông nghiệp, lâm nghiệp, thủy sản (Tuần 7, 8)
+              if (!/bai\s*5|nong\s*nghiep|thuy\s*san/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_103') { // Bài 6: Vương quốc Phù Nam (Tuần 8)
+              if (!/bai\s*6|phu\s*nam|oc\s*eo|luu\s*cu/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_104') { // Bài 9: Triều Nguyễn (Tuần 13, 14)
+              if (!/bai\s*9|trieu\s*nguyen|khai\s*hoang/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_105') { // Bài 14: CMT8 (Tuần 18, 19)
+              if (!/bai\s*14|cach\s*mang\s*thang\s*tam|chong\s*phap/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_106') { // Bài 16: Chiến dịch Hồ Chí Minh (Tuần 20, 21)
+              if (!/bai\s*16|chien\s*dich\s*ho\s*chi\s*minh|chong\s*my|con\s*tau/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_107') { // Bài 17: Đất nước đổi mới (Tuần 21, 22)
+              if (!/bai\s*17|doi\s*moi/i.test(normRawTitle)) continue;
+            } else {
+              continue;
+            }
+          }
+
+          // 2. Tiếng Việt (6 bài)
+          if (sNorm === 'tieng_viet') {
+            if (it.id === 'gddp_tv_108') { // Bài 1: Thanh âm của gió (Tuần 1)
+              if (!(/thanh\s*am\s*cua\s*gio/i.test(normRawTitle) || (/bai\s*1/i.test(normRawTitle) && /doc/i.test(normRawTitle)))) continue;
+            } else if (it.id === 'gddp_tv_109') { // Bài 5: Mở rộng vốn từ Trẻ em (Tuần 3)
+              if (!(/tre\s*em|tuoi\s*tho/i.test(normRawTitle) || (/bai\s*5/i.test(normRawTitle) && /luyen\s*tu/i.test(normRawTitle)))) continue;
+            } else if (it.id === 'gddp_tv_110') { // Bài 9: Viết bài văn tả cảnh (Tuần 5)
+              if (!(/ta\s*canh/i.test(normRawTitle) || (/bai\s*9/i.test(normRawTitle) && /viet/i.test(normRawTitle)))) continue;
+            } else if (it.id === 'gddp_tv_111') { // Bài 8: Nói và nghe - Danh nhân (Tuần 22)
+              if (!(/noi\s*va\s*nghe/i.test(normRawTitle) && (/danh\s*nhan|nguoi\s*co\s*cong|nhan\s*vat/i.test(normRawTitle) || /bai\s*8/i.test(normRawTitle)))) continue;
+            } else if (it.id === 'gddp_tv_112') { // Bài 12: Vũ điệu trên nền thổ cẩm / Đàn T'rưng (Tuần 24, 25)
+              if (!/tho\s*cam|vu\s*dieu|t['’]rưng|nhac\s*cu|bai\s*12|bai\s*13/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_113') { // Bài 24: Viết đoạn văn bảo vệ môi trường (Tuần 31)
+              if (!(/moi\s*truong/i.test(normRawTitle) || (/bai\s*24/i.test(normRawTitle) && /viet\s*doan/i.test(normRawTitle)))) continue;
+            } else {
+              continue;
+            }
+          }
+
+          // 3. Đạo đức (3 bài)
+          if (sNorm === 'dao_duc') {
+            if (it.id === 'gddp_tv_114') { // Bài 1: Biết ơn người có công (Tuần 1-4)
+              if (!/bai\s*1|nguoi\s*co\s*cong/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_115') { // Bài 2: Tôn trọng sự khác biệt (Tuần 5-7)
+              if (!/bai\s*2|su\s*khac\s*biet/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_116') { // Bài 5: Bảo vệ môi trường sống (Tuần 16-20)
+              if (!/bai\s*5|moi\s*truong\s*song/i.test(normRawTitle)) continue;
+            } else {
+              continue;
+            }
+          }
+
+          // 4. Khoa học (3 bài)
+          if (sNorm === 'khoa_hoc') {
+            if (it.id === 'gddp_tv_117') { // Bài 11: Năng lượng gió, mặt trời (Tuần 11, 12)
+              if (!/bai\s*11|nang\s*luong\s*gio|mat\s*troi/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_118') { // Bài 19: Sự sinh sản của động vật thủy sản (Tuần 19)
+              if (!/bai\s*19|thuy\s*san|dong\s*vat/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_119') { // Bài 28, 29: Môi trường (Tuần 31-33)
+              if (!/bai\s*28|bai\s*29|moi\s*truong/i.test(normRawTitle)) continue;
+            } else {
+              continue;
+            }
+          }
+
+          // 5. HĐTN (5 bài)
+          if (sNorm === 'hdtn') {
+            if (it.id === 'gddp_tv_120') { // Tuần 11: Chủ đề 3 Truyền thống quê hương
+              if (!/truyen\s*thong|chu\s*de\s*3/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_121') { // Tuần 15: Chủ đề 4 Uống nước nhớ nguồn
+              if (!/uong\s*nuoc\s*nho\s*nguon|chu\s*de\s*4/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_122') { // Tuần 23: Chủ đề 6 Em và môi trường sống
+              if (!/moi\s*truong|chu\s*de\s*6/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_123') { // Tuần 29: Chủ đề 8 Nghề truyền thống
+              if (!/nghe\s*truyen\s*thong|chu\s*de\s*8/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_124') { // Tuần 33: Chủ đề 9 Ngày hội tự hào quê hương
+              if (!/ngay\s*hoi|tu\s*hao|chu\s*de\s*9/i.test(normRawTitle)) continue;
+            } else {
+              continue;
+            }
+          }
+
+          // 6. Âm nhạc (2 bài)
+          if (sNorm === 'am_nhac') {
+            if (it.id === 'gddp_tv_125') { // Tuần 6-8: Lí đất giồng
+              if (!/li\s*dat\s*giong|dan\s*nhi|nhac\s*cu/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_126') { // Tuần 21-22: Em đi giữa biển vàng
+              if (!/bien\s*vang|ngu\s*am/i.test(normRawTitle)) continue;
+            } else {
+              continue;
+            }
+          }
+        }
+
+// Khối 4 HĐTN:
         if (g === 4 && sNorm === 'hdtn') {
           // gddp_tv_92 (Tuần 12: Anh hùng Nguyễn Thị Út & Tri ân thầy cô)
           if (it.id === 'gddp_tv_92') {
