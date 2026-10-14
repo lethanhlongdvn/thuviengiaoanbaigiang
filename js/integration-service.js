@@ -2890,7 +2890,8 @@ ${sampleJson}`;
     var l = line.trim();
     if (!l) return false;
     if (/^\s*[1235]\.\s*/i.test(l)) return false;
-    return /tích\s*hợp\s*(?:giáo\s*dục\s*)?địa\s*phương|tích\s*hợp\s*gdđp/i.test(l);
+    return /(?:tích\s*hợp\s*)?(?:giáo\s*dục\s*địa\s*phương|gdđp\s*trà\s*vinh|gdđp\s*3)/i.test(l) ||
+           /chủ\s*đề\s*\d+\s*(?:gdđp|giáo\s*dục\s*địa\s*phương)/i.test(l);
   },
 
   /**
@@ -2904,7 +2905,22 @@ ${sampleJson}`;
         if (!Array.isArray(r)) return true;
         if (r.isGddpRow) return false;
         var rStr = r.join(' ');
+        if (/^\s*\*?\s*(?:tích\s*hợp\s*)?(?:giáo\s*dục\s*địa\s*phương|gdđp\s*trà\s*vinh)/i.test(rStr) &&
+            !/hoạt\s*động\s*khởi\s*động|hoạt\s*động\s*khám\s*phá|hoạt\s*động\s*luyện\s*tập|hoạt\s*động\s*vận\s*dụng/i.test(rStr)) {
+          return false;
+        }
         return !(rStr.includes('Tích hợp Giáo dục địa phương (Trà Vinh)') || rStr.includes('Tích hợp GDĐP Trà Vinh'));
+      }).map(function(r) {
+        if (!Array.isArray(r)) return r;
+        return r.map(function(cell) {
+          if (typeof cell !== 'string') return cell;
+          if (!/(?:giáo\s*dục\s*địa\s*phương|gdđp\s*trà\s*vinh)/i.test(cell)) return cell;
+          var lines = cell.split(/\r?\n/);
+          var cleanLines = lines.filter(function(line) {
+            return !/(?:tích\s*hợp\s*)?(?:gdđp\s*trà\s*vinh|giáo\s*dục\s*địa\s*phương\s*tỉnh\s*trà\s*vinh|chủ\s*đề\s*\d+\s*gdđp\s*3)/i.test(line);
+          });
+          return cleanLines.join('\n');
+        });
       });
     });
     return lesson;
@@ -2969,6 +2985,7 @@ ${sampleJson}`;
 
     // TUÂN THỦ NGHIÊM NGẶT 100%: Môn không có trong Kế hoạch gốc -> Dọn sạch và không chèn
     var disallowedSubjects = ['toan', 'tin_hoc', 'gdtc', 'tieng_anh'];
+    if (effGrade === 3) disallowedSubjects.push('cong_nghe', 'khoa_hoc', 'lich_su_dia_ly');
     if (disallowedSubjects.indexOf(sKey) !== -1) {
       this.cleanGddpFromLesson(lesson);
       return lesson;
@@ -3045,6 +3062,7 @@ ${sampleJson}`;
 
     // TUÂN THỦ NGHIÊM NGẶT 100%: Môn không có trong Kế hoạch gốc -> Dọn sạch và dừng lại
     var disallowedSubjects = ['toan', 'tin_hoc', 'gdtc', 'tieng_anh'];
+    if (effGrade === 3) disallowedSubjects.push('cong_nghe', 'khoa_hoc', 'lich_su_dia_ly');
     if (disallowedSubjects.indexOf(sKey) !== -1) {
       this.cleanGddpFromTables(lesson);
       return lesson;

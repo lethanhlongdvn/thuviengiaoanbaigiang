@@ -515,7 +515,6 @@
           "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS biết quan sát, tìm kiếm hình ảnh về cảnh đẹp, di tích Việt Nam từ nguồn phù hợp; bước đầu phân biệt thông tin chính thống và thông tin chưa kiểm chứng. Vị trí: Khám phá - Hoạt động 1.",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết AI hỗ trợ tìm kiếm, nhận diện hình ảnh danh lam thắng cảnh, di tích lịch sử Việt Nam. Vị trí: Vận dụng.",
           "- Lưu ý: Mỗi hoạt động chỉ tích hợp một nội dung; không gộp NLS và AI trong cùng một hoạt động; không tích hợp vào Khởi động.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1, 3, 5 - TLGDĐP Lớp 3 Trà Vinh): Nhận biết và tự hào về những cảnh đẹp, danh lam thắng cảnh tiêu biểu của tỉnh Trà Vinh (Khu di tích danh thắng Ao Bà Om, Chùa Âng, bãi biển Ba Động); có ý thức giữ gìn, bảo vệ cảnh quan quê hương.",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M1, M6): Bước đầu nhận biết nước ngọt là tài nguyên quý giá gắn liền với cảnh quan thiên nhiên quê hương và có ý thức bảo vệ nguồn nước sạch."
         ],
         "dodung": [
@@ -591,11 +590,11 @@
               "- HS lắng nghe, nhắc lại: Em tự hào vì Việt Nam có nhiều cảnh đẹp, truyền thống văn hóa và con người tốt đẹp."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 1, 3, 5 GDĐP 3 & Mã Mizuiku M1, M6): “Ở quê hương Trà Vinh chúng ta có những cảnh đẹp, danh lam thắng cảnh nào gắn liền với hồ nước và biển cả? Khi đến tham quan Ao Bà Om hay bãi biển Ba Động, các em cần làm gì để bảo vệ nguồn nước và cảnh quan nơi đây?”",
-              "- HS trả lời: Quê hương Trà Vinh có thắng cảnh Ao Bà Om với hồ nước trong xanh soi bóng Chùa Âng cổ kính và bãi biển Ba Động rợp bóng phi lao; khi đến tham quan, chúng em không vứt rác, túi nilon xuống hồ nước và bờ biển để giữ cho dòng nước và bãi biển luôn trong lành, sạch đẹp ạ."
+              "",
+              ""
             ],
             [
-              "- GV kết luận: Tự hào về vẻ đẹp non sông đất nước và danh lam thắng cảnh quê hương Trà Vinh; các em hãy luôn giữ gìn nguồn nước và môi trường sống xanh - sạch - đẹp.",
+              "",
               "- HS lắng nghe, tự hào và ghi nhớ bài học."
             ],
             [
@@ -802,7 +801,6 @@
           "- Tích hợp QPAN: HS biết trân trọng lãnh thổ, biển đảo, Quốc kì, Quốc huy và các biểu tượng của đất nước; có ý thức giữ gìn danh dự quốc gia qua lời nói, việc làm phù hợp. Vị trí: Luyện tập - Bài tập 4.",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết công nghệ/AI hỗ trợ quảng bá hình ảnh đất nước; khi sử dụng cần lựa chọn nội dung đúng, phù hợp. Vị trí: Vận dụng.",
           "- Lưu ý: Mỗi hoạt động chỉ tích hợp một nội dung; không gộp QPAN và AI trong cùng một hoạt động; không tích hợp vào Khởi động.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2 & 6 - Trang 11 & 31 TLGDĐP Lớp 3 Trà Vinh): Tự hào về con người và danh nhân Trà Vinh - Nghệ sĩ nhân dân, soạn giả Viễn Châu (quê Đôn Châu, Duyên Hải, Trà Vinh) - người có cống hiến to lớn cho nghệ thuật đờn ca tài tử và sân khấu cải lương Nam Bộ.",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M6, M18): Nhận thức được hành động bảo vệ môi trường, nguồn nước là việc làm thiết thực thể hiện tình yêu quê hương đất nước."
         ],
         "dodung": [
@@ -904,11 +902,11 @@
               "- HS viết hoặc nói mẫu: “Em tự hào là người Việt Nam vì đất nước em có nhiều cảnh đẹp và con người chăm chỉ, nhân ái. Em yêu Quốc kì, yêu tiếng Việt và yêu quê hương của mình. Em sẽ học tập tốt, bảo vệ thiên nhiên và biết ơn những người có công với đất nước.”"
             ],
             [
-              "- GV gợi ý dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 2, 6 GDĐP 3 & Mã Mizuiku M6, M18): “Khi chia sẻ việc làm thể hiện tình yêu quê hương, các em có thể nêu tấm gương lao động nghệ thuật miệt mài của NSND - Soạn giả Viễn Châu quê ở Đôn Châu (Duyên Hải, Trà Vinh); đồng thời chia sẻ những việc làm thiết thực như tiết kiệm nước sạch và bảo vệ nguồn nước quê mình.”",
-              "- HS tự hào chia sẻ: Em noi gương Soạn giả Viễn Châu chăm chỉ học tập; ở nhà và ở trường, em luôn khóa chặt vòi nước sau khi dùng, cùng bạn nhặt rác quanh kênh rạch để thể hiện tình yêu quê hương Trà Vinh ạ."
+              "",
+              ""
             ],
             [
-              "- GV nhận xét, khen ngợi: Noi gương các danh nhân và chung tay bảo vệ nguồn nước sạch chính là những hành động đẹp làm rạng danh quê hương Trà Vinh.",
+              "",
               "- HS lắng nghe và quyết tâm thực hiện."
             ],
             [
@@ -1083,7 +1081,6 @@
           "4. TÍCH HỢP",
           "- Tích hợp NLS 2.1.CB1a, 4.1.CB1b: HS biết lựa chọn cách liên hệ an toàn khi cần báo tin cho người lớn; không tự ý trả lời tin nhắn/nghe lời người lạ trên môi trường số.",
           "- Tích hợp AI (Khung 3439) - 3.A2.2: Nhận biết công nghệ/AI có thể hỗ trợ cảnh báo, gọi trợ giúp trong khu dân cư nhưng HS cần ứng xử an toàn.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2: Ấm áp tình người Trà Vinh - Trang 11 TLGDĐP Lớp 3 Trà Vinh): Hiểu được nét đẹp truyền thống tương thân tương ái, gắn bó, đoàn kết, tương trợ lẫn nhau giữa cộng đồng ba dân tộc Kinh - Khmer - Hoa sống chan hòa trên mảnh đất Trà Vinh.",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M25): Biết chia sẻ nguồn nước sinh hoạt khi láng giềng gặp khó khăn (hạn hán, ngập mặn); cùng nhau giữ gìn vệ sinh kênh mương chung của xóm ấp."
         ],
         "dodung": [
@@ -1147,11 +1144,11 @@
               "- HS lắng nghe, nêu một lí do cần quan tâm hàng xóm."
             ],
             [
-              "- GV liên hệ tích hợp GDĐP Trà Vinh & Chia sẻ nguồn nước (Chủ đề 2 GDĐP 3 & Mã Mizuiku M10, M25): “Ở quê hương Trà Vinh, đồng bào các dân tộc Kinh, Khmer, Hoa cùng sinh sống hòa thuận, tối lửa tắt đèn có nhau. Vào mùa khô hạn hán hoặc xâm nhập mặn, bà con láng giềng đã thể hiện sự quan tâm, chia sẻ nguồn nước sinh hoạt như thế nào?”",
+              "",
               "- HS trả lời: Vào mùa khô hạn mặn, các gia đình có giếng khoan nước ngọt hoặc bể nước mưa thường chia sẻ từng can nước, thùng nước sạch cho hàng xóm cùng dùng; bà con trong xóm ấp còn cùng nhau nạo vét kênh mương, không xả rác bẩn ra nguồn nước chung ạ."
             ],
             [
-              "- GV biểu dương: Tinh thần sẻ chia dòng nước ngọt và tương trợ láng giềng là nét đẹp ấm áp tình người tiêu biểu của nhân dân tỉnh Trà Vinh. Các em hãy học tập và phát huy truyền thống quý báu này nhé.",
+              "",
               "- HS xúc động, thấm thía tinh thần đoàn kết, tương thân tương ái."
             ],
             [
@@ -1607,8 +1604,7 @@
           "- Nhân ái: Biết chia sẻ điều hay đã học được, hỗ trợ bạn cùng tiến bộ.",
           "4. TÍCH HỢP",
           "- Tích hợp NLS 1.1.CB1a, 3.1.CB1a: HS biết đặt câu hỏi học tập rõ ràng, tìm thông tin dưới sự hướng dẫn của GV và trình bày lại bằng lời của mình.",
-          "- Tích hợp AI (Khung 3439) - 3.A1.1: Biết sử dụng AI như công cụ hỗ trợ tìm kiếm tri thức chủ động, không sao chép máy móc.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 6: Nghệ sĩ nhân dân, soạn giả Viễn Châu - Trang 31 TLGDĐP Lớp 3 Trà Vinh): Học tập tấm gương say mê học hỏi, tự rèn luyện thành tài của Nghệ sĩ nhân dân, soạn giả Viễn Châu (Trà Vinh) - từ cậu bé nghèo tự học đàn kìm đến bậc thầy sáng tác âm nhạc dân tộc."
+          "- Tích hợp AI (Khung 3439) - 3.A1.1: Biết sử dụng AI như công cụ hỗ trợ tìm kiếm tri thức chủ động, không sao chép máy móc."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -1667,11 +1663,11 @@
               "- HS lắng nghe, nêu lại một biểu hiện của ham học hỏi."
             ],
             [
-              "- GV kể chuyện tích hợp GDĐP Trà Vinh (Chủ đề 6 GDĐP 3 Trà Vinh): “Ở tỉnh Trà Vinh chúng ta có NSND - Soạn giả Viễn Châu là tấm gương sáng ngời về tinh thần ham học hỏi. Từ nhỏ ông đã say mê âm nhạc truyền thống, tự tìm tòi học các loại đàn cổ truyền và tích cực học hỏi các nghệ nhân đi trước để trở thành danh nhân văn hóa rạng danh quê hương. Tấm gương của bác Viễn Châu nhắc nhở chúng ta điều gì?”",
+              "",
               "- HS hào hứng trả lời: Nhắc nhở chúng em phải có tinh thần tự giác, chủ động tìm tòi, ham đọc sách và không ngừng học hỏi từ thầy cô, bạn bè xung quanh ạ."
             ],
             [
-              "- GV kết luận: Noi gương ham học hỏi của Soạn giả Viễn Châu, các em hãy luôn chăm ngoan, tích cực khám phá tri thức mới để xứng đáng là học sinh quê hương Trà Vinh.",
+              "",
               "- HS chăm chú lắng nghe và tự hứa nỗ lực rèn luyện."
             ],
             [
@@ -4047,8 +4043,7 @@
           "- Trung thực: Biết nói sự thật một cách phù hợp; không bịa chuyện, nói xấu hoặc đổ lỗi cho bạn.",
           "4. TÍCH HỢP",
           "- Tích hợp NLS 2.3.CB1a, 3.1.CB1a: HS biết dùng lời nhắn tích cực để xin lỗi, hòa giải; không tạo, chia sẻ nội dung trêu chọc, xúc phạm hoặc gây hiểu lầm cho bạn.",
-          "- Tích hợp AI (Khung 3439) - 3.B3.2: Hình thành thái độ sử dụng AI có đạo đức; không tạo nội dung gây chia rẽ, mất đoàn kết trong lớp.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2 & 8 - Trang 11 & 40 TLGDĐP Lớp 3 Trà Vinh): Vận dụng tinh thần hòa nhã, bao dung, tôn trọng phong tục, tập quán và sự khác biệt của bạn bè các dân tộc (Kinh, Khmer, Hoa) tại quê hương Trà Vinh; xây dựng tình bạn đoàn kết, gắn bó."
+          "- Tích hợp AI (Khung 3439) - 3.B3.2: Hình thành thái độ sử dụng AI có đạo đức; không tạo nội dung gây chia rẽ, mất đoàn kết trong lớp."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 3; tranh SGK bài Xử lí bất hòa với bạn bè; thẻ bày tỏ ý kiến; phiếu thảo luận nhóm; máy tính, máy chiếu nếu có.",
@@ -4114,11 +4109,11 @@
               "- HS nhắc lại các bước xử lí bất hòa với bạn bè."
             ],
             [
-              "- GV liên hệ tích hợp GDĐP Trà Vinh (Chủ đề 2 & 8 GDĐP 3 Trà Vinh): “Trong trường lớp ở Trà Vinh, có nhiều bạn học sinh người dân tộc Kinh, Khmer, Hoa cùng chung lớp với phong tục đón Tết Chôl-Chnăm-Thmây hay văn hóa khác nhau. Khi có sự bất đồng ý kiến hoặc hiểu lầm trong sinh hoạt hằng ngày, các em cần ứng xử như thế nào để giữ vững tình bạn đoàn kết?”",
+              "",
               "- HS thảo luận và trả lời: Chúng em luôn tôn trọng sự khác biệt và phong tục của bạn bè; bình tĩnh lắng nghe, dùng lời nói nhẹ nhàng, chân thành để hòa giải, luôn yêu thương và giúp đỡ nhau cùng tiến bộ ạ."
             ],
             [
-              "- GV nhận xét và kết luận: Tôn trọng sự khác biệt, bao dung và hòa nhã chính là nét đẹp truyền thống ấm áp nghĩa tình của tuổi trẻ và thiếu nhi Trà Vinh.",
+              "",
               "- HS khắc sâu bài học và bắt tay thân ái với bạn bè."
             ],
             [
@@ -4798,8 +4793,7 @@
           "- Chăm chỉ: tích cực tham gia các hoạt động học tập, hoàn thành nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "4. TÍCH HỢP",
           "- Tích hợp QPAN: HS biết bảo vệ an toàn cá nhân khi đi xe máy, ô tô, xe buýt; đội mũ bảo hiểm, thắt dây an toàn, lên xuống xe đúng nơi quy định.",
-          "- Tích hợp AI (Khung 3439) - 3.A1.3: Hiểu dù có AI/công nghệ hỗ trợ, con người vẫn phải tỉnh táo và chịu trách nhiệm về an toàn khi tham gia giao thông.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1 & 3 - TLGDĐP Lớp 3 Trà Vinh) & Tiết kiệm và bảo vệ nguồn nước (Mã Mizuiku M6, M18): Nắm vững quy tắc an toàn khi đi đò ngang, phà qua sông Cổ Chiên, sông Hậu tại Trà Vinh; luôn mặc áo phao; tuyệt đối không xả rác, túi nilon xuống dòng sông làm ô nhiễm nguồn nước và cản trở luồng lạch giao thông thủy."
+          "- Tích hợp AI (Khung 3439) - 3.A1.3: Hiểu dù có AI/công nghệ hỗ trợ, con người vẫn phải tỉnh táo và chịu trách nhiệm về an toàn khi tham gia giao thông."
         ],
         "dodung": [
           "- SGK, SGV, Vở bài tập Đạo đức 3.",
@@ -4866,11 +4860,11 @@
               "- HS lắng nghe và nhắc lại một số quy tắc an toàn."
             ],
             [
-              "- GV mở rộng tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 1, 3 GDĐP 3 & Mã Mizuiku M6, M18): “Tỉnh Trà Vinh có mạng lưới sông ngòi chằng chịt như sông Cổ Chiên, sông Hậu với nhiều bến phà, bến đò ngang. Khi đi đò, qua phà trên sông nước Trà Vinh, các em cần tuân thủ những quy tắc an toàn và bảo vệ môi trường nào?”",
+              "",
               "- HS trả lời: Khi đi đò qua sông, chúng em luôn mặc áo phao hoặc cầm dụng cụ nổi cứu sinh, ngồi ngay ngắn trật tự; chỉ lên xuống khi đò đã cập bến an toàn; tuyệt đối không vứt chai nhựa, túi nilon xuống dòng sông để bảo vệ nguồn nước trong lành và an toàn cho tàu thuyền qua lại ạ."
             ],
             [
-              "- GV biểu dương và kết luận: Tuân thủ quy tắc an toàn khi đi đò phà và giữ gìn dòng sông sạch sẽ là trách nhiệm của mỗi chúng ta để bảo vệ sự an toàn cho chính mình và giữ sạch đẹp các dòng sông quê hương Trà Vinh.",
+              "",
               "- HS lắng nghe, cam kết luôn thực hiện nghiêm túc quy tắc an toàn giao thông đường thủy."
             ],
             [

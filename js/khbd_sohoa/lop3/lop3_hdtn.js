@@ -2057,7 +2057,6 @@
           "4. Tích hợp",
           "- Tích hợp NLS 5.2.CB1a: HS biết sử dụng công cụ số đơn giản như đồng hồ, lịch hoặc ứng dụng nhắc việc để lập thời gian biểu, theo dõi và điều chỉnh hoạt động hằng ngày.",
           "- Tích hợp AI (Khung 3439) - 3.A1.1: Biết cách dùng trợ lý ảo hỗ trợ nhắc nhở thực hiện kế hoạch theo thời gian biểu; gợi ý hoạt động: trình diễn cách ra lệnh cho Google Assistant/Siri đặt báo thức theo lịch học.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2: Ấm áp tình người Trà Vinh - Trang 11 TLGDĐP Lớp 3 Trà Vinh): Xây dựng thời gian biểu hợp lí, dành thời gian quan tâm, trò chuyện, giúp đỡ người thân và bạn bè các dân tộc xung quanh; rèn luyện nếp sống đẹp, nghĩa tình.",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M25): Đưa vào thời gian biểu việc tự giác khóa vòi nước khi đánh răng, rửa mặt; nhắc nhở người thân sử dụng nước tiết kiệm hằng ngày."
         ],
         "dodung": [
@@ -2160,11 +2159,11 @@
               "- HS lắng nghe, hoàn thiện thời gian biểu của mình."
             ],
             [
-              "- GV gợi ý dẫn tích hợp GDĐP Trà Vinh & Tiết kiệm nước (Chủ đề 2 GDĐP 3 & Mã Mizuiku M25): “Khi xây dựng thời gian biểu hằng ngày, các em có thể bổ sung những việc làm ấm áp tình người tại quê hương Trà Vinh và hành động tiết kiệm nước sạch như thế nào?”",
+              "",
               "- HS trả lời: Trong thời gian biểu, chúng em dành thời gian phụ giúp ông bà, cha mẹ hoặc hỏi thăm bạn bè xung quanh; đồng thời hình thành thói quen khóa chặt vòi nước khi đánh răng, rửa mặt và kiểm tra vòi nước để tránh lãng phí nước sạch ạ."
             ],
             [
-              "- GV biểu dương: Sắp xếp thời gian biểu khoa học gắn liền với lối sống nghĩa tình và ý thức tiết kiệm nước sạch sẽ giúp các em trở thành những công dân nhỏ mẫu mực của quê hương Trà Vinh.",
+              "",
               "- HS chăm chú lắng nghe và quyết tâm thực hiện theo thời gian biểu."
             ],
             [
@@ -2987,7 +2986,6 @@
           "4. Tích hợp",
           "- Tích hợp BVMT: HS biết giữ gìn, tái sử dụng đồ dùng cũ phù hợp, hạn chế lãng phí và phân loại đồ dùng gọn gàng để bảo vệ môi trường.",
           "- Tích hợp AI (Khung 3439) - 3.C5.1: HS hiểu quy trình phân loại đồ cũ có thể mô phỏng bằng các bước \"nếu... thì...\"; biết phân nhóm đồ dùng theo tình trạng, công dụng và khả năng tái sử dụng.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2: Ấm áp tình người Trà Vinh - Trang 11 TLGDĐP Lớp 3 Trà Vinh): Thể hiện tinh thần tương thân tương ái, san sẻ yêu thương qua việc gom tặng sách vở, quần áo, đồ dùng cũ còn tốt cho các bạn học sinh có hoàn cảnh khó khăn ở các vùng sâu trong tỉnh Trà Vinh.",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M18): Tái sử dụng các chai lọ, xô chậu cũ đã làm sạch để chứa nước hoặc trồng cây xanh; hạn chế rác thải nhựa làm ô nhiễm nguồn nước sông ngòi."
         ],
         "dodung": [
@@ -3079,11 +3077,11 @@
               "- HS lắng nghe và nhắc lại ý chính."
             ],
             [
-              "- GV gợi ý dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 2 GDĐP 3 & Mã Mizuiku M18): “Ở quê hương Trà Vinh chúng ta, việc phân loại đồ dùng cũ còn tốt mang lại ý nghĩa tương thân tương ái và bảo vệ môi trường như thế nào?”",
-              "- HS trả lời: Chúng em gom sách báo, quần áo, đồ chơi cũ còn dùng tốt để gửi tặng các bạn học sinh có hoàn cảnh khó khăn ở vùng nông thôn tỉnh Trà Vinh; đồng thời tận dụng chai lọ, xô chậu nhựa cũ làm sạch để trồng cây, không vứt rác nhựa xuống dòng sông kênh rạch ạ."
+              "",
+              ""
             ],
             [
-              "- GV kết luận: San sẻ đồ dùng cũ và tái chế đồ nhựa vừa lan tỏa nét đẹp ấm áp tình người Trà Vinh, vừa chung tay giữ gìn nguồn nước quê hương xanh tươi.",
+              "",
               "- HS tự hào và tích cực tham gia phong trào phân loại, quyên góp đồ cũ."
             ],
             [
@@ -5803,7 +5801,6 @@
           "4. Tích hợp",
           "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS rèn ý thức tự giác phục vụ bản thân, biết hoàn thành công việc vừa sức và trân trọng sản phẩm lao động của mình, của bạn.",
           "- Tích hợp AI (Khung 3439) - 3.C5.1: HS hiểu AI có thể hỗ trợ gợi ý các bước thực hiện sản phẩm, nhưng sự khéo léo và cẩn thận cần được rèn bằng đôi tay của chính mình.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 7: Những làng nghề ở Trà Vinh - Trang 35 TLGDĐP Lớp 3 Trà Vinh): Trân trọng đôi bàn tay khéo léo của người thợ thủ công, nghệ nhân các làng nghề truyền thống ở Trà Vinh (dệt chiếu Cà Hom, Hàm Tân; đan lát; làm bánh tét Trà Cuôn).",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M25): Dùng nước tiết kiệm và hiệu quả khi giặt khăn, lau chùi bàn ghế, đồ dùng học tập; không để vòi nước chảy tràn khi làm vệ sinh."
         ],
         "dodd": [
@@ -5902,7 +5899,7 @@
               "- HS lắng nghe, tự nhắc mình tiếp tục giữ đồ dùng ngăn nắp."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Tiết kiệm nước (Chủ đề 7 GDĐP 3 & Mã Mizuiku M10, M25): “Để rèn luyện đôi bàn tay khéo léo, chúng ta học tập điều gì từ các nghệ nhân làng nghề dệt chiếu Cà Hom, bánh tét Trà Cuôn ở quê hương Trà Vinh? Khi làm vệ sinh, lau chùi đồ dùng em tiết kiệm nước ra sao?”",
+              "",
               "- HS trả lời: Chúng em học tập đôi bàn tay cẩn thận, khéo léo của nghệ nhân dệt chiếu Cà Hom và làm bánh tét Trà Cuôn; khi giặt khăn lau bàn ghế, chúng em hứng nước vừa đủ vào chậu nhỏ, không mở vòi chảy tràn lãng phí nước sạch ạ."
             ],
             [
@@ -6581,7 +6578,6 @@
           "4. Tích hợp",
           "- Tích hợp QCN: HS hiểu trẻ em có quyền được yêu thương, chăm sóc trong gia đình và có bổn phận tham gia việc nhà vừa sức, phù hợp độ tuổi.",
           "- Tích hợp AI (Khung 3439) - 3.A3.1: HS nhận thức AI có thể nhận diện sai người thân nếu ảnh bị mờ hoặc thiếu dữ liệu; biết cần kiểm chứng khi dùng công nghệ nhận diện hình ảnh như Google Photos, Face ID/Windows Hello hoặc ứng dụng gắn thẻ khuôn mặt.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2: Ấm áp tình người Trà Vinh - Trang 11 TLGDĐP Lớp 3 Trà Vinh): Giúp đỡ cha mẹ chăm sóc tổ ấm gia đình bằng những việc làm vừa sức; giữ gìn nề nếp gia phong hiếu thảo, đầm ấm đặc trưng của cộng đồng các dân tộc tại quê hương Trà Vinh.",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M25): Tham gia dọn dẹp nhà cửa, tưới cây bằng nguồn nước tiết kiệm (tận dụng nước vo gạo, nước rửa rau); giữ sạch các lu, khạp trữ nước ngọt của gia đình."
         ],
         "dodd": [
@@ -6680,11 +6676,11 @@
               "- HS lắng nghe, tự chọn một việc sẽ thực hiện ở nhà."
             ],
             [
-              "- GV gợi ý dẫn tích hợp GDĐP Trà Vinh & Tiết kiệm nước gia đình (Chủ đề 2 GDĐP 3 & Mã Mizuiku M25): “Ở quê hương Trà Vinh, các gia đình luôn gắn bó yêu thương, đầm ấm. Để chăm sóc tổ ấm và gìn giữ nguồn nước sinh hoạt gia đình, các em có thể làm những việc gì vừa sức?”",
+              "",
               "- HS trả lời: Em chăm ngoan lễ phép, phụ giúp cha mẹ quét nhà, lau bàn ghế; cọ rửa sạch sẽ nắp lu khạp đậy kín bể trữ nước mưa tránh lăng quăng; tận dụng nước vo gạo, nước rửa rau để tưới luống rau quanh nhà giúp tiết kiệm nước ngọt ạ."
             ],
             [
-              "- GV khen ngợi: Chăm sóc tổ ấm bằng những việc nhỏ và biết nâng niu, tiết kiệm nguồn nước chính là nét đẹp ngoan ngoãn của học sinh quê hương Trà Vinh.",
+              "",
               "- HS lắng nghe, tự giác ghi nhớ để phụ giúp gia đình mỗi ngày."
             ],
             [
@@ -9781,7 +9777,6 @@
           "4. Tích hợp",
           "- Tích hợp NLS 4.1.CB1b: HS phân biệt được rủi ro và mối đe doạ đơn giản trong môi trường số khi tìm hiểu thông tin về an toàn ăn uống; biết chọn nội dung phù hợp và không làm theo hướng dẫn không an toàn.",
           "- Tích hợp AI (Khung 3439) - 3.A1.2: Phân biệt việc dùng AI gợi ý thực đơn và việc em tự học kĩ năng nấu ăn/ứng xử; công cụ gợi ý: ChatGPT/Microsoft Copilot, Canva AI.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 7: Những làng nghề ở Trà Vinh - Trang 35 TLGDĐP Lớp 3 Trà Vinh): Giới thiệu những món ăn đặc sản truyền thống gắn liền với làng nghề quê hương Trà Vinh (bánh tét Trà Cuôn, bún nước lèo, cốm dẹp); trân trọng mồ hôi công sức của người lao động.",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M24): Rửa tay bằng xà phòng dưới vòi nước chảy vừa đủ trước khi ăn cơm; uống nước đun sôi để nguội; sử dụng nguồn nước sạch an toàn trong chế biến thức ăn.",
           "- Trong lớp học, bàn ghế kê thành dãy hoặc theo nhóm.",
           "- Một số mũ/đạo cụ đơn giản để sắm vai bác sĩ, y tá, các con vật; giấy A1/A0, bút màu.",
@@ -9847,11 +9842,11 @@
               "- HS lắng nghe và rút kinh nghiệm cho bản thân."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Nước sạch vệ sinh ăn uống (Chủ đề 7 GDĐP 3 & Mã Mizuiku M10, M24): “Quê hương Trà Vinh chúng ta có những món ăn ngon, làng nghề ẩm thực truyền thống nào? Để bữa cơm gia đình luôn an toàn, hợp vệ sinh, chúng ta cần làm gì với nguồn nước?”",
-              "- HS trả lời: Trà Vinh nổi tiếng với đòn bánh tét Trà Cuôn thơm dẻo, bún nước lèo đậm đà, cốm dẹp giòn thơm; trước khi ăn, chúng em luôn rửa tay bằng xà phòng với nước sạch và chỉ uống nước đã đun sôi để nguội, dùng nước sạch để rửa thực phẩm ạ."
+              "",
+              ""
             ],
             [
-              "- GV kết luận: Trân trọng sản phẩm ẩm thực truyền thống Trà Vinh và tuân thủ quy tắc vệ sinh bằng nước sạch giúp cơ thể luôn khỏe mạnh, an toàn.",
+              "",
               "- HS chăm chú lắng nghe và cam kết thực hiện đúng quy tắc ăn uống an toàn."
             ],
             [
@@ -10547,7 +10542,6 @@
           "- Trách nhiệm: có ý thức giữ gìn, giới thiệu nét đẹp truyền thống địa phương với bạn bè, người thân.",
           "- Chăm chỉ: tích cực tìm hiểu, hoàn thành nhiệm vụ được phân công.",
           "4. Tích hợp",
-          "- Tích hợp giáo dục địa phương: HS biết tìm hiểu, trân trọng truyền thống quê hương; biết giới thiệu nghề, lễ hội, sản phẩm đặc trưng bằng lời nói phù hợp.",
           "- Tích hợp AI (Khung 3439) - 3.A2.1: HS biết AI có thể hỗ trợ số hóa, tìm kiếm gợi ý và quảng bá hình ảnh văn hóa làng nghề Việt Nam; dùng công cụ cụ thể như Google Arts & Culture/YouTube 360, Microsoft Copilot/ChatGPT và Canva AI dưới sự hướng dẫn của GV."
         ],
         "dodung": [
@@ -10603,11 +10597,11 @@
               "- HS cùng GV nêu ví dụ và xếp vào cột phù hợp: làm muối, bến di tích, bánh mì que, lễ hội chọi trâu, ca trù,..."
             ],
             [
-              "- Câu hỏi dẫn tích hợp giáo dục địa phương: “Khi giới thiệu một truyền thống của địa phương, em cần nói những thông tin nào để người nghe hiểu và yêu quý quê hương mình hơn?”",
+              "",
               "- HS trả lời: Cần nói tên truyền thống, địa điểm, nét đặc biệt, sản phẩm hoặc hoạt động chính, ý nghĩa và cách chúng em có thể giữ gìn."
             ],
             [
-              "- Tích hợp giáo dục địa phương: GV diễn giải rằng mỗi địa phương đều có những nét truyền thống riêng: có nơi nổi tiếng với nghề thủ công, có nơi có di tích lịch sử, có món ăn đặc trưng, lễ hội dân gian hoặc nghệ thuật biểu diễn lâu đời. Khi tìm hiểu và giới thiệu về truyền thống quê hương, HS cần nói bằng lời lẽ lịch sự, rõ ràng; không chê bai địa phương khác; biết trân trọng công sức của người dân đã gìn giữ truyền thống. Các em có thể hỏi người thân, quan sát thực tế, đọc sách hoặc xem tư liệu do GV lựa chọn để hiểu đúng, từ đó thêm yêu quê hương và biết giữ gìn nét đẹp văn hóa nơi mình sống.",
+              "",
               "- HS lắng nghe, nêu lại: Em sẽ tìm hiểu truyền thống quê hương bằng thái độ trân trọng và giới thiệu với bạn bằng lời nói phù hợp."
             ],
             [
@@ -12474,7 +12468,6 @@
           "4. Tích hợp",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: Biết AI và dữ liệu quan trắc hỗ trợ cảnh báo sớm ô nhiễm không khí, thiên tai để con người ứng phó; sử dụng công cụ cụ thể: IQAir AirVisual/PAM Air/Google Maps AQI dưới sự hướng dẫn của GV.",
           "- Tích hợp NLS 5.2.CB1a: HS biết xử lí tình huống thực tế, tìm kiếm thông tin đơn giản khi cần hỗ trợ và chia sẻ kết quả học tập an toàn.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1 & 3: Các huyện thị ven biển Trà Vinh - TLGDĐP Lớp 3 Trà Vinh): Tìm hiểu thực trạng môi trường địa phương; có ý thức bảo vệ bờ biển Ba Động, dòng sông Cổ Chiên và các tuyến kênh rạch trên địa bàn tỉnh Trà Vinh.",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M6, M7, M18, M19): Đóng vai “phóng viên môi trường nhí” tuyên truyền không xả rác thải nhựa, vỏ bao bì thuốc bảo vệ thực vật xuống sông ngòi, kênh rạch nội đồng; chung tay bảo vệ nguồn nước trong sạch.",
           "- Hình ảnh, tư liệu hoặc video ngắn về ô nhiễm môi trường.",
           "- Phiếu khảo sát môi trường, bút viết, bảng nhóm.",
@@ -12556,11 +12549,11 @@
               "- HS lắng nghe, ghi nhớ ý nghĩa của việc khảo sát."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước sông biển (Chủ đề 1, 3 GDĐP 3 & Mã Mizuiku M6, M7, M18, M19): “Trong vai phóng viên môi trường nhí tại tỉnh Trà Vinh, các em quan sát thấy những hiện tượng ô nhiễm nguồn nước nào ở dòng sông Cổ Chiên hay bãi biển Ba Động? Em muốn nhắn gửi thông điệp gì?”",
-              "- HS trả lời: Chúng em thấy có rác thải nhựa dạt vào bãi cát biển Ba Động và rác túi nilon trôi nổi trên sông rạch; nhóm phóng viên chúng em gửi thông điệp: “Hãy chung tay giữ sạch bờ biển Ba Động và dòng sông quê hương Trà Vinh, tuyệt đối không vứt rác thải xuống nguồn nước!” ạ."
+              "",
+              ""
             ],
             [
-              "- GV biểu dương: Tiếng nói và hành động thiết thực của các phóng viên nhí sẽ lan tỏa ý thức bảo vệ môi trường nước trong lành cho quê hương Trà Vinh tươi đẹp.",
+              "",
               "- HS nhiệt liệt hưởng ứng và quyết tâm bảo vệ nguồn nước."
             ],
             [

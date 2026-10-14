@@ -19333,8 +19333,7 @@
           "- Trung thực: tự ghi lại lỗi nhầm hàng khi xem phản hồi Quizizz.",
           "- Trách nhiệm: tự hào về địa danh Việt Nam, đọc đúng số liệu gắn với thực tế đất nước.",
           "4. Tích hợp:",
-          "- Tích hợp NLS 5.2.CB1a: GV chọn các câu dạng Đúng - Sai, chọn đáp án trong SGK đưa lên Quizizz; HS so sánh từng hàng, chọn đáp án, xem phản hồi và ghi lại lỗi nhầm hàng nghìn, hàng trăm.",
-          "- Tích hợp giáo dục địa phương hoặc yêu quê hương đất nước: HS tự hào về các công trình giao thông, địa danh của đất nước; biết đọc, so sánh số liệu gắn với thực tế Việt Nam."
+          "- Tích hợp NLS 5.2.CB1a: GV chọn các câu dạng Đúng - Sai, chọn đáp án trong SGK đưa lên Quizizz; HS so sánh từng hàng, chọn đáp án, xem phản hồi và ghi lại lỗi nhầm hàng nghìn, hàng trăm."
         ],
         "dodung": [
           "- Kế hoạch bài dạy, SGK Toán 3 tập hai, bài giảng PowerPoint.",
@@ -19439,7 +19438,7 @@
               "- HS quan sát hình Bài 3."
             ],
             [
-              "- Tích hợp giáo dục địa phương/yêu quê hương đất nước: GV giới thiệu các đỉnh núi Việt Nam trong bài và nhắc HS tự hào, biết tìm hiểu cảnh đẹp quê hương đất nước qua số liệu thực tế.",
+              "",
               "- HS lắng nghe, nêu tên một đỉnh núi mà em biết."
             ],
             [
@@ -26757,8 +26756,7 @@
           "- Chăm chỉ: luyện tập nhiều dạng bài tổng hợp.",
           "- Trung thực: tự sửa lỗi khi đọc số, điền số, so sánh số sai.",
           "- Yêu quê hương: biết đọc số liệu quãng đường, công trình, địa danh trong thực tế.",
-          "4. Tích hợp:",
-          "- Tích hợp giáo dục địa phương: Qua số liệu quãng đường, công trình, địa danh trong bài, HS biết đọc số liệu thực tế và tự hào về các công trình, địa phương trên đất nước Việt Nam."
+          "4. Tích hợp:"
         ],
         "dodung": [
           "- Kế hoạch bài dạy, SGK Toán 3 tập hai, bài giảng PowerPoint.",
@@ -26795,7 +26793,7 @@
               "- HS lắng nghe."
             ],
             [
-              "2. Luyện tập (25 phút):\n- Mục tiêu: Luyện đọc, viết số, điền dãy số, so sánh quãng đường và đánh giá đúng sai.\n- Mục tiêu tích hợp giáo dục địa phương: HS biết đọc số liệu quãng đường, công trình, địa danh và có ý thức tìm hiểu quê hương, đất nước.\n*Cách tiến hành:"
+              "2. Luyện tập (25 phút):\n- Mục tiêu: Luyện đọc, viết số, điền dãy số, so sánh quãng đường và đánh giá đúng sai.\n*Cách tiến hành:"
             ],
             [
               "Bài 1. Hoàn thành bảng sau. (Làm việc cá nhân vào vở)\n- HS quan sát hình SGK.",
@@ -26874,7 +26872,7 @@
               "- HS đọc: Khoảng cách từ vị trí ong vàng đến các vườn hoa được cho như hình sau."
             ],
             [
-              "- Tích hợp giáo dục địa phương: GV diễn giải rằng khi đọc bản đồ, biển chỉ dẫn, số liệu quãng đường ở địa phương, HS cần đọc đúng số đo để biết nơi xa, gần và thêm yêu cảnh quan quê hương, đất nước.",
+              "",
               "- HS lắng nghe và nêu ví dụ về việc đọc số liệu quãng đường ở địa phương."
             ],
             [

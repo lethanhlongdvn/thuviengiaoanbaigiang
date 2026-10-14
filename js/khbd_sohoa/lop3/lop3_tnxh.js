@@ -3251,7 +3251,6 @@
           "4. Tích hợp",
           "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết trân trọng lao động của nông dân, sử dụng lương thực, thực phẩm tiết kiệm và không lãng phí.",
           "- Tích hợp NLS 2.3.CB1a: HS chia sẻ thông tin về sản phẩm nông nghiệp bằng lời nói, tranh ảnh đúng mực, không đưa thông tin sai lệch.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1: Các huyện, thị xã, thành phố của tỉnh Trà Vinh - Trang 5 TLGDĐP Lớp 3 Trà Vinh): Nhận biết các hoạt động sản xuất nông nghiệp và nuôi trồng thủy sản trù phú ở Trà Vinh (nuôi tôm sú cù lao Long Hòa, nuôi cá tra Trà Cú, nuôi hàu Láng Chim - Duyên Hải).",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M6, M18): Ý thức bảo vệ nguồn nước sông ngòi, kênh rạch nuôi trồng thủy sản; không xả nước thải bẩn chưa xử lý xuống nguồn nước quê hương."
         ],
         "dodung": [
@@ -3380,11 +3379,11 @@
               "- HS lắng nghe và liên hệ với việc sử dụng thức ăn hằng ngày."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 1 GDĐP 3 & Mã Mizuiku M6, M18): “Ở tỉnh Trà Vinh chúng ta, người dân có những hoạt động sản xuất nông nghiệp và nuôi trồng thủy sản nào nổi tiếng? Để tôm cá mau lớn và nguồn nước luôn sạch, bà con cần làm gì?”",
-              "- HS trả lời: Quê hương Trà Vinh có mô hình nuôi tôm sú ở cù lao Long Hòa, nuôi cá tra ở Trà Cú, nuôi hàu ở Láng Chim (Duyên Hải); người dân luôn giữ nguồn nước sông ngòi trong sạch, không xả rác và nước thải bẩn ra kênh rạch ạ."
+              "",
+              ""
             ],
             [
-              "- GV kết luận: Nguồn nước trong lành chính là mạch sống nuôi dưỡng thủy hải sản trù phú của quê hương Trà Vinh. Các em hãy cùng chung tay bảo vệ nguồn nước quê mình nhé.",
+              "",
               "- HS lắng nghe, tự hào về quê hương và ghi nhớ thực hiện."
             ],
             [
@@ -3974,7 +3973,6 @@
           "4. Tích hợp",
           "- Tích hợp KNS/QPAN: HS nhận biết một số nguy cơ mất an toàn trong cơ sở sản xuất; biết đứng đúng vị trí, không tự ý chạm vào máy móc, dụng cụ nguy hiểm.",
           "- Tích hợp NLS 1.1.CB1a: HS chọn hình ảnh/video về nghề thủ công, công nghiệp từ nguồn phù hợp lứa tuổi.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 7: Những làng nghề ở Trà Vinh - Trang 35 TLGDĐP Lớp 3 Trà Vinh): Tự hào về các làng nghề truyền thống nổi tiếng ở Trà Vinh (làng nghề bánh tét Trà Cuôn ở Cầu Ngang, làng dệt chiếu Cà Hom, Hàm Tân ở Trà Cú).",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M24): Giữ gìn vệ sinh nguồn nước sạch trong chế biến thực phẩm làng nghề; sử dụng nước tiết kiệm và xử lý nước thải làng nghề đúng cách."
         ],
         "dodung": [
@@ -4101,12 +4099,12 @@
               "- HS lắng nghe và nêu một quy tắc an toàn khi tham quan cơ sở sản xuất."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 7 GDĐP 3 & Mã Mizuiku M10, M24): “Ở quê hương Trà Vinh có những làng nghề truyền thống nổi tiếng nào? Khi chế biến bánh tét Trà Cuôn, các nghệ nhân cần làm gì để bảo đảm an toàn vệ sinh và bảo vệ nguồn nước?”",
-              "- HS trả lời: Trà Vinh có làng nghề bánh tét Trà Cuôn (Cầu Ngang), dệt chiếu Cà Hom, Hàm Tân (Trà Cú); khi gói bánh, các cô bác dùng nước sạch đun sôi và nước giếng khoan sạch để ngâm nếp, vo gạo, đồng thời giữ vệ sinh khu chế biến, không xả nước thải bừa bãi ạ."
+              "",
+              ""
             ],
             [
               "- GV kết luận: Bàn tay tài hoa của người thợ làng nghề cùng ý thức bảo vệ nguồn nước sạch đã tạo nên những đòn bánh tét Trà Cuôn thơm ngon nức tiếng gần xa.",
-              "- HS tự hào về làng nghề truyền thống Trà Vinh và ghi nhớ bài học."
+              ""
             ],
             [
               "5. Hướng dẫn về nhà (2 phút)\nMục tiêu hoạt động: HS chuẩn bị nội dung, tranh ảnh để giới thiệu sản phẩm thủ công hoặc công nghiệp ở tiết sau.\n*Cách tiến hành:"
@@ -4300,7 +4298,6 @@
           "4. Tích hợp",
           "- Tích hợp QPAN/GDBVMT: HS nhận biết giá trị di tích, cảnh quan thiên nhiên; biết không xả rác, không viết vẽ lên di tích và ứng xử văn minh khi tham quan.",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết công nghệ/AI có thể hỗ trợ nhận diện, phục dựng, quảng bá di tích nhưng cần dùng thông tin đúng.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 3 & 5 - Trang 16 & 26 TLGDĐP Lớp 3 Trà Vinh): Giới thiệu di tích lịch sử - văn hóa và danh lam thắng cảnh tiêu biểu của tỉnh Trà Vinh (Khu di tích thắng cảnh Ao Bà Om & Chùa Âng ở TP. Trà Vinh, Khu du lịch biển Ba Động ở TX. Duyên Hải).",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M6, M7): Chung tay giữ gìn mặt nước trong xanh của hồ Ao Bà Om và bãi biển Ba Động; không vứt túi nilon, rác thải nhựa khi đi tham quan du lịch."
         ],
         "dodung": [
@@ -4440,11 +4437,11 @@
               "- HS lắng nghe, nêu lại: Em sẽ bỏ rác đúng nơi, không viết vẽ lên di tích, nhắc bạn giữ trật tự và tôn trọng nơi tham quan."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 3, 5 GDĐP 3 & Mã Mizuiku M6, M7): “Ở tỉnh Trà Vinh chúng ta có những danh lam thắng cảnh và di tích nổi tiếng nào? Khi đến tham quan Ao Bà Om hoặc bãi biển Ba Động, các em cần làm gì để bảo vệ cảnh quan sông nước?”",
-              "- HS trả lời: Quê hương Trà Vinh có thắng cảnh Ao Bà Om rợp mát bóng cây cổ thụ và Chùa Âng cổ kính, có bãi biển Ba Động cát mịn; khi tham quan, chúng em không vứt rác, vỏ chai nhựa xuống lòng hồ và bờ biển để giữ cho mặt nước luôn trong lành ạ."
+              "",
+              ""
             ],
             [
-              "- GV biểu dương: Giữ gìn cảnh quan thiên nhiên và mặt nước quê hương luôn trong xanh chính là hành động thiết thực thể hiện lòng yêu quê hương Trà Vinh của các em.",
+              "",
               "- HS đồng thanh cam kết giữ gìn vệ sinh danh lam thắng cảnh."
             ],
             [
@@ -4712,7 +4709,6 @@
           "4. Tích hợp",
           "- Tích hợp NLS 1.1.CB1a, 3.2.CB1a: HS tìm kiếm, chọn lọc hình ảnh về địa phương và hệ thống hoá bằng bảng/sơ đồ số đơn giản.",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: Biết AI có thể hỗ trợ nhận diện địa điểm, gợi ý thông tin nhưng HS cần kiểm chứng bằng SGK, thầy cô hoặc nguồn chính thống.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1, 2, 5 - TLGDĐP Lớp 3 Trà Vinh): Tự hào về cảnh quan thiên nhiên, các di tích lịch sử và truyền thống nghĩa tình ấm áp của con người quê hương Trà Vinh.",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M25): Thực hiện thói quen tiết kiệm điện, nước trong sinh hoạt gia đình; chung tay bảo vệ nguồn nước sông Cổ Chiên và kênh rạch quanh nơi sinh sống."
         ],
         "dodung": [
@@ -4840,11 +4836,11 @@
               "- HS trả lời: Vì tiết kiệm điện, nước giúp giảm lãng phí tài nguyên, giảm chi phí và góp phần bảo vệ môi trường sống."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 1, 2 GDĐP 3 & Mã Mizuiku M10, M25): “Để xây dựng cộng đồng quê hương Trà Vinh ngày càng xanh, sạch, đẹp, em và gia đình đã làm những việc gì cụ thể để tiết kiệm nước và giữ gìn môi trường sống?”",
+              "",
               "- HS trả lời: Ở nhà, em luôn khóa chặt vòi nước sau khi rửa tay; tận dụng nước rửa rau để tưới cây quanh nhà; không xả rác thải ra dòng sông Cổ Chiên và kênh rạch quanh xóm ấp ạ."
             ],
             [
-              "- GV kết luận: Tiết kiệm nước sạch và bảo vệ dòng sông quê hương là việc làm ý nghĩa của mỗi công dân nhỏ tuổi, góp phần làm cho quê hương Trà Vinh mãi xanh tươi, giàu đẹp.",
+              "",
               "- HS chăm chú lắng nghe và tự hào về quê hương."
             ],
             [
@@ -6993,7 +6989,6 @@
           "4. Tích hợp",
           "- Tích hợp GDBVMT: HS nhận biết cần sử dụng hợp lí thực vật, động vật; không khai thác quá mức, không mua bán hoặc làm hại loài quý hiếm.",
           "- Tích hợp AI (Khung 3439) - 3.C5.1: HS vận dụng quy tắc “nếu... thì...” để giải thích hậu quả của việc khai thác thực vật, động vật không hợp lí; GV giới thiệu công cụ ChatGPT/Gemini ở máy GV để minh họa cách công cụ gợi ý quy tắc bảo tồn, HS phải đối chiếu với SGK và hiểu biết thực tế trước khi kết luận.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 3 - Trang 16 TLGDĐP Lớp 3 Trà Vinh): Bảo vệ hệ sinh thái rừng phi lao chắn gió cát biển Ba Động và rừng ngập mặn Duyên Hải; khai thác và sử dụng hợp lí các loài thủy hải sản đặc trưng của Trà Vinh (tôm sú, cua biển, ba khía, cá kèo).",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M2, M18): Bảo vệ môi trường nước trong lành cho các loài động vật, thực vật thủy sinh cư trú và phát triển bền vững."
         ],
         "dodung": [
@@ -7142,11 +7137,11 @@
               "- HS trả lời: Nếu khai thác cây rừng quá mức thì rừng bị cạn kiệt, mất nơi sống của động vật và dễ gây xói mòn, lũ lụt."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 3 GDĐP 3 & Mã Mizuiku M2, M18): “Ở vùng ven biển Ba Động và Duyên Hải của Trà Vinh, rừng phi lao và rừng đước có vai trò gì? Vì sao chúng ta không được chặt phá rừng và không xả rác làm ô nhiễm vùng nước ven biển?”",
-              "- HS trả lời: Rừng phi lao giúp chắn gió cát, rừng đước ngập mặn giữ đất phù sa và là nơi cư ngụ của tôm, cua biển Trà Vinh; nếu chặt phá rừng và làm bẩn nguồn nước thì tôm cá sẽ chết, môi trường bị tàn phá nặng nề ạ."
+              "",
+              ""
             ],
             [
-              "- GV biểu dương: Hiểu được tầm quan trọng của rừng và nguồn nước, các em hãy cùng gia đình tích cực bảo vệ sinh thái vùng ven biển quê hương Trà Vinh nhé.",
+              "",
               "- HS ghi nhớ và đồng lòng bảo vệ hệ sinh thái quê nhà."
             ],
             [
@@ -10452,7 +10447,6 @@
           "4. Tích hợp",
           "- Tích hợp GDBVMT/ứng phó biến đổi khí hậu: HS biết tiết kiệm điện, nước, trồng và chăm sóc cây xanh, giữ vệ sinh môi trường để góp phần bảo vệ khí hậu.",
           "- Tích hợp NLS 1.2.CB1a: HS biết so sánh thông tin thời tiết quan sát thực tế với thông tin từ thiết bị số và chọn nguồn đáng tin cậy.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1 - Trang 7 TLGDĐP Lớp 3 Trà Vinh): Nhận biết đặc điểm khí hậu 2 mùa mưa - khô rõ rệt của vùng duyên hải tỉnh Trà Vinh.",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M1, M15): Tầm quan trọng của nguồn nước mưa mang dòng nước ngọt tưới mát đồng ruộng; thói quen cọ rửa lu bể sạch sẽ để hứng trữ nước mưa dự phòng cho mùa khô hạn hán xâm nhập mặn."
         ],
         "dodung": [
@@ -10572,11 +10566,11 @@
               "- HS nêu cụ thể: Em sẽ tắt điện khi ra khỏi phòng; em sẽ khóa vòi nước; em sẽ chăm sóc cây; em sẽ bỏ rác đúng nơi quy định."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 1 GDĐP 3 & Mã Mizuiku M1, M15): “Khí hậu Trà Vinh quê ta có 2 mùa mưa và mùa khô. Vào mùa khô nắng nóng kéo dài, để chủ động nguồn nước ngọt sinh hoạt và tưới cây, người dân quê em có biện pháp gì?”",
+              "",
               "- HS trả lời: Vào mùa mưa, bà con cọ rửa sạch sẽ các lu, khạp, bể chứa lớn để hứng và tích trữ nước mưa ngọt lành; sử dụng nước thật tiết kiệm để dành dùng cho suốt những tháng mùa khô hạn mặn ạ."
             ],
             [
-              "- GV kết luận: Trữ nước mưa sạch và dùng nước tiết kiệm là kinh nghiệm thích ứng khí hậu thông minh, quý báu của người dân Trà Vinh từ xưa đến nay.",
+              "",
               "- HS hào hứng ghi nhớ và chia sẻ cùng gia đình."
             ],
             [
@@ -10760,7 +10754,6 @@
           "- Trách nhiệm: có ý thức bảo vệ bề mặt đất, nguồn nước, sông suối, ao hồ và biển.",
           "4. Tích hợp",
           "- Tích hợp GDBVMT: HS nhận biết các dạng địa hình, biết bảo vệ bề mặt đất, nguồn nước, không xả rác, không làm ô nhiễm sông suối, ao hồ.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1 & 3 - TLGDĐP Lớp 3 Trà Vinh): Nhận biết các dạng địa hình sông nước cù lao, cồn bãi và bờ biển đặc trưng của Trà Vinh (dòng sông Cổ Chiên, bãi biển Ba Động).",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M1, M6): Chung tay giữ gìn nguồn nước ngọt sông ngòi và nước mặn bờ biển; không xả rác thải làm ô nhiễm bề mặt nước quê hương."
         ],
         "dodung": [
@@ -10856,11 +10849,11 @@
               "- HS lắng nghe và nêu cam kết: Em sẽ không xả rác, em sẽ giữ sạch lớp học, em sẽ không vứt rác xuống sông hồ."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 1, 3 GDĐP 3 & Mã Mizuiku M1, M6): “Trên bề mặt Trái Đất, nước chiếm phần lớn diện tích. Ở quê hương Trà Vinh chúng ta có dòng sông Cổ Chiên và bãi biển Ba Động mênh mông, các em làm gì để bảo vệ bề mặt đất và nguồn nước luôn trong lành?”",
+              "",
               "- HS trả lời: Chúng em luôn gom rác bỏ vào thùng, không vứt túi nilon, chai nhựa xuống lòng sông và bãi cát bờ biển; trồng thêm cây xanh để giữ đất không bị sạt lở ạ."
             ],
             [
-              "- GV biểu dương: Hành động bảo vệ dòng sông và bãi biển của các em sẽ giữ cho cảnh sắc quê hương Trà Vinh mãi mãi trong xanh, tươi đẹp.",
+              "",
               "- HS đồng thanh cam kết chung tay bảo vệ nguồn nước quê hương."
             ],
             [
