@@ -425,7 +425,6 @@
           "- Chăm chỉ: Duy trì thói quen mặc gọn gàng, sạch sẽ.",
           "- Trách nhiệm: Giữ gìn trang phục của bản thân, góp phần bảo vệ sức khỏe.",
           "4. Tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 1: Phong tục chào hỏi ở quê em - Trang 5 TLGDĐP Trà Vinh): Nhận biết nét đẹp trang phục lịch sự, chỉnh tề khi đi học và khi cùng gia đình tham gia các lễ hội, đi chùa Khmer (như chùa Âng, chùa Hang), đình miếu tại quê hương Trà Vinh.",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M4, M10): Giữ vệ sinh trang phục sạch sẽ gắn với thói quen sử dụng nước tiết kiệm (dùng cốc hứng nước khi chải răng, rửa tay đúng cách, khóa chặt vòi nước để tránh nước xịt làm ướt bẩn quần áo).",
           "- Quyền trẻ em được chăm sóc sức khỏe, trong đó có quyền được mặc trang phục sạch sẽ, an toàn.",
           "- Bổn phận trẻ em đối với bản thân: Biết tự chăm sóc và giữ gìn trang phục gọn gàng, sạch sẽ để bảo vệ sức khỏe và tạo nếp sống văn minh."
@@ -472,7 +471,6 @@
               "- HS nêu: Bẻ cổ áo; cài cúc; chỉnh áo; cài quai dép; kiểm tra sạch sẽ."
             ],
             [
-              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Bài 1 GDĐP 1): “Khi cùng người thân đi dự lễ hội Ok Om Bok hoặc đến viếng thăm các ngôi chùa Khmer cổ kính ở Trà Vinh (như chùa Âng, chùa Hang), các em nên mặc trang phục như thế nào?”",
               "- HS trả lời: Mặc quần áo chỉnh tề, sạch sẽ, kín đáo và trang nghiêm; cởi mũ nón, bỏ dép trước khi vào chính điện ạ."
             ],
             [
@@ -480,7 +478,7 @@
               "- HS trả lời: Vặn vòi nước nhỏ vừa đủ, dùng cốc hứng nước súc miệng và khóa chặt vòi nước; xắn tay áo gọn gàng trước khi rửa để không làm ướt áo ạ."
             ],
             [
-              "- GV kết luận: Giữ trang phục sạch đẹp, lịch sự và sử dụng nước tiết kiệm giúp các em trở thành người học sinh thanh lịch, văn minh của quê hương Trà Vinh.",
+              "- GV kết luận: Giữ trang phục sạch đẹp, lịch sự và sử dụng nước tiết kiệm giúp các em trở thành người học sinh thanh lịch, văn minh.",
               "- HS lắng nghe và ghi nhớ thực hiện hằng ngày."
             ],
             [
@@ -800,7 +798,6 @@
           "- Trách nhiệm: Vâng lời, thực hiện việc vừa sức khi được giao.",
           "- Chăm chỉ: Rèn thói quen chào hỏi, thưa gửi hằng ngày.",
           "4. Tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 1: Phong tục chào hỏi ở quê em - Trang 5 TLGDĐP Trà Vinh): Bồi dưỡng nét đẹp văn hóa chào hỏi lễ phép, tôn kính ông bà, cha mẹ của người dân quê hương Trà Vinh (đứng ngay ngắn, khoanh tay trước ngực, cúi đầu nhẹ, nói lời “Dạ, thưa” lễ phép).",
           "- Tích hợp đạo đức - lối sống: Bồi dưỡng lòng kính trọng, biết ơn đối với ông bà, cha mẹ, thầy cô; xây dựng tình cảm gia đình ấm êm, tôn trọng người khác."
         ],
         "dodung": [
@@ -841,11 +838,9 @@
               "- HS trả lời: Tiếng “ạ”, lời chào, lời dạ vâng."
             ],
             [
-              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Bài 1 GDĐP 1): “Ở quê hương Trà Vinh chúng ta, khi gặp ông bà, cha mẹ hoặc người lớn tuổi trong xóm ấp, các em chào hỏi như thế nào để thể hiện sự ngoan ngoãn, lễ phép?”",
               "- HS thực hành: Đứng ngay ngắn, hai tay khoanh trước ngực, cúi đầu nhẹ và nói lời chào: “Dạ, con chào ông/bà ạ!”, “Dạ, con thưa ba/mẹ con mới đi học về ạ!”."
             ],
             [
-              "- GV diễn giải tích hợp Giáo dục địa phương Trà Vinh: Người Trà Vinh từ xưa đến nay luôn coi trọng sự hiếu kính, lễ phép. Cử chỉ khoanh tay, nụ cười tươi và tiếng “Dạ”, tiếng “Thưa” ngọt ngào là nét đẹp truyền thống của học sinh quê hương Trà Vinh chúng ta.",
               "- HS lắng nghe, tự hào và cam kết luôn lễ phép với người thân, lối xóm."
             ],
             [
@@ -2365,7 +2360,6 @@
           "- Chăm chỉ: Tích cực, kiên trì trong học tập.",
           "- Trách nhiệm: Biết tự hoàn thành nhiệm vụ học tập của mình.",
           "4. Tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 5: Tấm gương chăm chỉ học tập ở quê em - Trang 35 TLGDĐP Trà Vinh): Noi theo tấm gương tự giác, vượt khó vươn lên học tập thành tài của Anh hùng Lao động, Thầy thuốc Nhân dân - Giáo sư, Bác sĩ Nguyễn Thiện Thành (quê ở Càng Long, Trà Vinh).",
           "- Quyền con người: Quyền được học tập; bổn phận trẻ em đối với bản thân.",
           "- NLS 1.1.CB1a: Xác định được thông tin, tìm kiếm dữ liệu, thông tin và nội dung thông qua tìm kiếm đơn giản trong môi trường số."
         ],
@@ -2415,15 +2409,14 @@
               "- HS lắng nghe; nêu một việc tự giác học tập em sẽ thực hiện."
             ],
             [
-              "- GV giới thiệu tích hợp Giáo dục địa phương Trà Vinh (Bài 5 GDĐP 1): Chiếu chân dung Giáo sư, Bác sĩ Nguyễn Thiện Thành và kể ngắn gọn: “Quê hương Trà Vinh chúng ta có tấm gương sáng ngời về tinh thần tự giác học tập là Giáo sư, Bác sĩ Nguyễn Thiện Thành (quê ở Càng Long, Trà Vinh). Từ nhỏ, dù hoàn cảnh khó khăn, bác luôn chăm chỉ, tự giác đọc sách, say mê học tập và sau này trở thành một bác sĩ tài ba cứu chữa cho bộ đội và nhân dân.”",
               "- HS chăm chú lắng nghe, bày tỏ sự khâm phục tấm gương bác sĩ Nguyễn Thiện Thành."
             ],
             [
-              "- GV hỏi: “Noi gương Giáo sư Nguyễn Thiện Thành, người con ưu tú của quê hương Trà Vinh, các em sẽ tự giác học tập như thế nào?”",
+              "- GV hỏi: “Noi gương các tấm gương chăm học, các em sẽ tự giác học tập như thế nào?”",
               "- HS trả lời: Tự giác ngồi vào bàn học đúng giờ, chăm chỉ viết bài, đọc sách và làm bài đầy đủ không cần cha mẹ nhắc nhở ạ."
             ],
             [
-              "- GV biểu dương và chốt ý: Tự giác học tập chính là hành động thiết thực nhất để các em lớn lên góp phần xây dựng quê hương Trà Vinh giàu đẹp.",
+              "- GV biểu dương và chốt ý: Tự giác học tập chính là hành động thiết thực nhất để các em lớn lên góp phần xây dựng quê hương đất nước giàu đẹp.",
               "- HS đồng thanh hưởng ứng quyết tâm tự giác học tốt."
             ],
             [
@@ -3536,7 +3529,6 @@
           "- Chăm chỉ: Tích cực học và thực hành quy tắc an toàn.",
           "- Nhân ái: Biết báo người lớn hỗ trợ khi thấy người gặp nguy hiểm.",
           "4. Tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 8: Bảo vệ môi trường nơi em sống - Trang 54 TLGDĐP Trà Vinh): Nhận biết nguy cơ đuối nước ở mạng lưới kênh rạch, ao hồ, sông nước đặc thù vùng quê Trà Vinh (sông Cổ Chiên, sông Hậu, ao hồ, kênh mương nội đồng).",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10): Tuân thủ quy tắc an toàn khi tiếp xúc với nguồn nước (không tự ý đến gần mé ao, mé kênh rạch, lu nước sâu; đi xuồng, đò ngang phải mặc áo phao; giữ sạch nguồn nước sinh hoạt).",
           "- Quyền con người: HS nhận biết trẻ em có quyền được sống, được bảo vệ tính mạng, sức khỏe và được sống trong môi trường an toàn; biết tự bảo vệ mình và tôn trọng quyền được an toàn của người khác.",
           "- Phòng tránh tai nạn thương tích: HS nhận diện nguy cơ đuối nước, biết cách phòng tránh; không chơi gần sông, hồ, ao, suối khi không có người lớn; đi thuyền phải mặc áo phao, biết kêu cứu và báo người lớn khi gặp nguy hiểm."
@@ -3583,11 +3575,10 @@
               "- HS trả lời: Chơi gần mép nước, nghịch nước khi không có người lớn, ngồi thuyền không an toàn; có thể bị ngã xuống nước, đuối nước."
             ],
             [
-              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh & Bảo vệ nguồn nước (Bài 8 GDĐP 1 & Mã Mizuiku M10): “Vùng quê Trà Vinh chúng ta có rất nhiều sông, kênh rạch, ao hồ và lu/bể chứa nước. Để phòng tránh tai nạn đuối nước và bảo vệ nguồn nước sạch, các em tuyệt đối không được làm những việc gì?”",
               "- HS trả lời: Tuyệt đối không tự ý rủ nhau ra tắm sông, tắm kênh rạch hoặc ao hồ khi không có người lớn; không đùa nghịch chạy nhảy bên mé kênh trơn trượt; không leo trèo lên miệng lu nước, bể chứa nước; đi đò ngang qua sông Cổ Chiên phải mặc áo phao ạ."
             ],
             [
-              "- GV diễn giải và dặn dò: Sông nước Trà Vinh hiền hòa nuôi dưỡng cây trái nhưng cũng tiềm ẩn nhiều nguy cơ đuối nước nếu các em bất cẩn. Hãy luôn biết bảo vệ sự an toàn của bản thân và giữ gìn các dòng kênh, bờ ao quê hương luôn trong xanh, không xả rác xuống nguồn nước nhé.",
+              "- GV diễn giải và dặn dò: Vùng sông nước, ao hồ kênh rạch rất quen thuộc nhưng cũng tiềm ẩn nhiều nguy cơ đuối nước nếu các em bất cẩn. Hãy luôn biết bảo vệ sự an toàn của bản thân và giữ gìn các dòng kênh, bờ ao quê hương luôn trong xanh, không xả rác xuống nguồn nước nhé.",
               "- HS khắc sâu bài học an toàn và đồng thanh cam kết thực hiện."
             ],
             [

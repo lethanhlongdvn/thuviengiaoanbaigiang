@@ -3498,12 +3498,10 @@
               "- HS tìm/đọc tiếng có u, ư; nhắc lại chữ và từ vừa học."
             ],
             [
-              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Bài 7 GDĐP 1): “Các em hãy tìm những tiếng có âm 'u', âm 'ư' gắn liền với cảnh đẹp và loại trái cây đặc sản nổi tiếng nhất của quê hương Trà Vinh chúng ta nào!”",
-              "- HS hào hứng trả lời: Tiếng “dừa” trong trái “dừa sáp” Cầu Kè Trà Vinh; tiếng “đưa” trong con đò đưa rước khách sang sông ạ."
             ],
             [
-              "- GV khen ngợi và tuyên dương: Đúng rồi, dừa sáp béo ngọt là đặc sản quý của Trà Vinh. Các em đọc to và nhớ tiếng “dừa” có âm “ư” nhé!",
-              "- HS đồng thanh đọc: “dừa sáp - quả dừa”."
+              "- GV khen ngợi và tuyên dương. Các em đọc to và nhớ tiếng “dừa” có âm “ư” nhé!",
+              "- HS đồng thanh đọc: “quả dừa”."
             ],
             [
               "- GV nhận xét tiết học; dặn HS luyện đọc, luyện viết và thực hiện điều đã được nhắc trong bài.",
@@ -3675,7 +3673,6 @@
           "- Trách nhiệm: Giữ gìn sách vở, đồ dùng; thực hiện đúng yêu cầu khi học cá nhân và làm việc nhóm.",
           "- Nhân ái: Biết thể hiện thái độ thân thiện, quan tâm đến người thân, bạn bè và sự vật trong tranh.",
           "4. Tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 7: Cảnh sắc thiên nhiên quê em - Trang 47 TLGDĐP Trà Vinh): Mở rộng vốn từ chứa âm/chữ u, ư gắn với sản vật và cảnh sắc quê hương Trà Vinh (quả \"dừa\" sáp Cầu Kè, đò \"đưa\" ven sông).",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Qua truyện “Con quạ thông minh”, bồi dưỡng đức tính bình tĩnh, kiên trì, biết suy nghĩ để giải quyết khó khăn và dùng trí thông minh vào việc có ích."
         ],
         "dodung": [
@@ -18590,11 +18587,10 @@
               "- HS xác định tiếng có vần ươc, ươt trong câu nhận biết."
             ],
             [
-              "- GV mở rộng tích hợp Giáo dục địa phương Trà Vinh (Bài 7 GDĐP 1): “Ở vùng ven biển Duyên Hải - Trà Vinh quê mình, có một loài cây có vần 'ươc' mọc thành rừng bạt ngàn cắm rễ giữ đất phù sa, đó là cây gì?”",
-              "- HS trả lời: Đó là cây “đước” (tiếng “đước” có vần “ươc”) trong rừng đước ngập mặn Trà Vinh ạ!"
+              "- HS trả lời: Đó là cây “đước” (tiếng “đước” có vần “ươc”) trong rừng ngập mặn ven biển ạ!"
             ],
             [
-              "- GV khen ngợi: Rất giỏi! Cây đước chở che cho bờ biển Trà Vinh khỏi sóng gió. Rừng đước và những vườn cây trái trĩu quả xanh “mướt” (có vần “ươt”) là cảnh đẹp quý giá của quê hương chúng ta.",
+              "- GV khen ngợi: Rất giỏi! Cây đước chở che cho bờ biển khỏi sóng gió. Rừng đước và những vườn cây trái trĩu quả xanh “mướt” (có vần “ươt”) là cảnh đẹp quý giá của quê hương đất nước.",
               "- HS thích thú lắng nghe và luyện đọc trơn: “cây đước”, “xanh mướt”."
             ],
             [
@@ -19494,7 +19490,6 @@
           "- Trách nhiệm: giữ gìn sách vở, đồ dùng học tập; hợp tác nghiêm túc trong giờ học.",
           "- Nhân ái: biết rút ra bài học tốt đẹp từ câu chuyện để ứng xử phù hợp.",
           "4. Tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 7: Cảnh sắc thiên nhiên quê em - Trang 47 TLGDĐP Trà Vinh): Mở rộng vốn từ chứa vần ươc, ươt qua cảnh sắc thiên nhiên Trà Vinh (rừng \"đước\" ngập mặn Duyên Hải, vườn cây ăn trái trĩu quả xanh \"mướt\").",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Qua truyện “Chuyện của mây”, bồi dưỡng ý thức làm việc có ích cho cuộc sống, biết yêu thiên nhiên.",
           "- Bảo vệ môi trường: Giúp HS trân trọng nước trong tự nhiên, biết tiết kiệm nước và giữ nguồn nước sạch."
         ],
@@ -25732,7 +25727,6 @@
           "- Chăm chỉ: Tích cực luyện đọc, học thuộc và hoàn thành nhiệm vụ học tập.",
           "- Trách nhiệm: Thực hiện nhiệm vụ nhóm; giữ gìn trật tự khi học; tôn trọng bạn và thầy cô.",
           "4. Tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 3: Danh lam thắng cảnh quê em - Trang 19 TLGDĐP Trà Vinh): Liên hệ hình ảnh bóng mát cây bàng với quần thể cây sao, cây dầu cổ thụ hàng trăm năm tuổi che bóng mát quanh di tích thắng cảnh Ao Bà Om (Trà Vinh).",
           "- Bảo vệ môi trường: Biết yêu quý cây bàng và cây xanh trong sân trường; không bẻ cành, hái lá; góp phần giữ trường lớp xanh - sạch - đẹp."
         ],
         "dodung": [
@@ -25769,11 +25763,10 @@
               "- HS nêu tên bài thơ và ghi tên bài vào vở."
             ],
             [
-              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Bài 3 GDĐP 1): “Cây bàng trong bài thơ che bóng mát cho lớp học. Ở Trà Vinh quê ta, có một danh thắng nổi tiếng với hàng trăm cây cổ thụ to lớn, rễ cây trồi lên mặt đất rất đẹp che bóng mát quanh năm, các em có biết là nơi nào không?”",
               "- HS hào hứng trả lời: Đó là thắng cảnh Ao Bà Om (Ao Vuông) với hàng cây sao, cây dầu cổ thụ mát rượi ạ!"
             ],
             [
-              "- GV giới thiệu thêm: Cây xanh mang lại không khí trong lành, che bóng mát cho trường học và các di tích quê hương Trà Vinh. Các em hãy luôn yêu quý, chăm sóc và không bẻ cành cây xanh nhé.",
+              "- GV giới thiệu thêm: Cây xanh mang lại không khí trong lành, che bóng mát cho trường học và quê hương. Các em hãy luôn yêu quý, chăm sóc và không bẻ cành cây xanh nhé.",
               "- HS lắng nghe và hào hứng bước vào bài thơ Cây bàng và lớp học."
             ],
             [
@@ -35784,7 +35777,6 @@
           "- Chăm chỉ: HS tích cực tham gia các hoạt động đọc, viết, thảo luận và hoàn thành nhiệm vụ học tập.",
           "- Trách nhiệm: HS có ý thức giữ gìn, bảo vệ môi trường thiên nhiên, không làm hại chim chóc và biết thực hiện những việc làm phù hợp để bảo vệ cảnh quan xung quanh.",
           "4. Tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 7: Cảnh sắc thiên nhiên quê em - Trang 47 TLGDĐP Trà Vinh): Cảm nhận vẻ đẹp yên bình của quê hương Trà Vinh với hình ảnh đàn cò trắng chao lượn trên cồn bãi Long Trị và những cánh đồng lúa trù phú.",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M1): Nhận biết nguồn nước sông Cổ Chiên và kênh rạch tưới mát đồng ruộng, là môi trường sống trù phú cho tôm cá và những cánh cò quê hương.",
           "- Bảo vệ môi trường: Nhận ra ao, hồ, đầm là nơi sống và kiếm ăn của chim cò; biết giữ yên tĩnh, không xả rác và bảo vệ môi trường tự nhiên."
         ],
@@ -35824,12 +35816,10 @@
               "- HS lắng nghe."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Bài 7 GDĐP 1 & Mã Mizuiku M1): “Ở quê hương Trà Vinh chúng ta, nơi nào có những đàn chim, đàn cò bay về rợp bóng nước sông và những cánh đồng lúa xanh ngát?”",
               "- HS trả lời: Ở cồn Long Trị giữa dòng sông Cổ Chiên và những cánh đồng lúa trù phú ở huyện Càng Long, Châu Thành quê em ạ."
             ],
             [
-              "- GV diễn giải: Dòng sông Cổ Chiên và hệ thống kênh rạch Trà Vinh đem nguồn nước ngọt phù sa bồi đắp cho ruộng đồng tươi tốt, tôm cá đầy khoang nuôi dưỡng những cánh cò trắng bay lả bay la. Chúng ta cùng yêu quý và bảo vệ nguồn nước trong sạch của quê hương mình nhé.",
-              "- HS lắng nghe, thêm yêu dòng sông và cánh đồng quê hương Trà Vinh."
+              "- GV diễn giải: Những dòng sông quê hương đem nguồn nước ngọt phù sa bồi đắp cho ruộng đồng tươi tốt, tôm cá đầy khoang nuôi dưỡng những cánh cò trắng bay lả bay la. Chúng ta cùng yêu quý và bảo vệ nguồn nước trong sạch của quê hương mình nhé.",
             ],
             [
               "2. Khám phá - Hoạt động 1: Luyện đọc. Mục tiêu: Giúp HS đọc đúng, rõ ràng bài đọc; biết phát âm đúng một số từ khó, ngắt nghỉ hơi hợp lí ở câu dài và bước đầu hiểu nội dung bài."

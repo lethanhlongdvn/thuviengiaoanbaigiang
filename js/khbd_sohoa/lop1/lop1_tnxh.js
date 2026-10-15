@@ -313,7 +313,6 @@
           "- Nhân ái: Yêu quý tổ ấm và người thân.",
           "- Trách nhiệm: Có ý thức giữ gìn ngôi nhà sạch đẹp, an toàn.",
           "4. Nội dung tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 7: Cảnh sắc thiên nhiên quê em - Trang 47 TLGDĐP Trà Vinh): Nhận biết đặc điểm kiểu nhà ở truyền thống vùng thôn quê ven sông rạch Trà Vinh (nhà vườn rợp bóng cây xanh, nhà mái lá dừa nước ven bờ kênh, nhà ngói quanh vườn dừa sáp Cầu Kè, trước sân có hàng dừa, lu nước mưa); bồi dưỡng tình yêu quê hương và ý thức quét dọn rác lá quanh sân vườn sạch sẽ.",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10): Sử dụng an toàn và tiết kiệm các thiết bị nước trong nhà (khóa chặt vòi nước sau khi dùng, không tự ý vặn vòi nước nóng tránh bỏng, không leo trèo lên miệng lu, bể chứa nước mưa).",
           "- Quyền con người: Quyền có nơi ở an toàn, được sống cùng gia đình; bổn phận giữ gìn, chăm sóc ngôi nhà."
         ],
@@ -373,12 +372,9 @@
               "- HS trình bày: nhà sàn cao hơn mặt đất; nhà mái ngói có mái ngói; nhà tầng có nhiều tầng; nhà có sân vườn có cây xanh."
             ],
             [
-              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Bài 7 GDĐP 1): “Ở vùng quê Trà Vinh chúng ta, người dân thường làm nhà ở những vị trí nào và xung quanh nhà có cảnh vật gì quen thuộc?”",
               "- HS quan sát chùm ảnh GV chiếu và trả lời: Nhà ở quê em thường gần bờ kênh, xung quanh có rặng dừa xanh soi bóng, vườn cây ăn trái (dừa sáp, bưởi, nhãn), trước sân có lu nước mưa và hoa kiểng ạ."
             ],
             [
-              "- GV diễn giải tích hợp Giáo dục địa phương Trà Vinh: Dù là nhà ngói khang trang hay ngôi nhà mái lá dừa nước mộc mạc bên bờ kênh rạch, mỗi ngôi nhà trên mảnh đất quê hương Trà Vinh đều là tổ ấm thân thương che chở cho chúng ta. Các em cần yêu quý ngôi nhà của mình, giúp cha mẹ quét dọn rác lá quanh sân vườn, bờ kênh để nhà cửa luôn phong quang, sạch đẹp.",
-              "- HS lắng nghe, khắc sâu tình cảm gắn bó với ngôi nhà và xóm ấp quê hương Trà Vinh."
             ],
             [
               "- GV chốt ý, kết luận hoạt động: Mỗi vùng, mỗi gia đình có thể có kiểu nhà khác nhau; ngôi nhà đều là nơi gia đình cùng sinh sống, nghỉ ngơi và yêu thương nhau.",
@@ -1617,7 +1613,6 @@
           "- Trách nhiệm: Thực hiện nền nếp lớp học, giữ gìn đồ dùng chung.",
           "- Chăm chỉ: Tích cực học tập và hoàn thành nhiệm vụ.",
           "4. Tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 1: Phong tục chào hỏi ở quê em - Trang 5 TLGDĐP Trà Vinh): Thực hành nét đẹp văn hóa chào hỏi lễ phép khi đến lớp học; giữ gìn lớp học quê hương Trà Vinh khang trang, sạch đẹp.",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục học sinh biết yêu thích học tập, tôn trọng cô giáo và hợp tác với bạn bè trong lớp."
         ],
         "dodung": [
@@ -1707,11 +1702,11 @@
               "- HS lắng nghe; nêu việc làm: chăm chú học, lễ phép với cô, hòa nhã và giúp đỡ bạn."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh (Bài 1 GDĐP 1): “Khi đến lớp học tại ngôi trường quê hương Trà Vinh, các em chào hỏi cô giáo và các bạn như thế nào cho lễ phép?”",
+              "- GV hỏi: “Khi đến lớp học, các em chào hỏi thầy cô giáo và các bạn như thế nào cho lễ phép?”",
               "- HS thực hành sắm vai: Đứng ngay ngắn, khoanh tay trước ngực mỉm cười chào: “Em chào cô ạ!”, “Chào các bạn!”."
             ],
             [
-              "- GV biểu dương: Lời chào lễ phép thể hiện nét đẹp văn hóa hiếu thảo, tôn sư trọng đạo của học sinh quê hương Trà Vinh.",
+              "- GV biểu dương: Lời chào lễ phép thể hiện nét đẹp văn hóa hiếu thảo, tôn sư trọng đạo của người học sinh.",
               "- HS hào hứng ghi nhớ và thực hiện mỗi ngày."
             ],
             [
@@ -4363,7 +4358,6 @@
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực quan sát, tìm hiểu cây xung quanh.",
           "- Trách nhiệm: Có ý thức yêu quý và bảo vệ cây.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 7: Cảnh sắc thiên nhiên quê em - Trang 47 TLGDĐP Trà Vinh): Nhận biết các loài cây đặc trưng quê hương Trà Vinh (cây dừa xanh, cây dừa sáp Cầu Kè, cây đước ngập mặn Duyên Hải); yêu quý và bảo vệ cây xanh quê hương."
         ],
         "dodung": [
           "- Giáo viên: SGK, tranh các loại cây, phiếu quan sát, bút dạ.",
@@ -4417,11 +4411,11 @@
               "- Trình bày đặc điểm của cây; nhận xét cho bạn."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh (Bài 7 GDĐP 1): “Quê hương Trà Vinh chúng ta rất nổi tiếng với những loài cây nào gắn liền với cảnh quan sông nước và bờ biển?”",
-              "- HS trả lời: Cây dừa xanh soi bóng ven sông, dừa sáp Cầu Kè cho trái ngọt béo, và cây đước ngập mặn Duyên Hải cắm rễ sâu giữ đất phù sa ạ."
+              "- GV hỏi: “Xung quanh nhà và trường em có những loài cây nào quen thuộc?”",
+              "- HS trả lời: Cây phượng, cây bàng che bóng mát ở sân trường, cây dừa, cây chuối, cây ăn quả trong vườn nhà ạ."
             ],
             [
-              "- GV diễn giải: Cây xanh là tài sản thiên nhiên quý giá của Trà Vinh. Các em hãy cùng chăm sóc cây xanh xung quanh trường và nhà mình, không bẻ cành ngắt lá nhé.",
+              "- GV diễn giải: Cây xanh mang lại không khí trong lành và bóng mát cho chúng ta. Các em hãy cùng chăm sóc cây xanh xung quanh trường và nhà mình, không bẻ cành ngắt lá nhé.",
               "- HS lắng nghe và ghi nhớ."
             ],
             [
@@ -4992,7 +4986,6 @@
           "- Nhân ái: Yêu quý và không làm hại các con vật có ích.",
           "- Trách nhiệm: Biết bảo vệ môi trường sống của con vật và phòng tránh nguy hiểm.",
           "4. Tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 7: Cảnh sắc thiên nhiên quê em - Trang 47 TLGDĐP Trà Vinh): Nhận biết các loài thủy sản và động vật quen thuộc vùng sông nước Trà Vinh (tôm sú, cá bống kèo, cua biển, chim cò cồn bãi Trà Vinh).",
           "- Tích hợp AI 1.D1.1: Học sinh nhận biết AI có thể học từ nhiều hình ảnh để nhận diện một số con vật; hiểu công nghệ chỉ hỗ trợ quan sát, còn con người cần kiểm tra và sử dụng phù hợp."
         ],
         "dodung": [
@@ -5043,11 +5036,11 @@
               "- Trình bày; bổ sung ý kiến."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh (Bài 7 GDĐP 1): “Vùng sông nước, kênh rạch và ven biển Trà Vinh chúng ta có những loài động vật, thủy sản nào quen thuộc?”",
-              "- HS hào hứng trả lời: Con tôm sú, cá bống kèo, con cua biển Duyên Hải, đàn vịt chạy đồng và chim cò ở cồn Long Trị ạ."
+              "- GV hỏi: “Xung quanh nơi em sống có những loài con vật nào quen thuộc?”",
+              "- HS hào hứng trả lời: Con chó, con mèo, đàn gà con, chim sẻ trên cành cây và đàn cá bơi dưới ao ạ."
             ],
             [
-              "- GV chốt ý: Thiên nhiên Trà Vinh có nguồn thủy sản trù phú; nhắc nhở HS luôn yêu thương và đối xử nhân hậu với các loài vật.",
+              "- GV chốt ý: Nhắc nhở HS luôn yêu thương, chăm sóc và đối xử nhân hậu với các loài con vật xung quanh.",
               "- HS lắng nghe và ghi nhớ."
             ],
             [
@@ -5492,7 +5485,6 @@
           "- Nhân ái: Yêu thương, đối xử nhẹ nhàng với vật nuôi.",
           "- Trách nhiệm: Chăm sóc vật nuôi đúng cách, sử dụng dụng cụ thủ công an toàn và giữ vệ sinh.",
           "4. Tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 8: Bảo vệ môi trường nơi em sống - Trang 54 TLGDĐP Trà Vinh): Bảo vệ vật nuôi trong gia đình và động vật quanh môi trường sống xóm ấp Trà Vinh.",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M25): Cung cấp nước uống sạch sẽ cho vật nuôi, giữ sạch máng nước và không để nước tràn gây mất vệ sinh chuồng trại.",
           "- STEM: Lồng ghép hoạt động lựa chọn ý tưởng, làm, trưng bày và giới thiệu sản phẩm nhà cho vật nuôi bằng vật liệu đơn giản hoặc tái chế."
         ],
@@ -5594,11 +5586,11 @@
               "- Đại diện giới thiệu; các nhóm nhận xét, góp ý."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & BV nguồn nước (Mã M10, M25): “Khi cho vật nuôi ở nhà uống nước, em cần làm gì để đảm bảo vệ sinh và an toàn?”",
+              "- GV hỏi: “Khi cho vật nuôi ở nhà uống nước, em cần làm gì để đảm bảo vệ sinh và an toàn?”",
               "- HS trả lời: Rót nước sạch vào máng vừa đủ cho vật nuôi uống; thay rửa máng sạch sẽ và không đổ nước tràn bẩn ra chuồng trại ạ."
             ],
             [
-              "- GV diễn giải: Chăm sóc vật nuôi chu đáo và giữ nguồn nước sạch sẽ giúp bảo vệ sức khỏe cho thú cưng và môi trường xóm làng Trà Vinh.",
+              "- GV diễn giải: Chăm sóc vật nuôi chu đáo và giữ nguồn nước sạch sẽ giúp bảo vệ sức khỏe cho vật nuôi và giữ gìn môi trường sống sạch sẽ.",
               "- HS lắng nghe và thực hiện ở nhà."
             ],
             [

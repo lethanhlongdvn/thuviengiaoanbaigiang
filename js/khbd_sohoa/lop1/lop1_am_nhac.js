@@ -766,7 +766,6 @@
           "- Biết hát kết hợp vận động theo nhịp điệu của bài hát.",
           "- Biết hát bằng nhiều hình thức Đơn ca, song ca, tốp ca...",
           "- Biết tên các bộ phận của Trống con và bước đầu biết gõ đệm trống con cho bài hát Tổ quốc ta.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 6: Trò chơi dân gian quê em - Trang 40 TLGDĐP Trà Vinh): Làm quen với các bài đồng dao, dân ca Nam Bộ quen thuộc tại quê hương Trà Vinh kết hợp gõ đệm trống con nhịp nhàng.",
           "- 1. Hoạt động 1: Mở đầu",
           "- Tạo tâm thế học tập, ôn tập bài hát cũ.",
           "- 2. Hoạt động 2: Hình thành kiến thức mới",
@@ -845,7 +844,6 @@
               "- HS hát vỗ tay theo hướng dẫn của GV.\n- HS nghe và theo dõi.\n- HS hát vỗ tay theo nhịp.\n- HS hát kết hợp gõ đệm theo nhịp.\n- HS hát theo hướng dẫn của GV.\n- HS nhận xét.\n- HS nghe.\n- HS thực hiện theo yêu cầu của GV.\n- HS nghe GV hướng dẫn và ghi nhớ.\n- HS hát kết hợp nhún chân vỗ tay theo nhịp.\n- HS lên biểu diễn.\n- HS nghe.\n- HS nhận xét giai điệu bài hát.\n- HS nghe.\n- HS quan sát màn hình và trả lời.\n- HS quan sát SGK/ Power Point nghe và ghi nhớ.\n- HS trả lời: Loa AI chỉ phát ra âm thanh mô phỏng từ file nhạc có sẵn, không thể tự cầm dùi gõ trống thật vì nó không có cơ thể và tay chân như con người.\n- HS lắng nghe.\n- HS chú ý làm theo.\n- HS lưu ý và sửa sai (nếu có).\n- HS nghe hướng dẫn và thực hiện.\n- HS thực hiện.\n- HS thực hiện theo sự chỉ dẫn của GV.\n- HS thực hiện.\n- HS lắng nghe và sửa sai (nếu có).\n- HS nhận xét.\n- HS lắng nghe và ghi nhớ.\n- HS lắng nghe và ghi nhớ."
             ],
             [
-              "- GV mở rộng tích hợp Giáo dục địa phương Trà Vinh (Bài 6 GDĐP 1): Hướng dẫn HS dùng nhạc cụ Trống con gõ theo nhịp điệu bài đồng dao Nam Bộ rộn rã gắn với các trò chơi dân gian quê hương Trà Vinh: “Tập tầm vông”, “Nu na nu nống”.",
               "- HS hào hứng lắng nghe, cầm dùi gõ đệm Trống con nhịp nhàng theo lời đồng dao quen thuộc."
             ],
             [
@@ -2813,7 +2811,6 @@
         "yccd": [
           "1. Năng lực đặc thù:",
           "- Nuôi dưỡng tình yêu đối với âm nhạc dân tộc.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 6: Lễ hội quê em - Trang 40 TLGDĐP Trà Vinh): Cảm nhận tiết tấu rộn rã của lễ hội Đua ghe Ngo Khmer Trà Vinh; vận động cơ thể minh họa âm thanh dài - ngắn mô phỏng động tác khua chèo trên sông Long Bình.",
           "- HS biết được các hoạt động tiêu biểu trong hội Gióng.",
           "- HS kể tên các nhân vật xuất hiện trong hội Gióng.",
           "- HS kể tên một số hoạt động vui chơi trong hội Gióng.",
@@ -2859,7 +2856,6 @@
               "- Lắng nghe.\n- HS trả lời theo cảm nhận.\n- HS nhận xét.\n- HS lắng nghe.\n- HS lắng nghe và trả lời theo cảm nhận.\n- HS lắng nghe.\n- Nghe nhạc và thực hiện động tác minh họa.\n- Theo dõi gợi ý và thực hiện.\n- Thảo luận và thống nhất động tác minh họa theo nhóm và thể hiện.\n- HS nhận xét.\n- HS lắng nghe."
             ],
             [
-              "- GV gợi ý tích hợp Giáo dục địa phương Trà Vinh (Bài 6 GDĐP 1): Hướng dẫn HS vận động sáng tạo mô phỏng động tác khua chèo theo nhịp điệu dồn dập, rộn rã của ngày hội Đua ghe Ngo Khmer truyền thống trên sông Long Bình (Trà Vinh): nhịp dài rướn người về phía trước, nhịp ngắn gõ phách giật chèo mạnh mẽ.",
               "- HS hào hứng mô phỏng động tác khua chèo đua ghe Ngo rộn rã theo nhịp gõ thanh phách và âm thanh dài - ngắn của GV."
             ],
             [
@@ -2969,7 +2965,6 @@
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………………………………………………………..................................................................................................................................",
           "TUẦN 26",
-          "GIÁO DỤC ĐỊA PHƯƠNG",
           "CHỦ ĐỀ 4: VĂN MIẾU - QUỐC TỬ GIÁM",
           "Ngày giảng: 17/03/2026 (1A); 18/02/2023 (1C)"
         ]
@@ -3182,7 +3177,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 27-30-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "Thường thức âm nhạc: Nhạc sĩ Hoàng Vân - Vận dụng sáng tạo"Con chim vành khuyên\". - - Quan sát hình ảnh và video chú chim vành khuyên được trình chiếu trên màn hình máy tính để nhận biết đặc điểm của loài chim này. (1.1.CB1a) - - Biết rằng việc chú chim ảo hay trợ lý ảo AI trên điện thoại phát ra lời chào lễ phép là do con người lập trình sẵn, từ đó hiểu rằng chỉ có con người mới có cảm xúc lễ phép, kính trọng thực sự khi chào hỏi người lớn. (NLa-A1)",
+        "lessonTitle": "Thường thức âm nhạc: Nhạc sĩ Hoàng Vân - Vận dụng sáng tạo: Con chim vành khuyên",
         "topic": "Chủ đề 7: Gia đình - Đọc nhạc Đô Rê Mi Pha Son",
         "yccd": [
           "1. Năng lực đặc thù:",

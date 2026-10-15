@@ -1848,6 +1848,107 @@
         var isSubstring = (normRawTitle.length >= 8 && itNormTitle.indexOf(normRawTitle) !== -1) ||
                           (itNormTitle.length >= 8 && normRawTitle.indexOf(itNormTitle) !== -1);
 
+        // Khối 1: BẢO ĐẢM CHÍNH XÁC 100% THEO KẾ HOẠCH GỐC (QĐ 2727/QĐ-BGDĐT Trà Vinh & SGK KNTT)
+        // DỨT KHOÁT KHÔNG GƯỢNG ÉP, KHÔNG LỒNG GHÉP BẰNG MỌI GIÁ, ĐÚNG TIẾT, ĐÚNG BÀI, ĐÚNG NỘI DUNG
+        if (g === 1) {
+          // Chỉ cho phép đúng 6 môn học theo Kế hoạch gốc chuẩn sư phạm SGK KNTT:
+          if (['tnxh', 'tieng_viet', 'dao_duc', 'hdtn', 'my_thuat', 'am_nhac'].indexOf(sNorm) === -1) {
+            continue;
+          }
+
+          // 1. TNXH (6 bài)
+          if (sNorm === 'tnxh') {
+            if (it.id === 'gddp_tv_1') {
+              if (!/bai\s*2|ngoi\s*nha/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_2') {
+              if (!/bai\s*6|lop\s*hoc/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_3') {
+              if (!/bai\s*15|cay\s*xung\s*quanh/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_4') {
+              if (!/bai\s*17|con\s*vat/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_5') {
+              if (!/bai\s*18|vat\s*nuoi/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_6') {
+              if (!/bai\s*11|con\s*nguoi/i.test(normRawTitle)) continue;
+            } else {
+              continue;
+            }
+          }
+
+          // 2. Tiếng Việt (6 bài)
+          if (sNorm === 'tieng_viet') {
+            if (it.id === 'gddp_tv_7') {
+              if (!/bai\s*13|\bu\b.*\bu\b/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_8') {
+              if (!/bai\s*57|anh|enh|inh/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_9') {
+              if (!/bai\s*71|uoc|uot/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_10') {
+              if (!/cay\s*bang/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_11') {
+              if (!/loai\s*chim\s*cua\s*bien\s*ca|bien\s*ca/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_12') {
+              if (!/du\s*lich\s*bien|bien\s*viet\s*nam/i.test(normRawTitle)) continue;
+            } else {
+              continue;
+            }
+          }
+
+          // 3. Đạo đức (4 bài)
+          if (sNorm === 'dao_duc') {
+            if (it.id === 'gddp_tv_13') {
+              if (!/bai\s*4|trang\s*phuc/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_14') {
+              if (!/bai\s*6|le\s*phep|ong\s*ba/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_15') {
+              if (!/bai\s*17|tu\s*giac/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_16') {
+              if (!/bai\s*13|tai\s*san/i.test(normRawTitle)) continue;
+            } else {
+              continue;
+            }
+          }
+
+          // 4. HĐTN (5 bài)
+          if (sNorm === 'hdtn') {
+            if (it.id === 'gddp_tv_17') {
+              if (!/gio\s*hoc|gio\s*choi|noi\s*loi\s*hay|bai\s*2/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_18') {
+              if (!/nam\s*dieu\s*bac\s*ho\s*day|bac\s*ho|bai\s*6/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_19') {
+              if (!/sap\s*xep\s*nha\s*cua|don\s*tet|bai\s*15/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_20') {
+              if (!/nhan\s*qua|ngay\s*tet|vui\s*choi|bai\s*16/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_21') {
+              if (!/canh\s*quan\s*thien\s*nhien|bai\s*20/i.test(normRawTitle)) continue;
+            } else {
+              continue;
+            }
+          }
+
+          // 5. Mĩ thuật (2 bài)
+          if (sNorm === 'my_thuat') {
+            if (it.id === 'gddp_tv_22') {
+              if (!/chu\s*de\s*4|hinh\s*co\s*ban/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_23') {
+              if (!/chu\s*de\s*6|khoi\s*co\s*ban/i.test(normRawTitle)) continue;
+            } else {
+              continue;
+            }
+          }
+
+          // 6. Âm nhạc (2 bài)
+          if (sNorm === 'am_nhac') {
+            if (it.id === 'gddp_tv_24') {
+              if (!/to\s*quoc\s*ta|trong\s*con/i.test(normRawTitle)) continue;
+            } else if (it.id === 'gddp_tv_25') {
+              if (!/ga\s*gay|thanh\s*phach/i.test(normRawTitle)) continue;
+            } else {
+              continue;
+            }
+          }
+        }
+
         // ĐIỀU KIỆN CHẶT CHẼ THEO ĐẶC THÙ TỪNG MÔN VÀ BÀI ĐỂ TRÁNH MATCH NHẦM:
         // Khối 3: BẢO ĐẢM CHÍNH XÁC 100% THEO KẾ HOẠCH GỐC (Lồng ghép GDĐP_Lớp 3_Trà Vinh_KNTT_TinhGon.docx)
         // DỨT KHOÁT KHÔNG GƯỢNG ÉP, KHÔNG TÌM MỌI CÁCH LỒNG GHÉP VÀO BÀI KHÔNG LIÊN QUAN

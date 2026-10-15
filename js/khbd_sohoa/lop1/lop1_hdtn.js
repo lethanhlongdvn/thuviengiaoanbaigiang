@@ -928,11 +928,10 @@
               "- Nêu việc cụ thể phù hợp với bản thân."
             ],
             [
-              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Bài 8 GDĐP 1): “Để lớp học của chúng ta ở ngôi trường quê hương Trà Vinh luôn khang trang, sạch đẹp, em sẽ cùng các bạn làm những việc gì trong giờ học và giờ ra chơi?”",
               "- HS trả lời: Giữ gìn bàn ghế sạch sẽ, không vẽ bậy; xếp gọn sách vở, cặp xách; thấy rác trong lớp thì nhặt bỏ vào thùng rác ạ."
             ],
             [
-              "- GV kết luận: Giữ gìn lớp học khang trang, sạch đẹp thể hiện tình yêu mái trường và ý thức xây dựng quê hương Trà Vinh xanh - sạch - đẹp của mỗi học sinh.",
+              "- GV kết luận: Giữ gìn lớp học khang trang, sạch đẹp thể hiện tình yêu mái trường và ý thức xây dựng quê hương xanh - sạch - đẹp của mỗi học sinh.",
               "- HS lắng nghe và cam kết thực hiện mỗi ngày."
             ],
             [
@@ -966,7 +965,6 @@
           "- Trung thực: Tự nhận xét đúng việc bản thân đã thực hiện trong tuần.",
           "- Nhân ái: Biết động viên, tôn trọng sự cố gắng của bạn.",
           "4. Tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 8: Bảo vệ môi trường nơi em sống - Trang 54 TLGDĐP Trà Vinh): Giữ gìn lớp học khang trang, sạch đẹp; không vẽ bậy lên bàn ghế, vứt rác đúng nơi quy định để xây dựng ngôi trường thân thiện tại quê hương Trà Vinh.",
           "- Giáo dục đạo đức, lối sống: Đi học đúng giờ, lễ phép, giữ vệ sinh, giúp đỡ bạn bè; rèn phẩm chất chăm chỉ, trách nhiệm, đoàn kết và yêu thương.",
           "- Quyền con người: Trẻ em có quyền được học tập và vui chơi trong môi trường an toàn, lành mạnh."
         ],
@@ -3303,7 +3301,6 @@
           "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
           "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện.",
           "4. Tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 1: Phong tục chào hỏi ở quê em - Trang 5 TLGDĐP Trà Vinh): Thực hành lời dạy của Bác “Yêu Tổ quốc, yêu đồng bào” gắn với nét đẹp phong tục chào hỏi lễ phép, tôn sư trọng đạo của học sinh Trà Vinh (khoanh tay chào thầy cô, người lớn tuổi).",
           "- Tích hợp tư tưởng đạo đức Hồ Chí Minh: Giáo dục học sinh biết ghi nhớ và làm theo Năm điều Bác Hồ dạy."
         ],
         "dodung": [
@@ -3385,11 +3382,10 @@
               "- Lắng nghe; nêu một việc em cam kết làm theo lời Bác."
             ],
             [
-              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Bài 1 GDĐP 1): “Thực hiện lời dạy của Bác Hồ về tinh thần đoàn kết, lễ phép, học sinh Trà Vinh chúng ta luôn thể hiện nét đẹp chào hỏi thầy cô và người lớn tuổi như thế nào?”",
               "- HS thực hành: Đứng ngay ngắn, hai tay khoanh trước ngực mỉm cười lễ phép: “Em chào thầy/cô ạ!”, “Dạ con chào bác ạ!”."
             ],
             [
-              "- GV khen ngợi: Lời chào lễ phép, cử chỉ cung kính chính là nét đẹp truyền thống của thiếu nhi quê hương Trà Vinh kính yêu Bác Hồ.",
+              "- GV khen ngợi: Lời chào lễ phép, cử chỉ cung kính chính là nét đẹp truyền thống của thiếu nhi Việt Nam kính yêu Bác Hồ.",
               "- HS vui mừng, hào hứng ghi nhớ."
             ],
             [
@@ -6049,7 +6045,6 @@
           "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
           "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
           "4. Tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 2: Tết cổ truyền quê em - Trang 12 TLGDĐP Trà Vinh): Giữ gìn cơ thể và nhà cửa sạch sẽ đón Tết cổ truyền Nguyên đán và Tết Chôl Chnăm Thmây tại Trà Vinh; tìm hiểu phong tục gói bánh tét Trà Cuôn ngày Tết.",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M4, M10): Rửa tay bằng xà phòng dưới vòi nước chảy đúng 6 bước, vặn vòi nước vừa đủ dùng và khóa chặt vòi sau khi rửa để bảo vệ nguồn nước sạch.",
           "- Năng lực số 2.1.CB1a: Học sinh lựa chọn và sử dụng phương tiện giao tiếp số đơn giản phù hợp bối cảnh như xem video/ảnh, quét mã QR hoặc bình chọn theo hướng dẫn để chia sẻ và thực hiện đúng các bước giữ vệ sinh cá nhân."
         ],
@@ -6128,11 +6123,10 @@
               "- HS trả lời: Làm ướt tay rồi khóa vòi nước khi xoa xà phòng; sau đó mở vòi nước vừa phải để xả sạch bọt rồi khóa chặt vòi nước lại ạ."
             ],
             [
-              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Bài 2 GDĐP 1): “Trong dịp Tết Nguyên đán và Tết Chôl Chnăm Thmây ở Trà Vinh, tại sao chúng ta luôn cần giữ bàn tay sạch sẽ khi cùng gia đình thưởng thức các món ăn truyền thống như bánh tét Trà Cuôn?”",
               "- HS trả lời: Giữ bàn tay sạch giúp bảo vệ sức khỏe cả nhà, ăn bánh tét Trà Cuôn và các món ăn ngày Tết ngon lành và an toàn vệ sinh ạ."
             ],
             [
-              "- GV kết luận: Giữ gìn đôi bàn tay sạch sẽ và sử dụng nước tiết kiệm giúp các em đón những ngày Tết sum vầy trên quê hương Trà Vinh thật vui tươi, mạnh khỏe.",
+              "- GV kết luận: Giữ gìn đôi bàn tay sạch sẽ và sử dụng nước tiết kiệm giúp các em đón những ngày Tết sum vầy trên quê hương thật vui tươi, mạnh khỏe.",
               "- HS lắng nghe và hào hứng thực hành."
             ],
             [
@@ -8018,7 +8012,6 @@
           "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
           "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
           "4. Tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 6: Trò chơi dân gian quê em - Trang 40 TLGDĐP Trà Vinh): Trải nghiệm sự khéo léo của đôi bàn tay qua các trò chơi dân gian đặc trưng Trà Vinh (thắt lá dừa non làm kèn, làm đồng hồ, thắt con cào cào) vui đón ngày hội, ngày Tết.",
           "- Quyền con người: Học sinh được bày tỏ ý kiến, được lắng nghe khi làm việc theo cặp/nhóm và được tham gia các hoạt động văn hóa như hát, giao lưu, sắm vai, chia sẻ về phong tục ngày Tết trong môi trường tôn trọng."
         ],
         "dodung": [
@@ -8069,11 +8062,10 @@
               "- Lắng nghe; nêu việc em sẽ làm để tôn trọng bạn trong hoạt động."
             ],
             [
-              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Bài 6 GDĐP 1): “Vào những ngày Tết và lễ hội ở vùng quê Trà Vinh rợp bóng dừa xanh, trẻ em thường dùng lá dừa để làm những món đồ chơi dân gian khéo léo nào?”",
               "- HS hào hứng trả lời: Làm kèn lá dừa thổi to vang, thắt đồng hồ lá dừa đeo tay, làm con cào cào bằng lá dừa non rất đẹp ạ."
             ],
             [
-              "- GV diễn giải: Những món đồ chơi từ lá dừa dân dã thể hiện sự khéo léo, sáng tạo và gắn bó mật thiết với thiên nhiên quê hương Trà Vinh. Khi nhận được những món quà hay đồ chơi dân gian, các em hãy luôn nói lời cảm ơn và trân trọng nhé.",
+              "- GV diễn giải: Những món đồ chơi từ lá dừa dân dã thể hiện sự khéo léo, sáng tạo và gắn bó mật thiết với thiên nhiên quê hương. Khi nhận được những món quà hay đồ chơi dân gian, các em hãy luôn nói lời cảm ơn và trân trọng nhé.",
               "- HS lắng nghe và thích thú học hỏi."
             ],
             [
@@ -10688,7 +10680,6 @@
           "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
           "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
           "4. Tích hợp",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 8: Bảo vệ môi trường nơi em sống - Trang 54 TLGDĐP Trà Vinh): Giữ gìn cảnh quan thiên nhiên quê hương Trà Vinh (bảo vệ cây sao, dầu cổ thụ quanh Ao Bà Om; giữ sạch bờ kênh rạch xóm ấp).",
           "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M4, M19): Không vứt rác, chai nhựa xuống dòng sông Cổ Chiên, kênh rạch và nguồn nước sinh hoạt; tuyên truyền gia đình bảo vệ nguồn nước sạch.",
           "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường."
         ],
@@ -10759,11 +10750,11 @@
               "- Lắng nghe; thực hiện theo hướng dẫn."
             ],
             [
-              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Bài 8 GDĐP 1 & Mã Mizuiku M4, M19): “Quê hương Trà Vinh chúng ta có danh thắng Ao Bà Om mát rượi bóng cây cổ thụ và dòng sông Cổ Chiên hiền hòa. Để bảo vệ cảnh quan tươi đẹp và nguồn nước trong lành ấy, chúng ta cần làm gì?”",
-              "- HS trả lời: Không bẻ cành cây cổ thụ Ao Bà Om; không vứt túi nilon, rác thải xuống dòng sông Cổ Chiên và kênh rạch quanh nhà; nhắc nhở mọi người cùng giữ gìn nguồn nước sạch ạ."
+              "- GV hỏi: “Để bảo vệ cảnh quan thiên nhiên tươi đẹp và nguồn nước trong lành của quê hương, chúng ta cần làm gì?”",
+              "- HS trả lời: Không bẻ cành ngắt hoa, không vứt rác bừa bãi; không vứt túi nilon, rác thải xuống ao hồ, sông suối; nhắc nhở mọi người cùng giữ gìn nguồn nước sạch ạ."
             ],
             [
-              "- GV biểu dương và kết luận: Dòng sông Cổ Chiên và hàng cây cổ thụ Ao Bà Om là niềm tự hào của người dân Trà Vinh. Mỗi hành động bảo vệ cây xanh và không xả rác xuống nguồn nước của các em chính là góp phần làm cho quê hương Trà Vinh thêm tươi đẹp, trù phú.",
+              "- GV biểu dương và kết luận: Cảnh quan thiên nhiên tươi đẹp là niềm tự hào chung của tất cả chúng ta. Mỗi hành động bảo vệ cây xanh và không xả rác xuống nguồn nước của các em chính là góp phần làm cho quê hương thêm tươi đẹp, trù phú.",
               "- HS lắng nghe, tự hào và đồng thanh cam kết thực hiện."
             ],
             [

@@ -2890,8 +2890,9 @@ ${sampleJson}`;
     var l = line.trim();
     if (!l) return false;
     if (/^\s*[1235]\.\s*/i.test(l)) return false;
-    return /(?:tích\s*hợp\s*)?(?:giáo\s*dục\s*địa\s*phương|gdđp\s*trà\s*vinh|gdđp\s*3)/i.test(l) ||
-           /chủ\s*đề\s*\d+\s*(?:gdđp|giáo\s*dục\s*địa\s*phương)/i.test(l);
+    return /(?:tích\s*hợp\s*)?(?:giáo\s*dục\s*địa\s*phương|gdđp(?:\s*tỉnh)?\s*trà\s*vinh|gdđp\s*\d+)/i.test(l) ||
+           /chủ\s*đề\s*\d+\s*(?:gdđp|giáo\s*dục\s*địa\s*phương)/i.test(l) ||
+           /\bgdđp\b/i.test(l);
   },
 
   /**
@@ -2905,7 +2906,7 @@ ${sampleJson}`;
         if (!Array.isArray(r)) return true;
         if (r.isGddpRow) return false;
         var rStr = r.join(' ');
-        if (/^\s*\*?\s*(?:tích\s*hợp\s*)?(?:giáo\s*dục\s*địa\s*phương|gdđp\s*trà\s*vinh)/i.test(rStr) &&
+        if (/^\s*\*?\s*(?:tích\s*hợp\s*)?(?:giáo\s*dục\s*địa\s*phương|gdđp(?:\s*tỉnh)?\s*trà\s*vinh)/i.test(rStr) &&
             !/hoạt\s*động\s*khởi\s*động|hoạt\s*động\s*khám\s*phá|hoạt\s*động\s*luyện\s*tập|hoạt\s*động\s*vận\s*dụng/i.test(rStr)) {
           return false;
         }
@@ -2914,10 +2915,10 @@ ${sampleJson}`;
         if (!Array.isArray(r)) return r;
         return r.map(function(cell) {
           if (typeof cell !== 'string') return cell;
-          if (!/(?:giáo\s*dục\s*địa\s*phương|gdđp\s*trà\s*vinh)/i.test(cell)) return cell;
+          if (!/(?:giáo\s*dục\s*địa\s*phương|gdđp(?:\s*tỉnh)?\s*trà\s*vinh)/i.test(cell)) return cell;
           var lines = cell.split(/\r?\n/);
           var cleanLines = lines.filter(function(line) {
-            return !/(?:tích\s*hợp\s*)?(?:gdđp\s*trà\s*vinh|giáo\s*dục\s*địa\s*phương\s*tỉnh\s*trà\s*vinh|chủ\s*đề\s*\d+\s*gdđp\s*3)/i.test(line);
+            return !/(?:tích\s*hợp\s*)?(?:gdđp(?:\s*tỉnh)?\s*trà\s*vinh|giáo\s*dục\s*địa\s*phương\s*tỉnh\s*trà\s*vinh|chủ\s*đề\s*\d+\s*gdđp\s*\d+)/i.test(line);
           });
           return cleanLines.join('\n');
         });
@@ -2943,18 +2944,26 @@ ${sampleJson}`;
         var filteredSub = subLines.filter(function(sub) {
           return !self.isGddpLine(sub);
         });
-        var hasOtherIntegration = lesson.yccd.some(function(item) {
-          if (typeof item !== 'string') return false;
-          var lower = item.toLowerCase();
-          return (lower.includes('tích hợp') || lower.includes('năng lực số') || lower.includes('trí tuệ nhân tạo') || lower.includes('stem')) && !self.isGddpLine(item);
-        });
-        if (!hasOtherIntegration && filteredSub.length === 1 && /^\d+\.\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp)[:.\s]*$/i.test(filteredSub[0])) {
-          return;
-        }
         if (filteredSub.length > 0) {
           newYccd.push(filteredSub.join('\n'));
         }
       });
+
+      // Dọn sạch tiêu đề tích hợp mồ côi (3. Tích hợp: hoặc 4. Tích hợp:) nếu không còn nội dung tích hợp nào
+      var hasOtherIntegration = newYccd.some(function(item) {
+        if (typeof item !== 'string') return false;
+        var trimmed = item.trim();
+        if (/^\s*(?:4|3)\.\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp)[:.\s]*$/i.test(trimmed)) return false;
+        var lower = trimmed.toLowerCase();
+        return (lower.includes('tích hợp') || lower.includes('năng lực số') || lower.includes('trí tuệ nhân tạo') || lower.includes('stem'));
+      });
+      if (!hasOtherIntegration) {
+        newYccd = newYccd.filter(function(item) {
+          if (typeof item !== 'string') return true;
+          return !/^\s*(?:4|3)\.\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp)[:.\s]*$/i.test(item.trim());
+        });
+      }
+
       lesson.yccd = newYccd;
     }
     this.cleanGddpFromTables(lesson);
